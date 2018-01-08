@@ -1,0 +1,35 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/objdetect/test/opencl/test_hogdetector.cpp",
+			"labels" : [ "Main", "opencv_objdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/objdetect/test/test_cascadeandhog.cpp",
+			"labels" : [ "Main", "opencv_objdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/objdetect/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_objdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/objdetect/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_objdetect", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/objdetect/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_objdetect", "AccuracyTest" ],
+		"name" : "opencv_test_objdetect"
+	}
+}

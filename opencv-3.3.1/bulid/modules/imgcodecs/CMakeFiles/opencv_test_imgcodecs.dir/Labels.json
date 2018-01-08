@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_grfmt.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_jpeg.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_main.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_png.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_read_write.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_tiff.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_webp.cpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/test/test_precomp.hpp",
+			"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ]
+		},
+		
+		{
+			"file" : "/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_imgcodecs", "AccuracyTest" ],
+		"name" : "opencv_test_imgcodecs"
+	}
+}

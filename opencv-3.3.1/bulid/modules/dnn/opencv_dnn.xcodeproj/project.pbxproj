@@ -1,0 +1,1812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 891DB7D0C578439DA56AB67B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				05DA3B6F986842C19F617378 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				63C1451ED2964C85B02081E1 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C5C9C08E64A74F43AF2B62EF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3E9CC545E342496997B58ABE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64DE10F4E5414932A474A6C3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AEC4C924AE004078A54879CB /* CMake Rules */,
+			);
+			dependencies = (
+				ED95133C4F194FDD9CA17675 /* PBXTargetDependency */,
+				6C7120E6442F455FA46EF21D /* PBXTargetDependency */,
+				133F96EED9F84729AF011EAA /* PBXTargetDependency */,
+				17F0A5597D9D4C3096A23A23 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC61C69695DD4CB986292FF6 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				5D352A811A3F410398ADDF81 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9E7813ABA99945EFB828577F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDD44B1F0AD14FD48579A3D6 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				B77B3BA354444A51ADFFEE2E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03B7B661FAAC4F21844241AE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dict.hpp */ = {isa = PBXBuildFile; fileRef = 0903CB5AA50C41D9A40A3A0B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dict.hpp */; };
+		04F2B1ABB16D4763980F4582 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/prior_box_layer.cpp */ = {isa = PBXBuildFile; fileRef = 70554894E2604A79A233B1BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/prior_box_layer.cpp */; };
+		06493785FF614D6D8A90EC7A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.cc */ = {isa = PBXBuildFile; fileRef = 0172B12B3E7C4900A642BEA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.cc */; };
+		0700BEF2ACD24455A75CFFBA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/concat_layer.cpp */ = {isa = PBXBuildFile; fileRef = BC4977FC62A84C7588936430 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/concat_layer.cpp */; };
+		07F6158F722C424791FAE789 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/eltwise_layer.cpp */ = {isa = PBXBuildFile; fileRef = B4CE937CFBFC44BB80C7542D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/eltwise_layer.cpp */; };
+		08F95813202C46E8BDDAE412 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.cpp */ = {isa = PBXBuildFile; fileRef = 416B9E8901194786AEB07208 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.cpp */; };
+		0953D235F7984F8793649BB7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_convolution.cpp */ = {isa = PBXBuildFile; fileRef = F3DBB4D49A4341FC93C388D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_convolution.cpp */; };
+		0DEFD2C2EEE74C1CAE06A1D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/detection_output_layer.cpp */ = {isa = PBXBuildFile; fileRef = 299E06AEF26546D4B8E52D72 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/detection_output_layer.cpp */; };
+		0EB20749A3074E2E8C54143E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/lrn.cl */ = {isa = PBXBuildFile; fileRef = 110D9247919B49839A552E96 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/lrn.cl */; };
+		0FC5046323E4458CA9E2450F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.cpp */ = {isa = PBXBuildFile; fileRef = 53FE3FA4ABC74774B6556625 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.cpp */; };
+		105DE4D5061F4042A8B5C1A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp */ = {isa = PBXBuildFile; fileRef = 969EED508C1247F389514D3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp */; };
+		163F765EFFBF410DA391EA79 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/lrn_layer.cpp */ = {isa = PBXBuildFile; fileRef = 3E9B0BDB1B6B4123B03B366C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/lrn_layer.cpp */; };
+		187F6E63B2AD49018B210CC5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/math_functions.cpp */ = {isa = PBXBuildFile; fileRef = 3B679F2E082F480BA8A72A20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/math_functions.cpp */; };
+		1914D5FAB3944AEB94C12CC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.inl.hpp */ = {isa = PBXBuildFile; fileRef = B17E8BDC6EDD47FC89241288 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.inl.hpp */; };
+		1AB4288E1A4E4A76A7AF42D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C44050D8753145ABB2A4F025 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */; };
+		1E6947D545414F329E29318D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_tf_importer.cpp */ = {isa = PBXBuildFile; fileRef = 31BF29F8F354486B891C0D5B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_tf_importer.cpp */; };
+		23ABB181FA8A46F987B54DE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_shrinker.cpp */ = {isa = PBXBuildFile; fileRef = F7673B0457D14FA88F553B26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_shrinker.cpp */; };
+		24F866FEDF4146A8BE6ACB50 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 8B4462C2AA334B879D55DDDC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */; };
+		2A32461BE54F487F90DEE14C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_caffe_importer.cpp */ = {isa = PBXBuildFile; fileRef = 1393B87D86DA447AA48FB523 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_caffe_importer.cpp */; };
+		2BA7B45A88F345A6999D5C4D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = FC7E089A357C41C1B8DE8040 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp */; };
+		2C11DF9D72EC4CF6A69C5CA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/batch_norm_layer.cpp */ = {isa = PBXBuildFile; fileRef = A85BEE3173294962916BEF71 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/batch_norm_layer.cpp */; };
+		305069765A5C408787F3E3BB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.cpp */ = {isa = PBXBuildFile; fileRef = D51350BF06404C4CB55C42A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.cpp */; };
+		34ADA23C19D34C72B65EDFA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.h */ = {isa = PBXBuildFile; fileRef = 468C3CBF4E30402EBA06C7BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.h */; };
+		3AC3197470F24B51B10A97AC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.cc */ = {isa = PBXBuildFile; fileRef = B2B8168C7B044D7C88774896 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.cc */; };
+		3BA5AE43140C44128823103D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/max_unpooling_layer.cpp */ = {isa = PBXBuildFile; fileRef = 1D3914D4749A48FB8417E719 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/max_unpooling_layer.cpp */; };
+		3D241807D5484F53A753E521 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax.cl */ = {isa = PBXBuildFile; fileRef = FD53D20FC0E44CDE81A97BA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax.cl */; };
+		3D9AAE71B1B64EEABA352629 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 27E491A15E4E4C71B809C329 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */; };
+		3E52E67351FA41FA94DF6330 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/gemm_image.cl */ = {isa = PBXBuildFile; fileRef = DF7677C747E948458AEA9982 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/gemm_image.cl */; };
+		400368EAA1BC4C63BC402F80 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/recurrent_layers.cpp */ = {isa = PBXBuildFile; fileRef = 8C2095BF57844469980AE993 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/recurrent_layers.cpp */; };
+		42A4B832DD1D4DE49A2590F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_importer.cpp */ = {isa = PBXBuildFile; fileRef = A1BF23EA4AD14BB39AACECD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_importer.cpp */; };
+		4330135752794C7DB3AA1EC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/dnn.cpp */ = {isa = PBXBuildFile; fileRef = 7FB96D9929244BC1AA2BCEB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/dnn.cpp */; };
+		443FF8AC78FA485A82D22C24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.cc */ = {isa = PBXBuildFile; fileRef = 4F8CCC78B5ED4A3C838070E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.cc */; };
+		4441EDB8A8314B469B5CD643 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/matvec_mul.cl */ = {isa = PBXBuildFile; fileRef = 252DF7AC037344979A065990 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/matvec_mul.cl */; };
+		4605B0C793A0481DA6D20E93 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/permute_layer.cpp */ = {isa = PBXBuildFile; fileRef = EA72A40C1E8F456DAA64D695 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/permute_layer.cpp */; };
+		46A1677D2CCF4B499B49556C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/padding_layer.cpp */ = {isa = PBXBuildFile; fileRef = 7C6A007F08D248CC97DBDCA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/padding_layer.cpp */; };
+		4A6ECD1BBB244B358EF0D7C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.h */ = {isa = PBXBuildFile; fileRef = 5979D3BDBEDE477490053D81 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.h */; };
+		4B0E710529F24A8EBE93D464 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/opencl/perf_convolution.cpp */ = {isa = PBXBuildFile; fileRef = 07A007DCAC164D90A090C6A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/opencl/perf_convolution.cpp */; };
+		4CDDD4AD4E08496CA160BE92 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.h */ = {isa = PBXBuildFile; fileRef = 025F7F4CE23942BEBEC276E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.h */; };
+		4D057FCE67E9463E803FB606 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp.rule */ = {isa = PBXBuildFile; fileRef = 2B3DE209715445579EEE1088 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp.rule */; };
+		4D68348457E14D90AF22E2D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.h */ = {isa = PBXBuildFile; fileRef = 341B44C748004295ABA74932 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.h */; };
+		4E01FFD503F545BF859E73F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.cc */ = {isa = PBXBuildFile; fileRef = 36BCE70B631744BD8BFCB6FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.cc */; };
+		4EB88810F67441758AC0C4A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp */ = {isa = PBXBuildFile; fileRef = 910CBA92F1BA46B3AF6D93F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp */; };
+		4F671A7FA517463CB856EFE7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_pooling.cl */ = {isa = PBXBuildFile; fileRef = 4C047CDD69A84C89A1406E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_pooling.cl */; };
+		4FA929F4548946CA95DCCADC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 80842BB4A8524A8BBA0429DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp */; };
+		4FFDB52E67AD4A449C7B30DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/glog_emulator.hpp */ = {isa = PBXBuildFile; fileRef = 465F56E0A8364D53B1B68645 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/glog_emulator.hpp */; };
+		5418151729CF4DCDAA26BF8D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.cpp */ = {isa = PBXBuildFile; fileRef = 1EF25419B8BA41769EA2E1A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.cpp */; };
+		57FDDE8FA13C4A749D885AA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.cpp */ = {isa = PBXBuildFile; fileRef = C4CB83E2C5F1402A8539046E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.cpp */; };
+		5A25D4D4918C45AFAD30D011 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.hpp */ = {isa = PBXBuildFile; fileRef = CE45DE90CE9E4422BCD478BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.hpp */; };
+		5A7F2F1B56934EFB91120599 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_googlenet.cpp */ = {isa = PBXBuildFile; fileRef = FD39E03646504EC38C73806D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_googlenet.cpp */; };
+		5BAA23EB849C49E698A67195 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_darknet_importer.cpp */ = {isa = PBXBuildFile; fileRef = 54D64A8799F740C8905DEF27 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_darknet_importer.cpp */; };
+		5BC0CD2FEC78472296CEBCB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 6CC34EBCDDCB4461977F57C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp */; };
+		5EEE881505ED47EBA7A4F374 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp */ = {isa = PBXBuildFile; fileRef = 7BAD1CEE1C394B4D9C70DC9F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp */; };
+		615EBD42EC264BCEB7D6CB14 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_spatial_helper.cl */ = {isa = PBXBuildFile; fileRef = 0D96E3A804414AF4AF4AD77E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_spatial_helper.cl */; };
+		659F04A95E5F45A4B845E382 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/fully_connected_layer.cpp */ = {isa = PBXBuildFile; fileRef = 9019B1008D144B348F037156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/fully_connected_layer.cpp */; };
+		68C2DB6D2BD7423BB54359DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/normalize_bbox_layer.cpp */ = {isa = PBXBuildFile; fileRef = 859A3330BEB244749B68298F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/normalize_bbox_layer.cpp */; };
+		692C039FDE2246D8967BE038 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.hpp */ = {isa = PBXBuildFile; fileRef = 9C6DDF2A4A1743F4A6BC12E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.hpp */; };
+		6B8F5088B1364229907D93FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.h */ = {isa = PBXBuildFile; fileRef = ABD3125A27784290A9685518 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.h */; };
+		6D07A6E2CEB84F739375B6D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_importer.cpp */ = {isa = PBXBuildFile; fileRef = 58E5A30C07AA402184A3B97D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_importer.cpp */; };
+		7158511BF6174A4EA2DA517A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/blank_layer.cpp */ = {isa = PBXBuildFile; fileRef = BCDE2B9A9BAD419281A3B4C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/blank_layer.cpp */; };
+		76747EA6E95642A3A623EFA0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.hpp */ = {isa = PBXBuildFile; fileRef = 4F6610D50E3F44A1ABC2C88E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.hpp */; };
+		7BDBC93363F1485DB503990A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/math.cl */ = {isa = PBXBuildFile; fileRef = C9650494C237414F8A3C8E12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/math.cl */; };
+		7BFCF405C7B2444F86562D54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.details.hpp */ = {isa = PBXBuildFile; fileRef = CE363A4A45A54B83B937D778 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.details.hpp */; };
+		7FBEC726FA80419EBAFD4F6F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_importer.cpp */ = {isa = PBXBuildFile; fileRef = 78C85FBE61B04BE188B28E3B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_importer.cpp */; };
+		7FF7F6359CDB47329ACE08F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/flatten_layer.cpp */ = {isa = PBXBuildFile; fileRef = 2FC837C1655B4B8396A5D665 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/flatten_layer.cpp */; };
+		80456A445085496EBEB1F2EB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 61B2C561E6794A0F964459ED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_main.cpp */; };
+		81B3727D4F044F929CAC9BC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.cpp */ = {isa = PBXBuildFile; fileRef = 3D8FFA88FC1A464589427533 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.cpp */; };
+		81E551C2DA074CECA47AA591 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.cpp */ = {isa = PBXBuildFile; fileRef = 23DBE6EB723B45E8BD17815E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.cpp */; };
+		82B9A3E852B9463DAF4E0B9C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp */ = {isa = PBXBuildFile; fileRef = EB98C64381984CBA9E188A62 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp */; };
+		8314CC4D866C43FEB6410804 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/torch_importer.cpp */ = {isa = PBXBuildFile; fileRef = DAD3EC3380244484A466BCA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/torch_importer.cpp */; };
+		8469B4B975A549A29A6E0EB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_layer_spatial.cl */ = {isa = PBXBuildFile; fileRef = 61E78A2B19BA4216BACB6E2F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_layer_spatial.cl */; };
+		86BF01519B754ABE8CA86EFB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp */ = {isa = PBXBuildFile; fileRef = 7143E3F802B54369BBD8419C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp */; };
+		880F8D5FED4D4FAB8248FB47 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/common.hpp */ = {isa = PBXBuildFile; fileRef = 28B0D0CB6BBE4C80858F9567 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/common.hpp */; };
+		8A884FEC395B4F57880E97BB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp */ = {isa = PBXBuildFile; fileRef = EA310CB69A6241A6BE2526A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp */; };
+		8AA88790DEE94624AE76D1AD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.h */ = {isa = PBXBuildFile; fileRef = C33AC73CD0CE4EA9BEF5968F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.h */; };
+		8C576FB044B947CBA32BB34F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/dummy.cl */ = {isa = PBXBuildFile; fileRef = 87636CE6014E460AB1B4BEF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/dummy.cl */; };
+		8F4D9ADB2A53486382B643BF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 78A1A829C3A04C56A1D06424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */; };
+		905E571393E54AA28560B295 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.h */ = {isa = PBXBuildFile; fileRef = 34ACB538FF154301A767BF82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.h */; };
+		95C50FB35F514C6791BCBF37 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.hpp */ = {isa = PBXBuildFile; fileRef = F373C8514229483EBF3F7BE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.hpp */; };
+		9C896DC0BE6C49CAA2796F49 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/init.cpp */ = {isa = PBXBuildFile; fileRef = C193D984282040DFADD9E28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/init.cpp */; };
+		9CE6878DF0CB4B70991A0922 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.h */ = {isa = PBXBuildFile; fileRef = 25117221CD944F25A3147A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.h */; };
+		9D842113CBAA4F00BC1F4F56 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.cc */ = {isa = PBXBuildFile; fileRef = A03BE38E20974E9298FD957E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.cc */; };
+		9D8468B8BA4F4AC993EF7A66 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.hpp */ = {isa = PBXBuildFile; fileRef = 2A2C1802F6AC4B00B740B842 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.hpp */; };
+		9E03D29CBB444BF8A25B3594 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.cc */ = {isa = PBXBuildFile; fileRef = EF5A6F272AFD4F149E6C6AA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.cc */; };
+		A166F38905954CABA8C3650F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 0D98DB75F666463A9EBC414D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_main.cpp */; };
+		A4D753AD74BB495E9F62D7E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A6EFB4B152AF4990837C647C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */; };
+		A620E643F0A542B6823E35B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/mvn_layer.cpp */ = {isa = PBXBuildFile; fileRef = 0681EFAFDAB240ABB32C015B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/mvn_layer.cpp */; };
+		A78B64BBFC814ACF85F840ED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.cpp */ = {isa = PBXBuildFile; fileRef = 660C84DF07AB48DE9901AB11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.cpp */; };
+		A7AFC388FF034764821DABEE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_caffe.cpp */ = {isa = PBXBuildFile; fileRef = B855EDA28F6B4A699B3AA3E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_caffe.cpp */; };
+		A8310A6E19424DEFBF35FA54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/slice_layer.cpp */ = {isa = PBXBuildFile; fileRef = A51198AD60944630B8F3A1EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/slice_layer.cpp */; };
+		A88EB771694C4EF1BAECA174 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/convolution_layer.cpp */ = {isa = PBXBuildFile; fileRef = 618A59B53A6A4366855E9490 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/convolution_layer.cpp */; };
+		A938070EB8D94363B4F0B74E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_layers.cpp */ = {isa = PBXBuildFile; fileRef = 56317BCBD7C545079BE0065D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_layers.cpp */; };
+		A94ECAE5EEFA49A9B132A4B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/concat.cl */ = {isa = PBXBuildFile; fileRef = 1175DF41DFBE4426A185AA88 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/concat.cl */; };
+		A9BC6C4F03914483A0D89EA1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/pooling.cl */ = {isa = PBXBuildFile; fileRef = 526A90415731408082EE46FB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/pooling.cl */; };
+		AB7747CD70B740F8B4306210 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp */ = {isa = PBXBuildFile; fileRef = AFA353D5E3D444818A817642 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp */; };
+		AF35349870674038B5501DAA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_torch_importer.cpp */ = {isa = PBXBuildFile; fileRef = 3E9D7F2E0AA549119396432C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_torch_importer.cpp */; };
+		B1502A36145E42339C451C77 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx.cpp */ = {isa = PBXBuildFile; fileRef = AFA85EEE04C6426EA06DBB91 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx.cpp */; settings = {COMPILER_FLAGS = " -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx '-DCV_CPU_DISPATCH_MODE=AVX' '-DCV_CPU_COMPILE_SSSE3=1' '-DCV_CPU_COMPILE_SSE4_1=1' '-DCV_CPU_COMPILE_POPCNT=1' '-DCV_CPU_COMPILE_SSE4_2=1' '-DCV_CPU_COMPILE_AVX=1' "; }; };
+		B16C0C059CCF4797811CD3B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_nets.cpp */ = {isa = PBXBuildFile; fileRef = 53F590E9E7DA4316B3F74C8F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_nets.cpp */; };
+		B726FA48EA004867BABF9B1B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/scale_layer.cpp */ = {isa = PBXBuildFile; fileRef = A4665004D303437BACB48EB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/scale_layer.cpp */; };
+		B7A0B09300EC45C4B121F3DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/crop_layer.cpp */ = {isa = PBXBuildFile; fileRef = 60FBBA0BBB5647AAB4B478BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/crop_layer.cpp */; };
+		B8F32C41DA3F4F1C899E2E14 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/math_functions.hpp */ = {isa = PBXBuildFile; fileRef = 84C16C7AE3584011B01DF1FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/math_functions.hpp */; };
+		BA1050B32F394C2DB8CA8191 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.hpp */ = {isa = PBXBuildFile; fileRef = 6CF188B0830B48288D587617 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.hpp */; };
+		BB65B5910464425CB018AB65 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.hpp */ = {isa = PBXBuildFile; fileRef = 721A350974E143EA87A21510 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.hpp */; };
+		BB7D4EDEA22E443C8A8569D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.cc */ = {isa = PBXBuildFile; fileRef = 4C0EF38629EA428AB110897E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.cc */; };
+		BE35C25C27C14D0D94EC6C36 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_common.hpp */ = {isa = PBXBuildFile; fileRef = AE63CD07B5B3422FAB8EDC3E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_common.hpp */; };
+		C013AF53022D496E9F0DCDAC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.h */ = {isa = PBXBuildFile; fileRef = 972F4CB1C77F4016BED6B728 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.h */; };
+		C0320B5E506A4873A6B7D83E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/im2col.cl */ = {isa = PBXBuildFile; fileRef = B8D911BF9507495B99037ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/im2col.cl */; };
+		C062D9FDA6D14BDFB57B5BD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.hpp */ = {isa = PBXBuildFile; fileRef = 8FE03ED8607D4A978C32985F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.hpp */; };
+		C4037298E8C44D7DA624D6A6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv_lapack.h */ = {isa = PBXBuildFile; fileRef = D0E7D0FAFAEE4579838EB97F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv_lapack.h */; };
+		C6092AC3CC78455D98108EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reshape_layer.cpp */ = {isa = PBXBuildFile; fileRef = EA8E6CCB300C4CD08D187F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reshape_layer.cpp */; };
+		C6A8FE1843A24846A6462CE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.h */ = {isa = PBXBuildFile; fileRef = 8925A2B0E7534C2AB7619557 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.h */; };
+		C8CF46DCE87F4F7E9EEF45D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/shape_utils.hpp */ = {isa = PBXBuildFile; fileRef = B3E4FEB2F60841FDACD19AEB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/shape_utils.hpp */; };
+		CB7ADCFFB2E441B9B75CC569 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.cpp */ = {isa = PBXBuildFile; fileRef = 5D4D391575004A269C24922F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.cpp */; };
+		CE9E6D680998402294D5951A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_layers.cpp */ = {isa = PBXBuildFile; fileRef = AA5065040D8342E19760C424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_layers.cpp */; };
+		D106165D8031408C9BADCABE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/batchnorm.cl */ = {isa = PBXBuildFile; fileRef = 118A705721C64F339D347846 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/batchnorm.cl */; };
+		D3955A3735084A078F744951 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp */ = {isa = PBXBuildFile; fileRef = B79BA9E12D244785A0B3DF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp */; };
+		D547E8CEE73144A4BC7BFA60 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax_loss.cl */ = {isa = PBXBuildFile; fileRef = 2858AE60601D44B49309310F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax_loss.cl */; };
+		D6546E18D7064CB386EA1D9E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.simd.hpp */ = {isa = PBXBuildFile; fileRef = 4AB40B48A70B48298A1AAE23 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.simd.hpp */; };
+		D6E8F9AC9788411398F4D6F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/all_layers.hpp */ = {isa = PBXBuildFile; fileRef = 6BC9B90F26C3400FBF77F10D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/all_layers.hpp */; };
+		DA65791EEEB54FA7828C7CAE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/softmax_layer.cpp */ = {isa = PBXBuildFile; fileRef = 132BDDBB4C4F40F78AF61B54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/softmax_layer.cpp */; };
+		DC1D3B97E442410894993D29 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.hpp */ = {isa = PBXBuildFile; fileRef = 91BD9227E5674F06A0B544BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.hpp */; };
+		DCC6E10DE2B6457BAF1176CA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.cc */ = {isa = PBXBuildFile; fileRef = 8F4E50B96E6241DA854745D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.cc */; };
+		DD55CDC5BCE346F4999DA2E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn.hpp */ = {isa = PBXBuildFile; fileRef = AF51F78188A940EEB8CECD55 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn.hpp */; };
+		DF407BD5E838467896A751B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/pooling_layer.cpp */ = {isa = PBXBuildFile; fileRef = 44985BB5F8364EEC9127A528 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/pooling_layer.cpp */; };
+		DF9377B3876C45C19496F305 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/common.cpp */ = {isa = PBXBuildFile; fileRef = E8FE6FA1B2184186A0CE1499 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/common.cpp */; };
+		E0320018552944EB9465CDCE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/split_layer.cpp */ = {isa = PBXBuildFile; fileRef = 7FB342A1C51F49A09C6EC2BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/split_layer.cpp */; };
+		E034E30B28464C13960D1F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx2.cpp */ = {isa = PBXBuildFile; fileRef = CBB53B33137D400A96C25106 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx2.cpp */; settings = {COMPILER_FLAGS = " -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 '-DCV_CPU_DISPATCH_MODE=AVX2' '-DCV_CPU_COMPILE_SSSE3=1' '-DCV_CPU_COMPILE_SSE4_1=1' '-DCV_CPU_COMPILE_POPCNT=1' '-DCV_CPU_COMPILE_SSE4_2=1' '-DCV_CPU_COMPILE_FP16=1' '-DCV_CPU_COMPILE_FMA3=1' '-DCV_CPU_COMPILE_AVX=1' '-DCV_CPU_COMPILE_AVX2=1' "; }; };
+		E0CC56786A0E4473845FD1E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.h */ = {isa = PBXBuildFile; fileRef = 16D8D5748F0348D09BDE48DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.h */; };
+		E354B5E6260949ED8D23427D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.hpp */ = {isa = PBXBuildFile; fileRef = 07027860D90B4CCA8B78D471 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.hpp */; };
+		E3BBCE16C6564A63B7DEBEC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/shift_layer.cpp */ = {isa = PBXBuildFile; fileRef = 5D8208C6C23742E48B7E142C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/shift_layer.cpp */; };
+		E4FFCC17624F4411A8455D68 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.cpp */ = {isa = PBXBuildFile; fileRef = 7F1DAD2D5977468A912CBD61 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.cpp */; };
+		E563728A43974BFFA41972A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/elementwise_layers.cpp */ = {isa = PBXBuildFile; fileRef = 3FFC398AFE96400290D33702 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/elementwise_layers.cpp */; };
+		E6DFA993B79B49DC8C4AF13D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_lrn.cl */ = {isa = PBXBuildFile; fileRef = 2076FC7907184083A92157B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_lrn.cl */; };
+		E6EF8997075B4137961B7A5C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_net.cpp */ = {isa = PBXBuildFile; fileRef = 22D80ACB6EAE4623B357F4A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_net.cpp */; };
+		E8081D45AECD4DF2908FF5C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFilePrivate.h */ = {isa = PBXBuildFile; fileRef = 5FD0BA9B35944248B6F26FA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFilePrivate.h */; };
+		E8A9A8DC8ACB49C6BF6E2281 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.h */ = {isa = PBXBuildFile; fileRef = BCAD793D5853487183BF4B0A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.h */; };
+		EBA6A87C588444BD8EFF788C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/activations.cl */ = {isa = PBXBuildFile; fileRef = 269204DD8C0A48598CA52056 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/activations.cl */; };
+		EC71B986DF7F49DA9F720277 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/col2im.cl */ = {isa = PBXBuildFile; fileRef = D127B65357AB4F8CAFD24F6B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/col2im.cl */; };
+		EE072107F89D42E290445754 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reorg_layer.cpp */ = {isa = PBXBuildFile; fileRef = DBD556506FF742C98AA35607 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reorg_layer.cpp */; };
+		F2FFCFFA4DE34E3E8AD18D16 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp */ = {isa = PBXBuildFile; fileRef = 68F5213DF39346B6A2C49E30 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp */; };
+		FB05E9DF4F6F4AFEB66CAC18 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.cc */ = {isa = PBXBuildFile; fileRef = CE8961301ADF408D8C0BBCB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.cc */; };
+		FEAD1BC64A1D40FCB2F24BAB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/region_layer.cpp */ = {isa = PBXBuildFile; fileRef = 7010DE2BDBD64B4C983255CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/region_layer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A3CDBE188E7046779872B555 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C1411F9F4A0649E59482A48D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		204BC5E5EAF5425797906C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F864B89D3345B8A616404A;
+			remoteInfo = opencv_dnn;
+		};
+		287C1A6394A643BC92197BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		2D0BD4E3110F430ABFD659EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		4497FA6863334F58890E9272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F6FD6EBC934A9F9448AC8B;
+			remoteInfo = opencv_perf_dnn;
+		};
+		52255F57D775489D990FAB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		6DD473B0A7C54CCB9912E2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		B1A80F70194D450E984982D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		BBD77F31151441CBB299E22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F864B89D3345B8A616404A;
+			remoteInfo = opencv_dnn;
+		};
+		CD3A381BFADF4DEFA9D4D220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B48E7C48804087A7C1CBAC;
+			remoteInfo = opencv_test_dnn;
+		};
+		E89C7F7DE0D6469998D6EA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		F3FC4675B30C4FFBB2681DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED8AA46B98C4314B089919D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F864B89D3345B8A616404A;
+			remoteInfo = opencv_dnn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0172B12B3E7C4900A642BEA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = types.pb.cc; path = misc/tensorflow/types.pb.cc; sourceTree = SOURCE_ROOT; };
+		025F7F4CE23942BEBEC276E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = op_def.pb.h; path = misc/tensorflow/op_def.pb.h; sourceTree = SOURCE_ROOT; };
+		0681EFAFDAB240ABB32C015B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/mvn_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mvn_layer.cpp; path = src/layers/mvn_layer.cpp; sourceTree = SOURCE_ROOT; };
+		07027860D90B4CCA8B78D471 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = halide_scheduler.hpp; path = src/halide_scheduler.hpp; sourceTree = SOURCE_ROOT; };
+		07A007DCAC164D90A090C6A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/opencl/perf_convolution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_convolution.cpp; path = perf/opencl/perf_convolution.cpp; sourceTree = SOURCE_ROOT; };
+		0903CB5AA50C41D9A40A3A0B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dict.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dict.hpp; path = include/opencv2/dnn/dict.hpp; sourceTree = SOURCE_ROOT; };
+		0D96E3A804414AF4AF4AD77E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_spatial_helper.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = conv_spatial_helper.cl; path = src/opencl/conv_spatial_helper.cl; sourceTree = SOURCE_ROOT; };
+		0D98DB75F666463A9EBC414D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		110D9247919B49839A552E96 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/lrn.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lrn.cl; path = src/opencl/lrn.cl; sourceTree = SOURCE_ROOT; };
+		1175DF41DFBE4426A185AA88 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/concat.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = concat.cl; path = src/opencl/concat.cl; sourceTree = SOURCE_ROOT; };
+		118A705721C64F339D347846 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/batchnorm.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = batchnorm.cl; path = src/opencl/batchnorm.cl; sourceTree = SOURCE_ROOT; };
+		132BDDBB4C4F40F78AF61B54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/softmax_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = softmax_layer.cpp; path = src/layers/softmax_layer.cpp; sourceTree = SOURCE_ROOT; };
+		1393B87D86DA447AA48FB523 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_caffe_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_caffe_importer.cpp; path = test/test_caffe_importer.cpp; sourceTree = SOURCE_ROOT; };
+		16D8D5748F0348D09BDE48DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = THFile.h; path = src/torch/THFile.h; sourceTree = SOURCE_ROOT; };
+		1855C1D05470471DA63D9407 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D3914D4749A48FB8417E719 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/max_unpooling_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = max_unpooling_layer.cpp; path = src/layers/max_unpooling_layer.cpp; sourceTree = SOURCE_ROOT; };
+		1EF25419B8BA41769EA2E1A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = THFile.cpp; path = src/torch/THFile.cpp; sourceTree = SOURCE_ROOT; };
+		2076FC7907184083A92157B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_lrn.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ocl4dnn_lrn.cl; path = src/opencl/ocl4dnn_lrn.cl; sourceTree = SOURCE_ROOT; };
+		22D80ACB6EAE4623B357F4A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_net.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_net.cpp; path = perf/perf_net.cpp; sourceTree = SOURCE_ROOT; };
+		23DBE6EB723B45E8BD17815E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = THDiskFile.cpp; path = src/torch/THDiskFile.cpp; sourceTree = SOURCE_ROOT; };
+		25117221CD944F25A3147A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tensor_shape.pb.h; path = misc/tensorflow/tensor_shape.pb.h; sourceTree = SOURCE_ROOT; };
+		252DF7AC037344979A065990 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/matvec_mul.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matvec_mul.cl; path = src/opencl/matvec_mul.cl; sourceTree = SOURCE_ROOT; };
+		25F0C2975F6C4B71BDB0A2C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		269204DD8C0A48598CA52056 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/activations.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = activations.cl; path = src/opencl/activations.cl; sourceTree = SOURCE_ROOT; };
+		27E491A15E4E4C71B809C329 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../bulid/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		2858AE60601D44B49309310F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax_loss.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = softmax_loss.cl; path = src/opencl/softmax_loss.cl; sourceTree = SOURCE_ROOT; };
+		28B0D0CB6BBE4C80858F9567 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = src/ocl4dnn/include/common.hpp; sourceTree = SOURCE_ROOT; };
+		299E06AEF26546D4B8E52D72 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/detection_output_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = detection_output_layer.cpp; path = src/layers/detection_output_layer.cpp; sourceTree = SOURCE_ROOT; };
+		2A2C1802F6AC4B00B740B842 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tf_io.hpp; path = src/tensorflow/tf_io.hpp; sourceTree = SOURCE_ROOT; };
+		2B3DE209715445579EEE1088 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_dnn.cpp.rule; path = ../../bulid/modules/dnn/opencl_kernels_dnn.cpp.rule; sourceTree = SOURCE_ROOT; };
+		2FC837C1655B4B8396A5D665 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/flatten_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flatten_layer.cpp; path = src/layers/flatten_layer.cpp; sourceTree = SOURCE_ROOT; };
+		31BF29F8F354486B891C0D5B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_tf_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tf_importer.cpp; path = test/test_tf_importer.cpp; sourceTree = SOURCE_ROOT; };
+		341B44C748004295ABA74932 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tensor.pb.h; path = misc/tensorflow/tensor.pb.h; sourceTree = SOURCE_ROOT; };
+		34ACB538FF154301A767BF82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = versions.pb.h; path = misc/tensorflow/versions.pb.h; sourceTree = SOURCE_ROOT; };
+		35654D7EE53F48D5AAC3308C /* opencv_test_dnn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_dnn; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BCE70B631744BD8BFCB6FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = function.pb.cc; path = misc/tensorflow/function.pb.cc; sourceTree = SOURCE_ROOT; };
+		3B679F2E082F480BA8A72A20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/math_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = math_functions.cpp; path = src/ocl4dnn/src/math_functions.cpp; sourceTree = SOURCE_ROOT; };
+		3D8FFA88FC1A464589427533 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = caffe_io.cpp; path = src/caffe/caffe_io.cpp; sourceTree = SOURCE_ROOT; };
+		3E9B0BDB1B6B4123B03B366C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/lrn_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lrn_layer.cpp; path = src/layers/lrn_layer.cpp; sourceTree = SOURCE_ROOT; };
+		3E9D7F2E0AA549119396432C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_torch_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_torch_importer.cpp; path = test/test_torch_importer.cpp; sourceTree = SOURCE_ROOT; };
+		3FFC398AFE96400290D33702 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/elementwise_layers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = elementwise_layers.cpp; path = src/layers/elementwise_layers.cpp; sourceTree = SOURCE_ROOT; };
+		416B9E8901194786AEB07208 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tf_io.cpp; path = src/tensorflow/tf_io.cpp; sourceTree = SOURCE_ROOT; };
+		44985BB5F8364EEC9127A528 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/pooling_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pooling_layer.cpp; path = src/layers/pooling_layer.cpp; sourceTree = SOURCE_ROOT; };
+		465F56E0A8364D53B1B68645 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/glog_emulator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = glog_emulator.hpp; path = src/caffe/glog_emulator.hpp; sourceTree = SOURCE_ROOT; };
+		468C3CBF4E30402EBA06C7BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = THGeneral.h; path = src/torch/THGeneral.h; sourceTree = SOURCE_ROOT; };
+		4AB40B48A70B48298A1AAE23 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = layers_common.simd.hpp; path = src/layers/layers_common.simd.hpp; sourceTree = SOURCE_ROOT; };
+		4C047CDD69A84C89A1406E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_pooling.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ocl4dnn_pooling.cl; path = src/opencl/ocl4dnn_pooling.cl; sourceTree = SOURCE_ROOT; };
+		4C0EF38629EA428AB110897E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = op_def.pb.cc; path = misc/tensorflow/op_def.pb.cc; sourceTree = SOURCE_ROOT; };
+		4F6610D50E3F44A1ABC2C88E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = caffe_io.hpp; path = src/caffe/caffe_io.hpp; sourceTree = SOURCE_ROOT; };
+		4F8CCC78B5ED4A3C838070E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tensor_shape.pb.cc; path = misc/tensorflow/tensor_shape.pb.cc; sourceTree = SOURCE_ROOT; };
+		526A90415731408082EE46FB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/pooling.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pooling.cl; path = src/opencl/pooling.cl; sourceTree = SOURCE_ROOT; };
+		53F590E9E7DA4316B3F74C8F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_nets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_halide_nets.cpp; path = test/test_halide_nets.cpp; sourceTree = SOURCE_ROOT; };
+		53FE3FA4ABC74774B6556625 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darknet_io.cpp; path = src/darknet/darknet_io.cpp; sourceTree = SOURCE_ROOT; };
+		54D64A8799F740C8905DEF27 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_darknet_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_darknet_importer.cpp; path = test/test_darknet_importer.cpp; sourceTree = SOURCE_ROOT; };
+		56317BCBD7C545079BE0065D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_layers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_halide_layers.cpp; path = test/test_halide_layers.cpp; sourceTree = SOURCE_ROOT; };
+		58E5A30C07AA402184A3B97D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = caffe_importer.cpp; path = src/caffe/caffe_importer.cpp; sourceTree = SOURCE_ROOT; };
+		5979D3BDBEDE477490053D81 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.pb.h; path = misc/tensorflow/graph.pb.h; sourceTree = SOURCE_ROOT; };
+		5D4D391575004A269C24922F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = THGeneral.cpp; path = src/torch/THGeneral.cpp; sourceTree = SOURCE_ROOT; };
+		5D8208C6C23742E48B7E142C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/shift_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shift_layer.cpp; path = src/layers/shift_layer.cpp; sourceTree = SOURCE_ROOT; };
+		5FD0BA9B35944248B6F26FA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFilePrivate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = THFilePrivate.h; path = src/torch/THFilePrivate.h; sourceTree = SOURCE_ROOT; };
+		60FBBA0BBB5647AAB4B478BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/crop_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = crop_layer.cpp; path = src/layers/crop_layer.cpp; sourceTree = SOURCE_ROOT; };
+		618A59B53A6A4366855E9490 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/convolution_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convolution_layer.cpp; path = src/layers/convolution_layer.cpp; sourceTree = SOURCE_ROOT; };
+		61B2C561E6794A0F964459ED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		61E78A2B19BA4216BACB6E2F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_layer_spatial.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = conv_layer_spatial.cl; path = src/opencl/conv_layer_spatial.cl; sourceTree = SOURCE_ROOT; };
+		660C84DF07AB48DE9901AB11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = op_halide.cpp; path = src/op_halide.cpp; sourceTree = SOURCE_ROOT; };
+		68F5213DF39346B6A2C49E30 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ocl4dnn_softmax.cpp; path = src/ocl4dnn/src/ocl4dnn_softmax.cpp; sourceTree = SOURCE_ROOT; };
+		6BC9B90F26C3400FBF77F10D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/all_layers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = all_layers.hpp; path = include/opencv2/dnn/all_layers.hpp; sourceTree = SOURCE_ROOT; };
+		6CC34EBCDDCB4461977F57C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		6CF188B0830B48288D587617 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dnn.hpp; path = include/opencv2/dnn/dnn.hpp; sourceTree = SOURCE_ROOT; };
+		7010DE2BDBD64B4C983255CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/region_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = region_layer.cpp; path = src/layers/region_layer.cpp; sourceTree = SOURCE_ROOT; };
+		70554894E2604A79A233B1BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/prior_box_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = prior_box_layer.cpp; path = src/layers/prior_box_layer.cpp; sourceTree = SOURCE_ROOT; };
+		7143E3F802B54369BBD8419C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ocl4dnn_conv_spatial.cpp; path = src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp; sourceTree = SOURCE_ROOT; };
+		721A350974E143EA87A21510 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_dnn.hpp; path = ../../bulid/modules/dnn/opencl_kernels_dnn.hpp; sourceTree = SOURCE_ROOT; };
+		78A1A829C3A04C56A1D06424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78C85FBE61B04BE188B28E3B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tf_importer.cpp; path = src/tensorflow/tf_importer.cpp; sourceTree = SOURCE_ROOT; };
+		7BAD1CEE1C394B4D9C70DC9F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_dnn.cpp; path = ../../bulid/modules/dnn/opencl_kernels_dnn.cpp; sourceTree = SOURCE_ROOT; };
+		7C6A007F08D248CC97DBDCA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/padding_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = padding_layer.cpp; path = src/layers/padding_layer.cpp; sourceTree = SOURCE_ROOT; };
+		7F1DAD2D5977468A912CBD61 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = halide_scheduler.cpp; path = src/halide_scheduler.cpp; sourceTree = SOURCE_ROOT; };
+		7FB342A1C51F49A09C6EC2BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/split_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = split_layer.cpp; path = src/layers/split_layer.cpp; sourceTree = SOURCE_ROOT; };
+		7FB96D9929244BC1AA2BCEB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/dnn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dnn.cpp; path = src/dnn.cpp; sourceTree = SOURCE_ROOT; };
+		80842BB4A8524A8BBA0429DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		84C16C7AE3584011B01DF1FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/math_functions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = math_functions.hpp; path = src/ocl4dnn/include/math_functions.hpp; sourceTree = SOURCE_ROOT; };
+		859A3330BEB244749B68298F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/normalize_bbox_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normalize_bbox_layer.cpp; path = src/layers/normalize_bbox_layer.cpp; sourceTree = SOURCE_ROOT; };
+		87636CE6014E460AB1B4BEF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/dummy.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = dummy.cl; path = src/opencl/dummy.cl; sourceTree = SOURCE_ROOT; };
+		8925A2B0E7534C2AB7619557 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.pb.h; path = misc/tensorflow/types.pb.h; sourceTree = SOURCE_ROOT; };
+		8B4462C2AA334B879D55DDDC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../bulid/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		8C2095BF57844469980AE993 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/recurrent_layers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = recurrent_layers.cpp; path = src/layers/recurrent_layers.cpp; sourceTree = SOURCE_ROOT; };
+		8F4E50B96E6241DA854745D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = caffe.pb.cc; path = misc/caffe/caffe.pb.cc; sourceTree = SOURCE_ROOT; };
+		8FE03ED8607D4A978C32985F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = op_halide.hpp; path = src/op_halide.hpp; sourceTree = SOURCE_ROOT; };
+		9019B1008D144B348F037156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/fully_connected_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fully_connected_layer.cpp; path = src/layers/fully_connected_layer.cpp; sourceTree = SOURCE_ROOT; };
+		90984927BC98438ABCB7B1ED /* opencv_perf_dnn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_dnn; sourceTree = BUILT_PRODUCTS_DIR; };
+		910CBA92F1BA46B3AF6D93F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ocl4dnn_inner_product.cpp; path = src/ocl4dnn/src/ocl4dnn_inner_product.cpp; sourceTree = SOURCE_ROOT; };
+		91BD9227E5674F06A0B544BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = npy_blob.hpp; path = test/npy_blob.hpp; sourceTree = SOURCE_ROOT; };
+		969EED508C1247F389514D3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = default_kernel_config.hpp; path = src/ocl4dnn/include/default_kernel_config.hpp; sourceTree = SOURCE_ROOT; };
+		972F4CB1C77F4016BED6B728 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = function.pb.h; path = misc/tensorflow/function.pb.h; sourceTree = SOURCE_ROOT; };
+		9C6DDF2A4A1743F4A6BC12E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = layers_common.hpp; path = src/layers/layers_common.hpp; sourceTree = SOURCE_ROOT; };
+		A03BE38E20974E9298FD957E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.pb.cc; path = misc/tensorflow/graph.pb.cc; sourceTree = SOURCE_ROOT; };
+		A1BF23EA4AD14BB39AACECD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darknet_importer.cpp; path = src/darknet/darknet_importer.cpp; sourceTree = SOURCE_ROOT; };
+		A4665004D303437BACB48EB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/scale_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scale_layer.cpp; path = src/layers/scale_layer.cpp; sourceTree = SOURCE_ROOT; };
+		A51198AD60944630B8F3A1EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/slice_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slice_layer.cpp; path = src/layers/slice_layer.cpp; sourceTree = SOURCE_ROOT; };
+		A6EFB4B152AF4990837C647C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A85BEE3173294962916BEF71 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/batch_norm_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = batch_norm_layer.cpp; path = src/layers/batch_norm_layer.cpp; sourceTree = SOURCE_ROOT; };
+		AA5065040D8342E19760C424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_layers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_layers.cpp; path = test/test_layers.cpp; sourceTree = SOURCE_ROOT; };
+		ABD3125A27784290A9685518 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = caffe.pb.h; path = misc/caffe/caffe.pb.h; sourceTree = SOURCE_ROOT; };
+		AE63CD07B5B3422FAB8EDC3E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_common.hpp; path = test/test_common.hpp; sourceTree = SOURCE_ROOT; };
+		AF51F78188A940EEB8CECD55 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dnn.hpp; path = include/opencv2/dnn.hpp; sourceTree = SOURCE_ROOT; };
+		AFA353D5E3D444818A817642 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ocl4dnn_lrn.cpp; path = src/ocl4dnn/src/ocl4dnn_lrn.cpp; sourceTree = SOURCE_ROOT; };
+		AFA85EEE04C6426EA06DBB91 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layers_common.avx.cpp; path = ../../bulid/modules/dnn/layers/layers_common.avx.cpp; sourceTree = SOURCE_ROOT; };
+		B17E8BDC6EDD47FC89241288 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dnn.inl.hpp; path = include/opencv2/dnn/dnn.inl.hpp; sourceTree = SOURCE_ROOT; };
+		B2B8168C7B044D7C88774896 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = attr_value.pb.cc; path = misc/tensorflow/attr_value.pb.cc; sourceTree = SOURCE_ROOT; };
+		B3E4FEB2F60841FDACD19AEB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/shape_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shape_utils.hpp; path = include/opencv2/dnn/shape_utils.hpp; sourceTree = SOURCE_ROOT; };
+		B4CE937CFBFC44BB80C7542D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/eltwise_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eltwise_layer.cpp; path = src/layers/eltwise_layer.cpp; sourceTree = SOURCE_ROOT; };
+		B79BA9E12D244785A0B3DF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ocl4dnn_pool.cpp; path = src/ocl4dnn/src/ocl4dnn_pool.cpp; sourceTree = SOURCE_ROOT; };
+		B855EDA28F6B4A699B3AA3E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_caffe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_caffe.cpp; path = perf/perf_caffe.cpp; sourceTree = SOURCE_ROOT; };
+		B8D911BF9507495B99037ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/im2col.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = im2col.cl; path = src/opencl/im2col.cl; sourceTree = SOURCE_ROOT; };
+		BC4977FC62A84C7588936430 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/concat_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = concat_layer.cpp; path = src/layers/concat_layer.cpp; sourceTree = SOURCE_ROOT; };
+		BCAD793D5853487183BF4B0A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = attr_value.pb.h; path = misc/tensorflow/attr_value.pb.h; sourceTree = SOURCE_ROOT; };
+		BCDE2B9A9BAD419281A3B4C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/blank_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blank_layer.cpp; path = src/layers/blank_layer.cpp; sourceTree = SOURCE_ROOT; };
+		C193D984282040DFADD9E28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = init.cpp; path = src/init.cpp; sourceTree = SOURCE_ROOT; };
+		C33AC73CD0CE4EA9BEF5968F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = THDiskFile.h; path = src/torch/THDiskFile.h; sourceTree = SOURCE_ROOT; };
+		C44050D8753145ABB2A4F025 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C4CB83E2C5F1402A8539046E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = npy_blob.cpp; path = test/npy_blob.cpp; sourceTree = SOURCE_ROOT; };
+		C9650494C237414F8A3C8E12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/math.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = math.cl; path = src/opencl/math.cl; sourceTree = SOURCE_ROOT; };
+		CBB53B33137D400A96C25106 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layers_common.avx2.cpp; path = ../../bulid/modules/dnn/layers/layers_common.avx2.cpp; sourceTree = SOURCE_ROOT; };
+		CE363A4A45A54B83B937D778 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.details.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = layer.details.hpp; path = include/opencv2/dnn/layer.details.hpp; sourceTree = SOURCE_ROOT; };
+		CE45DE90CE9E4422BCD478BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = layer.hpp; path = include/opencv2/dnn/layer.hpp; sourceTree = SOURCE_ROOT; };
+		CE8961301ADF408D8C0BBCB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = versions.pb.cc; path = misc/tensorflow/versions.pb.cc; sourceTree = SOURCE_ROOT; };
+		D0E7D0FAFAEE4579838EB97F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv_lapack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opencv_lapack.h; path = ../../bulid/opencv_lapack.h; sourceTree = SOURCE_ROOT; };
+		D127B65357AB4F8CAFD24F6B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/col2im.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = col2im.cl; path = src/opencl/col2im.cl; sourceTree = SOURCE_ROOT; };
+		D51350BF06404C4CB55C42A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layers_common.cpp; path = src/layers/layers_common.cpp; sourceTree = SOURCE_ROOT; };
+		DAD3EC3380244484A466BCA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/torch_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = torch_importer.cpp; path = src/torch/torch_importer.cpp; sourceTree = SOURCE_ROOT; };
+		DBD556506FF742C98AA35607 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reorg_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reorg_layer.cpp; path = src/layers/reorg_layer.cpp; sourceTree = SOURCE_ROOT; };
+		DF7677C747E948458AEA9982 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/gemm_image.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gemm_image.cl; path = src/opencl/gemm_image.cl; sourceTree = SOURCE_ROOT; };
+		E8FE6FA1B2184186A0CE1499 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cpp; path = src/ocl4dnn/src/common.cpp; sourceTree = SOURCE_ROOT; };
+		EA310CB69A6241A6BE2526A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resize_nearest_neighbor_layer.cpp; path = src/layers/resize_nearest_neighbor_layer.cpp; sourceTree = SOURCE_ROOT; };
+		EA72A40C1E8F456DAA64D695 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/permute_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = permute_layer.cpp; path = src/layers/permute_layer.cpp; sourceTree = SOURCE_ROOT; };
+		EA8E6CCB300C4CD08D187F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reshape_layer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reshape_layer.cpp; path = src/layers/reshape_layer.cpp; sourceTree = SOURCE_ROOT; };
+		EB98C64381984CBA9E188A62 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ocl4dnn.hpp; path = src/ocl4dnn/include/ocl4dnn.hpp; sourceTree = SOURCE_ROOT; };
+		EF5A6F272AFD4F149E6C6AA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tensor.pb.cc; path = misc/tensorflow/tensor.pb.cc; sourceTree = SOURCE_ROOT; };
+		F373C8514229483EBF3F7BE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = darknet_io.hpp; path = src/darknet/darknet_io.hpp; sourceTree = SOURCE_ROOT; };
+		F3DBB4D49A4341FC93C388D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_convolution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_convolution.cpp; path = perf/perf_convolution.cpp; sourceTree = SOURCE_ROOT; };
+		F4D71F26246E461499E02A25 /* opencv_dnn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_dnn.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7673B0457D14FA88F553B26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_shrinker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = caffe_shrinker.cpp; path = src/caffe/caffe_shrinker.cpp; sourceTree = SOURCE_ROOT; };
+		FC7E089A357C41C1B8DE8040 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		FD39E03646504EC38C73806D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_googlenet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_googlenet.cpp; path = test/test_googlenet.cpp; sourceTree = SOURCE_ROOT; };
+		FD53D20FC0E44CDE81A97BA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = softmax.cl; path = src/opencl/softmax.cl; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13932EB977144FF0AF3E4C9C /* layers */ = {
+			isa = PBXGroup;
+			children = (
+				A85BEE3173294962916BEF71 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/batch_norm_layer.cpp */,
+				BCDE2B9A9BAD419281A3B4C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/blank_layer.cpp */,
+				BC4977FC62A84C7588936430 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/concat_layer.cpp */,
+				618A59B53A6A4366855E9490 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/convolution_layer.cpp */,
+				60FBBA0BBB5647AAB4B478BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/crop_layer.cpp */,
+				299E06AEF26546D4B8E52D72 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/detection_output_layer.cpp */,
+				3FFC398AFE96400290D33702 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/elementwise_layers.cpp */,
+				B4CE937CFBFC44BB80C7542D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/eltwise_layer.cpp */,
+				2FC837C1655B4B8396A5D665 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/flatten_layer.cpp */,
+				9019B1008D144B348F037156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/fully_connected_layer.cpp */,
+				D51350BF06404C4CB55C42A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.cpp */,
+				9C6DDF2A4A1743F4A6BC12E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.hpp */,
+				4AB40B48A70B48298A1AAE23 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.simd.hpp */,
+				3E9B0BDB1B6B4123B03B366C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/lrn_layer.cpp */,
+				1D3914D4749A48FB8417E719 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/max_unpooling_layer.cpp */,
+				0681EFAFDAB240ABB32C015B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/mvn_layer.cpp */,
+				859A3330BEB244749B68298F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/normalize_bbox_layer.cpp */,
+				7C6A007F08D248CC97DBDCA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/padding_layer.cpp */,
+				EA72A40C1E8F456DAA64D695 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/permute_layer.cpp */,
+				44985BB5F8364EEC9127A528 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/pooling_layer.cpp */,
+				70554894E2604A79A233B1BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/prior_box_layer.cpp */,
+				8C2095BF57844469980AE993 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/recurrent_layers.cpp */,
+				7010DE2BDBD64B4C983255CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/region_layer.cpp */,
+				DBD556506FF742C98AA35607 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reorg_layer.cpp */,
+				EA8E6CCB300C4CD08D187F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reshape_layer.cpp */,
+				EA310CB69A6241A6BE2526A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp */,
+				A4665004D303437BACB48EB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/scale_layer.cpp */,
+				5D8208C6C23742E48B7E142C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/shift_layer.cpp */,
+				A51198AD60944630B8F3A1EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/slice_layer.cpp */,
+				132BDDBB4C4F40F78AF61B54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/softmax_layer.cpp */,
+				7FB342A1C51F49A09C6EC2BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/split_layer.cpp */,
+			);
+			name = layers;
+			sourceTree = "<group>";
+		};
+		146369FD2CAA469BA7C2C12F = {
+			isa = PBXGroup;
+			children = (
+				83CFC55058134C4FB044A204 /* tests performance */,
+				B9644693555B453F85366FE8 /* tests accuracy */,
+				5AED5DCC2AA24A1999376F63 /* modules */,
+				F08946A6F41E43228D449DCE /* ALL_BUILD */,
+				5977E033618248EAAC3C36AA /* ZERO_CHECK */,
+				C6AF12C6511048928F015BE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BB907C5E4E4C998FC40466 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFA85EEE04C6426EA06DBB91 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx.cpp */,
+				CBB53B33137D400A96C25106 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		19D8DAFC93A4459991920BDF /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				80842BB4A8524A8BBA0429DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		33412F63102E4CD896547334 /* caffe */ = {
+			isa = PBXGroup;
+			children = (
+				58E5A30C07AA402184A3B97D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_importer.cpp */,
+				3D8FFA88FC1A464589427533 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.cpp */,
+				4F6610D50E3F44A1ABC2C88E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.hpp */,
+				F7673B0457D14FA88F553B26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_shrinker.cpp */,
+				465F56E0A8364D53B1B68645 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/glog_emulator.hpp */,
+			);
+			name = caffe;
+			sourceTree = "<group>";
+		};
+		343E113FC9B249A1B041F6CE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				28B0D0CB6BBE4C80858F9567 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/common.hpp */,
+				969EED508C1247F389514D3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp */,
+				84C16C7AE3584011B01DF1FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/math_functions.hpp */,
+				EB98C64381984CBA9E188A62 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		346F8095C13E4CFEA190A988 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				07A007DCAC164D90A090C6A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/opencl/perf_convolution.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		38D9D04F03E748379519FE09 /* dnn */ = {
+			isa = PBXGroup;
+			children = (
+				6BC9B90F26C3400FBF77F10D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/all_layers.hpp */,
+				0903CB5AA50C41D9A40A3A0B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dict.hpp */,
+				6CF188B0830B48288D587617 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.hpp */,
+				B17E8BDC6EDD47FC89241288 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/dnn.inl.hpp */,
+				CE363A4A45A54B83B937D778 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.details.hpp */,
+				CE45DE90CE9E4422BCD478BD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/layer.hpp */,
+				B3E4FEB2F60841FDACD19AEB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn/shape_utils.hpp */,
+			);
+			name = dnn;
+			sourceTree = "<group>";
+		};
+		41D4CBC7FF4F482C9AE453EA /* ocl4dnn */ = {
+			isa = PBXGroup;
+			children = (
+				D5478C80E1E346D5AE8A775D /* src */,
+				343E113FC9B249A1B041F6CE /* include */,
+			);
+			name = ocl4dnn;
+			sourceTree = "<group>";
+		};
+		41FACCB436604A1B8DC398B8 /* opencv_test_dnn */ = {
+			isa = PBXGroup;
+			children = (
+				5408064A03054C36B9A2BB93 /* Src */,
+				77309CB7763A4F8999EBCC5D /* Include */,
+				C44050D8753145ABB2A4F025 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */,
+			);
+			name = opencv_test_dnn;
+			sourceTree = "<group>";
+		};
+		4F6A340049BB41C4A580C263 /* tensorflow */ = {
+			isa = PBXGroup;
+			children = (
+				78C85FBE61B04BE188B28E3B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_importer.cpp */,
+				416B9E8901194786AEB07208 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.cpp */,
+				2A2C1802F6AC4B00B740B842 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.hpp */,
+			);
+			name = tensorflow;
+			sourceTree = "<group>";
+		};
+		5408064A03054C36B9A2BB93 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB83E2C5F1402A8539046E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.cpp */,
+				1393B87D86DA447AA48FB523 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_caffe_importer.cpp */,
+				54D64A8799F740C8905DEF27 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_darknet_importer.cpp */,
+				FD39E03646504EC38C73806D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_googlenet.cpp */,
+				56317BCBD7C545079BE0065D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_layers.cpp */,
+				53F590E9E7DA4316B3F74C8F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_nets.cpp */,
+				AA5065040D8342E19760C424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_layers.cpp */,
+				0D98DB75F666463A9EBC414D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_main.cpp */,
+				31BF29F8F354486B891C0D5B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_tf_importer.cpp */,
+				3E9D7F2E0AA549119396432C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_torch_importer.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		5977E033618248EAAC3C36AA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				D7B5B50276A74E84A8BAADFF /* CMake Rules */,
+				1855C1D05470471DA63D9407 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		5AED5DCC2AA24A1999376F63 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				C442C17E76124E72B81D012F /* opencv_dnn */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		6AA60AC03816481984FEA24E /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				86CE535E1CBF4AACA7D4048B /* autogenerated */,
+				269204DD8C0A48598CA52056 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/activations.cl */,
+				118A705721C64F339D347846 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/batchnorm.cl */,
+				D127B65357AB4F8CAFD24F6B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/col2im.cl */,
+				1175DF41DFBE4426A185AA88 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/concat.cl */,
+				61E78A2B19BA4216BACB6E2F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_layer_spatial.cl */,
+				0D96E3A804414AF4AF4AD77E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/conv_spatial_helper.cl */,
+				87636CE6014E460AB1B4BEF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/dummy.cl */,
+				DF7677C747E948458AEA9982 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/gemm_image.cl */,
+				B8D911BF9507495B99037ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/im2col.cl */,
+				110D9247919B49839A552E96 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/lrn.cl */,
+				C9650494C237414F8A3C8E12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/math.cl */,
+				252DF7AC037344979A065990 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/matvec_mul.cl */,
+				2076FC7907184083A92157B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_lrn.cl */,
+				4C047CDD69A84C89A1406E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/ocl4dnn_pooling.cl */,
+				526A90415731408082EE46FB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/pooling.cl */,
+				FD53D20FC0E44CDE81A97BA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax.cl */,
+				2858AE60601D44B49309310F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/opencl/softmax_loss.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		6D0DD0AA3DD94A79807728A7 /* opencv_perf_dnn */ = {
+			isa = PBXGroup;
+			children = (
+				9216511B0F9F4DA7844C9B37 /* Src */,
+				19D8DAFC93A4459991920BDF /* Include */,
+				A6EFB4B152AF4990837C647C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */,
+			);
+			name = opencv_perf_dnn;
+			sourceTree = "<group>";
+		};
+		77309CB7763A4F8999EBCC5D /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				91BD9227E5674F06A0B544BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.hpp */,
+				AE63CD07B5B3422FAB8EDC3E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_common.hpp */,
+				6CC34EBCDDCB4461977F57C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		79E30D735E474531A805CCA6 /* darknet */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF23EA4AD14BB39AACECD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_importer.cpp */,
+				53FE3FA4ABC74774B6556625 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.cpp */,
+				F373C8514229483EBF3F7BE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.hpp */,
+			);
+			name = darknet;
+			sourceTree = "<group>";
+		};
+		7E5FC25B99304F74BFE5FDA7 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E50B96E6241DA854745D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.cc */,
+				ABD3125A27784290A9685518 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.h */,
+				B2B8168C7B044D7C88774896 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.cc */,
+				BCAD793D5853487183BF4B0A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.h */,
+				36BCE70B631744BD8BFCB6FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.cc */,
+				972F4CB1C77F4016BED6B728 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.h */,
+				A03BE38E20974E9298FD957E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.cc */,
+				5979D3BDBEDE477490053D81 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.h */,
+				4C0EF38629EA428AB110897E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.cc */,
+				025F7F4CE23942BEBEC276E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.h */,
+				EF5A6F272AFD4F149E6C6AA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.cc */,
+				341B44C748004295ABA74932 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.h */,
+				4F8CCC78B5ED4A3C838070E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.cc */,
+				25117221CD944F25A3147A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.h */,
+				0172B12B3E7C4900A642BEA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.cc */,
+				8925A2B0E7534C2AB7619557 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.h */,
+				CE8961301ADF408D8C0BBCB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.cc */,
+				34ACB538FF154301A767BF82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.h */,
+			);
+			name = protobuf;
+			sourceTree = "<group>";
+		};
+		83CFC55058134C4FB044A204 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				6D0DD0AA3DD94A79807728A7 /* opencv_perf_dnn */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		86CE535E1CBF4AACA7D4048B /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD1CEE1C394B4D9C70DC9F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp */,
+				721A350974E143EA87A21510 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		9216511B0F9F4DA7844C9B37 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				346F8095C13E4CFEA190A988 /* opencl */,
+				B855EDA28F6B4A699B3AA3E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_caffe.cpp */,
+				F3DBB4D49A4341FC93C388D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_convolution.cpp */,
+				61B2C561E6794A0F964459ED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_main.cpp */,
+				22D80ACB6EAE4623B357F4A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_net.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		97447CF1A84E4A179282436F /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				6AA60AC03816481984FEA24E /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		9A9C978240AD44C6B5A1E6AD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				2B3DE209715445579EEE1088 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B527BB6841574FD686ED86D5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7D0FAFAEE4579838EB97F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv_lapack.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B9644693555B453F85366FE8 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				41FACCB436604A1B8DC398B8 /* opencv_test_dnn */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		C442C17E76124E72B81D012F /* opencv_dnn */ = {
+			isa = PBXGroup;
+			children = (
+				E87CB7168DDC498AB33BBBBD /* Src */,
+				B527BB6841574FD686ED86D5 /* Header Files */,
+				F4C4D6271EB042A082888665 /* Include */,
+				16BB907C5E4E4C998FC40466 /* Source Files */,
+				9A9C978240AD44C6B5A1E6AD /* CMake Rules */,
+				78A1A829C3A04C56A1D06424 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */,
+			);
+			name = opencv_dnn;
+			sourceTree = "<group>";
+		};
+		C6AF12C6511048928F015BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D71F26246E461499E02A25 /* opencv_dnn */,
+				90984927BC98438ABCB7B1ED /* opencv_perf_dnn */,
+				35654D7EE53F48D5AAC3308C /* opencv_test_dnn */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9D0406C2704595B849C75E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D5478C80E1E346D5AE8A775D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE6FA1B2184186A0CE1499 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/common.cpp */,
+				3B679F2E082F480BA8A72A20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/math_functions.cpp */,
+				7143E3F802B54369BBD8419C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp */,
+				910CBA92F1BA46B3AF6D93F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp */,
+				AFA353D5E3D444818A817642 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp */,
+				B79BA9E12D244785A0B3DF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp */,
+				68F5213DF39346B6A2C49E30 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D7B5B50276A74E84A8BAADFF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D82FF44C6701435EA426AA6E /* torch */ = {
+			isa = PBXGroup;
+			children = (
+				23DBE6EB723B45E8BD17815E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.cpp */,
+				C33AC73CD0CE4EA9BEF5968F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.h */,
+				1EF25419B8BA41769EA2E1A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.cpp */,
+				16D8D5748F0348D09BDE48DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.h */,
+				5FD0BA9B35944248B6F26FA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFilePrivate.h */,
+				5D4D391575004A269C24922F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.cpp */,
+				468C3CBF4E30402EBA06C7BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.h */,
+				DAD3EC3380244484A466BCA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/torch_importer.cpp */,
+			);
+			name = torch;
+			sourceTree = "<group>";
+		};
+		E87CB7168DDC498AB33BBBBD /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				7E5FC25B99304F74BFE5FDA7 /* protobuf */,
+				33412F63102E4CD896547334 /* caffe */,
+				79E30D735E474531A805CCA6 /* darknet */,
+				13932EB977144FF0AF3E4C9C /* layers */,
+				41D4CBC7FF4F482C9AE453EA /* ocl4dnn */,
+				4F6A340049BB41C4A580C263 /* tensorflow */,
+				D82FF44C6701435EA426AA6E /* torch */,
+				97447CF1A84E4A179282436F /* opencl */,
+				7FB96D9929244BC1AA2BCEB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/dnn.cpp */,
+				7F1DAD2D5977468A912CBD61 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.cpp */,
+				07027860D90B4CCA8B78D471 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.hpp */,
+				C193D984282040DFADD9E28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/init.cpp */,
+				660C84DF07AB48DE9901AB11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.cpp */,
+				8FE03ED8607D4A978C32985F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.hpp */,
+				FC7E089A357C41C1B8DE8040 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		F08946A6F41E43228D449DCE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CA9D0406C2704595B849C75E /* CMake Rules */,
+				25F0C2975F6C4B71BDB0A2C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F4C4D6271EB042A082888665 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				FEA95715A75D41FEA5F91564 /* opencv2 */,
+				27E491A15E4E4C71B809C329 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */,
+				8B4462C2AA334B879D55DDDC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		FEA95715A75D41FEA5F91564 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				38D9D04F03E748379519FE09 /* dnn */,
+				AF51F78188A940EEB8CECD55 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include/opencv2/dnn.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F864B89D3345B8A616404A /* opencv_dnn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7186483851D74537A85776CB /* Build configuration list for PBXNativeTarget "opencv_dnn" */;
+			buildPhases = (
+				964DD2F429584BEAB2A247A0 /* CMake Rules */,
+				7D6F5802F9E34AA9B9E0C573 /* Sources */,
+				A0E13BF7486340598D489C72 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B18DDCE3FC4CB498D048BB /* PBXTargetDependency */,
+			);
+			name = opencv_dnn;
+			productName = opencv_dnn;
+			productReference = F4D71F26246E461499E02A25 /* opencv_dnn */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		63B48E7C48804087A7C1CBAC /* opencv_test_dnn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4008CBAE4AB42F08AE62041 /* Build configuration list for PBXNativeTarget "opencv_test_dnn" */;
+			buildPhases = (
+				32F38454CC7946E98262A622 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA775F0A36E4C06A60EE75E /* PBXTargetDependency */,
+				E8C23A5676EF4C508FF94CB9 /* PBXTargetDependency */,
+			);
+			name = opencv_test_dnn;
+			productName = opencv_test_dnn;
+			productReference = 35654D7EE53F48D5AAC3308C /* opencv_test_dnn */;
+			productType = "com.apple.product-type.tool";
+		};
+		C2F6FD6EBC934A9F9448AC8B /* opencv_perf_dnn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F4D24554054B6FA125D47C /* Build configuration list for PBXNativeTarget "opencv_perf_dnn" */;
+			buildPhases = (
+				80790D6258DB43FA8A082F22 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403A47C2E2F7449B8FFEA7B3 /* PBXTargetDependency */,
+				6B4E1161DFA3468498AD4CD3 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_dnn;
+			productName = opencv_perf_dnn;
+			productReference = 90984927BC98438ABCB7B1ED /* opencv_perf_dnn */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ED8AA46B98C4314B089919D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = D2CB181E70E44F938EF41720 /* Build configuration list for PBXProject "opencv_dnn" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A3CDBE188E7046779872B555 /* Debug */,
+				C1411F9F4A0649E59482A48D /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 146369FD2CAA469BA7C2C12F;
+			projectDirPath = ../../../modules/dnn;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				53F864B89D3345B8A616404A /* opencv_dnn */,
+				C2F6FD6EBC934A9F9448AC8B /* opencv_perf_dnn */,
+				63B48E7C48804087A7C1CBAC /* opencv_test_dnn */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05DA3B6F986842C19F617378 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3E9CC545E342496997B58ABE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5D352A811A3F410398ADDF81 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6C81F943899A4B01914226CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		964DD2F429584BEAB2A247A0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/opencv_dnn_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9A285293C2004198909DC68B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A0E13BF7486340598D489C72 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/opencv_dnn_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AEC4C924AE004078A54879CB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B77B3BA354444A51ADFFEE2E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C7C9CFE7E492454E846A44B9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DD65C5D2A915466899D9B0F2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F9F071CDC15C4844B1A8A1B5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F38454CC7946E98262A622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FDDE8FA13C4A749D885AA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/npy_blob.cpp */,
+				2A32461BE54F487F90DEE14C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_caffe_importer.cpp */,
+				5BAA23EB849C49E698A67195 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_darknet_importer.cpp */,
+				5A7F2F1B56934EFB91120599 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_googlenet.cpp */,
+				A938070EB8D94363B4F0B74E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_layers.cpp */,
+				B16C0C059CCF4797811CD3B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_halide_nets.cpp */,
+				CE9E6D680998402294D5951A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_layers.cpp */,
+				A166F38905954CABA8C3650F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_main.cpp */,
+				1E6947D545414F329E29318D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_tf_importer.cpp */,
+				AF35349870674038B5501DAA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_torch_importer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6F5802F9E34AA9B9E0C573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1502A36145E42339C451C77 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx.cpp */,
+				E034E30B28464C13960D1F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/layers/layers_common.avx2.cpp */,
+				5EEE881505ED47EBA7A4F374 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/opencl_kernels_dnn.cpp */,
+				DCC6E10DE2B6457BAF1176CA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe/caffe.pb.cc */,
+				3AC3197470F24B51B10A97AC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/attr_value.pb.cc */,
+				4E01FFD503F545BF859E73F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/function.pb.cc */,
+				9D842113CBAA4F00BC1F4F56 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/graph.pb.cc */,
+				BB7D4EDEA22E443C8A8569D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/op_def.pb.cc */,
+				9E03D29CBB444BF8A25B3594 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor.pb.cc */,
+				443FF8AC78FA485A82D22C24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/tensor_shape.pb.cc */,
+				06493785FF614D6D8A90EC7A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/types.pb.cc */,
+				FB05E9DF4F6F4AFEB66CAC18 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow/versions.pb.cc */,
+				6D07A6E2CEB84F739375B6D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_importer.cpp */,
+				81B3727D4F044F929CAC9BC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_io.cpp */,
+				23ABB181FA8A46F987B54DE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/caffe/caffe_shrinker.cpp */,
+				42A4B832DD1D4DE49A2590F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_importer.cpp */,
+				0FC5046323E4458CA9E2450F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/darknet/darknet_io.cpp */,
+				4330135752794C7DB3AA1EC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/dnn.cpp */,
+				E4FFCC17624F4411A8455D68 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/halide_scheduler.cpp */,
+				9C896DC0BE6C49CAA2796F49 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/init.cpp */,
+				2C11DF9D72EC4CF6A69C5CA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/batch_norm_layer.cpp */,
+				7158511BF6174A4EA2DA517A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/blank_layer.cpp */,
+				0700BEF2ACD24455A75CFFBA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/concat_layer.cpp */,
+				A88EB771694C4EF1BAECA174 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/convolution_layer.cpp */,
+				B7A0B09300EC45C4B121F3DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/crop_layer.cpp */,
+				0DEFD2C2EEE74C1CAE06A1D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/detection_output_layer.cpp */,
+				E563728A43974BFFA41972A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/elementwise_layers.cpp */,
+				07F6158F722C424791FAE789 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/eltwise_layer.cpp */,
+				7FF7F6359CDB47329ACE08F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/flatten_layer.cpp */,
+				659F04A95E5F45A4B845E382 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/fully_connected_layer.cpp */,
+				305069765A5C408787F3E3BB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/layers_common.cpp */,
+				163F765EFFBF410DA391EA79 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/lrn_layer.cpp */,
+				3BA5AE43140C44128823103D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/max_unpooling_layer.cpp */,
+				A620E643F0A542B6823E35B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/mvn_layer.cpp */,
+				68C2DB6D2BD7423BB54359DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/normalize_bbox_layer.cpp */,
+				46A1677D2CCF4B499B49556C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/padding_layer.cpp */,
+				4605B0C793A0481DA6D20E93 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/permute_layer.cpp */,
+				DF407BD5E838467896A751B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/pooling_layer.cpp */,
+				04F2B1ABB16D4763980F4582 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/prior_box_layer.cpp */,
+				400368EAA1BC4C63BC402F80 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/recurrent_layers.cpp */,
+				FEAD1BC64A1D40FCB2F24BAB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/region_layer.cpp */,
+				EE072107F89D42E290445754 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reorg_layer.cpp */,
+				C6092AC3CC78455D98108EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/reshape_layer.cpp */,
+				8A884FEC395B4F57880E97BB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp */,
+				B726FA48EA004867BABF9B1B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/scale_layer.cpp */,
+				E3BBCE16C6564A63B7DEBEC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/shift_layer.cpp */,
+				A8310A6E19424DEFBF35FA54 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/slice_layer.cpp */,
+				DA65791EEEB54FA7828C7CAE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/softmax_layer.cpp */,
+				E0320018552944EB9465CDCE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/layers/split_layer.cpp */,
+				DF9377B3876C45C19496F305 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/common.cpp */,
+				187F6E63B2AD49018B210CC5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/math_functions.cpp */,
+				86BF01519B754ABE8CA86EFB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp */,
+				4EB88810F67441758AC0C4A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp */,
+				AB7747CD70B740F8B4306210 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp */,
+				D3955A3735084A078F744951 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp */,
+				F2FFCFFA4DE34E3E8AD18D16 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp */,
+				A78B64BBFC814ACF85F840ED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/op_halide.cpp */,
+				7FBEC726FA80419EBAFD4F6F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_importer.cpp */,
+				08F95813202C46E8BDDAE412 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/tensorflow/tf_io.cpp */,
+				81E551C2DA074CECA47AA591 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THDiskFile.cpp */,
+				5418151729CF4DCDAA26BF8D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THFile.cpp */,
+				CB7ADCFFB2E441B9B75CC569 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/THGeneral.cpp */,
+				8314CC4D866C43FEB6410804 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/torch/torch_importer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80790D6258DB43FA8A082F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0E710529F24A8EBE93D464 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/opencl/perf_convolution.cpp */,
+				A7AFC388FF034764821DABEE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_caffe.cpp */,
+				0953D235F7984F8793649BB7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_convolution.cpp */,
+				80456A445085496EBEB1F2EB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_main.cpp */,
+				E6EF8997075B4137961B7A5C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_net.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133F96EED9F84729AF011EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F864B89D3345B8A616404A /* opencv_dnn */;
+			targetProxy = F3FC4675B30C4FFBB2681DBA /* PBXContainerItemProxy */;
+		};
+		17F0A5597D9D4C3096A23A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 2D0BD4E3110F430ABFD659EC /* PBXContainerItemProxy */;
+		};
+		403A47C2E2F7449B8FFEA7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F864B89D3345B8A616404A /* opencv_dnn */;
+			targetProxy = BBD77F31151441CBB299E22F /* PBXContainerItemProxy */;
+		};
+		63C1451ED2964C85B02081E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = E89C7F7DE0D6469998D6EA60 /* PBXContainerItemProxy */;
+		};
+		6B4E1161DFA3468498AD4CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 52255F57D775489D990FAB74 /* PBXContainerItemProxy */;
+		};
+		6C7120E6442F455FA46EF21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B48E7C48804087A7C1CBAC /* opencv_test_dnn */;
+			targetProxy = CD3A381BFADF4DEFA9D4D220 /* PBXContainerItemProxy */;
+		};
+		9E7813ABA99945EFB828577F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 6DD473B0A7C54CCB9912E2A8 /* PBXContainerItemProxy */;
+		};
+		A9B18DDCE3FC4CB498D048BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 287C1A6394A643BC92197BCB /* PBXContainerItemProxy */;
+		};
+		E8C23A5676EF4C508FF94CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = B1A80F70194D450E984982D9 /* PBXContainerItemProxy */;
+		};
+		EBA775F0A36E4C06A60EE75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F864B89D3345B8A616404A /* opencv_dnn */;
+			targetProxy = 204BC5E5EAF5425797906C4C /* PBXContainerItemProxy */;
+		};
+		ED95133C4F194FDD9CA17675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F6FD6EBC934A9F9448AC8B /* opencv_perf_dnn */;
+			targetProxy = 4497FA6863334F58890E9272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018FE1CC8CDA46E9B793264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_dnn.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/liblibprotobuf.a -framework Accelerate -framework Accelerate /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_dnn.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0AFBD12527F94327A9840BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1062B927399B4776BDF3C522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		109437F460FF4995BD52A5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_dnn.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_dnn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		14613051AF0A4C31BFD86D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		18B3E89608FB42B08AA501D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		50081BAF3C3A420D9BFBE5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		68BF80128B084C35A6D8B953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		69BEA7A2FCF84184AAB1A51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6AFBDE3FF9754A22ADAA9A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/caffe","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/misc/tensorflow");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_dnn.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/liblibprotobuf.a -framework Accelerate -framework Accelerate /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_dnn.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		767F7B98E2574BB0BB27D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_dnn.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_dnn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		880A8D542EA2435FA8BC67A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8AB407731ED745388F9CA4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CCA524E89952474486192E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/build";
+			};
+			name = Debug;
+		};
+		D1B277F420344184A8D21660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_dnn.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_dnn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E710DDC4ADB944FD9ACAAF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn/build";
+			};
+			name = Release;
+		};
+		E9369FA7AAA34DC1A3C04E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EFCE7737A3264CFB9437BECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,"'HAVE_PROTOBUF=1'","'ENABLE_TORCH_IMPORTER=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/src/ocl4dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/dnn/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses -Wno-sign-promo -Wno-missing-declarations -Wno-missing-prototypes -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-deprecated-declarations -Wno-unused-parameter -Wno-undef -Wno-ignored-qualifiers -Wno-enum-compare -Wno-deprecated-declarations     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_dnn.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_dnn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/dnn";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DE10F4E5414932A474A6C3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BF80128B084C35A6D8B953 /* Debug */,
+				8AB407731ED745388F9CA4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7186483851D74537A85776CB /* Build configuration list for PBXNativeTarget "opencv_dnn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFBDE3FF9754A22ADAA9A2C /* Debug */,
+				018FE1CC8CDA46E9B793264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		891DB7D0C578439DA56AB67B /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50081BAF3C3A420D9BFBE5B2 /* Debug */,
+				0AFBD12527F94327A9840BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5C9C08E64A74F43AF2B62EF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1062B927399B4776BDF3C522 /* Debug */,
+				880A8D542EA2435FA8BC67A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2CB181E70E44F938EF41720 /* Build configuration list for PBXProject "opencv_dnn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA524E89952474486192E8D /* Debug */,
+				E710DDC4ADB944FD9ACAAF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E4008CBAE4AB42F08AE62041 /* Build configuration list for PBXNativeTarget "opencv_test_dnn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109437F460FF4995BD52A5E2 /* Debug */,
+				EFCE7737A3264CFB9437BECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC61C69695DD4CB986292FF6 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9369FA7AAA34DC1A3C04E89 /* Debug */,
+				18B3E89608FB42B08AA501D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDD44B1F0AD14FD48579A3D6 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14613051AF0A4C31BFD86D06 /* Debug */,
+				69BEA7A2FCF84184AAB1A51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2F4D24554054B6FA125D47C /* Build configuration list for PBXNativeTarget "opencv_perf_dnn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B277F420344184A8D21660 /* Debug */,
+				767F7B98E2574BB0BB27D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ED8AA46B98C4314B089919D /* Project object */;
+}

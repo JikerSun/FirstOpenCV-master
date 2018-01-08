@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A865E0AE00BC419493C77908 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				080524339CA242F4BD4BDEE0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				686E93A8CCA447B89C6BC3E5 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90CE599F153443DCBC4423EA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5F76309BB4CD4166BFC87940 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A34AA0FB7074F6FB1C30944 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F6D328396DD041699E8C1CA4 /* CMake Rules */,
+			);
+			dependencies = (
+				D6754C40ADF7443983173A0C /* PBXTargetDependency */,
+				7CB50A7C6C4C4ACBBE59109B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EB052844FFA44C2B5F2F67D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7227A7D9D32341C7A8C9FA71 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D12796AFDCC145E9AAA3745E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 50ECF1C6590D4B93AA4B004C /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				F34E3E428D814540949850B0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		182BFEC190374B25BE96D08E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 107F448246354903BA907082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.c */; };
+		318FCE9DCBE4450C82DAF964 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 752FC5CB99FA4876AB2DE377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzguts.h */; };
+		34C2B0372BE64E60930FD089 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = FEA16976D44942F7B57BAEAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffixed.h */; };
+		3AF3EA348C8F4BAD89720020 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = CB23AE78CBEF4183BEB988FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.c */; };
+		40824217C6A3485DB34B04DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = 9F0A6D0EEDF0470F820F4C2C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/compress.c */; };
+		4E298ED6E90C4D84AF47B411 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = BA720D70650B4DE4A1EF2CBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzread.c */; };
+		51EC2A038D45474C8C3ABF61 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = A36D52C6CE8F44E98E89B2B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.c */; };
+		533E794DF86948E78DF3017C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = F8AE1EA6E34943F89CC54BC7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.h */; };
+		5513A2A908694003AFE3E79F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8BF54200B5F45A89996894A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */; };
+		593875F9DCD0449492B46557 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 33F2D162C9854FCABC280E51 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.h */; };
+		5EE30F55992545AEB4FF451D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 321EADC57AA54FF8876B70E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.c */; };
+		6A390C605AA54DAEA3C9BF10 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = 4E29FBB845BB47B38DDE7E31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/infback.c */; };
+		72763BEE226A494CBFD90CEF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = 462CC44AC97448E3B8998B4C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zlib.h */; };
+		755BAF06E6EA4948B8BA8679 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 0088FB744CD1467E8DB1807B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.c */; };
+		88C79B5FBAEE4E83BBB33E15 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = E2993D2D489A4EDA8A3C5888 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/adler32.c */; };
+		99BC2BE30A4846A08D138B0E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = 0E5F8289A7D9458986E8F0CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.h */; };
+		A6BFFCFFFB9444468F9F1ADF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 81397C8065164E0A8855D79D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/zconf.h */; };
+		B094A289D1944A45BC18A08C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = B5FE7F3F3D1D4FD6A8AF4092 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.h */; };
+		B2211107AC154C63B118A9E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = B746F973FE014D0888ED75D9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.c */; };
+		B6DB8CC1C06648F88D62D310 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = 464AE587BC3E431997D1E143 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.h */; };
+		B80AA766D49346BB899A6BF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 187856C7EB6F439A9C00A050 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzlib.c */; };
+		C2A7AA9E7163437DA8193D31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 343D2CE01B5545F88066B2AE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzclose.c */; };
+		CC2797A557454BD09744AB15 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = 9951C0799EEB480E9E7E3A78 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/uncompr.c */; };
+		E29ECE66F27C4F7A80B4439A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = 3B5E6798FF2C4F6FA047D0B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.c */; };
+		E4BE6D2B067B441482A28723 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = CA928056052B4A6591DD57AF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.h */; };
+		E7BA97F94D50471CA0B509D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = EAD48E6614C847D584478907 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzwrite.c */; };
+		F6372F24EE664325BFB7094C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = 479867DDA4A94A83ABC38733 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		C9FFE84C09F441A2941D1F42 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D255B3DB9B2242B1A332900F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09349AF5BC014D859A81C870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7F1652640F4AB09272A5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		719C05392B4C490F82D7E212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7F1652640F4AB09272A5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		AE8A03B6BD234498AC7C3E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7F1652640F4AB09272A5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		B5CA09C425CD4ABCBD1DC790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7F1652640F4AB09272A5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		BF682F3955F44A50A724DF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7F1652640F4AB09272A5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220114FF834B4D1AA0412E87;
+			remoteInfo = zlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0088FB744CD1467E8DB1807B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = deflate.c; path = deflate.c; sourceTree = SOURCE_ROOT; };
+		0E5F8289A7D9458986E8F0CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trees.h; path = trees.h; sourceTree = SOURCE_ROOT; };
+		107F448246354903BA907082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc32.c; path = crc32.c; sourceTree = SOURCE_ROOT; };
+		187856C7EB6F439A9C00A050 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzlib.c; path = gzlib.c; sourceTree = SOURCE_ROOT; };
+		321EADC57AA54FF8876B70E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = trees.c; path = trees.c; sourceTree = SOURCE_ROOT; };
+		33F2D162C9854FCABC280E51 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = deflate.h; path = deflate.h; sourceTree = SOURCE_ROOT; };
+		343D2CE01B5545F88066B2AE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzclose.c; path = gzclose.c; sourceTree = SOURCE_ROOT; };
+		3B5E6798FF2C4F6FA047D0B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inftrees.c; path = inftrees.c; sourceTree = SOURCE_ROOT; };
+		462CC44AC97448E3B8998B4C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib.h; path = zlib.h; sourceTree = SOURCE_ROOT; };
+		464AE587BC3E431997D1E143 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inftrees.h; path = inftrees.h; sourceTree = SOURCE_ROOT; };
+		479867DDA4A94A83ABC38733 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffast.h; path = inffast.h; sourceTree = SOURCE_ROOT; };
+		4E29FBB845BB47B38DDE7E31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = infback.c; path = infback.c; sourceTree = SOURCE_ROOT; };
+		5412A28DB8294A7B8DAC08D3 /* zlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6595CAD2AB564E3E851BBBA0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		752FC5CB99FA4876AB2DE377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gzguts.h; path = gzguts.h; sourceTree = SOURCE_ROOT; };
+		7D43A10B01FB424CBC1CB5DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		81397C8065164E0A8855D79D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zconf.h; path = ../../bulid/3rdparty/zlib/zconf.h; sourceTree = SOURCE_ROOT; };
+		9951C0799EEB480E9E7E3A78 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = uncompr.c; path = uncompr.c; sourceTree = SOURCE_ROOT; };
+		9F0A6D0EEDF0470F820F4C2C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
+		A36D52C6CE8F44E98E89B2B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = zutil.c; path = zutil.c; sourceTree = SOURCE_ROOT; };
+		A8BF54200B5F45A89996894A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B5FE7F3F3D1D4FD6A8AF4092 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inflate.h; path = inflate.h; sourceTree = SOURCE_ROOT; };
+		B746F973FE014D0888ED75D9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inffast.c; path = inffast.c; sourceTree = SOURCE_ROOT; };
+		BA720D70650B4DE4A1EF2CBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzread.c; path = gzread.c; sourceTree = SOURCE_ROOT; };
+		CA928056052B4A6591DD57AF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zutil.h; path = zutil.h; sourceTree = SOURCE_ROOT; };
+		CB23AE78CBEF4183BEB988FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inflate.c; path = inflate.c; sourceTree = SOURCE_ROOT; };
+		E2993D2D489A4EDA8A3C5888 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = adler32.c; path = adler32.c; sourceTree = SOURCE_ROOT; };
+		EAD48E6614C847D584478907 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gzwrite.c; path = gzwrite.c; sourceTree = SOURCE_ROOT; };
+		F8AE1EA6E34943F89CC54BC7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32.h; path = crc32.h; sourceTree = SOURCE_ROOT; };
+		FEA16976D44942F7B57BAEAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = inffixed.h; path = inffixed.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EFF60D19E35434A8CEA51EC /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA2A89CDB049C7ACA04761 /* zlib */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		41C66219019849E9A8C72B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5412A28DB8294A7B8DAC08D3 /* zlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DCC27D5558C4DE5A8F1E353 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A1EA2A89CDB049C7ACA04761 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				BA2C12502FCE47F997FC7252 /* Source Files */,
+				B56AA2C911A448CA9E4C53DB /* Header Files */,
+				A8BF54200B5F45A89996894A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		B56AA2C911A448CA9E4C53DB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE1EA6E34943F89CC54BC7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.h */,
+				33F2D162C9854FCABC280E51 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.h */,
+				752FC5CB99FA4876AB2DE377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzguts.h */,
+				479867DDA4A94A83ABC38733 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.h */,
+				FEA16976D44942F7B57BAEAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffixed.h */,
+				B5FE7F3F3D1D4FD6A8AF4092 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.h */,
+				464AE587BC3E431997D1E143 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.h */,
+				0E5F8289A7D9458986E8F0CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.h */,
+				462CC44AC97448E3B8998B4C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zlib.h */,
+				CA928056052B4A6591DD57AF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.h */,
+				81397C8065164E0A8855D79D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/zconf.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BA2C12502FCE47F997FC7252 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2993D2D489A4EDA8A3C5888 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/adler32.c */,
+				9F0A6D0EEDF0470F820F4C2C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/compress.c */,
+				107F448246354903BA907082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.c */,
+				0088FB744CD1467E8DB1807B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.c */,
+				343D2CE01B5545F88066B2AE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzclose.c */,
+				187856C7EB6F439A9C00A050 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzlib.c */,
+				BA720D70650B4DE4A1EF2CBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzread.c */,
+				EAD48E6614C847D584478907 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzwrite.c */,
+				4E29FBB845BB47B38DDE7E31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/infback.c */,
+				B746F973FE014D0888ED75D9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.c */,
+				CB23AE78CBEF4183BEB988FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.c */,
+				3B5E6798FF2C4F6FA047D0B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.c */,
+				321EADC57AA54FF8876B70E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.c */,
+				9951C0799EEB480E9E7E3A78 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/uncompr.c */,
+				A36D52C6CE8F44E98E89B2B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C595DF004A844A0C8F0CD86C /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F611D58E96BB4C03A1C76149 /* CMake Rules */,
+				7D43A10B01FB424CBC1CB5DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		EFE0407714094F08A9809B0A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC27D5558C4DE5A8F1E353 /* CMake Rules */,
+				6595CAD2AB564E3E851BBBA0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F40852AE47AC4CF5BFBAE03D = {
+			isa = PBXGroup;
+			children = (
+				0EFF60D19E35434A8CEA51EC /* 3rdparty */,
+				EFE0407714094F08A9809B0A /* ALL_BUILD */,
+				C595DF004A844A0C8F0CD86C /* ZERO_CHECK */,
+				41C66219019849E9A8C72B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F611D58E96BB4C03A1C76149 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220114FF834B4D1AA0412E87 /* zlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2AC3838BE848A487BA75CF /* Build configuration list for PBXNativeTarget "zlib" */;
+			buildPhases = (
+				2B4A3AB46A244A5DA9F4D976 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6844619A7040E589A259D1 /* PBXTargetDependency */,
+			);
+			name = zlib;
+			productName = zlib;
+			productReference = 5412A28DB8294A7B8DAC08D3 /* zlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7F1652640F4AB09272A5FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 9DF726FADAA8482AA6E74471 /* Build configuration list for PBXProject "zlib" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C9FFE84C09F441A2941D1F42 /* Debug */,
+				D255B3DB9B2242B1A332900F /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F40852AE47AC4CF5BFBAE03D;
+			projectDirPath = ../../../3rdparty/zlib;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				039FC08FAEEE478F89384882 /* package */,
+				220114FF834B4D1AA0412E87 /* zlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		080524339CA242F4BD4BDEE0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2077278D0DFA4DC3A8EE6369 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2227D3E9805246F1A5A02924 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5F76309BB4CD4166BFC87940 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7227A7D9D32341C7A8C9FA71 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		96CFFDC6D1664C2A88EF9F57 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C06A87304820439C9CE73D4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E301511BC5E140E9BF400C9F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F34E3E428D814540949850B0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F6D328396DD041699E8C1CA4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4A3AB46A244A5DA9F4D976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C79B5FBAEE4E83BBB33E15 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/adler32.c */,
+				40824217C6A3485DB34B04DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/compress.c */,
+				182BFEC190374B25BE96D08E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/crc32.c */,
+				755BAF06E6EA4948B8BA8679 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/deflate.c */,
+				C2A7AA9E7163437DA8193D31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzclose.c */,
+				B80AA766D49346BB899A6BF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzlib.c */,
+				4E298ED6E90C4D84AF47B411 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzread.c */,
+				E7BA97F94D50471CA0B509D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/gzwrite.c */,
+				6A390C605AA54DAEA3C9BF10 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/infback.c */,
+				B2211107AC154C63B118A9E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inffast.c */,
+				3AF3EA348C8F4BAD89720020 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inflate.c */,
+				E29ECE66F27C4F7A80B4439A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/inftrees.c */,
+				5EE30F55992545AEB4FF451D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/trees.c */,
+				CC2797A557454BD09744AB15 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/uncompr.c */,
+				51EC2A038D45474C8C3ABF61 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib/zutil.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		686E93A8CCA447B89C6BC3E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 09349AF5BC014D859A81C870 /* PBXContainerItemProxy */;
+		};
+		7CB50A7C6C4C4ACBBE59109B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 719C05392B4C490F82D7E212 /* PBXContainerItemProxy */;
+		};
+		8D6844619A7040E589A259D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = B5CA09C425CD4ABCBD1DC790 /* PBXContainerItemProxy */;
+		};
+		D12796AFDCC145E9AAA3745E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = AE8A03B6BD234498AC7C3E0B /* PBXContainerItemProxy */;
+		};
+		D6754C40ADF7443983173A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220114FF834B4D1AA0412E87 /* zlib */;
+			targetProxy = BF682F3955F44A50A724DF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0369189A8D654BD2A813C6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2792FB3F08564E6CAB3469F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2DD71B780CCC48ECB4FE65F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/build";
+			};
+			name = Release;
+		};
+		37205A3ACC82437999B16217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3AABD0C5853649D197713BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3AE5D33461F445CD86CBE5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib/build";
+			};
+			name = Debug;
+		};
+		5A4D5745E55F44F09098E594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5E1982751D89491BBB5A2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7F20DF2E9AAE4AAE9DB65077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A9150FFCBED54AB98FFB8E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-shorten-64-to-32 -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-shift-negative-value     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BFAB3FD766794713862B2CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D94B29B963604D418DEE3BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-shorten-64-to-32 -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-shift-negative-value         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DF72C27CF3304EE191A612B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DFE566E116764C8EBBACD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A34AA0FB7074F6FB1C30944 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72C27CF3304EE191A612B6 /* Debug */,
+				BFAB3FD766794713862B2CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D2AC3838BE848A487BA75CF /* Build configuration list for PBXNativeTarget "zlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94B29B963604D418DEE3BAF /* Debug */,
+				A9150FFCBED54AB98FFB8E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50ECF1C6590D4B93AA4B004C /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D5745E55F44F09098E594 /* Debug */,
+				2792FB3F08564E6CAB3469F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EB052844FFA44C2B5F2F67D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE566E116764C8EBBACD380 /* Debug */,
+				0369189A8D654BD2A813C6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90CE599F153443DCBC4423EA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37205A3ACC82437999B16217 /* Debug */,
+				7F20DF2E9AAE4AAE9DB65077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9DF726FADAA8482AA6E74471 /* Build configuration list for PBXProject "zlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5D33461F445CD86CBE5CE /* Debug */,
+				2DD71B780CCC48ECB4FE65F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A865E0AE00BC419493C77908 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1982751D89491BBB5A2F6C /* Debug */,
+				3AABD0C5853649D197713BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B7F1652640F4AB09272A5FA /* Project object */;
+}

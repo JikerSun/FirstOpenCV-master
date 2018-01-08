@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91D2FE73F4DB4EE0A02B0CAE /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				A528256B323443218A8EFA42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7F3BA61FDCC7440E98883FB3 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 083B426270134C19B1309B49 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				10AA161D533C47CBA24C3B25 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86C78B2704E84DFEB7009230 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AC995564A29D469B8EB63A27 /* CMake Rules */,
+			);
+			dependencies = (
+				A55A1C22F70B4228A4497BF9 /* PBXTargetDependency */,
+				CA5CFC40A5D6458A8AC19407 /* PBXTargetDependency */,
+				8680FA3B637041C1986FFF92 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C2F5F184F42A4B648A52FEFF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				91D3A15D15834990BD48FA50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				982A0E7671F945CB9561EF1E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 741D0747D6874807B220ECCE /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				FC4810B410C646069ACEDD79 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01BD21FD15F74A1F867B2441 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXBuildFile; fileRef = 1290979C356F4765A2DCB46F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/all_indices.h */; };
+		03E75FD32D694B6BAA6B13E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXBuildFile; fileRef = 41D4A60257D945AD99D1DD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_table.h */; };
+		07718DE601404254995F439C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXBuildFile; fileRef = 4DDFFCF529644F8494D3639A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dummy.h */; };
+		1795CAB02B3941B0A0EEEBEB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXBuildFile; fileRef = 2BA65ED0894F49FBACFE9984 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/saving.h */; };
+		1BF262919E2640498FEE8BCC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = CB1617C082A3495683BED79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp */; };
+		1E4A6C2673FA4FB8A448CAD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXBuildFile; fileRef = 6FC67146CC9C44F4B1DE36B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann.hpp */; };
+		1F1899F8A0E2426B8F104806 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 3BB7028232DC421EADF4197F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp */; };
+		22739B2F3EC24F7DADC2EF26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXBuildFile; fileRef = 73D662667A324AA5B0C72D0C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/composite_index.h */; };
+		292052FB743348EA897B4DB0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXBuildFile; fileRef = F283FCA244EC4A1491C8599A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/timer.h */; };
+		2A6954A01AF24A62A5E7CC47 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXBuildFile; fileRef = 7EA9FA90A7C04065A62C4B8B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/miniflann.hpp */; };
+		2DFDED05AD7C4363B6AB0AC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXBuildFile; fileRef = D064F61EBA9549BAA541E425 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */; };
+		37CF6C172809468290324A82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXBuildFile; fileRef = 89C5C898AE624A5E8AB50DED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kmeans_index.h */; };
+		3D8F24819CA7420CA2815A83 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 1111E0B3CA3346ED953AE73E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */; };
+		449A4D621ABC4C69ABFEC847 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXBuildFile; fileRef = C56B57FD77C54AFDBF844758 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/sampling.h */; };
+		44BD4F9B861D425E9A825A91 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXBuildFile; fileRef = CEC3E019E7664BEA88798FA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/autotuned_index.h */; };
+		4763E18570CC4BC7A452CE8B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXBuildFile; fileRef = A1B37C5B7BC94859AE0F72DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/allocator.h */; };
+		4C8B71B1C2FC46AC91CE18A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXBuildFile; fileRef = 221582B947F445719F5DE11D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/heap.h */; };
+		5E265C3D3B2C4888A9E83335 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXBuildFile; fileRef = CF7D74A88E2F41CE86947305 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann.hpp */; };
+		5FB2E60F53CF4115B5AA4004 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXBuildFile; fileRef = 77CBDA4CEF454D92A3A021E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/result_set.h */; };
+		665CE82DDB6D4ECA954B07E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXBuildFile; fileRef = 7A8F898E2B3C438ABABD98B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/general.h */; };
+		6D34667BE80D45E3903A1616 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXBuildFile; fileRef = BA97386F129345C996D0559D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/logger.h */; };
+		731CEE77A21047B69B97079F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXBuildFile; fileRef = E30A6C1F13E54144B2408B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/params.h */; };
+		74FCA3AA46A9493BA9DD41B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXBuildFile; fileRef = 85A03271D1AA46269711ED0D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann_base.hpp */; };
+		754FD9A6FEFA4577A10D2D86 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXBuildFile; fileRef = 2453AC28FFB74C5A8E14000A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/matrix.h */; };
+		75C6CF12F6F24E79A35C8521 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/flann.cpp */ = {isa = PBXBuildFile; fileRef = 9A98B1D7FA11453CA25BD509 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/flann.cpp */; };
+		7AF582DA300E445DBE0E9365 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXBuildFile; fileRef = 101025D27B6E4EBCBC7EDD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/random.h */; };
+		8E2578FC2EC1407793F737C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2CEC1D160F9E42EDBD120346 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */; };
+		9EB7C5E4172546E882437154 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXBuildFile; fileRef = A3CBDCC9007B449FBF3F89B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/simplex_downhill.h */; };
+		A16997B3311D4FF596BAE6E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXBuildFile; fileRef = 5F4DB627A0A84B21B8CC3A63 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_index.h */; };
+		A2040AA663864B55AC2371D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 1027DBA4BB68493D8CCF1106 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_lshtable_badarg.cpp */; };
+		A2781666443849019403C444 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXBuildFile; fileRef = E26AEB0A7AC247049BA0E00B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_single_index.h */; };
+		A5728BDB44C24E4C8F98C190 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 066C0EAC0DAF41D382DE9A12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_main.cpp */; };
+		A9D586C7A6BB4E4AB81A1C6A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/miniflann.cpp */ = {isa = PBXBuildFile; fileRef = A5638ACE21D5422292572AC5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/miniflann.cpp */; };
+		AB9C84EA0FEA425B81621187 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXBuildFile; fileRef = 2CA30E571A12474BB1D3EEAE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_index.h */; };
+		AF78594CAAA64B07A75C8E8C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXBuildFile; fileRef = DFF1585461C348148DA3655F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/index_testing.h */; };
+		B2B6EE983CED45A285E73DE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 58511273664142A993394D2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */; };
+		B423D596A2DD4B0DBCB8491E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXBuildFile; fileRef = BF991ED115CA42B2AA903A11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/ground_truth.h */; };
+		CA54E9672A084FE5A7E7D81B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXBuildFile; fileRef = 073117E2D3184671B4ABF5CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dist.h */; };
+		CCEBB46671C544F0BCB4F7AD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXBuildFile; fileRef = F9722F81283C4C9FB2404103 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/defines.h */; };
+		CF3BFAC1B0AC4CF7BE4C75EB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXBuildFile; fileRef = 3B2A3346D9BB42A2B21DDAE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/any.h */; };
+		CF5DC707E4B84594BBC6A2D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 679D50E530E4426889916F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */; };
+		D926505A90C5441EB5EC39C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXBuildFile; fileRef = A5AF260DE7114F08A9FDE5C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/config.h */; };
+		E811DABA46BC4AB0922D658C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXBuildFile; fileRef = ABEAA6309A1C44C78C682668 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/object_factory.h */; };
+		EF514838D7A84A0DB6846935 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXBuildFile; fileRef = 0E949BC1CE964C8AB0680498 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/nn_index.h */; };
+		F4F55070DEC343BC844173DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXBuildFile; fileRef = 518D82C6E3324FF9B03292F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dynamic_bitset.h */; };
+		FC9F7CC09EC54A8B8E59CC3B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXBuildFile; fileRef = BFFEBC2D61CA4CC49F5BDE07 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hdf5.h */; };
+		FF47EE38635C441B8B57A833 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXBuildFile; fileRef = DF46C2898FC244BDB8BAE909 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/linear_index.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		58508A395548442588E11040 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		83E9CE664CB547AF89164C76 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		32339C358B5C4C47958341A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		5AD0BEC0E1D14B3F9B37CABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB376768E4F049CEAA54FF06;
+			remoteInfo = opencv_test_flann;
+		};
+		5F13A91308D3468EBF47D046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		7E8035F310EB464786CAE691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		9B9F24AF752D492C8FFAA6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		B2708991C04C4C6A8B661A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		DD4371CEB8E74B34BF91C599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51B2A29F2FF45A888EE83CB;
+			remoteInfo = opencv_flann;
+		};
+		E36B785CEB9C4C46BD26F6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA76928F204A3E875316DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51B2A29F2FF45A888EE83CB;
+			remoteInfo = opencv_flann;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066C0EAC0DAF41D382DE9A12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		073117E2D3184671B4ABF5CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist.h; path = include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
+		0E949BC1CE964C8AB0680498 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nn_index.h; path = include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
+		101025D27B6E4EBCBC7EDD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random.h; path = include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
+		1027DBA4BB68493D8CCF1106 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_lshtable_badarg.cpp; path = test/test_lshtable_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		1111E0B3CA3346ED953AE73E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../bulid/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		1290979C356F4765A2DCB46F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = all_indices.h; path = include/opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
+		221582B947F445719F5DE11D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = heap.h; path = include/opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
+		2453AC28FFB74C5A8E14000A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = include/opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
+		2BA65ED0894F49FBACFE9984 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = saving.h; path = include/opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
+		2CA30E571A12474BB1D3EEAE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_index.h; path = include/opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
+		2CEC1D160F9E42EDBD120346 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B2A3346D9BB42A2B21DDAE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = any.h; path = include/opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
+		3BB7028232DC421EADF4197F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		41D4A60257D945AD99D1DD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_table.h; path = include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
+		4DDFFCF529644F8494D3639A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dummy.h; path = include/opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
+		518D82C6E3324FF9B03292F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dynamic_bitset.h; path = include/opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
+		58511273664142A993394D2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../bulid/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		5F4DB627A0A84B21B8CC3A63 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_index.h; path = include/opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
+		679D50E530E4426889916F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6FC67146CC9C44F4B1DE36B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
+		73D662667A324AA5B0C72D0C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = composite_index.h; path = include/opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
+		77CBDA4CEF454D92A3A021E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = result_set.h; path = include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
+		7A8F898E2B3C438ABABD98B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = general.h; path = include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
+		7CA1A40304D044CB96F6569F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7EA9FA90A7C04065A62C4B8B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniflann.hpp; path = include/opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
+		85A03271D1AA46269711ED0D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann_base.hpp; path = include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
+		89C5C898AE624A5E8AB50DED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kmeans_index.h; path = include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
+		9A98B1D7FA11453CA25BD509 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/flann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flann.cpp; path = src/flann.cpp; sourceTree = SOURCE_ROOT; };
+		A1B37C5B7BC94859AE0F72DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator.h; path = include/opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
+		A3CBDCC9007B449FBF3F89B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simplex_downhill.h; path = include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
+		A52F0BE803CF445CA4761F66 /* opencv_test_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_flann; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5638ACE21D5422292572AC5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/miniflann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniflann.cpp; path = src/miniflann.cpp; sourceTree = SOURCE_ROOT; };
+		A5AF260DE7114F08A9FDE5C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = include/opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
+		ABEAA6309A1C44C78C682668 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object_factory.h; path = include/opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
+		BA97386F129345C996D0559D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = include/opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
+		BF991ED115CA42B2AA903A11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ground_truth.h; path = include/opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
+		BFFEBC2D61CA4CC49F5BDE07 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hdf5.h; path = include/opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
+		C56B57FD77C54AFDBF844758 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampling.h; path = include/opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
+		CB1617C082A3495683BED79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		CBD1A86CABF54CCFB5B2B623 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEC3E019E7664BEA88798FA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autotuned_index.h; path = include/opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
+		CF7D74A88E2F41CE86947305 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann.hpp; sourceTree = SOURCE_ROOT; };
+		D064F61EBA9549BAA541E425 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hierarchical_clustering_index.h; path = include/opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
+		DCC3AC56EF994070B7EAF71B /* opencv_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_flann.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF46C2898FC244BDB8BAE909 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_index.h; path = include/opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
+		DFF1585461C348148DA3655F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = index_testing.h; path = include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
+		E26AEB0A7AC247049BA0E00B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_single_index.h; path = include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
+		E30A6C1F13E54144B2408B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = params.h; path = include/opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
+		F283FCA244EC4A1491C8599A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
+		F9722F81283C4C9FB2404103 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		078C69937F4941BBB64EE2ED /* opencv_test_flann */ = {
+			isa = PBXGroup;
+			children = (
+				67BF51A2A5F8463C9F2FB901 /* Src */,
+				1A252BF32F474C90892B88D2 /* Include */,
+				679D50E530E4426889916F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_test_flann;
+			sourceTree = "<group>";
+		};
+		0ED495AA09EA4BD592E39EF2 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1CCE3F0A6FC04900811FA7D9 /* CMake Rules */,
+				7CA1A40304D044CB96F6569F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		13453B36BFC5481895355B21 /* flann */ = {
+			isa = PBXGroup;
+			children = (
+				1290979C356F4765A2DCB46F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/all_indices.h */,
+				A1B37C5B7BC94859AE0F72DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/allocator.h */,
+				3B2A3346D9BB42A2B21DDAE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/any.h */,
+				CEC3E019E7664BEA88798FA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/autotuned_index.h */,
+				73D662667A324AA5B0C72D0C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/composite_index.h */,
+				A5AF260DE7114F08A9FDE5C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/config.h */,
+				F9722F81283C4C9FB2404103 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/defines.h */,
+				073117E2D3184671B4ABF5CE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dist.h */,
+				4DDFFCF529644F8494D3639A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dummy.h */,
+				518D82C6E3324FF9B03292F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/dynamic_bitset.h */,
+				6FC67146CC9C44F4B1DE36B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann.hpp */,
+				85A03271D1AA46269711ED0D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/flann_base.hpp */,
+				7A8F898E2B3C438ABABD98B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/general.h */,
+				BF991ED115CA42B2AA903A11 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/ground_truth.h */,
+				BFFEBC2D61CA4CC49F5BDE07 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hdf5.h */,
+				221582B947F445719F5DE11D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/heap.h */,
+				D064F61EBA9549BAA541E425 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */,
+				DFF1585461C348148DA3655F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/index_testing.h */,
+				2CA30E571A12474BB1D3EEAE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_index.h */,
+				E26AEB0A7AC247049BA0E00B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kdtree_single_index.h */,
+				89C5C898AE624A5E8AB50DED /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/kmeans_index.h */,
+				DF46C2898FC244BDB8BAE909 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/linear_index.h */,
+				BA97386F129345C996D0559D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/logger.h */,
+				5F4DB627A0A84B21B8CC3A63 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_index.h */,
+				41D4A60257D945AD99D1DD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/lsh_table.h */,
+				2453AC28FFB74C5A8E14000A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/matrix.h */,
+				7EA9FA90A7C04065A62C4B8B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/miniflann.hpp */,
+				0E949BC1CE964C8AB0680498 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/nn_index.h */,
+				ABEAA6309A1C44C78C682668 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/object_factory.h */,
+				E30A6C1F13E54144B2408B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/params.h */,
+				101025D27B6E4EBCBC7EDD26 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/random.h */,
+				77CBDA4CEF454D92A3A021E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/result_set.h */,
+				C56B57FD77C54AFDBF844758 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/sampling.h */,
+				2BA65ED0894F49FBACFE9984 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/saving.h */,
+				A3CBDCC9007B449FBF3F89B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/simplex_downhill.h */,
+				F283FCA244EC4A1491C8599A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann/timer.h */,
+			);
+			name = flann;
+			sourceTree = "<group>";
+		};
+		1A252BF32F474C90892B88D2 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				CB1617C082A3495683BED79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		1CCE3F0A6FC04900811FA7D9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3CD3C99E820B4D9EBF332235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3AC56EF994070B7EAF71B /* opencv_flann */,
+				A52F0BE803CF445CA4761F66 /* opencv_test_flann */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549BA2E6283A494A9B6ED90F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D33F26B891BE436DB5542122 /* CMake Rules */,
+				CBD1A86CABF54CCFB5B2B623 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		67BF51A2A5F8463C9F2FB901 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				1027DBA4BB68493D8CCF1106 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_lshtable_badarg.cpp */,
+				066C0EAC0DAF41D382DE9A12 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_main.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		6D69E9585DA14EF587D473AC /* opencv_flann */ = {
+			isa = PBXGroup;
+			children = (
+				76639D54AE95424FB042A9C2 /* Include */,
+				DDCFF764C83C4BC2A7659FFC /* Src */,
+				2CEC1D160F9E42EDBD120346 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_flann;
+			sourceTree = "<group>";
+		};
+		76639D54AE95424FB042A9C2 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A21030A7EE57451C9BA4F362 /* opencv2 */,
+				58511273664142A993394D2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */,
+				1111E0B3CA3346ED953AE73E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		A21030A7EE57451C9BA4F362 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				13453B36BFC5481895355B21 /* flann */,
+				CF7D74A88E2F41CE86947305 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include/opencv2/flann.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		A912D4FAECA24958AF994E24 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				078C69937F4941BBB64EE2ED /* opencv_test_flann */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		C8880A96931947CA88F9F8C5 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				6D69E9585DA14EF587D473AC /* opencv_flann */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		D33F26B891BE436DB5542122 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DDCFF764C83C4BC2A7659FFC /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				9A98B1D7FA11453CA25BD509 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/flann.cpp */,
+				A5638ACE21D5422292572AC5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/miniflann.cpp */,
+				3BB7028232DC421EADF4197F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		F92C0A7EB79F43BC930501EE = {
+			isa = PBXGroup;
+			children = (
+				A912D4FAECA24958AF994E24 /* tests accuracy */,
+				C8880A96931947CA88F9F8C5 /* modules */,
+				549BA2E6283A494A9B6ED90F /* ALL_BUILD */,
+				0ED495AA09EA4BD592E39EF2 /* ZERO_CHECK */,
+				3CD3C99E820B4D9EBF332235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51B2A29F2FF45A888EE83CB /* opencv_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BC7289A0C34800BA2B8CEA /* Build configuration list for PBXNativeTarget "opencv_flann" */;
+			buildPhases = (
+				0DA3FAA4F62B4852B63B10D6 /* Sources */,
+				0E0AED7A236B4C07A720FAFD /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD09CBA86AB5447888E1E853 /* PBXTargetDependency */,
+			);
+			name = opencv_flann;
+			productName = opencv_flann;
+			productReference = DCC3AC56EF994070B7EAF71B /* opencv_flann */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		DB376768E4F049CEAA54FF06 /* opencv_test_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB98CC31B2584AEBAEF0B977 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */;
+			buildPhases = (
+				3FD48B9C71514F328BF71DAF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25568368A914437797873D2D /* PBXTargetDependency */,
+				2CC00655107545A38A54DD71 /* PBXTargetDependency */,
+			);
+			name = opencv_test_flann;
+			productName = opencv_test_flann;
+			productReference = A52F0BE803CF445CA4761F66 /* opencv_test_flann */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCA76928F204A3E875316DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 85AEF61B02C4480BA2FCF540 /* Build configuration list for PBXProject "opencv_flann" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				83E9CE664CB547AF89164C76 /* Debug */,
+				58508A395548442588E11040 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F92C0A7EB79F43BC930501EE;
+			projectDirPath = ../../../modules/flann;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				D51B2A29F2FF45A888EE83CB /* opencv_flann */,
+				DB376768E4F049CEAA54FF06 /* opencv_test_flann */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E0AED7A236B4C07A720FAFD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/opencv_flann_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		10AA161D533C47CBA24C3B25 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1D3D8B2A684845069954FF6F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6398E3CCF7A8402582D9092B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6DA448F7676C418486FCD1E9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		91D3A15D15834990BD48FA50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		975BDE54755845B38E1F366C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A528256B323443218A8EFA42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AC995564A29D469B8EB63A27 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AD66E4E2E54F4B848EDE64EE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FC4810B410C646069ACEDD79 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA3FAA4F62B4852B63B10D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C6CF12F6F24E79A35C8521 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/flann.cpp */,
+				A9D586C7A6BB4E4AB81A1C6A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/miniflann.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD48B9C71514F328BF71DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2040AA663864B55AC2371D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_lshtable_badarg.cpp */,
+				A5728BDB44C24E4C8F98C190 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25568368A914437797873D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51B2A29F2FF45A888EE83CB /* opencv_flann */;
+			targetProxy = E36B785CEB9C4C46BD26F6AE /* PBXContainerItemProxy */;
+		};
+		2CC00655107545A38A54DD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 9B9F24AF752D492C8FFAA6E9 /* PBXContainerItemProxy */;
+		};
+		7F3BA61FDCC7440E98883FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 32339C358B5C4C47958341A7 /* PBXContainerItemProxy */;
+		};
+		8680FA3B637041C1986FFF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 5F13A91308D3468EBF47D046 /* PBXContainerItemProxy */;
+		};
+		982A0E7671F945CB9561EF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = B2708991C04C4C6A8B661A5D /* PBXContainerItemProxy */;
+		};
+		A55A1C22F70B4228A4497BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51B2A29F2FF45A888EE83CB /* opencv_flann */;
+			targetProxy = DD4371CEB8E74B34BF91C599 /* PBXContainerItemProxy */;
+		};
+		CA5CFC40A5D6458A8AC19407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB376768E4F049CEAA54FF06 /* opencv_test_flann */;
+			targetProxy = 5AD0BEC0E1D14B3F9B37CABB /* PBXContainerItemProxy */;
+		};
+		DD09CBA86AB5447888E1E853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 7E8035F310EB464786CAE691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FED1F23C4048DD9044F0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0FEE92ECA088452FA3093DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		17DD3137FE004CA69F34B2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3147E13FFA764658A2C416F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4029429AB4934D4B844D456C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		495BC9CC006546DDA81183F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5FAD910F8E644D418AB3EF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_flann.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7A39C1FF249F469A8AC7B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/build";
+			};
+			name = Debug;
+		};
+		8C6C90C1E92249DE9B74B575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9A44033AED3A47A18579B2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A5244FFADDD042E1A2147E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_flann.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B05F8A0FF07447B49FF9D62B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BA06CA9EC44440988EF7B450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CFE3227048374070B9C015D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann/build";
+			};
+			name = Release;
+		};
+		F27790D9B7374B20955453BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F7D42E6949794C7C8C6FE401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083B426270134C19B1309B49 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4029429AB4934D4B844D456C /* Debug */,
+				BA06CA9EC44440988EF7B450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		741D0747D6874807B220ECCE /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6C90C1E92249DE9B74B575 /* Debug */,
+				F7D42E6949794C7C8C6FE401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85AEF61B02C4480BA2FCF540 /* Build configuration list for PBXProject "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39C1FF249F469A8AC7B2AD /* Debug */,
+				CFE3227048374070B9C015D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86C78B2704E84DFEB7009230 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FED1F23C4048DD9044F0F3 /* Debug */,
+				17DD3137FE004CA69F34B2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91D2FE73F4DB4EE0A02B0CAE /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEE92ECA088452FA3093DE3 /* Debug */,
+				B05F8A0FF07447B49FF9D62B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1BC7289A0C34800BA2B8CEA /* Build configuration list for PBXNativeTarget "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD910F8E644D418AB3EF33 /* Debug */,
+				A5244FFADDD042E1A2147E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB98CC31B2584AEBAEF0B977 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3147E13FFA764658A2C416F4 /* Debug */,
+				9A44033AED3A47A18579B2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2F5F184F42A4B648A52FEFF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495BC9CC006546DDA81183F7 /* Debug */,
+				F27790D9B7374B20955453BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCA76928F204A3E875316DE /* Project object */;
+}

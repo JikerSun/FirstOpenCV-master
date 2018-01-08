@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/./muxi.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/vp8i_dec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/./common_dec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/./vp8li_dec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/./webpi_dec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/rescaler_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/../webp/types.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/./vp8_dec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../webp/decode.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/bit_reader_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/color_cache_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/huffman_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/../webp/format_constants.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/random_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/thread_utils.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../dsp/dsp.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../webp/mux.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../dec/../utils/../webp/./mux_types.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/../utils/utils.h

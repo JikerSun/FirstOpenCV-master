@@ -1,0 +1,56 @@
+# Target labels
+ Main
+ opencv_videoio
+ Module
+# Source files and their labels
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include/opencv2/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include/opencv2/videoio/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include/opencv2/videoio/cap_ios.h
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include/opencv2/videoio/videoio_c.h
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_images.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_mjpeg_encoder.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_mjpeg_decoder.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_ffmpeg.cpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_avfoundation_mac.mm
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/precomp.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/src/cap_ffmpeg_impl.hpp
+ Main
+ opencv_videoio
+ Module
+/Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h
+/Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/CMakeLists.txt

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream_inl.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/logging.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/macros.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/port.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/platform_macros.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/scoped_ptr.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mutex.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/callback.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/type_traits.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/template_util.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/shared_ptr.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_macosx.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_atomicword_compat.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stl_util.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomic_sequence_num.h

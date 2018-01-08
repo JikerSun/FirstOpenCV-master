@@ -1,0 +1,1503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77862E04275945ACAC549634 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				3AF336C9342D434EAED2C34B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4020289F0CEB4FBF817C9F98 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 088BF9FBFEEB495ABFD2A532 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0665912D43B744DF9A2379E4 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C92442212BD4C058AD4BAA2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				52F7D16E7D0F49F79ECC0CF1 /* CMake Rules */,
+			);
+			dependencies = (
+				B87D8A291F9540ABA252E9C6 /* PBXTargetDependency */,
+				0C0700F80994454AB989F3B0 /* PBXTargetDependency */,
+				358A9908588F4A3F91F3C960 /* PBXTargetDependency */,
+				6B3639331A1E4165BC509CFD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8F15C80C7FA46CAB0842301 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				36A22D48B16E4D7291925AEC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3547FAA3E0BB4E8BB07DD736 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 08FE7FD34EE442CEA25494E0 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				63ACF6C65E5647EEACF52CAA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06C85099685B4F84AA5D176F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.hpp */ = {isa = PBXBuildFile; fileRef = 090EC0341C284C04AD7A41AB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.hpp */; };
+		0986BD3E77AD46EF8A639598 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/fast.cl */ = {isa = PBXBuildFile; fileRef = 41A898D2E3D74ACFB3893C66 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/fast.cl */; };
+		0B0FEB399C934E60BEDC209E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXBuildFile; fileRef = 3FD112E82E1A420188C6ECB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.h */; };
+		13A8096A5C6246F4BAFA6BFD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = F20F041D9E33423987FADC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp */; };
+		18DEBA24537D467598BE64AF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/feature2d.cpp */ = {isa = PBXBuildFile; fileRef = DF8BB5AF740B4CE0AFB7D08A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/feature2d.cpp */; };
+		1F60D39B23554805B621C696 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXBuildFile; fileRef = BB2B346C7E324C3E9BA3D3FF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.cpp */; };
+		201D4F8B1B514B7185A67436 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_fast.cpp */ = {isa = PBXBuildFile; fileRef = 498F16C1356D461EAD8AD7BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_fast.cpp */; };
+		262EA3073C014B0687DEB68E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/orb.cl */ = {isa = PBXBuildFile; fileRef = CBCAA1E008554C38BE140270 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/orb.cl */; };
+		33FF6C3027CA4E8E8ABE947A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/evaluation.cpp */ = {isa = PBXBuildFile; fileRef = 8EFD4EE011F84A2D824B14C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/evaluation.cpp */; };
+		34149E6E19474A3585B866CC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 62523E233F4C4CD785D20BE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */; };
+		35CFD8A8F13A4E8BBCCB58F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/blobdetector.cpp */ = {isa = PBXBuildFile; fileRef = 161BD9E7A0E14A309C59862D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/blobdetector.cpp */; };
+		38AAC200019D4492B8242CBE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/orb.cpp */ = {isa = PBXBuildFile; fileRef = 54B4F442F2F642A9BBDBBBB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/orb.cpp */; };
+		3CB4B570296249239A3E6507 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_akaze.cpp */ = {isa = PBXBuildFile; fileRef = 945CF550EF1842498E4E459E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_akaze.cpp */; };
+		3E2632E6CCE94DBD9C73F056 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 9FD87D72CC454351AFC1C134 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_main.cpp */; };
+		416A243EE4D44DDFAB17929B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 17C2D9DACAA64597ACA16F73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp */; };
+		435801262B5F4662BAA3152A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_brisk.cpp */ = {isa = PBXBuildFile; fileRef = 8BC2689360E649AD8D153DD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_brisk.cpp */; };
+		465C24358DFF4844ABE08BFC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/brisk.cpp */ = {isa = PBXBuildFile; fileRef = 5A6A1D2E89864975BA6D8483 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/brisk.cpp */; };
+		49892FAD902A464CA64B1631 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/akaze.cpp */ = {isa = PBXBuildFile; fileRef = 73C811949681488D81AB268F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/akaze.cpp */; };
+		49BEB06B59A54165837070D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXBuildFile; fileRef = 62D8FBA574FD464C96F01825 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp */; };
+		4DA52812754647118ADCDE08 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 81FEF42928D24142B29EB08B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEConfig.h */; };
+		4F093EEA7CF84607B6C4555D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.hpp */ = {isa = PBXBuildFile; fileRef = 27BAC84C0F494AF488427312 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.hpp */; };
+		52113C52CFA94D4B8392C5A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/dynamic.cpp */ = {isa = PBXBuildFile; fileRef = 4C2616199E8F4EEA93F1D044 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/dynamic.cpp */; };
+		532D74B0E2E246D9906D0B38 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = C6B3C294740F4650B916E229 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_feature2d.cpp */; };
+		543D8B8E7D8E4FD483AC0247 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 0A55C5353DDE4901815D4B14 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_main.cpp */; };
+		5ED03BF2560347C69E4CF534 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.cpp */ = {isa = PBXBuildFile; fileRef = 372D8F90062E48B3AE4369EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.cpp */; };
+		60851523D2594063A6DBDFEA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXBuildFile; fileRef = B0317AC665CA407C865006B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_matchers_algorithmic.cpp */; };
+		63A0B75B96B24FBFA31BF417 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 97A7A9256F0F43D78C4CA1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */; };
+		63B8FDB1F48B42839EE061FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast.cpp */ = {isa = PBXBuildFile; fileRef = F6313AE98A1145098CA14658 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast.cpp */; };
+		6A8D8C2E4D65461982F0BCF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/draw.cpp */ = {isa = PBXBuildFile; fileRef = 907D8AA1218D42CFAB25D8A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/draw.cpp */; };
+		6BD2770F52AD416E8BCE3814 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXBuildFile; fileRef = 72F3EE0780D74F81B8F281C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_nearestneighbors.cpp */; };
+		70D5DA91999A496098F8D827 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXBuildFile; fileRef = 2247353A4A6843FDAA6A4A50 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/TEvolution.h */; };
+		7559E8C3E4B24FCDA754A55B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = 57B1C06F513B4E85B64349B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.h */; };
+		84FEED0FA20249DEA9302163 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 575DE68DDEC84AD5AC75264F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */; };
+		891C7CBD499F4D41AB83F1D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXBuildFile; fileRef = 618B8C3758DB4599A8B3858D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_keypoints.cpp */; };
+		89A2425C4C9B435A8D54B9A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B3C54AE69FE42F4950725A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */; };
+		8E0B414CCA6C4F7D9D60281E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/akaze.cl */ = {isa = PBXBuildFile; fileRef = 9A60FD1EB30E47CBB18B4C6C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/akaze.cl */; };
+		8EC354EC0791443186A0C9C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/bagofwords.cpp */ = {isa = PBXBuildFile; fileRef = DEFD7CA611034CF68C2914D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/bagofwords.cpp */; };
+		91FE49E95A22467AA2F1BF86 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = 3AE545B1AC174F67AD508410 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */; };
+		920627E7FB3745D99F2FE170 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_mser.cpp */ = {isa = PBXBuildFile; fileRef = 6955A041C4D6483DA7B23062 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_mser.cpp */; };
+		92343FA0EA4E4B25B509C5A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = C8925004E6494C31A0299736 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.cpp */; };
+		94026133387744899DF0BBB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.cpp */ = {isa = PBXBuildFile; fileRef = 473880AC90FC473BB307C068 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.cpp */; };
+		9439C27DE1D54D0DB695818B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 2754A3A9DD2945568B1EA1E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp.rule */; };
+		95320C1021EA481683C075B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze.cpp */ = {isa = PBXBuildFile; fileRef = 29846AA3DC1F44A3BAAC0757 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze.cpp */; };
+		963860040103422788AEDCB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXBuildFile; fileRef = 1CB6064C57B340B9AE47D35D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_regression.cpp */; };
+		9B4EB09000274A5F861F5BC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/gftt.cpp */ = {isa = PBXBuildFile; fileRef = 5A9F5AC3EFA84B35B910A95A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/gftt.cpp */; };
+		A2FF299812F548A49E969266 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/keypoint.cpp */ = {isa = PBXBuildFile; fileRef = 8752BF45BAE44254A86C0BDF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/keypoint.cpp */; };
+		A78CEC22BC4A4E3FBD24ECB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_invariance_utils.hpp */ = {isa = PBXBuildFile; fileRef = ECEA0C75DC524C74A7EBAD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_invariance_utils.hpp */; };
+		B1B2B00B4C884C32BFB02862 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = C3EA972E081447F3B94E9FE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_brute_force_matcher.cpp */; };
+		B31FCF6684DA4A5BA1FF84B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast.cpp */ = {isa = PBXBuildFile; fileRef = DCB3787E234C45AEB5EEE8B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast.cpp */; };
+		B4027018F82F450F9E73076C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_invariance.cpp */ = {isa = PBXBuildFile; fileRef = 3A20D8DABBA04161B06FD300 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_invariance.cpp */; };
+		B69B755ED97D480E9EE6BED6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_invariance.cpp */ = {isa = PBXBuildFile; fileRef = 2490A7CFB84144E39EC470D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_invariance.cpp */; };
+		BA991AE2A807442189D100B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 6A388065DF034BA7B3E05196 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/matchers.cpp */; };
+		BDED64C2903E48D28DE01ADC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 076B1CC1643149A797C69C73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEConfig.h */; };
+		C0BDBF91007549288DA597E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/utils.h */ = {isa = PBXBuildFile; fileRef = 61EBBFBA4EAD44E89A147744 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/utils.h */; };
+		C2DFA0EFF9534918962A4AAC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXBuildFile; fileRef = 1719E19332144BB09CA7C1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d/features2d.hpp */; };
+		C805324F7ACF4B4DAF335EA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = 4D9B81D945F74184965B32EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.cpp */; };
+		CC2E26DA89B747FDA01323FF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 9DA4BFDEDB9A460B86498A67 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp */; };
+		D140A31304F24778A1ADD1F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/mser.cpp */ = {isa = PBXBuildFile; fileRef = 8836F26A5EED4D4C854C7A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/mser.cpp */; };
+		D15230B4F61A4A10A509CFCD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXBuildFile; fileRef = 7E819C822CCA472ABDAEE39E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.cpp */; };
+		D57F4FC7F85F458BA42EBF18 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = D79B3E2D07744228B4BD9938 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.h */; };
+		D93DEA9C8D1B4E6CA501A6A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.hpp */ = {isa = PBXBuildFile; fileRef = 830533C44FE74D70855D282C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.hpp */; };
+		DA1AA4AE1A794888A49EAE5C /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXBuildFile; fileRef = 3D4498389A1D49BAB69327C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.hpp */; };
+		DB5B77191C0B4511B222A720 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXBuildFile; fileRef = 6F590868345B40019CF7708F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_regression.cpp */; };
+		E6A1DA985CF440E8A1E7EBD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = D5FF1DC5DE064878B7CA195E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.cpp */; };
+		E79D472375084688B8931009 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.h */ = {isa = PBXBuildFile; fileRef = D2B896C1E48B438194D7A69C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.h */; };
+		E8BF4DDF48D047F79B8E41A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXBuildFile; fileRef = 86201A7D3D994AABA03B73BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_batchDistance.cpp */; };
+		EB20C4E50807440FB0C68C41 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXBuildFile; fileRef = BCFAE46F8ECD4ECBAF36F0A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/brute_force_match.cl */; };
+		EF47D72255254286895CA74D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXBuildFile; fileRef = 742DAE4D1CF54B9BAEA4EFF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d.hpp */; };
+		F1F15652A4884F6686EEAFE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F8E3AA05F7B447E98ADF07C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */; };
+		F44CFC2B7B264E50AEFB19F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_orb.cpp */ = {isa = PBXBuildFile; fileRef = 49024CEE49D947DD83C539D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_orb.cpp */; };
+		F9D680B4405D479E99D6F46A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = C0C37631F12C4F479ADC267B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_feature2d.cpp */; };
+		FD672B96C7904985884D68B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 854BD41861354F149967F5FD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/main.cpp */; };
+		FF29D04786464BF1A7601F50 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_agast.cpp */ = {isa = PBXBuildFile; fileRef = E3D8921681F1415A95C4B845 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_agast.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B2BEEF36FBF43AFA8240942 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		57DF57FBCBCA4ADE82C293EC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B3B1A4FB3B2425D8912D704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		2BFA9B6C997F4BACAE9C709C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		399E91B1D7DF4DF4A1784E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560705E716D347FB92DDA890;
+			remoteInfo = opencv_test_features2d;
+		};
+		585106531E4E448A8C0F76B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7466E64455214E0BA9BF105E;
+			remoteInfo = opencv_perf_features2d;
+		};
+		58ACA22669B74001A58E5A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		61CF4DF07663499898C81D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4306B015A9794C6A87ECD8EB;
+			remoteInfo = opencv_features2d;
+		};
+		94A59C5D4DF44460B162FD4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		CA2ECB3328AA47BC8A1A5A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4306B015A9794C6A87ECD8EB;
+			remoteInfo = opencv_features2d;
+		};
+		DEF48F20BEE8475C94E20C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4306B015A9794C6A87ECD8EB;
+			remoteInfo = opencv_features2d;
+		};
+		F59C2CA2636B417EA94CE006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		FC46A692B15045D4AD28A901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65AB462FC0F742D7BDB05545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076B1CC1643149A797C69C73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEConfig.h; path = src/kaze/AKAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		090EC0341C284C04AD7A41AB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_score.hpp; path = src/fast_score.hpp; sourceTree = SOURCE_ROOT; };
+		0A55C5353DDE4901815D4B14 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		0E21EA366F454965A8BCB1B3 /* opencv_test_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_features2d; sourceTree = BUILT_PRODUCTS_DIR; };
+		161BD9E7A0E14A309C59862D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/blobdetector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blobdetector.cpp; path = src/blobdetector.cpp; sourceTree = SOURCE_ROOT; };
+		1719E19332144BB09CA7C1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		17C2D9DACAA64597ACA16F73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		1CB6064C57B340B9AE47D35D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptors_regression.cpp; path = test/test_descriptors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		2247353A4A6843FDAA6A4A50 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TEvolution.h; path = src/kaze/TEvolution.h; sourceTree = SOURCE_ROOT; };
+		2490A7CFB84144E39EC470D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_invariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_detectors_invariance.cpp; path = test/test_detectors_invariance.cpp; sourceTree = SOURCE_ROOT; };
+		2754A3A9DD2945568B1EA1E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_features2d.cpp.rule; path = ../../bulid/modules/features2d/opencl_kernels_features2d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		27BAC84C0F494AF488427312 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = agast_score.hpp; path = src/agast_score.hpp; sourceTree = SOURCE_ROOT; };
+		29846AA3DC1F44A3BAAC0757 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kaze.cpp; path = src/kaze.cpp; sourceTree = SOURCE_ROOT; };
+		372D8F90062E48B3AE4369EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast_score.cpp; path = src/agast_score.cpp; sourceTree = SOURCE_ROOT; };
+		39E0FF1739E8408A9EA2F2EA /* opencv_perf_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_features2d; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A20D8DABBA04161B06FD300 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_invariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptors_invariance.cpp; path = test/test_descriptors_invariance.cpp; sourceTree = SOURCE_ROOT; };
+		3AE545B1AC174F67AD508410 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_brute_force_matcher.cpp; path = perf/opencl/perf_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		3D4498389A1D49BAB69327C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_features2d.hpp; path = ../../bulid/modules/features2d/opencl_kernels_features2d.hpp; sourceTree = SOURCE_ROOT; };
+		3FD112E82E1A420188C6ECB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nldiffusion_functions.h; path = src/kaze/nldiffusion_functions.h; sourceTree = SOURCE_ROOT; };
+		41A898D2E3D74ACFB3893C66 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/fast.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast.cl; path = src/opencl/fast.cl; sourceTree = SOURCE_ROOT; };
+		473880AC90FC473BB307C068 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_score.cpp; path = src/fast_score.cpp; sourceTree = SOURCE_ROOT; };
+		49024CEE49D947DD83C539D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_orb.cpp; path = test/test_orb.cpp; sourceTree = SOURCE_ROOT; };
+		498F16C1356D461EAD8AD7BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fast.cpp; path = test/test_fast.cpp; sourceTree = SOURCE_ROOT; };
+		4C2616199E8F4EEA93F1D044 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/dynamic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic.cpp; path = src/dynamic.cpp; sourceTree = SOURCE_ROOT; };
+		4D9B81D945F74184965B32EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KAZEFeatures.cpp; path = src/kaze/KAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		54B4F442F2F642A9BBDBBBB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = orb.cpp; path = src/orb.cpp; sourceTree = SOURCE_ROOT; };
+		575DE68DDEC84AD5AC75264F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../bulid/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		57B1C06F513B4E85B64349B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEFeatures.h; path = src/kaze/AKAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		5A6A1D2E89864975BA6D8483 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brisk.cpp; path = src/brisk.cpp; sourceTree = SOURCE_ROOT; };
+		5A9F5AC3EFA84B35B910A95A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/gftt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gftt.cpp; path = src/gftt.cpp; sourceTree = SOURCE_ROOT; };
+		618B8C3758DB4599A8B3858D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_keypoints.cpp; path = test/test_keypoints.cpp; sourceTree = SOURCE_ROOT; };
+		61EBBFBA4EAD44E89A147744 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/kaze/utils.h; sourceTree = SOURCE_ROOT; };
+		62523E233F4C4CD785D20BE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		62D8FBA574FD464C96F01825 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_features2d.cpp; path = ../../bulid/modules/features2d/opencl_kernels_features2d.cpp; sourceTree = SOURCE_ROOT; };
+		6955A041C4D6483DA7B23062 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_mser.cpp; path = test/test_mser.cpp; sourceTree = SOURCE_ROOT; };
+		6A388065DF034BA7B3E05196 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		6F590868345B40019CF7708F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_detectors_regression.cpp; path = test/test_detectors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		72F3EE0780D74F81B8F281C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_nearestneighbors.cpp; path = test/test_nearestneighbors.cpp; sourceTree = SOURCE_ROOT; };
+		73C811949681488D81AB268F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = akaze.cpp; path = src/akaze.cpp; sourceTree = SOURCE_ROOT; };
+		742DAE4D1CF54B9BAEA4EFF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		7E819C822CCA472ABDAEE39E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nldiffusion_functions.cpp; path = src/kaze/nldiffusion_functions.cpp; sourceTree = SOURCE_ROOT; };
+		81FEF42928D24142B29EB08B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEConfig.h; path = src/kaze/KAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		830533C44FE74D70855D282C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_feature2d.hpp; path = perf/perf_feature2d.hpp; sourceTree = SOURCE_ROOT; };
+		854BD41861354F149967F5FD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		86201A7D3D994AABA03B73BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_batchDistance.cpp; path = perf/perf_batchDistance.cpp; sourceTree = SOURCE_ROOT; };
+		8752BF45BAE44254A86C0BDF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/keypoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = keypoint.cpp; path = src/keypoint.cpp; sourceTree = SOURCE_ROOT; };
+		8836F26A5EED4D4C854C7A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mser.cpp; path = src/mser.cpp; sourceTree = SOURCE_ROOT; };
+		8BC2689360E649AD8D153DD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brisk.cpp; path = test/test_brisk.cpp; sourceTree = SOURCE_ROOT; };
+		8EFD4EE011F84A2D824B14C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/evaluation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = evaluation.cpp; path = src/evaluation.cpp; sourceTree = SOURCE_ROOT; };
+		907D8AA1218D42CFAB25D8A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = draw.cpp; path = src/draw.cpp; sourceTree = SOURCE_ROOT; };
+		945CF550EF1842498E4E459E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_akaze.cpp; path = test/test_akaze.cpp; sourceTree = SOURCE_ROOT; };
+		97A7A9256F0F43D78C4CA1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../bulid/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		9A60FD1EB30E47CBB18B4C6C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/akaze.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = akaze.cl; path = src/opencl/akaze.cl; sourceTree = SOURCE_ROOT; };
+		9B3C54AE69FE42F4950725A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9DA4BFDEDB9A460B86498A67 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		9FD87D72CC454351AFC1C134 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		A15DE851748340639D917352 /* opencv_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0317AC665CA407C865006B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_matchers_algorithmic.cpp; path = test/test_matchers_algorithmic.cpp; sourceTree = SOURCE_ROOT; };
+		BB2B346C7E324C3E9BA3D3FF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fed.cpp; path = src/kaze/fed.cpp; sourceTree = SOURCE_ROOT; };
+		BCFAE46F8ECD4ECBAF36F0A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = brute_force_match.cl; path = src/opencl/brute_force_match.cl; sourceTree = SOURCE_ROOT; };
+		C0C37631F12C4F479ADC267B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_feature2d.cpp; path = perf/opencl/perf_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		C3EA972E081447F3B94E9FE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brute_force_matcher.cpp; path = test/ocl/test_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		C65F45051090435D954F86DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C6B3C294740F4650B916E229 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_feature2d.cpp; path = test/ocl/test_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		C8925004E6494C31A0299736 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_feature2d.cpp; path = perf/perf_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		CBCAA1E008554C38BE140270 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/orb.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = orb.cl; path = src/opencl/orb.cl; sourceTree = SOURCE_ROOT; };
+		D2B896C1E48B438194D7A69C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fed.h; path = src/kaze/fed.h; sourceTree = SOURCE_ROOT; };
+		D5FF1DC5DE064878B7CA195E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AKAZEFeatures.cpp; path = src/kaze/AKAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		D79B3E2D07744228B4BD9938 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEFeatures.h; path = src/kaze/KAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		DCB3787E234C45AEB5EEE8B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast.cpp; path = src/agast.cpp; sourceTree = SOURCE_ROOT; };
+		DEFD7CA611034CF68C2914D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/bagofwords.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bagofwords.cpp; path = src/bagofwords.cpp; sourceTree = SOURCE_ROOT; };
+		DF8BB5AF740B4CE0AFB7D08A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = feature2d.cpp; path = src/feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		E3D8921681F1415A95C4B845 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_agast.cpp; path = test/test_agast.cpp; sourceTree = SOURCE_ROOT; };
+		ECEA0C75DC524C74A7EBAD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_invariance_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_invariance_utils.hpp; path = test/test_invariance_utils.hpp; sourceTree = SOURCE_ROOT; };
+		EE286CD82CC14DC98552649C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F20F041D9E33423987FADC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		F6313AE98A1145098CA14658 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast.cpp; path = src/fast.cpp; sourceTree = SOURCE_ROOT; };
+		F8E3AA05F7B447E98ADF07C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0328BB8BD7FA4F4D9CDEFFE0 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				82F2F2CF6939427CBA0AA207 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		08964E3187B440C782869BFA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD8EB353964CB186BE64B8 /* CMake Rules */,
+				EE286CD82CC14DC98552649C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		08B2DA6A2DEB4C748B053F8F /* opencv_perf_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				D10B8AAB57524B51881A04BE /* Src */,
+				EBC4DEE2A6774A5193160E01 /* Include */,
+				62523E233F4C4CD785D20BE5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_perf_features2d;
+			sourceTree = "<group>";
+		};
+		3256B05638E34D909E0CE71B /* features2d */ = {
+			isa = PBXGroup;
+			children = (
+				1719E19332144BB09CA7C1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d/features2d.hpp */,
+			);
+			name = features2d;
+			sourceTree = "<group>";
+		};
+		40E77A38EB604CBCB27B2D12 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F4F26BE02CF1418DA60CB0C1 /* CMake Rules */,
+				C65F45051090435D954F86DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		48EA9A064493416C944C1B09 = {
+			isa = PBXGroup;
+			children = (
+				9DE5D7A89D484AB8A9812300 /* tests performance */,
+				CB6ADB75CC3644259D64E56F /* tests accuracy */,
+				816CB54E16DD4AAC8A217079 /* modules */,
+				40E77A38EB604CBCB27B2D12 /* ALL_BUILD */,
+				08964E3187B440C782869BFA /* ZERO_CHECK */,
+				FC88889EC04D45BDA11F8425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BEB74099034FC3BE8DC021 /* kaze */ = {
+			isa = PBXGroup;
+			children = (
+				076B1CC1643149A797C69C73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEConfig.h */,
+				D5FF1DC5DE064878B7CA195E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				57B1C06F513B4E85B64349B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.h */,
+				81FEF42928D24142B29EB08B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEConfig.h */,
+				4D9B81D945F74184965B32EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				D79B3E2D07744228B4BD9938 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.h */,
+				2247353A4A6843FDAA6A4A50 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/TEvolution.h */,
+				BB2B346C7E324C3E9BA3D3FF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.cpp */,
+				D2B896C1E48B438194D7A69C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.h */,
+				7E819C822CCA472ABDAEE39E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				3FD112E82E1A420188C6ECB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.h */,
+				61EBBFBA4EAD44E89A147744 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/utils.h */,
+			);
+			name = kaze;
+			sourceTree = "<group>";
+		};
+		70013348BB3A4FD8A80EA129 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				3AE545B1AC174F67AD508410 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				C0C37631F12C4F479ADC267B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_feature2d.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		780AFF87EEA74530BB481D6D /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				3256B05638E34D909E0CE71B /* features2d */,
+				742DAE4D1CF54B9BAEA4EFF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include/opencv2/features2d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		7C2A77EBC5D246CCB0248F8B /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA0C75DC524C74A7EBAD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_invariance_utils.hpp */,
+				17C2D9DACAA64597ACA16F73 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		816CB54E16DD4AAC8A217079 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A22B101EAB0F46CFA6D1CD62 /* opencv_features2d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		82F2F2CF6939427CBA0AA207 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				BDE4FDDF62A64D1D8DBB4F26 /* autogenerated */,
+				9A60FD1EB30E47CBB18B4C6C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/akaze.cl */,
+				BCFAE46F8ECD4ECBAF36F0A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/brute_force_match.cl */,
+				41A898D2E3D74ACFB3893C66 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/fast.cl */,
+				CBCAA1E008554C38BE140270 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/opencl/orb.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		8365513098FA49449FEF5591 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				2754A3A9DD2945568B1EA1E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8C4E3177356C4438AD87B9C5 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				63BEB74099034FC3BE8DC021 /* kaze */,
+				0328BB8BD7FA4F4D9CDEFFE0 /* opencl */,
+				DCB3787E234C45AEB5EEE8B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast.cpp */,
+				372D8F90062E48B3AE4369EC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.cpp */,
+				27BAC84C0F494AF488427312 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.hpp */,
+				73C811949681488D81AB268F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/akaze.cpp */,
+				DEFD7CA611034CF68C2914D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/bagofwords.cpp */,
+				161BD9E7A0E14A309C59862D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/blobdetector.cpp */,
+				5A6A1D2E89864975BA6D8483 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/brisk.cpp */,
+				907D8AA1218D42CFAB25D8A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/draw.cpp */,
+				4C2616199E8F4EEA93F1D044 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/dynamic.cpp */,
+				8EFD4EE011F84A2D824B14C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/evaluation.cpp */,
+				F6313AE98A1145098CA14658 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast.cpp */,
+				473880AC90FC473BB307C068 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.cpp */,
+				090EC0341C284C04AD7A41AB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.hpp */,
+				DF8BB5AF740B4CE0AFB7D08A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/feature2d.cpp */,
+				5A9F5AC3EFA84B35B910A95A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/gftt.cpp */,
+				29846AA3DC1F44A3BAAC0757 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze.cpp */,
+				8752BF45BAE44254A86C0BDF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/keypoint.cpp */,
+				854BD41861354F149967F5FD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/main.cpp */,
+				6A388065DF034BA7B3E05196 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/matchers.cpp */,
+				8836F26A5EED4D4C854C7A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/mser.cpp */,
+				54B4F442F2F642A9BBDBBBB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/orb.cpp */,
+				F20F041D9E33423987FADC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		9DE5D7A89D484AB8A9812300 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				08B2DA6A2DEB4C748B053F8F /* opencv_perf_features2d */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		A22B101EAB0F46CFA6D1CD62 /* opencv_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				E048F8D7DED84C198B8EAAA6 /* Include */,
+				8C4E3177356C4438AD87B9C5 /* Src */,
+				8365513098FA49449FEF5591 /* CMake Rules */,
+				F8E3AA05F7B447E98ADF07C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_features2d;
+			sourceTree = "<group>";
+		};
+		AC5975F710474B6FB32A43EA /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				C3EA972E081447F3B94E9FE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+				C6B3C294740F4650B916E229 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_feature2d.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		BDE4FDDF62A64D1D8DBB4F26 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				62D8FBA574FD464C96F01825 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp */,
+				3D4498389A1D49BAB69327C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		C5BD8EB353964CB186BE64B8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C672C949665B42A19309586F /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				AC5975F710474B6FB32A43EA /* ocl */,
+				E3D8921681F1415A95C4B845 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_agast.cpp */,
+				945CF550EF1842498E4E459E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_akaze.cpp */,
+				8BC2689360E649AD8D153DD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_brisk.cpp */,
+				3A20D8DABBA04161B06FD300 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_invariance.cpp */,
+				1CB6064C57B340B9AE47D35D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_regression.cpp */,
+				2490A7CFB84144E39EC470D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_invariance.cpp */,
+				6F590868345B40019CF7708F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_regression.cpp */,
+				498F16C1356D461EAD8AD7BE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_fast.cpp */,
+				618B8C3758DB4599A8B3858D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_keypoints.cpp */,
+				0A55C5353DDE4901815D4B14 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_main.cpp */,
+				B0317AC665CA407C865006B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				6955A041C4D6483DA7B23062 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_mser.cpp */,
+				72F3EE0780D74F81B8F281C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_nearestneighbors.cpp */,
+				49024CEE49D947DD83C539D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_orb.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		CB6ADB75CC3644259D64E56F /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB1B812D1B47E0899DADFB /* opencv_test_features2d */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		D10B8AAB57524B51881A04BE /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				70013348BB3A4FD8A80EA129 /* opencl */,
+				86201A7D3D994AABA03B73BC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_batchDistance.cpp */,
+				C8925004E6494C31A0299736 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.cpp */,
+				9FD87D72CC454351AFC1C134 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_main.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		D2AB1B812D1B47E0899DADFB /* opencv_test_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				C672C949665B42A19309586F /* Src */,
+				7C2A77EBC5D246CCB0248F8B /* Include */,
+				9B3C54AE69FE42F4950725A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_test_features2d;
+			sourceTree = "<group>";
+		};
+		E048F8D7DED84C198B8EAAA6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				780AFF87EEA74530BB481D6D /* opencv2 */,
+				575DE68DDEC84AD5AC75264F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */,
+				97A7A9256F0F43D78C4CA1B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		EBC4DEE2A6774A5193160E01 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				830533C44FE74D70855D282C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.hpp */,
+				9DA4BFDEDB9A460B86498A67 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		F4F26BE02CF1418DA60CB0C1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FC88889EC04D45BDA11F8425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15DE851748340639D917352 /* opencv_features2d */,
+				39E0FF1739E8408A9EA2F2EA /* opencv_perf_features2d */,
+				0E21EA366F454965A8BCB1B3 /* opencv_test_features2d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4306B015A9794C6A87ECD8EB /* opencv_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AE323F56DB429BBAB732A2 /* Build configuration list for PBXNativeTarget "opencv_features2d" */;
+			buildPhases = (
+				39B293540BBE4066ACB5AD30 /* CMake Rules */,
+				FC72ED9E376C48EB87CBBDC8 /* Sources */,
+				A3AE52F452AF4EB69B3DA5D8 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BECDA50F975F4E13BB93AB8F /* PBXTargetDependency */,
+			);
+			name = opencv_features2d;
+			productName = opencv_features2d;
+			productReference = A15DE851748340639D917352 /* opencv_features2d */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		560705E716D347FB92DDA890 /* opencv_test_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA46B930B20C47CEB80CE102 /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */;
+			buildPhases = (
+				07F445323D784C1F926F8C93 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A0FEEC41E34F9F9536458B /* PBXTargetDependency */,
+				365A99FB675C4D71886680B3 /* PBXTargetDependency */,
+			);
+			name = opencv_test_features2d;
+			productName = opencv_test_features2d;
+			productReference = 0E21EA366F454965A8BCB1B3 /* opencv_test_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+		7466E64455214E0BA9BF105E /* opencv_perf_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F262B68741485CA2745EFA /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */;
+			buildPhases = (
+				FA8D0E5DDD3D4F00B6D840C7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE121836C0C4418EADCDD3FA /* PBXTargetDependency */,
+				648F65C81DAC485B8BDC753A /* PBXTargetDependency */,
+			);
+			name = opencv_perf_features2d;
+			productName = opencv_perf_features2d;
+			productReference = 39E0FF1739E8408A9EA2F2EA /* opencv_perf_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AB462FC0F742D7BDB05545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 0A4B3118C6B74862808147D5 /* Build configuration list for PBXProject "opencv_features2d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0B2BEEF36FBF43AFA8240942 /* Debug */,
+				57DF57FBCBCA4ADE82C293EC /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 48EA9A064493416C944C1B09;
+			projectDirPath = ../../../modules/features2d;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				4306B015A9794C6A87ECD8EB /* opencv_features2d */,
+				7466E64455214E0BA9BF105E /* opencv_perf_features2d */,
+				560705E716D347FB92DDA890 /* opencv_test_features2d */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0665912D43B744DF9A2379E4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		14814BB9ACEF40588284B68C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2845F4D663004063A2CF3F46 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		36A22D48B16E4D7291925AEC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		39B293540BBE4066ACB5AD30 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/opencv_features2d_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3AF336C9342D434EAED2C34B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		52F7D16E7D0F49F79ECC0CF1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		63ACF6C65E5647EEACF52CAA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7299B0BC3AD74DF9BEC4F17B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7A59865199014028BFF59226 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3AE52F452AF4EB69B3DA5D8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/CMakeScripts/opencv_features2d_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D0DA3A4FB767402AB4E5F4B9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F445323D784C1F926F8C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B2B00B4C884C32BFB02862 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+				532D74B0E2E246D9906D0B38 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/ocl/test_feature2d.cpp */,
+				FF29D04786464BF1A7601F50 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_agast.cpp */,
+				3CB4B570296249239A3E6507 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_akaze.cpp */,
+				435801262B5F4662BAA3152A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_brisk.cpp */,
+				B4027018F82F450F9E73076C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_invariance.cpp */,
+				963860040103422788AEDCB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_descriptors_regression.cpp */,
+				B69B755ED97D480E9EE6BED6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_invariance.cpp */,
+				DB5B77191C0B4511B222A720 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_detectors_regression.cpp */,
+				201D4F8B1B514B7185A67436 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_fast.cpp */,
+				891C7CBD499F4D41AB83F1D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_keypoints.cpp */,
+				543D8B8E7D8E4FD483AC0247 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_main.cpp */,
+				60851523D2594063A6DBDFEA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				920627E7FB3745D99F2FE170 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_mser.cpp */,
+				6BD2770F52AD416E8BCE3814 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_nearestneighbors.cpp */,
+				F44CFC2B7B264E50AEFB19F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8D0E5DDD3D4F00B6D840C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE49E95A22467AA2F1BF86 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				F9D680B4405D479E99D6F46A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/opencl/perf_feature2d.cpp */,
+				E8BF4DDF48D047F79B8E41A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_batchDistance.cpp */,
+				92343FA0EA4E4B25B509C5A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_feature2d.cpp */,
+				3E2632E6CCE94DBD9C73F056 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC72ED9E376C48EB87CBBDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BEB06B59A54165837070D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/opencl_kernels_features2d.cpp */,
+				B31FCF6684DA4A5BA1FF84B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast.cpp */,
+				5ED03BF2560347C69E4CF534 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/agast_score.cpp */,
+				49892FAD902A464CA64B1631 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/akaze.cpp */,
+				8EC354EC0791443186A0C9C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/bagofwords.cpp */,
+				35CFD8A8F13A4E8BBCCB58F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/blobdetector.cpp */,
+				465C24358DFF4844ABE08BFC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/brisk.cpp */,
+				6A8D8C2E4D65461982F0BCF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/draw.cpp */,
+				52113C52CFA94D4B8392C5A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/dynamic.cpp */,
+				33FF6C3027CA4E8E8ABE947A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/evaluation.cpp */,
+				63B8FDB1F48B42839EE061FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast.cpp */,
+				94026133387744899DF0BBB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/fast_score.cpp */,
+				18DEBA24537D467598BE64AF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/feature2d.cpp */,
+				9B4EB09000274A5F861F5BC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/gftt.cpp */,
+				95320C1021EA481683C075B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze.cpp */,
+				E6A1DA985CF440E8A1E7EBD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				C805324F7ACF4B4DAF335EA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				1F60D39B23554805B621C696 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/fed.cpp */,
+				D15230B4F61A4A10A509CFCD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				A2FF299812F548A49E969266 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/keypoint.cpp */,
+				FD672B96C7904985884D68B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/main.cpp */,
+				BA991AE2A807442189D100B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/matchers.cpp */,
+				D140A31304F24778A1ADD1F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/mser.cpp */,
+				38AAC200019D4492B8242CBE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C0700F80994454AB989F3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560705E716D347FB92DDA890 /* opencv_test_features2d */;
+			targetProxy = 399E91B1D7DF4DF4A1784E22 /* PBXContainerItemProxy */;
+		};
+		3547FAA3E0BB4E8BB07DD736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = FC46A692B15045D4AD28A901 /* PBXContainerItemProxy */;
+		};
+		358A9908588F4A3F91F3C960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4306B015A9794C6A87ECD8EB /* opencv_features2d */;
+			targetProxy = 61CF4DF07663499898C81D19 /* PBXContainerItemProxy */;
+		};
+		365A99FB675C4D71886680B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 58ACA22669B74001A58E5A56 /* PBXContainerItemProxy */;
+		};
+		4020289F0CEB4FBF817C9F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = F59C2CA2636B417EA94CE006 /* PBXContainerItemProxy */;
+		};
+		648F65C81DAC485B8BDC753A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 0B3B1A4FB3B2425D8912D704 /* PBXContainerItemProxy */;
+		};
+		6B3639331A1E4165BC509CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 2BFA9B6C997F4BACAE9C709C /* PBXContainerItemProxy */;
+		};
+		B87D8A291F9540ABA252E9C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7466E64455214E0BA9BF105E /* opencv_perf_features2d */;
+			targetProxy = 585106531E4E448A8C0F76B5 /* PBXContainerItemProxy */;
+		};
+		BECDA50F975F4E13BB93AB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 94A59C5D4DF44460B162FD4D /* PBXContainerItemProxy */;
+		};
+		DE121836C0C4418EADCDD3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4306B015A9794C6A87ECD8EB /* opencv_features2d */;
+			targetProxy = DEF48F20BEE8475C94E20C86 /* PBXContainerItemProxy */;
+		};
+		E7A0FEEC41E34F9F9536458B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4306B015A9794C6A87ECD8EB /* opencv_features2d */;
+			targetProxy = CA2ECB3328AA47BC8A1A5A20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F83BD894524F2DBE59DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		031DE7F40FE444D4A384FE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		04C970B0A10D4712AD5634BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		183BA31ADBB94786A3FD4BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		29EDB36EE69A4C2EB9AEA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2C725FCFF91644678138E872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3CBEEB564CDC4577B2933235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3EFBEA5C62774E0EB2EBE982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_features2d.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		44B11DA1638649A99B68AD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		48A8A8814E9B428C988E174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/build";
+			};
+			name = Release;
+		};
+		56D8614AD2C6486BA41B17D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		62F196A290D043268232D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		705DABDA5B3C44338722756B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8E4EE2D9C4A142A496E96397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9C45E299302D4AA88FEB71CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_features2d.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B637606429E34895A5DBC5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BEE33658067D4F62998B54B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d/build";
+			};
+			name = Debug;
+		};
+		C6DED94DA433440685553BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088BF9FBFEEB495ABFD2A532 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8614AD2C6486BA41B17D9 /* Debug */,
+				C6DED94DA433440685553BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		08FE7FD34EE442CEA25494E0 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B637606429E34895A5DBC5CC /* Debug */,
+				3CBEEB564CDC4577B2933235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0A4B3118C6B74862808147D5 /* Build configuration list for PBXProject "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE33658067D4F62998B54B9 /* Debug */,
+				48A8A8814E9B428C988E174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21F262B68741485CA2745EFA /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C970B0A10D4712AD5634BA /* Debug */,
+				8E4EE2D9C4A142A496E96397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77862E04275945ACAC549634 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183BA31ADBB94786A3FD4BD9 /* Debug */,
+				44B11DA1638649A99B68AD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C92442212BD4C058AD4BAA2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C725FCFF91644678138E872 /* Debug */,
+				031DE7F40FE444D4A384FE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8AE323F56DB429BBAB732A2 /* Build configuration list for PBXNativeTarget "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFBEA5C62774E0EB2EBE982 /* Debug */,
+				9C45E299302D4AA88FEB71CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8F15C80C7FA46CAB0842301 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705DABDA5B3C44338722756B /* Debug */,
+				62F196A290D043268232D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA46B930B20C47CEB80CE102 /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EDB36EE69A4C2EB9AEA089 /* Debug */,
+				01F83BD894524F2DBE59DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AB462FC0F742D7BDB05545 /* Project object */;
+}

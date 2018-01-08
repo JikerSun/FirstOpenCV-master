@@ -1,0 +1,1415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 09B18DD5A1DC4E059D49EBB0 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				83A62774ED044527AAD1ACCB /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				66E7AA7BDE76486E8D7DB16F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05ECDABAC0814E34B7351FFC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0E0CECAF37FA40EA93F3A1CF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 608D705F202C4C819BDEA71A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A2AA299220DF4A669FA4C159 /* CMake Rules */,
+			);
+			dependencies = (
+				40AD67F0F79B4D47837C6240 /* PBXTargetDependency */,
+				FEDFE216E75848779CF77293 /* PBXTargetDependency */,
+				7423714F959E40D39B293BB4 /* PBXTargetDependency */,
+				3253F82E304646048C5FEFF8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0D2E755D5CC415FA0212F26 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				82FDAF5CA6B94BC8BC8080E3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B1A8F06B7CAD4909AFE01FC1 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99E6CA511D2740A3B7B6DADF /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				FEF9A7CD0E9B4F7C8DDDB99C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0628869CCE5F4529A745C51C /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 7142AD0C922D4AA999738557 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */; };
+		078F7D5736D4449ABF6C9E75 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_farneback.cpp */ = {isa = PBXBuildFile; fileRef = 419328A329394B1F96F77C3C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_farneback.cpp */; };
+		0C57ED5691B548A4B6DC7EB3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74155EFC5482485DBD38E79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */; };
+		0C9EE6A6E0C24609A491618D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/pyrlk.cl */ = {isa = PBXBuildFile; fileRef = 3888F9EA965B413EB6D776C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/pyrlk.cl */; };
+		0FC0FD0C739440C78A6EAE82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/tvl1flow.cpp */ = {isa = PBXBuildFile; fileRef = DA065A537ED449EFADEFC235 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/tvl1flow.cpp */; };
+		1028527E61CE417B9C3F47DF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/ecc.cpp */ = {isa = PBXBuildFile; fileRef = 75E0BF0698124AC49BCCC7AF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/ecc.cpp */; };
+		11F41A7F011743F6800E5374 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/kalman.cpp */ = {isa = PBXBuildFile; fileRef = 7BA8835B604C49139EDC20C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/kalman.cpp */; };
+		1234DA88F89247C69747B2EB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.hpp */ = {isa = PBXBuildFile; fileRef = 90C9C4B0FE8D4B3FA35D3759 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.hpp */; };
+		14EC8328F97B4CB9BB85E66F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp */ = {isa = PBXBuildFile; fileRef = A4E3B343E3F24E76B0BD8A34 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp */; };
+		2698A096385146ADBF4A5FAD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_motempl.cpp */ = {isa = PBXBuildFile; fileRef = 0D228B6DDD2F4F1190736650 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_motempl.cpp */; };
+		29A622AC4DAB44479CCAC161 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/optflowgf.cpp */ = {isa = PBXBuildFile; fileRef = 37DC9AB1A20D4169BD38D9D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/optflowgf.cpp */; };
+		2A4F2FD12B6C44E7AAE76032 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_tvl1.cl */ = {isa = PBXBuildFile; fileRef = 543C2127333B4AD8BA8D15C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_tvl1.cl */; };
+		2CF7CB8A12444D1185429C4B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.hpp */ = {isa = PBXBuildFile; fileRef = 391ADCCA90254D63ACF48A43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.hpp */; };
+		2D4B7060F1004D2BB017B237 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflowpyrlk.cpp */ = {isa = PBXBuildFile; fileRef = 3D66767181DF4D8F9E422F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflowpyrlk.cpp */; };
+		2D5057837DD248F39C612A3F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_optflowpyrlk.cpp */ = {isa = PBXBuildFile; fileRef = B69815B5D8C0488DB9FB54F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_optflowpyrlk.cpp */; };
+		34D4F63615A04D2CB0A13D75 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_bgfg_mog2.cpp */ = {isa = PBXBuildFile; fileRef = 4D058AF10A84487DACE85C3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_bgfg_mog2.cpp */; };
+		3CE14912DE4D44B0BD89931A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_ecc.cpp */ = {isa = PBXBuildFile; fileRef = A12B817EC6C7439EABCF424D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_ecc.cpp */; };
+		401663D1F9A5446CA51FF2E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DCE72E034310498DB7B3FA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */; };
+		40B37B0E52CE4CEE91DC4159 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/background_segm.hpp */ = {isa = PBXBuildFile; fileRef = E96834D5A45048FA873F2886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/background_segm.hpp */; };
+		411587C2FF5A4FE89B994E6C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking_c.h */ = {isa = PBXBuildFile; fileRef = 74D640CF1E1747B5AD61614B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking_c.h */; };
+		411EDFEBFD6C42C585E7E56C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_camshift.cpp */ = {isa = PBXBuildFile; fileRef = C9F8ADCB1C4B4B8EB6871CFD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_camshift.cpp */; };
+		470079DE15024CA789A9921D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_optflowpyrlk.cpp */ = {isa = PBXBuildFile; fileRef = 785870C6E2DF47A59A754EFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_optflowpyrlk.cpp */; };
+		47D1A2EEB0674DA791D11CF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking.hpp */ = {isa = PBXBuildFile; fileRef = 581D1A05D9484C3CA9584886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking.hpp */; };
+		4CE7EAC364D44B4E92B54E62 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 08C4EFA2CD8247AFB184FCC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */; };
+		534C669C2D0C4A6DAA906F24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_farneback.cl */ = {isa = PBXBuildFile; fileRef = 1D743460E90C448F8E2625BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_farneback.cl */; };
+		5DA100DB4EA547B6BE210949 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_gaussmix2.cpp */ = {isa = PBXBuildFile; fileRef = 517278E8D7284325A0FDADDD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_gaussmix2.cpp */; };
+		5DA65483CBD4423EBC1F90DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 44C2A2244DB44F45AC51D81E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp */; };
+		61013B91EB524B81B13CE88B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/bgfg_mog2.cl */ = {isa = PBXBuildFile; fileRef = CC11DD9E1D604113A1E06B22 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/bgfg_mog2.cl */; };
+		613F1F39EBEA43758F35F80D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = AD81316FF400417ABC544469 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp */; };
+		61A2ED8B8B0243DE8B56EE7F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_tvl1optflow.cpp */ = {isa = PBXBuildFile; fileRef = 4A1FF9F7FD2D4A9AAA4D25EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_tvl1optflow.cpp */; };
+		68251541B67543B699C3651B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_farneback.cpp */ = {isa = PBXBuildFile; fileRef = 150C73766D6546A7B0F43204 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_farneback.cpp */; };
+		7757E6B9E6D74DD0BF36E941 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E8DAAFD676DA4D27BA55490E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */; };
+		7860B67C0B0440CEBD405EB0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_bgfg_mog2.cpp */ = {isa = PBXBuildFile; fileRef = DE23287F4D274C7EB8CA3C76 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_bgfg_mog2.cpp */; };
+		7CE915AE56164F0C874A12CF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_pyrlk.cpp */ = {isa = PBXBuildFile; fileRef = 90842386814D4C349417095F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_pyrlk.cpp */; };
+		984D24A916364894B8806213 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 4D13963C39CC4DE48D814A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp */; };
+		9872F1C063674205831445B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = E2E3EDB35D884660BD172093 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_main.cpp */; };
+		98929A667C664429A7D2B8E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/camshift.cpp */ = {isa = PBXBuildFile; fileRef = 89B26DFB643742BCB18EA632 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/camshift.cpp */; };
+		9EE28AFC42644508A4254C92 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp.rule */ = {isa = PBXBuildFile; fileRef = EC4195729B3A48FA9BE086FC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp.rule */; };
+		A081A4F5101544B9A2646D58 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/compat_video.cpp */ = {isa = PBXBuildFile; fileRef = 7107DFBD9EA04AB3B624AA04 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/compat_video.cpp */; };
+		A5A4CF64BAC14E3CBEDCF618 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_kalman.cpp */ = {isa = PBXBuildFile; fileRef = 9BFEE248C4D3499C8A2B5F2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_kalman.cpp */; };
+		A6D6B4E44C8548FD937AB37E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_tvl1optflow.cpp */ = {isa = PBXBuildFile; fileRef = 160835C573C94E3A9CC0700C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_tvl1optflow.cpp */; };
+		A76FD4578E6145129D465340 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.cpp */ = {isa = PBXBuildFile; fileRef = 8934892731614A3B951879EA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.cpp */; };
+		B196CD73AAC34C3D8F5DB389 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = F4F763F6C43E4483B2D6B8DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_main.cpp */; };
+		B5519383CAC840D0B1815240 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_KNN.cpp */ = {isa = PBXBuildFile; fileRef = 9FCDC2269B5844E5B2307586 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_KNN.cpp */; };
+		C697A18611DC4C2286D9677F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_tvl1flow.cpp */ = {isa = PBXBuildFile; fileRef = D44A3458E07C4DF98ECB6616 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_tvl1flow.cpp */; };
+		D522276112B94A56AF4862E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/video.hpp */ = {isa = PBXBuildFile; fileRef = C98FB8CD59FE4D62886B5E59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/video.hpp */; };
+		DCA64AB46E664286AF166836 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_estimaterigid.cpp */ = {isa = PBXBuildFile; fileRef = E9092ABDEADD4AF9A89B79DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_estimaterigid.cpp */; };
+		E58607F1FAC44AA9BF6ABABE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_ecc.cpp */ = {isa = PBXBuildFile; fileRef = FC4C6D0200E14A42B5833E3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_ecc.cpp */; };
+		F5ABB1D6071A4990B1F63223 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_accum.cpp */ = {isa = PBXBuildFile; fileRef = 3479EA657F4A4924A41BB967 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_accum.cpp */; };
+		F742B6CAC89F46D18C700B43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_dualTVL1.cpp */ = {isa = PBXBuildFile; fileRef = 43CDA99D736A4AE1A23F3E2C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_dualTVL1.cpp */; };
+		FA22F610D78B453E8634CF3F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video.hpp */ = {isa = PBXBuildFile; fileRef = C523C82117324533823D2B4A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1D415CC062844630B243EC99 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9304775A38164487BA742930 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0598A50C8CA9413AAE019DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		14DAC5F1E71D4B4E8E494368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		35382D3DDAD54827A9941157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		83C1C3FEC1B843AF889BC319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC80524A3234D1BBDF8BE4B;
+			remoteInfo = opencv_video;
+		};
+		8C0BD4B4A1214DBE948E8E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC80524A3234D1BBDF8BE4B;
+			remoteInfo = opencv_video;
+		};
+		9EB1842477FE4EA08BC3E896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		C80C28993A0C458E978A06C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		C9C061AD0A23422BB515AD98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174487AE45C543128B641180;
+			remoteInfo = opencv_test_video;
+		};
+		E61039E0A5704EAD8EF6EE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65F64665D1447F69C548728;
+			remoteInfo = opencv_perf_video;
+		};
+		E6A284E2BF8E4970A0EF32F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC80524A3234D1BBDF8BE4B;
+			remoteInfo = opencv_video;
+		};
+		F2DA1049C8E34902BAFEAF1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00814A3528864B468ECC6F46 /* opencv_perf_video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_video; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C4EFA2CD8247AFB184FCC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../bulid/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		0D228B6DDD2F4F1190736650 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_motempl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_motempl.cpp; path = perf/opencl/perf_motempl.cpp; sourceTree = SOURCE_ROOT; };
+		150C73766D6546A7B0F43204 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_farneback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_optflow_farneback.cpp; path = test/ocl/test_optflow_farneback.cpp; sourceTree = SOURCE_ROOT; };
+		160835C573C94E3A9CC0700C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_tvl1optflow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tvl1optflow.cpp; path = test/test_tvl1optflow.cpp; sourceTree = SOURCE_ROOT; };
+		1D743460E90C448F8E2625BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_farneback.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = optical_flow_farneback.cl; path = src/opencl/optical_flow_farneback.cl; sourceTree = SOURCE_ROOT; };
+		3479EA657F4A4924A41BB967 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_accum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_accum.cpp; path = test/test_accum.cpp; sourceTree = SOURCE_ROOT; };
+		37DC9AB1A20D4169BD38D9D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/optflowgf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = optflowgf.cpp; path = src/optflowgf.cpp; sourceTree = SOURCE_ROOT; };
+		3888F9EA965B413EB6D776C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/pyrlk.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyrlk.cl; path = src/opencl/pyrlk.cl; sourceTree = SOURCE_ROOT; };
+		391ADCCA90254D63ACF48A43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lkpyramid.hpp; path = src/lkpyramid.hpp; sourceTree = SOURCE_ROOT; };
+		3D66767181DF4D8F9E422F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflowpyrlk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_optflowpyrlk.cpp; path = test/ocl/test_optflowpyrlk.cpp; sourceTree = SOURCE_ROOT; };
+		419328A329394B1F96F77C3C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_farneback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_optflow_farneback.cpp; path = perf/opencl/perf_optflow_farneback.cpp; sourceTree = SOURCE_ROOT; };
+		43CDA99D736A4AE1A23F3E2C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_dualTVL1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_optflow_dualTVL1.cpp; path = perf/opencl/perf_optflow_dualTVL1.cpp; sourceTree = SOURCE_ROOT; };
+		44C2A2244DB44F45AC51D81E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		4A1FF9F7FD2D4A9AAA4D25EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_tvl1optflow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_tvl1optflow.cpp; path = perf/perf_tvl1optflow.cpp; sourceTree = SOURCE_ROOT; };
+		4D058AF10A84487DACE85C3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_bgfg_mog2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_bgfg_mog2.cpp; path = test/ocl/test_bgfg_mog2.cpp; sourceTree = SOURCE_ROOT; };
+		4D13963C39CC4DE48D814A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		517278E8D7284325A0FDADDD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_gaussmix2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bgfg_gaussmix2.cpp; path = src/bgfg_gaussmix2.cpp; sourceTree = SOURCE_ROOT; };
+		543C2127333B4AD8BA8D15C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_tvl1.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = optical_flow_tvl1.cl; path = src/opencl/optical_flow_tvl1.cl; sourceTree = SOURCE_ROOT; };
+		581D1A05D9484C3CA9584886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tracking.hpp; path = include/opencv2/video/tracking.hpp; sourceTree = SOURCE_ROOT; };
+		7107DFBD9EA04AB3B624AA04 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/compat_video.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_video.cpp; path = src/compat_video.cpp; sourceTree = SOURCE_ROOT; };
+		7142AD0C922D4AA999738557 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../bulid/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		74155EFC5482485DBD38E79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		74D640CF1E1747B5AD61614B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tracking_c.h; path = include/opencv2/video/tracking_c.h; sourceTree = SOURCE_ROOT; };
+		75E0BF0698124AC49BCCC7AF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/ecc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ecc.cpp; path = src/ecc.cpp; sourceTree = SOURCE_ROOT; };
+		77220420C6674656B7C57A85 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		785870C6E2DF47A59A754EFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_optflowpyrlk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_optflowpyrlk.cpp; path = perf/perf_optflowpyrlk.cpp; sourceTree = SOURCE_ROOT; };
+		7BA8835B604C49139EDC20C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/kalman.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman.cpp; path = src/kalman.cpp; sourceTree = SOURCE_ROOT; };
+		8934892731614A3B951879EA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lkpyramid.cpp; path = src/lkpyramid.cpp; sourceTree = SOURCE_ROOT; };
+		89B26DFB643742BCB18EA632 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/camshift.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camshift.cpp; path = src/camshift.cpp; sourceTree = SOURCE_ROOT; };
+		8AC65612C7CF44368D8E2DA1 /* opencv_test_video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_video; sourceTree = BUILT_PRODUCTS_DIR; };
+		90842386814D4C349417095F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_pyrlk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_optflow_pyrlk.cpp; path = perf/opencl/perf_optflow_pyrlk.cpp; sourceTree = SOURCE_ROOT; };
+		90C9C4B0FE8D4B3FA35D3759 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_video.hpp; path = ../../bulid/modules/video/opencl_kernels_video.hpp; sourceTree = SOURCE_ROOT; };
+		91479C79083748248B488D4B /* opencv_video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_video.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFEE248C4D3499C8A2B5F2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_kalman.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_kalman.cpp; path = test/test_kalman.cpp; sourceTree = SOURCE_ROOT; };
+		9FCDC2269B5844E5B2307586 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_KNN.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bgfg_KNN.cpp; path = src/bgfg_KNN.cpp; sourceTree = SOURCE_ROOT; };
+		A12B817EC6C7439EABCF424D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_ecc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_ecc.cpp; path = perf/perf_ecc.cpp; sourceTree = SOURCE_ROOT; };
+		A4E3B343E3F24E76B0BD8A34 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_video.cpp; path = ../../bulid/modules/video/opencl_kernels_video.cpp; sourceTree = SOURCE_ROOT; };
+		AD81316FF400417ABC544469 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		B69815B5D8C0488DB9FB54F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_optflowpyrlk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_optflowpyrlk.cpp; path = test/test_optflowpyrlk.cpp; sourceTree = SOURCE_ROOT; };
+		C523C82117324533823D2B4A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = video.hpp; path = include/opencv2/video.hpp; sourceTree = SOURCE_ROOT; };
+		C98FB8CD59FE4D62886B5E59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/video.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = video.hpp; path = include/opencv2/video/video.hpp; sourceTree = SOURCE_ROOT; };
+		C9F8ADCB1C4B4B8EB6871CFD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_camshift.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_camshift.cpp; path = test/test_camshift.cpp; sourceTree = SOURCE_ROOT; };
+		CC11DD9E1D604113A1E06B22 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/bgfg_mog2.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bgfg_mog2.cl; path = src/opencl/bgfg_mog2.cl; sourceTree = SOURCE_ROOT; };
+		D44A3458E07C4DF98ECB6616 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_tvl1flow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_optflow_tvl1flow.cpp; path = test/ocl/test_optflow_tvl1flow.cpp; sourceTree = SOURCE_ROOT; };
+		DA065A537ED449EFADEFC235 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/tvl1flow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tvl1flow.cpp; path = src/tvl1flow.cpp; sourceTree = SOURCE_ROOT; };
+		DCE72E034310498DB7B3FA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DE23287F4D274C7EB8CA3C76 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_bgfg_mog2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_bgfg_mog2.cpp; path = perf/opencl/perf_bgfg_mog2.cpp; sourceTree = SOURCE_ROOT; };
+		E1C75DB006884D0794C6D836 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2E3EDB35D884660BD172093 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		E8DAAFD676DA4D27BA55490E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E9092ABDEADD4AF9A89B79DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_estimaterigid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_estimaterigid.cpp; path = test/test_estimaterigid.cpp; sourceTree = SOURCE_ROOT; };
+		E96834D5A45048FA873F2886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/background_segm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = background_segm.hpp; path = include/opencv2/video/background_segm.hpp; sourceTree = SOURCE_ROOT; };
+		EC4195729B3A48FA9BE086FC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_video.cpp.rule; path = ../../bulid/modules/video/opencl_kernels_video.cpp.rule; sourceTree = SOURCE_ROOT; };
+		F4F763F6C43E4483B2D6B8DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		FC4C6D0200E14A42B5833E3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_ecc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_ecc.cpp; path = test/test_ecc.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01340AE236FC4963B901A916 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				DE23287F4D274C7EB8CA3C76 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_bgfg_mog2.cpp */,
+				0D228B6DDD2F4F1190736650 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_motempl.cpp */,
+				43CDA99D736A4AE1A23F3E2C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_dualTVL1.cpp */,
+				419328A329394B1F96F77C3C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_farneback.cpp */,
+				90842386814D4C349417095F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_pyrlk.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		094D8C1411E143A5A9304CF9 /* opencv_video */ = {
+			isa = PBXGroup;
+			children = (
+				6EB92411B4D7489A9956DB2A /* Include */,
+				453FA46A9EDD47AFB592E317 /* Src */,
+				6EA1B6BFEB07437F94DDC101 /* CMake Rules */,
+				74155EFC5482485DBD38E79E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */,
+			);
+			name = opencv_video;
+			sourceTree = "<group>";
+		};
+		0D4D9BDED3EC4702BD18D10A /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				4D058AF10A84487DACE85C3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_bgfg_mog2.cpp */,
+				150C73766D6546A7B0F43204 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_farneback.cpp */,
+				D44A3458E07C4DF98ECB6616 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_tvl1flow.cpp */,
+				3D66767181DF4D8F9E422F6D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflowpyrlk.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		18B28E23660C4B6C8BF3C382 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				A63F0672856D459494FB2BCD /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		2061F65154334065B75BB388 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				0D4D9BDED3EC4702BD18D10A /* ocl */,
+				3479EA657F4A4924A41BB967 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_accum.cpp */,
+				C9F8ADCB1C4B4B8EB6871CFD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_camshift.cpp */,
+				FC4C6D0200E14A42B5833E3A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_ecc.cpp */,
+				E9092ABDEADD4AF9A89B79DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_estimaterigid.cpp */,
+				9BFEE248C4D3499C8A2B5F2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_kalman.cpp */,
+				F4F763F6C43E4483B2D6B8DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_main.cpp */,
+				B69815B5D8C0488DB9FB54F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_optflowpyrlk.cpp */,
+				160835C573C94E3A9CC0700C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_tvl1optflow.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		2E2084D9DCFC4A96AF645938 /* opencv_perf_video */ = {
+			isa = PBXGroup;
+			children = (
+				C38771435F9F478F99EF6C9C /* Src */,
+				CC4D9C297F394DA4923DD91D /* Include */,
+				DCE72E034310498DB7B3FA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */,
+			);
+			name = opencv_perf_video;
+			sourceTree = "<group>";
+		};
+		3512A2E331AB45F99E4BA3C0 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				F57B4F157CD14FD6AD529265 /* video */,
+				C523C82117324533823D2B4A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		453FA46A9EDD47AFB592E317 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				18B28E23660C4B6C8BF3C382 /* opencl */,
+				9FCDC2269B5844E5B2307586 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_KNN.cpp */,
+				517278E8D7284325A0FDADDD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_gaussmix2.cpp */,
+				89B26DFB643742BCB18EA632 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/camshift.cpp */,
+				7107DFBD9EA04AB3B624AA04 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/compat_video.cpp */,
+				75E0BF0698124AC49BCCC7AF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/ecc.cpp */,
+				7BA8835B604C49139EDC20C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/kalman.cpp */,
+				8934892731614A3B951879EA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.cpp */,
+				391ADCCA90254D63ACF48A43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.hpp */,
+				37DC9AB1A20D4169BD38D9D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/optflowgf.cpp */,
+				44C2A2244DB44F45AC51D81E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp */,
+				DA065A537ED449EFADEFC235 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/tvl1flow.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		5CD5228406224393A30F110E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8E03E838C3F041168BFB665B /* CMake Rules */,
+				E1C75DB006884D0794C6D836 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6EA1B6BFEB07437F94DDC101 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				EC4195729B3A48FA9BE086FC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6EB92411B4D7489A9956DB2A /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				3512A2E331AB45F99E4BA3C0 /* opencv2 */,
+				08C4EFA2CD8247AFB184FCC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */,
+				7142AD0C922D4AA999738557 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		77D8781A697946AC9CD04C98 = {
+			isa = PBXGroup;
+			children = (
+				77EE10BCCCBC4D64B79E06F6 /* tests performance */,
+				DF0A0A2F0CE644478A642065 /* tests accuracy */,
+				C067DD13CA1049EF89E0E140 /* modules */,
+				5CD5228406224393A30F110E /* ALL_BUILD */,
+				D6A25DAFA71143CA8C32B3FA /* ZERO_CHECK */,
+				EF66F346D5E04B39819721B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77EE10BCCCBC4D64B79E06F6 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				2E2084D9DCFC4A96AF645938 /* opencv_perf_video */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		8502395967F14A20A33A699B /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				AD81316FF400417ABC544469 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		8E03E838C3F041168BFB665B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A63F0672856D459494FB2BCD /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				FFC7E3EA047E4CBE97B2E7B4 /* autogenerated */,
+				CC11DD9E1D604113A1E06B22 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/bgfg_mog2.cl */,
+				1D743460E90C448F8E2625BA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_farneback.cl */,
+				543C2127333B4AD8BA8D15C3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/optical_flow_tvl1.cl */,
+				3888F9EA965B413EB6D776C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/opencl/pyrlk.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		B1592A6B24464B2EAEB6F787 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C067DD13CA1049EF89E0E140 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				094D8C1411E143A5A9304CF9 /* opencv_video */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		C38771435F9F478F99EF6C9C /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				01340AE236FC4963B901A916 /* opencl */,
+				A12B817EC6C7439EABCF424D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_ecc.cpp */,
+				E2E3EDB35D884660BD172093 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_main.cpp */,
+				785870C6E2DF47A59A754EFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_optflowpyrlk.cpp */,
+				4A1FF9F7FD2D4A9AAA4D25EF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_tvl1optflow.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		CC4D9C297F394DA4923DD91D /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4D13963C39CC4DE48D814A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		D6A25DAFA71143CA8C32B3FA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				B1592A6B24464B2EAEB6F787 /* CMake Rules */,
+				77220420C6674656B7C57A85 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		DF0A0A2F0CE644478A642065 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				EC521FE866B14BB3BDE061FE /* opencv_test_video */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		EC521FE866B14BB3BDE061FE /* opencv_test_video */ = {
+			isa = PBXGroup;
+			children = (
+				2061F65154334065B75BB388 /* Src */,
+				8502395967F14A20A33A699B /* Include */,
+				E8DAAFD676DA4D27BA55490E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/CMakeLists.txt */,
+			);
+			name = opencv_test_video;
+			sourceTree = "<group>";
+		};
+		EF66F346D5E04B39819721B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00814A3528864B468ECC6F46 /* opencv_perf_video */,
+				8AC65612C7CF44368D8E2DA1 /* opencv_test_video */,
+				91479C79083748248B488D4B /* opencv_video */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57B4F157CD14FD6AD529265 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				E96834D5A45048FA873F2886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/background_segm.hpp */,
+				581D1A05D9484C3CA9584886 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking.hpp */,
+				74D640CF1E1747B5AD61614B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/tracking_c.h */,
+				C98FB8CD59FE4D62886B5E59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include/opencv2/video/video.hpp */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+		FFC7E3EA047E4CBE97B2E7B4 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3B343E3F24E76B0BD8A34 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp */,
+				90C9C4B0FE8D4B3FA35D3759 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174487AE45C543128B641180 /* opencv_test_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52251C5D7CB403BBC8F7036 /* Build configuration list for PBXNativeTarget "opencv_test_video" */;
+			buildPhases = (
+				FCD9659924B642D5A7533569 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF0EAE4A1D9432D9EC1FE7B /* PBXTargetDependency */,
+				87AA4309E4BE4290B66E145F /* PBXTargetDependency */,
+			);
+			name = opencv_test_video;
+			productName = opencv_test_video;
+			productReference = 8AC65612C7CF44368D8E2DA1 /* opencv_test_video */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DC80524A3234D1BBDF8BE4B /* opencv_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B333D1E9084E82BF9BBF71 /* Build configuration list for PBXNativeTarget "opencv_video" */;
+			buildPhases = (
+				EDE7959D8EB6405C89948498 /* CMake Rules */,
+				5949B5FF4B9240EB8F9E05CB /* Sources */,
+				B53B4CEC73B94324B02D81AB /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A41E0DE94944C788AE79DB /* PBXTargetDependency */,
+			);
+			name = opencv_video;
+			productName = opencv_video;
+			productReference = 91479C79083748248B488D4B /* opencv_video */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C65F64665D1447F69C548728 /* opencv_perf_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EA5B7614164CAAAD38322B /* Build configuration list for PBXNativeTarget "opencv_perf_video" */;
+			buildPhases = (
+				0B6FFEE581D04A0D9C12E339 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FEC51D17854952AF500CD2 /* PBXTargetDependency */,
+				19799DE1F988435582248C31 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_video;
+			productName = opencv_perf_video;
+			productReference = 00814A3528864B468ECC6F46 /* opencv_perf_video */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5D8B21D4B54D53AF3E9C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 6AB8494CBEE149A6B186F2CC /* Build configuration list for PBXProject "opencv_video" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1D415CC062844630B243EC99 /* Debug */,
+				9304775A38164487BA742930 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 77D8781A697946AC9CD04C98;
+			projectDirPath = ../../../modules/video;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				C65F64665D1447F69C548728 /* opencv_perf_video */,
+				174487AE45C543128B641180 /* opencv_test_video */,
+				8DC80524A3234D1BBDF8BE4B /* opencv_video */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF1C9F6D99E462599896F9A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0E0CECAF37FA40EA93F3A1CF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7888677C185240248A875E94 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		82FDAF5CA6B94BC8BC8080E3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		83A62774ED044527AAD1ACCB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A2AA299220DF4A669FA4C159 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AA62268BE85F43ABBB996F9D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B53B4CEC73B94324B02D81AB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/opencv_video_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B5F0DD4A7BA64BA492469201 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EDE7959D8EB6405C89948498 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/opencv_video_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F4FD5C9CD52A42A9A8654AE3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FEF9A7CD0E9B4F7C8DDDB99C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6FFEE581D04A0D9C12E339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7860B67C0B0440CEBD405EB0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_bgfg_mog2.cpp */,
+				2698A096385146ADBF4A5FAD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_motempl.cpp */,
+				F742B6CAC89F46D18C700B43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_dualTVL1.cpp */,
+				078F7D5736D4449ABF6C9E75 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_farneback.cpp */,
+				7CE915AE56164F0C874A12CF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/opencl/perf_optflow_pyrlk.cpp */,
+				3CE14912DE4D44B0BD89931A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_ecc.cpp */,
+				9872F1C063674205831445B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_main.cpp */,
+				470079DE15024CA789A9921D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_optflowpyrlk.cpp */,
+				61A2ED8B8B0243DE8B56EE7F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_tvl1optflow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5949B5FF4B9240EB8F9E05CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EC8328F97B4CB9BB85E66F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/opencl_kernels_video.cpp */,
+				B5519383CAC840D0B1815240 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_KNN.cpp */,
+				5DA100DB4EA547B6BE210949 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/bgfg_gaussmix2.cpp */,
+				98929A667C664429A7D2B8E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/camshift.cpp */,
+				A081A4F5101544B9A2646D58 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/compat_video.cpp */,
+				1028527E61CE417B9C3F47DF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/ecc.cpp */,
+				11F41A7F011743F6800E5374 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/kalman.cpp */,
+				A76FD4578E6145129D465340 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/lkpyramid.cpp */,
+				29A622AC4DAB44479CCAC161 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/optflowgf.cpp */,
+				0FC0FD0C739440C78A6EAE82 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/tvl1flow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9659924B642D5A7533569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4F63615A04D2CB0A13D75 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_bgfg_mog2.cpp */,
+				68251541B67543B699C3651B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_farneback.cpp */,
+				C697A18611DC4C2286D9677F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflow_tvl1flow.cpp */,
+				2D4B7060F1004D2BB017B237 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/ocl/test_optflowpyrlk.cpp */,
+				F5ABB1D6071A4990B1F63223 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_accum.cpp */,
+				411EDFEBFD6C42C585E7E56C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_camshift.cpp */,
+				E58607F1FAC44AA9BF6ABABE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_ecc.cpp */,
+				DCA64AB46E664286AF166836 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_estimaterigid.cpp */,
+				A5A4CF64BAC14E3CBEDCF618 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_kalman.cpp */,
+				B196CD73AAC34C3D8F5DB389 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_main.cpp */,
+				2D5057837DD248F39C612A3F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_optflowpyrlk.cpp */,
+				A6D6B4E44C8548FD937AB37E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_tvl1optflow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19799DE1F988435582248C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = F2DA1049C8E34902BAFEAF1D /* PBXContainerItemProxy */;
+		};
+		3253F82E304646048C5FEFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = C80C28993A0C458E978A06C6 /* PBXContainerItemProxy */;
+		};
+		40AD67F0F79B4D47837C6240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174487AE45C543128B641180 /* opencv_test_video */;
+			targetProxy = C9C061AD0A23422BB515AD98 /* PBXContainerItemProxy */;
+		};
+		66E7AA7BDE76486E8D7DB16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 35382D3DDAD54827A9941157 /* PBXContainerItemProxy */;
+		};
+		7423714F959E40D39B293BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC80524A3234D1BBDF8BE4B /* opencv_video */;
+			targetProxy = 83C1C3FEC1B843AF889BC319 /* PBXContainerItemProxy */;
+		};
+		87AA4309E4BE4290B66E145F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 0598A50C8CA9413AAE019DF0 /* PBXContainerItemProxy */;
+		};
+		8BF0EAE4A1D9432D9EC1FE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC80524A3234D1BBDF8BE4B /* opencv_video */;
+			targetProxy = 8C0BD4B4A1214DBE948E8E6F /* PBXContainerItemProxy */;
+		};
+		B1A8F06B7CAD4909AFE01FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 14DAC5F1E71D4B4E8E494368 /* PBXContainerItemProxy */;
+		};
+		C2FEC51D17854952AF500CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC80524A3234D1BBDF8BE4B /* opencv_video */;
+			targetProxy = E6A284E2BF8E4970A0EF32F4 /* PBXContainerItemProxy */;
+		};
+		E4A41E0DE94944C788AE79DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 9EB1842477FE4EA08BC3E896 /* PBXContainerItemProxy */;
+		};
+		FEDFE216E75848779CF77293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65F64665D1447F69C548728 /* opencv_perf_video */;
+			targetProxy = E61039E0A5704EAD8EF6EE4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D5AE09D58404DDDA2653B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		26FC8992F33A4BCE86A6C51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		468FED939C1744E9AEFD88A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4867B22808104F16B6C3C519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4D5DDB6445BD44B19EF969C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/build";
+			};
+			name = Release;
+		};
+		4FF5082719754941905E34A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_video.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_video;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		71514CE407E24DCFBD4E49D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7D30FEF6EBA44AADAD7FA0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_video.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_video;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8C61453451094A5D97C47BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		920ED55A7FAC46198CB891E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		99184718F3234C2B8F4052F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A77EDB04657F4C8187FA1A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_video.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_video.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A82C7DA72E5248ECAFDA9D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B5F6CCCC611F459DAD4F3893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_video.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_video;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B8D0D2398334418999948401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BA8976BB34BF461C800865F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video/build";
+			};
+			name = Debug;
+		};
+		CD30942C58514DD28C111A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_video.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_video;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EC6FB491B3AA4870815DC67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/video/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_video.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_video.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/video";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05ECDABAC0814E34B7351FFC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468FED939C1744E9AEFD88A0 /* Debug */,
+				26FC8992F33A4BCE86A6C51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		09B18DD5A1DC4E059D49EBB0 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5AE09D58404DDDA2653B8D /* Debug */,
+				99184718F3234C2B8F4052F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49EA5B7614164CAAAD38322B /* Build configuration list for PBXNativeTarget "opencv_perf_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30942C58514DD28C111A98 /* Debug */,
+				B5F6CCCC611F459DAD4F3893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		608D705F202C4C819BDEA71A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920ED55A7FAC46198CB891E3 /* Debug */,
+				71514CE407E24DCFBD4E49D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AB8494CBEE149A6B186F2CC /* Build configuration list for PBXProject "opencv_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8976BB34BF461C800865F3 /* Debug */,
+				4D5DDB6445BD44B19EF969C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99E6CA511D2740A3B7B6DADF /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4867B22808104F16B6C3C519 /* Debug */,
+				B8D0D2398334418999948401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9B333D1E9084E82BF9BBF71 /* Build configuration list for PBXNativeTarget "opencv_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77EDB04657F4C8187FA1A4A /* Debug */,
+				EC6FB491B3AA4870815DC67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0D2E755D5CC415FA0212F26 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82C7DA72E5248ECAFDA9D23 /* Debug */,
+				8C61453451094A5D97C47BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E52251C5D7CB403BBC8F7036 /* Build configuration list for PBXNativeTarget "opencv_test_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D30FEF6EBA44AADAD7FA0FF /* Debug */,
+				4FF5082719754941905E34A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E5D8B21D4B54D53AF3E9C90 /* Project object */;
+}

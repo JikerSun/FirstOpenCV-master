@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 408A0C9F5DB249BDA64BA26F /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				BF14B9F1401B41DFBA5D4BA2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4E29A2CCCCCA43B988188C3B /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4ABC3FC8650546FF8D413337 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CC534707309A4E8BB370DEFC /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A110CCD293E4928B897C5A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				218A2C9D4D604A549E02AFC3 /* CMake Rules */,
+			);
+			dependencies = (
+				CAC045B78B6247C9A057D0CE /* PBXTargetDependency */,
+				BF5CE7EB08C640029E8D7F80 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D1B2508EE3844E478C825BFB /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				08549350886D4942B748E67A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				37D53B17CBBC4AF488948B8F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAEEACB5C0204F289D84E60F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				6A54577A864048A8B15B3ECD /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		063AF687D8FB444BADBEFA7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXBuildFile; fileRef = A7D43E4386C641FA80F420F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/api.pb.cc */; };
+		135B27BE60C248D1BC60CF6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = 899DD5C69D164C25A65F167B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		14F8202E2DC646829D8BEF81 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 803C28CF27C84C44B07D049E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */; };
+		161B46A899E549B8B9DB54F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = DF2BE193DB3C4925A4224789 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
+		1A6EC44145FE41879DBFEF0F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = E76E20E456324B9BB2659946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
+		212D92537A8746F4B5A5F332 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXBuildFile; fileRef = 0FDAB009B50B4CE1A73D42E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/service.cc */; };
+		21FBD63ADEE84054AEB7E63E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = 095AEAF356A84503ABD9DC47 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
+		2237ED5343EA4486BAA5E963 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = E77ECA080C704723860204C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
+		225FC3E278764413839653F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXBuildFile; fileRef = 2A526814143D439996D883CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */; };
+		31D49834868F448FA9DD9EB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXBuildFile; fileRef = B6954D31809E4CB7AC0C9988 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */; };
+		3AACE548BA404541A0E0EE2D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = 11621F593A4648ADBE2BEF39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message.cc */; };
+		3DCF7568E3EA404D9536A273 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = 4A22F36AF8A941BBAE0979A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
+		3FD5EEEB737F48849B41F561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = D577957978564F398FD1590F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
+		406278FBA1A14EE1B1E3E687 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = DE4611389E9A4BBCB1200561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
+		4160FE80359F4DA883DD0EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = 859CFE44E6684086A8AD3EDB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
+		41D8489AC70C4D5690EE72EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = 3462D069DE0C466C9F3A6E04 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
+		4430605AB4EC4C978BF276DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = 5B6DE063AE014AD99038B1AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
+		48E332ED1C3D4C4CAE6D39AD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = 789B6FFC908C493A83FE4774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
+		4E663DB52D074C6FAB5BBF73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXBuildFile; fileRef = FECF2ABB62094C098748945D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */; };
+		4F26DC7435534D7F9A1B4711 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = 34AB668574AA402CA4076929 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
+		530D2EE877AD4522870A857F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXBuildFile; fileRef = 7CBA4FF3403847BBA3660502 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */; };
+		5351025A4A044145A44DDF41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = 287CAAA525E1467DB8CBE649 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
+		54ABB767D57E49128C398F66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = EB8856BF6844451282A67EF8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
+		5E012C09FC4A4569992BDB7D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = 1E1AA5211A584E0681C759CF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
+		66074AA1822C4723A5F893D9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = 6C4AF958D2EC44D1AB516E7F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
+		67375C0CEADF4A8A94C27D80 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXBuildFile; fileRef = C99A16317A7F4D9BA468B6A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */; };
+		679EDE0133B34371A484B3E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXBuildFile; fileRef = 634DCB6D537D40FE8E4BE1B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */; };
+		6AF8EFA1E2524DF7B8E6EB69 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = A33D70C2C32C426C86C5D0D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
+		6BD82B9F28FA438AB28CB0F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXBuildFile; fileRef = CD6E51F91DC94359A759D6BF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.pb.cc */; };
+		6F143AAE012148E4A22AF7B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = C3FE10FA80E74486BF44B7E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
+		741947AD46814E47A96596CE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXBuildFile; fileRef = D3E7B77E01E140DC9685292B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */; };
+		7522788C7E154FAC9EFB43BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXBuildFile; fileRef = 1C4BFEAA6E10455E839D0060 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */; };
+		75A192A427A4443786D15E46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXBuildFile; fileRef = 0FFB54DA4B6D49F8B2F9B122 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */; };
+		760D0F958C784128B8D5448D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = 7D5BAE1F1B884D55886FA53A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
+		7696C1BF3678450C868EE31D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = F0C4D14070794C3A855B2161 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
+		79A0D86AA7B14041A31B48AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXBuildFile; fileRef = FD2E9B6E2FF6413FBAA3E6F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */; };
+		79B4A44D5E114E6DA3230BA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXBuildFile; fileRef = 6FAB56D5EB0D43249E0DC863 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */; };
+		7B15A788C435480C96788A31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXBuildFile; fileRef = 9C64718AED6145679A6214F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */; };
+		7D53407C36924904AA50570E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = 19935224BF8A4A5D9B7162E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
+		807A8363A1894FC1B80A8057 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = 60BA790074C24AE1A0B08F30 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
+		8108A96440C44EB19EAB43B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXBuildFile; fileRef = DE92790332444D938EDBBFA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */; };
+		8240FD459B95448F96C38FE1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = 0A202B8C32CD473296863DEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.cc */; };
+		82FF91127C334C1694DFAE4D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXBuildFile; fileRef = D82C270A821C4254A07EA91E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */; };
+		83F7F183EE7B4C7E9CD08EF0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXBuildFile; fileRef = 48914046748940A99DE80F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */; };
+		8568DCA117B541C1A5D395D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = 2ACCC2AA57C14EF288540024 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
+		860993670CE2486AB46332F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXBuildFile; fileRef = EDEFAA09622E44CFA2775C7A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */; };
+		89900F92223340BD821974AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = 2D27CD835D9C48C9A34BD01A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
+		8B4F90764B6F4330BD8C8B56 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = 109E654DDB944973A80ACD11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
+		8EB969F742A1448B8AF75AFD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXBuildFile; fileRef = DE9E948AFBFC4655AB395760 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */; };
+		8F0DFBE30FBE44798F4C22C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXBuildFile; fileRef = 0DEB841C8273446D8B8BD48E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */; };
+		9316F88D825A46818C747868 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXBuildFile; fileRef = DCAD46EDB57D4225B71E36EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */; };
+		93A6853B2CDF474B9B2B300E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = E11195B049524024BE2509ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
+		976B55AB071041C693051BF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXBuildFile; fileRef = BD52D1907A5A4D4585CC9E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */; };
+		A1AC7FB689CE4C3EA8E8470A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = 355B7056322A49199E396C5B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
+		A2F227515ABD440AA1C61D3F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXBuildFile; fileRef = 8F130504285B4D9F9C2FDFAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */; };
+		A5F2795257554978902B5AD5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = 8EE3492CDBB94CDB9826360A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
+		A8F6C8DBF6A646399A80B50E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = B73AD9A425BD40149DED99E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */; };
+		AD63AD361A78408AA7BAD23F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXBuildFile; fileRef = DE085CB864654C0C8D8789B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */; };
+		C18ADFD0A82C43B68261041E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXBuildFile; fileRef = D116DFEB220C4FF19DE246FC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */; };
+		C484AB7005FF44A7A76F291F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = 42FDD16452994106A2DD8CD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
+		CAEC23DC56D148B7BE37CB51 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXBuildFile; fileRef = 1AFB3AA2D5CB40DA9F835B6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */; };
+		D22D115BB5F744DCB2DB4648 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXBuildFile; fileRef = 89D4E065590541BC8D2A7932 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/type.pb.cc */; };
+		D2828C5466974651A13E181B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXBuildFile; fileRef = EA6B7A1937394528A0B3B26C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/printer.cc */; };
+		D9F86FDFE90347AF8297E325 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXBuildFile; fileRef = 3F475A128D5849CC8C35E317 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */; };
+		DDB8097ECA1949A597D4689C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXBuildFile; fileRef = 8C981ADFE2364D68B24A4EDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */; };
+		E9A4D3CB8785475381072208 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = E92769F226EF42D4A8A987BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
+		EC1568C8EBC34BE480E9B5EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EFC13C8B30494BC592C24C95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */; };
+		EE03C0E2E0EC4E559FA0BDDF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = C7F27E11512E4A968BA15937 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
+		F0294BE47CB949E6A6A30FA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXBuildFile; fileRef = A251656993794A6389EDC27F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */; };
+		F5E89CE0C536434790780612 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXBuildFile; fileRef = 9F9B2EDD13624B90A3823290 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */; };
+		F83484701D544A89BE968298 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = D6CC0A1798C0453EBA26D7AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
+		FE82BAC693C248ECACDCA5F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 30B7E707960643F88FB18600 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1E6B990A93A24E98A4E047F0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		46FAF988B8C7428E85B5C948 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		624E3A63B021492492C3B1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C142778DD1E746839B7DF397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		7A58F35213444EACBA27D8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C142778DD1E746839B7DF397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		89CB33E523574F568449BDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C142778DD1E746839B7DF397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		AEEA1DBAF7D74768AC97FD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C142778DD1E746839B7DF397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7925A916D244934B32FAC86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C142778DD1E746839B7DF397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AEBA207E4C14A6AA2388255;
+			remoteInfo = libprotobuf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095AEAF356A84503ABD9DC47 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
+		0A202B8C32CD473296863DEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
+		0DEB841C8273446D8B8BD48E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timestamp.pb.cc; path = src/google/protobuf/timestamp.pb.cc; sourceTree = SOURCE_ROOT; };
+		0FDAB009B50B4CE1A73D42E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = service.cc; path = src/google/protobuf/service.cc; sourceTree = SOURCE_ROOT; };
+		0FFB54DA4B6D49F8B2F9B122 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_escaping.cc; path = src/google/protobuf/util/internal/json_escaping.cc; sourceTree = SOURCE_ROOT; };
+		109E654DDB944973A80ACD11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
+		11621F593A4648ADBE2BEF39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
+		19935224BF8A4A5D9B7162E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
+		1AFB3AA2D5CB40DA9F835B6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gzip_stream.cc; path = src/google/protobuf/io/gzip_stream.cc; sourceTree = SOURCE_ROOT; };
+		1C4BFEAA6E10455E839D0060 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrappers.pb.cc; path = src/google/protobuf/wrappers.pb.cc; sourceTree = SOURCE_ROOT; };
+		1E1AA5211A584E0681C759CF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
+		287CAAA525E1467DB8CBE649 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
+		2A526814143D439996D883CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = source_context.pb.cc; path = src/google/protobuf/source_context.pb.cc; sourceTree = SOURCE_ROOT; };
+		2ACCC2AA57C14EF288540024 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
+		2D27CD835D9C48C9A34BD01A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
+		30B7E707960643F88FB18600 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = default_value_objectwriter.cc; path = src/google/protobuf/util/internal/default_value_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		3462D069DE0C466C9F3A6E04 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
+		34AB668574AA402CA4076929 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
+		355B7056322A49199E396C5B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
+		3F475A128D5849CC8C35E317 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = struct.pb.cc; path = src/google/protobuf/struct.pb.cc; sourceTree = SOURCE_ROOT; };
+		42FDD16452994106A2DD8CD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
+		48914046748940A99DE80F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statusor.cc; path = src/google/protobuf/stubs/statusor.cc; sourceTree = SOURCE_ROOT; };
+		4A22F36AF8A941BBAE0979A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
+		5B6DE063AE014AD99038B1AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
+		60BA790074C24AE1A0B08F30 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
+		634DCB6D537D40FE8E4BE1B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_stream_parser.cc; path = src/google/protobuf/util/internal/json_stream_parser.cc; sourceTree = SOURCE_ROOT; };
+		6C4AF958D2EC44D1AB516E7F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
+		6FAB56D5EB0D43249E0DC863 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utility.cc; path = src/google/protobuf/util/internal/utility.cc; sourceTree = SOURCE_ROOT; };
+		789B6FFC908C493A83FE4774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
+		78B56C8ED0F446D5ABDCA04F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7CBA4FF3403847BBA3660502 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_utility.cc; path = src/google/protobuf/util/internal/field_mask_utility.cc; sourceTree = SOURCE_ROOT; };
+		7D5BAE1F1B884D55886FA53A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
+		803C28CF27C84C44B07D049E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectwriter.cc; path = src/google/protobuf/util/internal/protostream_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		859CFE44E6684086A8AD3EDB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
+		899DD5C69D164C25A65F167B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
+		89D4E065590541BC8D2A7932 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type.pb.cc; path = src/google/protobuf/type.pb.cc; sourceTree = SOURCE_ROOT; };
+		8C981ADFE2364D68B24A4EDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cc; path = src/google/protobuf/stubs/time.cc; sourceTree = SOURCE_ROOT; };
+		8EE3492CDBB94CDB9826360A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
+		8F130504285B4D9F9C2FDFAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_comparator.cc; path = src/google/protobuf/util/field_comparator.cc; sourceTree = SOURCE_ROOT; };
+		9C64718AED6145679A6214F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = duration.pb.cc; path = src/google/protobuf/duration.pb.cc; sourceTree = SOURCE_ROOT; };
+		9F9B2EDD13624B90A3823290 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_info.cc; path = src/google/protobuf/util/internal/type_info.cc; sourceTree = SOURCE_ROOT; };
+		A251656993794A6389EDC27F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectsource.cc; path = src/google/protobuf/util/internal/protostream_objectsource.cc; sourceTree = SOURCE_ROOT; };
+		A33D70C2C32C426C86C5D0D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
+		A7D43E4386C641FA80F420F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = api.pb.cc; path = src/google/protobuf/api.pb.cc; sourceTree = SOURCE_ROOT; };
+		B6954D31809E4CB7AC0C9988 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proto_writer.cc; path = src/google/protobuf/util/internal/proto_writer.cc; sourceTree = SOURCE_ROOT; };
+		B73AD9A425BD40149DED99E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_objectwriter.cc; path = src/google/protobuf/util/internal/json_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		BD52D1907A5A4D4585CC9E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.pb.cc; path = src/google/protobuf/empty.pb.cc; sourceTree = SOURCE_ROOT; };
+		C3FE10FA80E74486BF44B7E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
+		C7F27E11512E4A968BA15937 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
+		C99A16317A7F4D9BA468B6A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_resolver_util.cc; path = src/google/protobuf/util/type_resolver_util.cc; sourceTree = SOURCE_ROOT; };
+		CD6E51F91DC94359A759D6BF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.pb.cc; path = src/google/protobuf/any.pb.cc; sourceTree = SOURCE_ROOT; };
+		D116DFEB220C4FF19DE246FC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object_writer.cc; path = src/google/protobuf/util/internal/object_writer.cc; sourceTree = SOURCE_ROOT; };
+		D3E7B77E01E140DC9685292B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask.pb.cc; path = src/google/protobuf/field_mask.pb.cc; sourceTree = SOURCE_ROOT; };
+		D577957978564F398FD1590F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
+		D6CC0A1798C0453EBA26D7AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
+		D82C270A821C4254A07EA91E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datapiece.cc; path = src/google/protobuf/util/internal/datapiece.cc; sourceTree = SOURCE_ROOT; };
+		DCAD46EDB57D4225B71E36EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mathlimits.cc; path = src/google/protobuf/stubs/mathlimits.cc; sourceTree = SOURCE_ROOT; };
+		DE085CB864654C0C8D8789B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_util.cc; path = src/google/protobuf/util/field_mask_util.cc; sourceTree = SOURCE_ROOT; };
+		DE4611389E9A4BBCB1200561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
+		DE92790332444D938EDBBFA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_util.cc; path = src/google/protobuf/util/json_util.cc; sourceTree = SOURCE_ROOT; };
+		DE9E948AFBFC4655AB395760 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = atomicops_internals_x86_gcc.cc; path = src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc; sourceTree = SOURCE_ROOT; };
+		DF2BE193DB3C4925A4224789 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
+		E11195B049524024BE2509ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
+		E76E20E456324B9BB2659946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		E77ECA080C704723860204C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
+		E8B9E91A203147F19B0353BB /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92769F226EF42D4A8A987BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
+		EA6B7A1937394528A0B3B26C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = printer.cc; path = src/google/protobuf/io/printer.cc; sourceTree = SOURCE_ROOT; };
+		EB8856BF6844451282A67EF8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
+		EDEFAA09622E44CFA2775C7A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = once.cc; path = src/google/protobuf/stubs/once.cc; sourceTree = SOURCE_ROOT; };
+		EFC13C8B30494BC592C24C95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F0C4D14070794C3A855B2161 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
+		F49716F79EAF468CB052F94F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FD2E9B6E2FF6413FBAA3E6F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_differencer.cc; path = src/google/protobuf/util/message_differencer.cc; sourceTree = SOURCE_ROOT; };
+		FECF2ABB62094C098748945D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time_util.cc; path = src/google/protobuf/util/time_util.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01F0CAD0671C468C8C3A80CA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				67DBC2B6AE434D1A923A7E06 /* CMake Rules */,
+				F49716F79EAF468CB052F94F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		05C8B8EAE9D9452A8C74CB10 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		24EC0B76618A4A4EB67010C1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				05C8B8EAE9D9452A8C74CB10 /* CMake Rules */,
+				78B56C8ED0F446D5ABDCA04F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		47ECD9BE8737470FB715DA90 = {
+			isa = PBXGroup;
+			children = (
+				9E4208439781474F9807CD1A /* 3rdparty */,
+				01F0CAD0671C468C8C3A80CA /* ALL_BUILD */,
+				24EC0B76618A4A4EB67010C1 /* ZERO_CHECK */,
+				5C9C67178AED4E839744F6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5392B84F12499586FD000D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A202B8C32CD473296863DEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				CD6E51F91DC94359A759D6BF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				A7D43E4386C641FA80F420F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				EB8856BF6844451282A67EF8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				C3FE10FA80E74486BF44B7E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				34AB668574AA402CA4076929 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				E76E20E456324B9BB2659946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				D6CC0A1798C0453EBA26D7AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				9C64718AED6145679A6214F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				DF2BE193DB3C4925A4224789 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				BD52D1907A5A4D4585CC9E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				6C4AF958D2EC44D1AB516E7F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				4A22F36AF8A941BBAE0979A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				D3E7B77E01E140DC9685292B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				E92769F226EF42D4A8A987BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				1E1AA5211A584E0681C759CF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				355B7056322A49199E396C5B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				1AFB3AA2D5CB40DA9F835B6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				EA6B7A1937394528A0B3B26C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				859CFE44E6684086A8AD3EDB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				42FDD16452994106A2DD8CD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				60BA790074C24AE1A0B08F30 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				095AEAF356A84503ABD9DC47 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				C7F27E11512E4A968BA15937 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				109E654DDB944973A80ACD11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				11621F593A4648ADBE2BEF39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				8EE3492CDBB94CDB9826360A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				DE4611389E9A4BBCB1200561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				2D27CD835D9C48C9A34BD01A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				0FDAB009B50B4CE1A73D42E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				2A526814143D439996D883CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				3F475A128D5849CC8C35E317 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				DE9E948AFBFC4655AB395760 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				E77ECA080C704723860204C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				7D5BAE1F1B884D55886FA53A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				A33D70C2C32C426C86C5D0D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				DCAD46EDB57D4225B71E36EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				EDEFAA09622E44CFA2775C7A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				E11195B049524024BE2509ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				48914046748940A99DE80F31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				D577957978564F398FD1590F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				3462D069DE0C466C9F3A6E04 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				5B6DE063AE014AD99038B1AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				789B6FFC908C493A83FE4774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				19935224BF8A4A5D9B7162E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				8C981ADFE2364D68B24A4EDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				287CAAA525E1467DB8CBE649 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				0DEB841C8273446D8B8BD48E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				89D4E065590541BC8D2A7932 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				2ACCC2AA57C14EF288540024 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				8F130504285B4D9F9C2FDFAD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				DE085CB864654C0C8D8789B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				D82C270A821C4254A07EA91E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				30B7E707960643F88FB18600 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				7CBA4FF3403847BBA3660502 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				0FFB54DA4B6D49F8B2F9B122 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				B73AD9A425BD40149DED99E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				634DCB6D537D40FE8E4BE1B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				D116DFEB220C4FF19DE246FC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				B6954D31809E4CB7AC0C9988 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				A251656993794A6389EDC27F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				803C28CF27C84C44B07D049E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				9F9B2EDD13624B90A3823290 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				6FAB56D5EB0D43249E0DC863 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				DE92790332444D938EDBBFA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				FD2E9B6E2FF6413FBAA3E6F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				FECF2ABB62094C098748945D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				C99A16317A7F4D9BA468B6A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				F0C4D14070794C3A855B2161 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				899DD5C69D164C25A65F167B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				1C4BFEAA6E10455E839D0060 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4D2BF61F3A5E49FFA525E4F0 /* libprotobuf */ = {
+			isa = PBXGroup;
+			children = (
+				4B5392B84F12499586FD000D /* Source Files */,
+				EFC13C8B30494BC592C24C95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = libprotobuf;
+			sourceTree = "<group>";
+		};
+		5C9C67178AED4E839744F6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8B9E91A203147F19B0353BB /* libprotobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67DBC2B6AE434D1A923A7E06 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9E4208439781474F9807CD1A /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				4D2BF61F3A5E49FFA525E4F0 /* libprotobuf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AEBA207E4C14A6AA2388255 /* libprotobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D0CEFE5E9B4A009EE0B2E1 /* Build configuration list for PBXNativeTarget "libprotobuf" */;
+			buildPhases = (
+				45A176D4239F412CAE9A8575 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F963D733F61C41C99B023D9E /* PBXTargetDependency */,
+			);
+			name = libprotobuf;
+			productName = libprotobuf;
+			productReference = E8B9E91A203147F19B0353BB /* libprotobuf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C142778DD1E746839B7DF397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = FE316ECDF0214488931CD7D1 /* Build configuration list for PBXProject "libprotobuf" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1E6B990A93A24E98A4E047F0 /* Debug */,
+				46FAF988B8C7428E85B5C948 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 47ECD9BE8737470FB715DA90;
+			projectDirPath = ../../../3rdparty/protobuf;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				5AEBA207E4C14A6AA2388255 /* libprotobuf */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08549350886D4942B748E67A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		218A2C9D4D604A549E02AFC3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		40A59E14994E4680842D3839 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		46428B1E26C34D6B9FC8AE4D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5F38CCBD21564FC7BAF0EF71 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6A54577A864048A8B15B3ECD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BF14B9F1401B41DFBA5D4BA2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CC534707309A4E8BB370DEFC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D6E9D00D75DA4C5AA63C998C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F338661E5166452AAC13B669 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A176D4239F412CAE9A8575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8240FD459B95448F96C38FE1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				6BD82B9F28FA438AB28CB0F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				063AF687D8FB444BADBEFA7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				54ABB767D57E49128C398F66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				6F143AAE012148E4A22AF7B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				4F26DC7435534D7F9A1B4711 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				1A6EC44145FE41879DBFEF0F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				F83484701D544A89BE968298 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				7B15A788C435480C96788A31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				161B46A899E549B8B9DB54F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				976B55AB071041C693051BF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				66074AA1822C4723A5F893D9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				3DCF7568E3EA404D9536A273 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				741947AD46814E47A96596CE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				E9A4D3CB8785475381072208 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				5E012C09FC4A4569992BDB7D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				A1AC7FB689CE4C3EA8E8470A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				CAEC23DC56D148B7BE37CB51 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				D2828C5466974651A13E181B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				4160FE80359F4DA883DD0EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				C484AB7005FF44A7A76F291F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				807A8363A1894FC1B80A8057 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				21FBD63ADEE84054AEB7E63E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				EE03C0E2E0EC4E559FA0BDDF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				8B4F90764B6F4330BD8C8B56 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				3AACE548BA404541A0E0EE2D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				A5F2795257554978902B5AD5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				406278FBA1A14EE1B1E3E687 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				89900F92223340BD821974AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				212D92537A8746F4B5A5F332 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				225FC3E278764413839653F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				D9F86FDFE90347AF8297E325 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				8EB969F742A1448B8AF75AFD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				2237ED5343EA4486BAA5E963 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				760D0F958C784128B8D5448D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				6AF8EFA1E2524DF7B8E6EB69 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				9316F88D825A46818C747868 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				860993670CE2486AB46332F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				93A6853B2CDF474B9B2B300E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				83F7F183EE7B4C7E9CD08EF0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				3FD5EEEB737F48849B41F561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				41D8489AC70C4D5690EE72EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				4430605AB4EC4C978BF276DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				48E332ED1C3D4C4CAE6D39AD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				7D53407C36924904AA50570E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				DDB8097ECA1949A597D4689C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				5351025A4A044145A44DDF41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				8F0DFBE30FBE44798F4C22C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				D22D115BB5F744DCB2DB4648 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				8568DCA117B541C1A5D395D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				A2F227515ABD440AA1C61D3F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				AD63AD361A78408AA7BAD23F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				82FF91127C334C1694DFAE4D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				FE82BAC693C248ECACDCA5F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				530D2EE877AD4522870A857F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				75A192A427A4443786D15E46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				A8F6C8DBF6A646399A80B50E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				679EDE0133B34371A484B3E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				C18ADFD0A82C43B68261041E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				31D49834868F448FA9DD9EB4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				F0294BE47CB949E6A6A30FA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				14F8202E2DC646829D8BEF81 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				F5E89CE0C536434790780612 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				79B4A44D5E114E6DA3230BA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				8108A96440C44EB19EAB43B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				79A0D86AA7B14041A31B48AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				4E663DB52D074C6FAB5BBF73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				67375C0CEADF4A8A94C27D80 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				7696C1BF3678450C868EE31D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				135B27BE60C248D1BC60CF6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				7522788C7E154FAC9EFB43BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37D53B17CBBC4AF488948B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 89CB33E523574F568449BDAA /* PBXContainerItemProxy */;
+		};
+		4E29A2CCCCCA43B988188C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 7A58F35213444EACBA27D8D0 /* PBXContainerItemProxy */;
+		};
+		BF5CE7EB08C640029E8D7F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = AEEA1DBAF7D74768AC97FD3F /* PBXContainerItemProxy */;
+		};
+		CAC045B78B6247C9A057D0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AEBA207E4C14A6AA2388255 /* libprotobuf */;
+			targetProxy = B7925A916D244934B32FAC86 /* PBXContainerItemProxy */;
+		};
+		F963D733F61C41C99B023D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 624E3A63B021492492C3B1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C4B5394E97C436D98905D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		45F62A52C32649ADAC02EA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4B3ADF471FA94433AE730DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		617677B386AE46EEAECEDD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6BB29537D2FF433585A38E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6C8D0A12E27F46EDACF3C851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		90860AC2DCCD4979A718EB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		98F65A4E00184DD7AB910FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9B03D76E9A1142B2AD5407F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9CDCF5AEC8F84BC28FD373D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9D546D822F764F19BD7436A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DEF58F59C3C5491D8254089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/build";
+			};
+			name = Release;
+		};
+		E54EA93CA1724BC9B6317A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/protobuf/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F092D3A1E2C940CAB847FAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/protobuf/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D0CEFE5E9B4A009EE0B2E1 /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4B5394E97C436D98905D07 /* Debug */,
+				9D546D822F764F19BD7436A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		408A0C9F5DB249BDA64BA26F /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617677B386AE46EEAECEDD80 /* Debug */,
+				6C8D0A12E27F46EDACF3C851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A110CCD293E4928B897C5A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDCF5AEC8F84BC28FD373D4 /* Debug */,
+				E54EA93CA1724BC9B6317A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4ABC3FC8650546FF8D413337 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3ADF471FA94433AE730DC6 /* Debug */,
+				6BB29537D2FF433585A38E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAEEACB5C0204F289D84E60F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F62A52C32649ADAC02EA2C /* Debug */,
+				90860AC2DCCD4979A718EB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1B2508EE3844E478C825BFB /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B03D76E9A1142B2AD5407F5 /* Debug */,
+				98F65A4E00184DD7AB910FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE316ECDF0214488931CD7D1 /* Build configuration list for PBXProject "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F092D3A1E2C940CAB847FAC2 /* Debug */,
+				DEF58F59C3C5491D8254089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C142778DD1E746839B7DF397 /* Project object */;
+}

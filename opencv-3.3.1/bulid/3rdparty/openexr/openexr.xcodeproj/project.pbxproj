@@ -1,0 +1,1465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D88EDF495E34BDC902DB24D /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				1DDC375C24A548AAA54BFACC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				66A2F23402D84FCEBBD8BE1F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D6C8EE91D4A4F45B5550109 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6E29DB6178544F4E89F8BC12 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F6034AF32B84A1AA3F7E78E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				539D464389B44B4EBBEC53CB /* CMake Rules */,
+			);
+			dependencies = (
+				79645F76F5444E9EAD0F4057 /* PBXTargetDependency */,
+				8EBD871B43984291BAFB3BAD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 844E3036C09F465E97E4F5E3 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				60905ED19EA144B58600E660 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A49020AD27B141A8B3CCADB0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A77CEC8BB43A43659ECC4311 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				1B842E053B0B47C1A0F42B22 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0049FF79868544699BD2E170 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXBuildFile; fileRef = 2DB643794C3A4D98BF912F34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.h */; };
+		03069A67BCFC4E98AD9B70CA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXBuildFile; fileRef = 5CFE181D258E4EB5AF8E2503 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.h */; };
+		05107A72FD0E49D6BAFDACA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXBuildFile; fileRef = 8A05A9C2CC48436CB344579C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.h */; };
+		06F7CED974164835A040F384 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXBuildFile; fileRef = D1D95A49705044B8AB6B2B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.h */; };
+		07770DD2828A432B83F9EEFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXBuildFile; fileRef = F3B9B2E0A25C43ADB55EC244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlane.h */; };
+		08586E114B144E48B60DE5D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXBuildFile; fileRef = C1D9AB8F0ADD46B8900CE66C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.h */; };
+		0884E635B33C4273B49B522B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXBuildFile; fileRef = 7F925B83C61E4C498E213920 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.h */; };
+		08DBDA122E974EF6A339645A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXBuildFile; fileRef = 0D2C1FC4B5E946D0BADC6D6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.h */; };
+		0A6F261647F54522B9271D75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXBuildFile; fileRef = E5FEA8E283BB4D6FA4D521B7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */; };
+		0A726B34728D4FD9B073ED1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXBuildFile; fileRef = D8F7D93C14D340F5A5B184E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.h */; };
+		0C03C3671BF34B148D752541 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXBuildFile; fileRef = B1DB1CF4FC8D44578906A764 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrder.h */; };
+		0DA0DF8F187C46B3986EB5AE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXBuildFile; fileRef = 963812A082DC43618ADAEA68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.h */; };
+		0E5FEBB6BF3043F4AFC4AFC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXBuildFile; fileRef = D99DB51DE85B419283998D20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */; };
+		0E94829C23FE4D2188B66876 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXBuildFile; fileRef = A3831892B6964D119D08C017 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.cpp */; };
+		1051943AFE334F3EA59C24C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXBuildFile; fileRef = 67A6EC1CAC7C4D78A540FE75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathQuat.h */; };
+		108E3CA0EEC64E88ABA66D05 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXBuildFile; fileRef = 99CD422E926B4679BAEEBC66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMath.h */; };
+		1093F356744A4FF1A9DDB644 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXBuildFile; fileRef = 749D60A2AA5344399304EC37 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.cpp */; };
+		114C4B681E344EE2B6C383FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXBuildFile; fileRef = CD8AEB66E66C44099C69C640 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */; };
+		12780F2CC23149DFB0A941E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXBuildFile; fileRef = 23A84550922E4AE0A04DDD83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.h */; };
+		1490FAF0B7F84DDAB4A6C59E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXBuildFile; fileRef = AD9CB13C6A6043699F9EAE4E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustum.h */; };
+		1A90F33181C94C87B6D0FA28 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXBuildFile; fileRef = 3047C21CC38D44BE8B7124EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.h */; };
+		1C4E24217A414ECF8E0B7C39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXBuildFile; fileRef = 26C040EBDB60447EBD80F73A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.cpp */; };
+		1CC75E12C4604BF3B0465D3F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXBuildFile; fileRef = F46BA96C524E4CFD9FF2D140 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */; };
+		1CF36F8D4B664CD18B6D9A52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXBuildFile; fileRef = 1B8DF5FF2FDB48C89AB1157F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.h */; };
+		1F2D40FFA35D49A7B06D597A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXBuildFile; fileRef = 76DE6636FF32492EBD1DEAFC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */; };
+		1F59E1F7B75F4BF3AE4AB6A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXBuildFile; fileRef = CD6A853167A14293BB4AB868 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */; };
+		1FE7B5CAB60346BFA4D78E1F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXBuildFile; fileRef = 406B9F51F8C24478B80DDEC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColor.h */; };
+		1FF6FC4723AB4C0D8B7C3A30 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.h */ = {isa = PBXBuildFile; fileRef = 60338CF5C2A64627B16FC8D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.h */; };
+		2286341987444940A8BE1FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXBuildFile; fileRef = AA696EFEC349443797CD143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLineAlgo.h */; };
+		2299786621324CBD9E7792DA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXBuildFile; fileRef = C365631EC61147E29EF3DE01 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */; };
+		23B314C0DB434541B81F4592 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXBuildFile; fileRef = 5192F71FF2E14CCE97F81840 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */; };
+		242A6BB525074B75A5A51BAC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXBuildFile; fileRef = 29E2EA6373564FC98058199E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */; };
+		2480B70947204AC3BFF0B991 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXBuildFile; fileRef = 6147C9A3E78A460EAEC184D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/Iex.h */; };
+		2627CB7A34B24A89AE5737B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXBuildFile; fileRef = A964AD88F31B44A38845E0B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMathExc.h */; };
+		2781AB5916714521A94C9142 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXBuildFile; fileRef = 409CC952A2994A38B446B694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */; };
+		2A1864CC8FAE44D7955B4DDC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 55505A1D1B664F789B0AFBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */; };
+		2B8929649236470CBF4279FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 7BFD7D1643094146AE555F66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */; };
+		2BC1D63C027541C49CEF0D8F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 45E93E00B81F40FEB2B735E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */; };
+		2D3857DB2EFE45618B2C805C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = E32A15F0458C44D188EC811B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */; };
+		2D3D750666F64B87B1E6BDB8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXBuildFile; fileRef = 62FD689477E945C5BA28FCC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */; };
+		30B591B53B5A48EE8DEED927 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXBuildFile; fileRef = F23ACBC7CE7940DDA4B31E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.h */; };
+		30F0CBDBB7C54E688BE80831 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 6A4882D8D4934C4AB1651B5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */; };
+		31FE00A59F8B470293970BE8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXBuildFile; fileRef = 1F0B7C386A774CB3B1E53C57 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */; };
+		322625BC8BD04E5AAFF4F88C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 94027276BC4C48239CDE2F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */; };
+		3264BAA99CD846DB9609801F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXBuildFile; fileRef = E303F97212634F6F8004F15A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */; };
+		32A2A5DDB5FE4154A8DA953C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXBuildFile; fileRef = D9338082AFB641278B561338 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.cpp */; };
+		32EA2DD1277E4DA99563550F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXBuildFile; fileRef = 245F573E05A64C8CA67FB85E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */; };
+		356563F2F13F44FA99F12E75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 71E92BA398AE4620A855E3B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */; };
+		35FFFF27A7C14627B65B4BED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXBuildFile; fileRef = D3FCE1D79F4A49B78E58CBBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAutoArray.h */; };
+		360F5CCF8F2047A8866199A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXBuildFile; fileRef = 7EA7DBB518164E849B81F208 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.h */; };
+		385F2778162247B4A88495EA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 4A1C41A821B94E1B99B46398 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */; };
+		39591F4F54AA45C4AD05235E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXBuildFile; fileRef = 91ABC7D422C54AFD83B0BFAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */; };
+		39FEDE4D81AB4192A1F4DD6C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXBuildFile; fileRef = EDB49887F1384119914B9B1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */; };
+		3B85A3CE46104AA7AB0ACFD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = 8E11FBB6E6944AAC8E763EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */; };
+		3D61420C479F4031B57F4953 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/eLut.h */ = {isa = PBXBuildFile; fileRef = CFE2FD444B0E4E7BBCF73436 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/eLut.h */; };
+		3FD33EB0375A487C8375B886 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 5F3C8BA87FEE4518913171E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */; };
+		41AA9F917368497F85B45040 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 5EC6B7954E5C49A594CD720F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.cpp */; };
+		463B9778F55B495A8E4C0427 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXBuildFile; fileRef = F25C2F1EF5FE47DB9F9C553B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathHalfLimits.h */; };
+		46F6105E32BA4D45A2EC6620 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXBuildFile; fileRef = 4E302053ADFB4F73ABBC0FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */; };
+		4B7D5DC300E149B89831F0F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXBuildFile; fileRef = F362F37A3A894DF69D1C1125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */; };
+		4D6ADEEDB34941A988167062 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXBuildFile; fileRef = A75DCC1BEA0043FB8439BEC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.cpp */; };
+		4DE0821022634F7889A71B5F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXBuildFile; fileRef = D4AAC76679684FB4954D6EAF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.h */; };
+		4E6F52AF79684DF59E2E7F7F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXBuildFile; fileRef = D6690872556A42FDADD10817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */; };
+		516775650E6B4702BF03E748 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXBuildFile; fileRef = FA23B4CE4C8947BAAF78BCD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.cpp */; };
+		5264949D28884462A7FBD2A9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXBuildFile; fileRef = 4C2D8FE5A22447719208A0EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInt64.h */; };
+		54E49E552E0A4F91B9596329 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXBuildFile; fileRef = 02FE03DBA0BA430D902CEEA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfArray.h */; };
+		573872736D024565A4CE9081 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXBuildFile; fileRef = 8CD711CFDB0F4EBBA0C64C1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */; };
+		57578D4BD6554B5DAC264076 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXBuildFile; fileRef = 08E2A7DC0D8A405183E4F77D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathSphere.h */; };
+		5A0450CADBBD43EFB0E5A4AE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXBuildFile; fileRef = B05045ED134148E4A85175E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */; };
+		5A6A0093C1194BF784099DE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXBuildFile; fileRef = DCC2CB72624642779A291224 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.h */; };
+		5AB3F337A12E4E1E843C8C99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXBuildFile; fileRef = D2EA2A92DBB54ABEB90F1B4B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.h */; };
+		5C00389A39F24C229C152409 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 98B29AD5A1824A96838DCED5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */; };
+		5C342C28482F485CBBA26259 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXBuildFile; fileRef = 72A2DBE218C14531814C37F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.cpp */; };
+		5C50572BCF694AB592A9090C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXBuildFile; fileRef = 65C98677D5B94187B66D80B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.cpp */; };
+		5D7BDB1E360C4960AE57BE73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXBuildFile; fileRef = 939D989A7E2A42C0991F951D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgba.h */; };
+		612DACFB5D8D4C87ABD54949 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXBuildFile; fileRef = E30B37F02D6549449931D2D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.h */; };
+		618C67F4ABBD447EACF26673 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXBuildFile; fileRef = 40F175727A2A417BA265A98A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */; };
+		61F0B54458D04D8889D22224 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 724F0D61828743A48645C6CB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */; };
+		636CB5D2CBD7471CB46A5C0C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXBuildFile; fileRef = A4CA3AE630004E0998FB01AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.cpp */; };
+		6569D062A51A462294556A44 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXBuildFile; fileRef = 0B24C05A96354725B1C250D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.h */; };
+		67007CD248B04E61B193F686 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXBuildFile; fileRef = 230F7732C98346CDAF9AE5C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.h */; };
+		67260EE16B07450397067AEC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 54B2048CB35043B68796F30C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */; };
+		686980C9C50A4353B2AE24ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXBuildFile; fileRef = FD7D03D474FB4F9C8694652B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */; };
+		689906142A3645B5BAB81C83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXBuildFile; fileRef = 1DFEDEA4DC7246F086E3C24A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.cpp */; };
+		6BD29C6DE68946988FA24176 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXBuildFile; fileRef = E26F728C783B442A87C21030 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.h */; };
+		6C13618C0A204DE392C2CDD9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXBuildFile; fileRef = BFF9B172AFC6451587E72B1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */; };
+		6FA12EA074664D49830F1915 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXBuildFile; fileRef = BBAE56B820884B86BD91725D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.h */; };
+		70A254CA5ECD4CB588DBF225 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXBuildFile; fileRef = B6C70361AEC04F54BF3E6A95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp */; };
+		710228A1378E4ED08AEC905D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXBuildFile; fileRef = 83CBE8CE00FC43E2909885A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexErrnoExc.h */; };
+		722375D2E4104494B7928D41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 40BD7EDB8C344E5E95C01425 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */; };
+		724D317CD48D4589A1913C82 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXBuildFile; fileRef = 4AE999134FDF47B5BA230459 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.cpp */; };
+		72D67926D1C34A0E99AA59EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXBuildFile; fileRef = CE10642223EA4155B5209B34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */; };
+		77771EB2B1C247ABA645ED1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXBuildFile; fileRef = B3F7268791B94D2D9A739F5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrame.h */; };
+		7AC914C826B441D382C0DA05 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXBuildFile; fileRef = D587354560C54B329CC92A42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */; };
+		7B3ED0A6FA7447E597D504A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 6E11751D87E04F689A310C48 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */; };
+		7BA06514FD024387A99EC475 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXBuildFile; fileRef = A09C3625F1EE4603A4279F92 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.cpp */; };
+		7F331C96FFB24F99AF93CE18 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 09C09737ABBF44649FEE7FFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */; };
+		80FD860AEFDB43F889F5C6F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXBuildFile; fileRef = FBAE6CB867224E5C8DD2C179 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfXdr.h */; };
+		824FD26CD19E4E17BC1832BE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXBuildFile; fileRef = 686AA778EBD844AD824F90E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.cpp */; };
+		835763A479134BFA9722BC41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = C1E4E428CE2547ABAF377999 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */; };
+		83F54AEFF2484FE595B11194 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXBuildFile; fileRef = 1B39AA52C8FC4314A3671FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.h */; };
+		87B172E5DFF643EBA157A57E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXBuildFile; fileRef = C6C94AFB08804776B1514D7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.cpp */; };
+		88434FB645B3416090BD5720 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXBuildFile; fileRef = 88357EEEA45D4D86871CBDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */; };
+		887E76F59D2C4795A992E502 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXBuildFile; fileRef = 4A68236B50C349A391A7A4B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustumTest.h */; };
+		88A1CFAE10FD4E9098D44EF0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXBuildFile; fileRef = 2347F55038FA4646B76B5CD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfFunction.h */; };
+		8922373528F44A878527CC6A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXBuildFile; fileRef = 7E473C0D52DF4FE1A1C178F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */; };
+		89E1EF9D640D4249A40984EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = 6CE976F291C94E3CAE3390A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */; };
+		8A25ADF14DDF4E2F97A50805 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXBuildFile; fileRef = D7B2FA56B1B34F37940A01F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.cpp */; };
+		8A395857C08B453ABB995954 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 3765FC4CBC7448BAAC4B2CE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */; };
+		8B7579B5DB3B49BD8E4FDEAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXBuildFile; fileRef = 0B2E6903A57A47179FBC31C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */; };
+		8BD0A3C790EB483C8FCD0795 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXBuildFile; fileRef = 45B5C160A7D04F248CAC4B52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */; };
+		8C64B072145241119CE3CEEE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXBuildFile; fileRef = 50AFDAE40A1B4693BDFFF2C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfLimits.h */; };
+		8C730F1905C04CEE8FFC6B46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 23910CAC91E64EA79B832377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */; };
+		8D54C1B01F0846B3A5842F6C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXBuildFile; fileRef = EC738EDD1A7F49909ACC184A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInt64.h */; };
+		8E2F626C88F041528678208B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXBuildFile; fileRef = 7C5FD586ACF74955A8E1BF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */; };
+		8FD048A791414FCA92E06F07 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXBuildFile; fileRef = 57633CDB892C423F943AC961 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlatform.h */; };
+		90DC0CCD32464CB89DE3B3A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXBuildFile; fileRef = 466D648056EA42C78416FB26 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMacros.h */; };
+		9272247BB7D345228DF6E354 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = 14666F42AB5B40C1B4EB7FBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */; };
+		92C6D60578F74356A23832ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXBuildFile; fileRef = 98923F395A34480FB1AD6A82 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */; };
+		9377C1E64AB447F0A4B267DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXBuildFile; fileRef = C5D93B96596F4C84BCC90EC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/toFloat.h */; };
+		951BEB1491794FF7A14AD7A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXBuildFile; fileRef = 5717CE8858CA472998BCFC58 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.h */; };
+		968255C408C347E4A3927197 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXBuildFile; fileRef = 7ED7EB7582A846CB87E2EA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */; };
+		96EAAAC281294FF7AF13F8FC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXBuildFile; fileRef = 1F3B58A767D44E3DB28F47D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathEuler.h */; };
+		99B711DCDCDA42D5BACBA896 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXBuildFile; fileRef = 342E7084BC884042AE36F0AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.h */; };
+		99D6AA56447348FEAECBF442 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXBuildFile; fileRef = CC35F27629AD4821A1740A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.cpp */; };
+		9C0261F66DA0473D9852E919 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXBuildFile; fileRef = 51AC4D641852439DAF07F4C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */; };
+		9D4D7160FEDF49E88BA11015 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXBuildFile; fileRef = 5D56FECA8B554C1C88320C5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathExc.h */; };
+		9E20445F31B24404BD049607 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXBuildFile; fileRef = AEF8F90D8FA2437AA5586229 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */; };
+		9ECC3512225D4B7A9D61B4D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXBuildFile; fileRef = B6038B301F7B4EBCB9381AD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.cpp */; };
+		A0154065A25146B08DE4DB4A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXBuildFile; fileRef = 0EFB7C32621042CB9C1EC196 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescription.h */; };
+		A033C74340E249B09D240EAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXBuildFile; fileRef = E22C597908E0459C8785C3F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */; };
+		A282DC3311AF430381CD720E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.cpp */ = {isa = PBXBuildFile; fileRef = 229F5873820E4234819867E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.cpp */; };
+		A3B5951F1C554655B0543E39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXBuildFile; fileRef = 60E5A8D071B94B22B126A7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */; };
+		AA09BD6D047E4AFDBCA7760C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXBuildFile; fileRef = 86A64B1DCFFC442A90B72E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/b44ExpLogTable.h */; };
+		AA1675B389BF47B2A9080ADE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXBuildFile; fileRef = 3ABDBD9010E64AC193A5DEA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVecAlgo.h */; };
+		AC71D5384A1148FAA0DEBA82 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXBuildFile; fileRef = 31E0A9E652F84646A27569A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/IlmBaseConfig.h */; };
+		AF6B21CB3D2D42FDBF2CEDEE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXBuildFile; fileRef = AC1BFB1D08414634A8978228 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */; };
+		AFA226EF4E734C0CB3D1A2BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXBuildFile; fileRef = 129610A10D944CFFAF0C8D2D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPixelType.h */; };
+		B211FF1F76134BFDBC290632 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = 1D18DBE7D643439EA19EEDBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */; };
+		B4B50E0CEA0644C3A8AA1B62 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXBuildFile; fileRef = 41E7AC65A5064126B9ADF536 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.cpp */; };
+		B63B71730F2F49BBA89B9A34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXBuildFile; fileRef = 752990D015A041A79A245D61 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.cpp */; };
+		BA01F03F58514D2E8FF427FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXBuildFile; fileRef = 0D9CF30373A648FCB5270BE8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.h */; };
+		BAF8D8CB42E143D8A8D67B3D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXBuildFile; fileRef = 8316A030D63C4FE3B1314389 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.h */; };
+		BB677DB6C99441BC8D8E8828 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXBuildFile; fileRef = 0DAE795E2574455D8609C795 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.cpp */; };
+		BCF3C6CE27FF41F5A6DEC3E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 54A3EBF04376455F8E7C006F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */; };
+		BE0A8B85AF944B2DBEFDE55B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 8E246D2E8EA043E79684F6F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */; };
+		BEC6C90D85D744658D8AE7CA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXBuildFile; fileRef = E5AA43A7E8584E50AF4922FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.h */; };
+		BF5B2883918E42B6B94171FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXBuildFile; fileRef = 5A61B72EFC4041D8A0296457 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.h */; };
+		BFD384945ED14C7FB89EB0F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXBuildFile; fileRef = A71205144F5E4B51B0A15EF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */; };
+		C1DB5484C193485993100047 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXBuildFile; fileRef = 70B228FE778F42FDA328D96B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathShear.h */; };
+		C37982FB31B149369D4EA219 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = B75A36DDB2814E50A016EDB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */; };
+		C3DE7A85C7694256891868B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXBuildFile; fileRef = 5324EF19C37740ED847CBBF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGL.h */; };
+		C4528D783FB44CA1A12F2963 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXBuildFile; fileRef = 059FAA452EF54113A6C6017C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRoots.h */; };
+		C4F826D44F71499C8D7DF98F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXBuildFile; fileRef = 0ACAA8FC586D4CBD8183EF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */; };
+		C8C78D050C89429A95D10F1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXBuildFile; fileRef = 72EE6BD323494E878B7F3428 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.h */; };
+		CC4CB1F2267E4663A846F1BF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXBuildFile; fileRef = 5F3FB37F061148C5B4E6C7B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */; };
+		CCF63AB2A2154BFD9D6979EA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXBuildFile; fileRef = AB82A76FB3D6481284024EA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInterval.h */; };
+		CD9E18E4E02A48F28888EDCE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXBuildFile; fileRef = 26927100D9DA46CC9156374B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */; };
+		CE61741D1929473593F3A2AF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 852FF678FD7C4027BB091001 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */; };
+		CF33AC75EB784A69888CE138 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXBuildFile; fileRef = 1557D55BF7BF47CB99D31645 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfName.h */; };
+		CFF668466FA5445993AA3529 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXBuildFile; fileRef = 0295F41D4F1748C6AD878AE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.h */; };
+		D20E4C71AB9E420EB4175D33 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXBuildFile; fileRef = AA7AF4CA046249028F13BA1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.h */; };
+		D9A92B514C74475088FD6E5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXBuildFile; fileRef = 5559421236F14DEEBB6A9AB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.h */; };
+		D9AFC4F328E44219908AC85E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXBuildFile; fileRef = C0640729FC7F4605B9FE29EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompression.h */; };
+		DA5C182C3DFF43FF9312B48D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXBuildFile; fileRef = C94E2C9C212E4690B357D125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.h */; };
+		DD479840E72A4A7C999B4B06 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXBuildFile; fileRef = 77BBEFF0772641C8B2E7AB1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBoxAlgo.h */; };
+		DE6D32DD510748D0876CC754 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXBuildFile; fileRef = 5A66854FEEFF463FB695DAE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */; };
+		DF6A133D4340445DB486F981 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXBuildFile; fileRef = DCC75A67BC74426FA70F2F43 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.h */; };
+		DFE4F86DD49C4FE5BBBFE7FD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXBuildFile; fileRef = 6D51B1C38C4D4D33813AB25D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */; };
+		E141D6ED2E6D432ABDF6E50B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXBuildFile; fileRef = 134A02C2C0E74C19959DD476 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */; };
+		E6FADC10E75D47319CA0F8BD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 5241DC465CDE4A2E8B0CAA73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */; };
+		E77E39DDD00145648E6D0152 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXBuildFile; fileRef = EDB62094775C4CABB75835DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.h */; };
+		E79E2402A3A64AFFACCC2144 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXBuildFile; fileRef = 41496F74C499436A86440405 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLine.h */; };
+		E9B0D3576C434913BF1B15BE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = E8F500E24D40448C84F9C0F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */; };
+		EA22D302B98E435583201B38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXBuildFile; fileRef = 417027385D7D40A69F5F343D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */; };
+		EA23EFD29A76459491C3C047 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXBuildFile; fileRef = B92D341ED5D348CE9CA3E2E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.h */; };
+		EA2C2C0EE04B4CECA2C957B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXBuildFile; fileRef = 49C9CD67DC3645C3A4AE7E42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.h */; };
+		EAAC1AE8C2D9427E93B2ECB7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXBuildFile; fileRef = D5522D6B98994E41B1DF3A39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */; };
+		EAC35522A35E44F99ACE0254 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXBuildFile; fileRef = ED63A95F72B943DCA93EFC77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLimits.h */; };
+		EB08C02D6CCD473186FD77AA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXBuildFile; fileRef = F588DF1F32714CBBB52C9BDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.h */; };
+		EB0F6EB4D4B846AA9BF2499D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXBuildFile; fileRef = F82F9F3CE3724DB0922BAA67 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */; };
+		EC5BF3FE67C2489F9180D90C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXBuildFile; fileRef = 161A12F26CD845F6BF7A23E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.h */; };
+		ED946BBADF864DF995782D1D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXBuildFile; fileRef = FFD8FF2AC2944EF5A2350100 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGLU.h */; };
+		EE3D6F725D0F484E978C0FB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXBuildFile; fileRef = 4A58C2F4C8AC4BFAB87C2E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrix.h */; };
+		EE542E57192E487DA41ED902 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXBuildFile; fileRef = 4661AB3972104D97BCB974D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.h */; };
+		F13A3CF72CF847D4B5E7D510 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = DF800A63A0654A2DBDAFAE68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */; };
+		F1847C6735B44A3A8081D45A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXBuildFile; fileRef = FFF07EDD925840B69B7A4F8A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBox.h */; };
+		F1AD50000BDB4B6181AD79A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXBuildFile; fileRef = F2FE15E1B1BF4769A7A75E53 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.h */; };
+		F290B2B31BA84B71AA206796 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXBuildFile; fileRef = 1347AB7341124ED49C6AD5E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.h */; };
+		F2DA20377BA441F69F0F97AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXBuildFile; fileRef = B27120CDC70D4C67B495F7EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */; };
+		F6094918FBF7448B8D01995D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXBuildFile; fileRef = FB953B53F8614088897B7810 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.h */; };
+		F70A8B41FC7D4790AC30BFA3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXBuildFile; fileRef = B1F20D0BEA344EF290EA5B7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.h */; };
+		F7837D0D15244DDA9A75ED0E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXBuildFile; fileRef = 2CD9C4397E904024BE8D7C0B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.cpp */; };
+		FB8F9256D6444617BE6ED992 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXBuildFile; fileRef = 60F12FBD08E04BECA4DA474A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/OpenEXRConfig.h */; };
+		FFA5EFF4266143829DA95A7D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXBuildFile; fileRef = 691DFAE3C3404419B2408123 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */; };
+		FFBFC5516E814A68874B4BF8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXBuildFile; fileRef = 0AE95F4965164AAC9AB40EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6DAEA7B95E744D39B9940702 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E9C7C601234343AF9C399EF1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		298D06C045E04CF587E594A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E367B38B155E459A9D23120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		7208BF18902547F888CCB3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E367B38B155E459A9D23120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		961CF2F0B9A24755BF68B151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E367B38B155E459A9D23120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D477A18CD35C42F6B455989E;
+			remoteInfo = IlmImf;
+		};
+		BBF3372A84534FE9A56C0610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E367B38B155E459A9D23120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		CD7D9D58A6494209A16ED499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E367B38B155E459A9D23120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A65CF954D46B09F4A5A24 /* IlmImf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIlmImf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0295F41D4F1748C6AD878AE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfConvert.h; path = IlmImf/ImfConvert.h; sourceTree = SOURCE_ROOT; };
+		02FE03DBA0BA430D902CEEA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfArray.h; path = IlmImf/ImfArray.h; sourceTree = SOURCE_ROOT; };
+		059FAA452EF54113A6C6017C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRoots.h; path = Imath/ImathRoots.h; sourceTree = SOURCE_ROOT; };
+		08E2A7DC0D8A405183E4F77D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathSphere.h; path = Imath/ImathSphere.h; sourceTree = SOURCE_ROOT; };
+		09C09737ABBF44649FEE7FFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfScanLineInputFile.cpp; path = IlmImf/ImfScanLineInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		0ACAA8FC586D4CBD8183EF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFloatAttribute.h; path = IlmImf/ImfFloatAttribute.h; sourceTree = SOURCE_ROOT; };
+		0AE95F4965164AAC9AB40EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescriptionAttribute.h; path = IlmImf/ImfTileDescriptionAttribute.h; sourceTree = SOURCE_ROOT; };
+		0B24C05A96354725B1C250D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledMisc.h; path = IlmImf/ImfTiledMisc.h; sourceTree = SOURCE_ROOT; };
+		0B2E6903A57A47179FBC31C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexThrowErrnoExc.cpp; path = Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		0D2C1FC4B5E946D0BADC6D6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressor.h; path = IlmImf/ImfCompressor.h; sourceTree = SOURCE_ROOT; };
+		0D9CF30373A648FCB5270BE8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCode.h; path = IlmImf/ImfTimeCode.h; sourceTree = SOURCE_ROOT; };
+		0DAE795E2574455D8609C795 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfWav.cpp; path = IlmImf/ImfWav.cpp; sourceTree = SOURCE_ROOT; };
+		0EFB7C32621042CB9C1EC196 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescription.h; path = IlmImf/ImfTileDescription.h; sourceTree = SOURCE_ROOT; };
+		129610A10D944CFFAF0C8D2D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPixelType.h; path = IlmImf/ImfPixelType.h; sourceTree = SOURCE_ROOT; };
+		1347AB7341124ED49C6AD5E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaYca.h; path = IlmImf/ImfRgbaYca.h; sourceTree = SOURCE_ROOT; };
+		134A02C2C0E74C19959DD476 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFramesPerSecond.h; path = IlmImf/ImfFramesPerSecond.h; sourceTree = SOURCE_ROOT; };
+		14666F42AB5B40C1B4EB7FBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledOutputFile.cpp; path = IlmImf/ImfTiledOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		1557D55BF7BF47CB99D31645 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfName.h; path = IlmImf/ImfName.h; sourceTree = SOURCE_ROOT; };
+		161A12F26CD845F6BF7A23E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRleCompressor.h; path = IlmImf/ImfRleCompressor.h; sourceTree = SOURCE_ROOT; };
+		1B39AA52C8FC4314A3671FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfB44Compressor.h; path = IlmImf/ImfB44Compressor.h; sourceTree = SOURCE_ROOT; };
+		1B8DF5FF2FDB48C89AB1157F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTestFile.h; path = IlmImf/ImfTestFile.h; sourceTree = SOURCE_ROOT; };
+		1D18DBE7D643439EA19EEDBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOutputFile.cpp; path = IlmImf/ImfOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		1DFEDEA4DC7246F086E3C24A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTestFile.cpp; path = IlmImf/ImfTestFile.cpp; sourceTree = SOURCE_ROOT; };
+		1F0B7C386A774CB3B1E53C57 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileOffsets.cpp; path = IlmImf/ImfTileOffsets.cpp; sourceTree = SOURCE_ROOT; };
+		1F3B58A767D44E3DB28F47D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathEuler.h; path = Imath/ImathEuler.h; sourceTree = SOURCE_ROOT; };
+		229F5873820E4234819867E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = half.cpp; path = Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		230F7732C98346CDAF9AE5C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMultiView.h; path = IlmImf/ImfMultiView.h; sourceTree = SOURCE_ROOT; };
+		2347F55038FA4646B76B5CD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfFunction.h; path = Half/halfFunction.h; sourceTree = SOURCE_ROOT; };
+		23910CAC91E64EA79B832377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLineOrderAttribute.cpp; path = IlmImf/ImfLineOrderAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		23A84550922E4AE0A04DDD83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHeader.h; path = IlmImf/ImfHeader.h; sourceTree = SOURCE_ROOT; };
+		245F573E05A64C8CA67FB85E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFramesPerSecond.cpp; path = IlmImf/ImfFramesPerSecond.cpp; sourceTree = SOURCE_ROOT; };
+		26927100D9DA46CC9156374B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFrameBuffer.h; path = IlmImf/ImfFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		26C040EBDB60447EBD80F73A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathRandom.cpp; path = Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		29E2EA6373564FC98058199E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelListAttribute.h; path = IlmImf/ImfChannelListAttribute.h; sourceTree = SOURCE_ROOT; };
+		2CD9C4397E904024BE8D7C0B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVersion.cpp; path = IlmImf/ImfVersion.cpp; sourceTree = SOURCE_ROOT; };
+		2DB643794C3A4D98BF912F34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileOffsets.h; path = IlmImf/ImfTileOffsets.h; sourceTree = SOURCE_ROOT; };
+		3047C21CC38D44BE8B7124EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImage.h; path = IlmImf/ImfPreviewImage.h; sourceTree = SOURCE_ROOT; };
+		31E0A9E652F84646A27569A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmBaseConfig.h; path = ../../bulid/3rdparty/openexr/IlmBaseConfig.h; sourceTree = SOURCE_ROOT; };
+		342E7084BC884042AE36F0AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAcesFile.h; path = IlmImf/ImfAcesFile.h; sourceTree = SOURCE_ROOT; };
+		3765FC4CBC7448BAAC4B2CE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOpaqueAttribute.cpp; path = IlmImf/ImfOpaqueAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		3ABDBD9010E64AC193A5DEA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVecAlgo.h; path = Imath/ImathVecAlgo.h; sourceTree = SOURCE_ROOT; };
+		406B9F51F8C24478B80DDEC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColor.h; path = Imath/ImathColor.h; sourceTree = SOURCE_ROOT; };
+		409CC952A2994A38B446B694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPosix.cpp; path = IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+		40BD7EDB8C344E5E95C01425 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCodeAttribute.h; path = IlmImf/ImfKeyCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		40F175727A2A417BA265A98A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfBoxAttribute.h; path = IlmImf/ImfBoxAttribute.h; sourceTree = SOURCE_ROOT; };
+		41496F74C499436A86440405 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLine.h; path = Imath/ImathLine.h; sourceTree = SOURCE_ROOT; };
+		417027385D7D40A69F5F343D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledInputFile.h; path = IlmImf/ImfTiledInputFile.h; sourceTree = SOURCE_ROOT; };
+		41E7AC65A5064126B9ADF536 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelList.cpp; path = IlmImf/ImfChannelList.cpp; sourceTree = SOURCE_ROOT; };
+		45B5C160A7D04F248CAC4B52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStandardAttributes.h; path = IlmImf/ImfStandardAttributes.h; sourceTree = SOURCE_ROOT; };
+		45E93E00B81F40FEB2B735E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileDescriptionAttribute.cpp; path = IlmImf/ImfTileDescriptionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		4661AB3972104D97BCB974D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadPool.h; path = IlmThread/IlmThreadPool.h; sourceTree = SOURCE_ROOT; };
+		466D648056EA42C78416FB26 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMacros.h; path = Iex/IexMacros.h; sourceTree = SOURCE_ROOT; };
+		49C9CD67DC3645C3A4AE7E42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFun.h; path = Imath/ImathFun.h; sourceTree = SOURCE_ROOT; };
+		4A1C41A821B94E1B99B46398 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCodeAttribute.cpp; path = IlmImf/ImfTimeCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		4A58C2F4C8AC4BFAB87C2E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrix.h; path = Imath/ImathMatrix.h; sourceTree = SOURCE_ROOT; };
+		4A68236B50C349A391A7A4B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustumTest.h; path = Imath/ImathFrustumTest.h; sourceTree = SOURCE_ROOT; };
+		4AE999134FDF47B5BA230459 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMultiView.cpp; path = IlmImf/ImfMultiView.cpp; sourceTree = SOURCE_ROOT; };
+		4C2D8FE5A22447719208A0EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInt64.h; path = Imath/ImathInt64.h; sourceTree = SOURCE_ROOT; };
+		4E302053ADFB4F73ABBC0FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledRgbaFile.h; path = IlmImf/ImfTiledRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		50AFDAE40A1B4693BDFFF2C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfLimits.h; path = Half/halfLimits.h; sourceTree = SOURCE_ROOT; };
+		5192F71FF2E14CCE97F81840 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmapAttribute.h; path = IlmImf/ImfEnvmapAttribute.h; sourceTree = SOURCE_ROOT; };
+		51AC4D641852439DAF07F4C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringVectorAttribute.h; path = IlmImf/ImfStringVectorAttribute.h; sourceTree = SOURCE_ROOT; };
+		5241DC465CDE4A2E8B0CAA73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringAttribute.cpp; path = IlmImf/ImfStringAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5324EF19C37740ED847CBBF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGL.h; path = Imath/ImathGL.h; sourceTree = SOURCE_ROOT; };
+		54A3EBF04376455F8E7C006F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringVectorAttribute.cpp; path = IlmImf/ImfStringVectorAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		54B2048CB35043B68796F30C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFrameBuffer.cpp; path = IlmImf/ImfFrameBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		55505A1D1B664F789B0AFBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCodeAttribute.h; path = IlmImf/ImfTimeCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		5559421236F14DEEBB6A9AB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelList.h; path = IlmImf/ImfChannelList.h; sourceTree = SOURCE_ROOT; };
+		5717CE8858CA472998BCFC58 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIntAttribute.h; path = IlmImf/ImfIntAttribute.h; sourceTree = SOURCE_ROOT; };
+		57633CDB892C423F943AC961 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlatform.h; path = Imath/ImathPlatform.h; sourceTree = SOURCE_ROOT; };
+		5A61B72EFC4041D8A0296457 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringAttribute.h; path = IlmImf/ImfStringAttribute.h; sourceTree = SOURCE_ROOT; };
+		5A66854FEEFF463FB695DAE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPxr24Compressor.cpp; path = IlmImf/ImfPxr24Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		5CFE181D258E4EB5AF8E2503 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMisc.h; path = IlmImf/ImfMisc.h; sourceTree = SOURCE_ROOT; };
+		5D56FECA8B554C1C88320C5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathExc.h; path = Imath/ImathExc.h; sourceTree = SOURCE_ROOT; };
+		5EC6B7954E5C49A594CD720F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAttribute.cpp; path = IlmImf/ImfAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5F3C8BA87FEE4518913171E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMatrixAttribute.cpp; path = IlmImf/ImfMatrixAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5F3FB37F061148C5B4E6C7B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledMisc.cpp; path = IlmImf/ImfTiledMisc.cpp; sourceTree = SOURCE_ROOT; };
+		60338CF5C2A64627B16FC8D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = half.h; path = Half/half.h; sourceTree = SOURCE_ROOT; };
+		60E5A8D071B94B22B126A7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImageAttribute.h; path = IlmImf/ImfPreviewImageAttribute.h; sourceTree = SOURCE_ROOT; };
+		60F12FBD08E04BECA4DA474A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OpenEXRConfig.h; path = ../../bulid/3rdparty/openexr/OpenEXRConfig.h; sourceTree = SOURCE_ROOT; };
+		6147C9A3E78A460EAEC184D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Iex.h; path = Iex/Iex.h; sourceTree = SOURCE_ROOT; };
+		62FD689477E945C5BA28FCC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPxr24Compressor.h; path = IlmImf/ImfPxr24Compressor.h; sourceTree = SOURCE_ROOT; };
+		65C98677D5B94187B66D80B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLut.cpp; path = IlmImf/ImfLut.cpp; sourceTree = SOURCE_ROOT; };
+		67A6EC1CAC7C4D78A540FE75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathQuat.h; path = Imath/ImathQuat.h; sourceTree = SOURCE_ROOT; };
+		686AA778EBD844AD824F90E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThread.cpp; path = IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		691DFAE3C3404419B2408123 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfScanLineInputFile.h; path = IlmImf/ImfScanLineInputFile.h; sourceTree = SOURCE_ROOT; };
+		6A4882D8D4934C4AB1651B5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfBoxAttribute.cpp; path = IlmImf/ImfBoxAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		6CE976F291C94E3CAE3390A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledRgbaFile.cpp; path = IlmImf/ImfTiledRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		6D51B1C38C4D4D33813AB25D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAcesFile.cpp; path = IlmImf/ImfAcesFile.cpp; sourceTree = SOURCE_ROOT; };
+		6E11751D87E04F689A310C48 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticitiesAttribute.cpp; path = IlmImf/ImfChromaticitiesAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		70B228FE778F42FDA328D96B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathShear.h; path = Imath/ImathShear.h; sourceTree = SOURCE_ROOT; };
+		71E92BA398AE4620A855E3B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathMatrixAlgo.cpp; path = Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		724F0D61828743A48645C6CB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVecAttribute.cpp; path = IlmImf/ImfVecAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		72A2DBE218C14531814C37F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexBaseExc.cpp; path = Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		72EE6BD323494E878B7F3428 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAttribute.h; path = IlmImf/ImfAttribute.h; sourceTree = SOURCE_ROOT; };
+		749D60A2AA5344399304EC37 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHeader.cpp; path = IlmImf/ImfHeader.cpp; sourceTree = SOURCE_ROOT; };
+		752990D015A041A79A245D61 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRational.cpp; path = IlmImf/ImfRational.cpp; sourceTree = SOURCE_ROOT; };
+		76DE6636FF32492EBD1DEAFC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCode.cpp; path = IlmImf/ImfTimeCode.cpp; sourceTree = SOURCE_ROOT; };
+		77BBEFF0772641C8B2E7AB1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBoxAlgo.h; path = Imath/ImathBoxAlgo.h; sourceTree = SOURCE_ROOT; };
+		7BFD7D1643094146AE555F66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmapAttribute.cpp; path = IlmImf/ImfEnvmapAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		7C5FD586ACF74955A8E1BF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCheckedArithmetic.h; path = IlmImf/ImfCheckedArithmetic.h; sourceTree = SOURCE_ROOT; };
+		7E473C0D52DF4FE1A1C178F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfDoubleAttribute.h; path = IlmImf/ImfDoubleAttribute.h; sourceTree = SOURCE_ROOT; };
+		7EA7DBB518164E849B81F208 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOutputFile.h; path = IlmImf/ImfOutputFile.h; sourceTree = SOURCE_ROOT; };
+		7ED7EB7582A846CB87E2EA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosix.cpp; path = IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		7F925B83C61E4C498E213920 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLut.h; path = IlmImf/ImfLut.h; sourceTree = SOURCE_ROOT; };
+		8316A030D63C4FE3B1314389 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrixAlgo.h; path = Imath/ImathMatrixAlgo.h; sourceTree = SOURCE_ROOT; };
+		83CBE8CE00FC43E2909885A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexErrnoExc.h; path = Iex/IexErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		852FF678FD7C4027BB091001 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		86A64B1DCFFC442A90B72E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b44ExpLogTable.h; path = IlmImf/b44ExpLogTable.h; sourceTree = SOURCE_ROOT; };
+		88357EEEA45D4D86871CBDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticities.cpp; path = IlmImf/ImfChromaticities.cpp; sourceTree = SOURCE_ROOT; };
+		8A05A9C2CC48436CB344579C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHuf.h; path = IlmImf/ImfHuf.h; sourceTree = SOURCE_ROOT; };
+		8CD711CFDB0F4EBBA0C64C1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrderAttribute.h; path = IlmImf/ImfLineOrderAttribute.h; sourceTree = SOURCE_ROOT; };
+		8E11FBB6E6944AAC8E763EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPool.cpp; path = IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		8E246D2E8EA043E79684F6F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelListAttribute.cpp; path = IlmImf/ImfChannelListAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		91ABC7D422C54AFD83B0BFAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPizCompressor.cpp; path = IlmImf/ImfPizCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		939D989A7E2A42C0991F951D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgba.h; path = IlmImf/ImfRgba.h; sourceTree = SOURCE_ROOT; };
+		94027276BC4C48239CDE2F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImageAttribute.cpp; path = IlmImf/ImfPreviewImageAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		963812A082DC43618ADAEA68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmap.h; path = IlmImf/ImfEnvmap.h; sourceTree = SOURCE_ROOT; };
+		98923F395A34480FB1AD6A82 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRationalAttribute.h; path = IlmImf/ImfRationalAttribute.h; sourceTree = SOURCE_ROOT; };
+		98B29AD5A1824A96838DCED5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledInputFile.cpp; path = IlmImf/ImfTiledInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		99CD422E926B4679BAEEBC66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMath.h; path = Imath/ImathMath.h; sourceTree = SOURCE_ROOT; };
+		A09C3625F1EE4603A4279F92 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressor.cpp; path = IlmImf/ImfCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		A3831892B6964D119D08C017 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStdIO.cpp; path = IlmImf/ImfStdIO.cpp; sourceTree = SOURCE_ROOT; };
+		A4CA3AE630004E0998FB01AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIO.cpp; path = IlmImf/ImfIO.cpp; sourceTree = SOURCE_ROOT; };
+		A71205144F5E4B51B0A15EF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticitiesAttribute.h; path = IlmImf/ImfChromaticitiesAttribute.h; sourceTree = SOURCE_ROOT; };
+		A75DCC1BEA0043FB8439BEC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathColorAlgo.cpp; path = Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		A964AD88F31B44A38845E0B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMathExc.h; path = Iex/IexMathExc.h; sourceTree = SOURCE_ROOT; };
+		AA696EFEC349443797CD143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLineAlgo.h; path = Imath/ImathLineAlgo.h; sourceTree = SOURCE_ROOT; };
+		AA7AF4CA046249028F13BA1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfWav.h; path = IlmImf/ImfWav.h; sourceTree = SOURCE_ROOT; };
+		AB82A76FB3D6481284024EA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInterval.h; path = Imath/ImathInterval.h; sourceTree = SOURCE_ROOT; };
+		AC1BFB1D08414634A8978228 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadSemaphore.h; path = IlmThread/IlmThreadSemaphore.h; sourceTree = SOURCE_ROOT; };
+		AD9CB13C6A6043699F9EAE4E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustum.h; path = Imath/ImathFrustum.h; sourceTree = SOURCE_ROOT; };
+		AEF8F90D8FA2437AA5586229 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIntAttribute.cpp; path = IlmImf/ImfIntAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		B05045ED134148E4A85175E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledOutputFile.h; path = IlmImf/ImfTiledOutputFile.h; sourceTree = SOURCE_ROOT; };
+		B1DB1CF4FC8D44578906A764 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrder.h; path = IlmImf/ImfLineOrder.h; sourceTree = SOURCE_ROOT; };
+		B1F20D0BEA344EF290EA5B7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInputFile.h; path = IlmImf/ImfInputFile.h; sourceTree = SOURCE_ROOT; };
+		B27120CDC70D4C67B495F7EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmap.cpp; path = IlmImf/ImfEnvmap.cpp; sourceTree = SOURCE_ROOT; };
+		B3F7268791B94D2D9A739F5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrame.h; path = Imath/ImathFrame.h; sourceTree = SOURCE_ROOT; };
+		B6038B301F7B4EBCB9381AD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathVec.cpp; path = Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		B6C70361AEC04F54BF3E6A95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfInputFile.cpp; path = IlmImf/ImfInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		B75A36DDB2814E50A016EDB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCodeAttribute.cpp; path = IlmImf/ImfKeyCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		B92D341ED5D348CE9CA3E2E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVecAttribute.h; path = IlmImf/ImfVecAttribute.h; sourceTree = SOURCE_ROOT; };
+		BBAE56B820884B86BD91725D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPizCompressor.h; path = IlmImf/ImfPizCompressor.h; sourceTree = SOURCE_ROOT; };
+		BFF9B172AFC6451587E72B1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfDoubleAttribute.cpp; path = IlmImf/ImfDoubleAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		C0640729FC7F4605B9FE29EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompression.h; path = IlmImf/ImfCompression.h; sourceTree = SOURCE_ROOT; };
+		C1D9AB8F0ADD46B8900CE66C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColorAlgo.h; path = Imath/ImathColorAlgo.h; sourceTree = SOURCE_ROOT; };
+		C1E4E428CE2547ABAF377999 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutex.cpp; path = IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		C365631EC61147E29EF3DE01 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImage.cpp; path = IlmImf/ImfPreviewImage.cpp; sourceTree = SOURCE_ROOT; };
+		C5D93B96596F4C84BCC90EC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toFloat.h; path = Half/toFloat.h; sourceTree = SOURCE_ROOT; };
+		C6C94AFB08804776B1514D7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMisc.cpp; path = IlmImf/ImfMisc.cpp; sourceTree = SOURCE_ROOT; };
+		C94E2C9C212E4690B357D125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRandom.h; path = Imath/ImathRandom.h; sourceTree = SOURCE_ROOT; };
+		CC35F27629AD4821A1740A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfThreading.cpp; path = IlmImf/ImfThreading.cpp; sourceTree = SOURCE_ROOT; };
+		CD6A853167A14293BB4AB868 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressionAttribute.h; path = IlmImf/ImfCompressionAttribute.h; sourceTree = SOURCE_ROOT; };
+		CD8AEB66E66C44099C69C640 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRleCompressor.cpp; path = IlmImf/ImfRleCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		CE10642223EA4155B5209B34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCode.cpp; path = IlmImf/ImfKeyCode.cpp; sourceTree = SOURCE_ROOT; };
+		CFE2FD444B0E4E7BBCF73436 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/eLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eLut.h; path = Half/eLut.h; sourceTree = SOURCE_ROOT; };
+		D1D95A49705044B8AB6B2B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIO.h; path = IlmImf/ImfIO.h; sourceTree = SOURCE_ROOT; };
+		D2EA2A92DBB54ABEB90F1B4B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRational.h; path = IlmImf/ImfRational.h; sourceTree = SOURCE_ROOT; };
+		D3FCE1D79F4A49B78E58CBBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAutoArray.h; path = IlmImf/ImfAutoArray.h; sourceTree = SOURCE_ROOT; };
+		D4AAC76679684FB4954D6EAF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVersion.h; path = IlmImf/ImfVersion.h; sourceTree = SOURCE_ROOT; };
+		D5522D6B98994E41B1DF3A39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphore.cpp; path = IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		D587354560C54B329CC92A42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfZipCompressor.cpp; path = IlmImf/ImfZipCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		D6690872556A42FDADD10817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMatrixAttribute.h; path = IlmImf/ImfMatrixAttribute.h; sourceTree = SOURCE_ROOT; };
+		D7B2FA56B1B34F37940A01F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathFun.cpp; path = Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		D8F7D93C14D340F5A5B184E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexBaseExc.h; path = Iex/IexBaseExc.h; sourceTree = SOURCE_ROOT; };
+		D9338082AFB641278B561338 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHuf.cpp; path = IlmImf/ImfHuf.cpp; sourceTree = SOURCE_ROOT; };
+		D99DB51DE85B419283998D20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		DC866A0D45014670ABEB91A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DCC2CB72624642779A291224 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadMutex.h; path = IlmThread/IlmThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		DCC75A67BC74426FA70F2F43 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticities.h; path = IlmImf/ImfChromaticities.h; sourceTree = SOURCE_ROOT; };
+		DF800A63A0654A2DBDAFAE68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaFile.cpp; path = IlmImf/ImfRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		E22C597908E0459C8785C3F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfB44Compressor.cpp; path = IlmImf/ImfB44Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		E26F728C783B442A87C21030 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaFile.h; path = IlmImf/ImfRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		E303F97212634F6F8004F15A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOpaqueAttribute.h; path = IlmImf/ImfOpaqueAttribute.h; sourceTree = SOURCE_ROOT; };
+		E30B37F02D6549449931D2D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexThrowErrnoExc.h; path = Iex/IexThrowErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		E32A15F0458C44D188EC811B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCRgbaFile.cpp; path = IlmImf/ImfCRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		E5AA43A7E8584E50AF4922FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfZipCompressor.h; path = IlmImf/ImfZipCompressor.h; sourceTree = SOURCE_ROOT; };
+		E5FEA8E283BB4D6FA4D521B7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutexPosix.cpp; path = IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		E8F500E24D40448C84F9C0F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressionAttribute.cpp; path = IlmImf/ImfCompressionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		EC738EDD1A7F49909ACC184A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInt64.h; path = IlmImf/ImfInt64.h; sourceTree = SOURCE_ROOT; };
+		ED63A95F72B943DCA93EFC77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLimits.h; path = Imath/ImathLimits.h; sourceTree = SOURCE_ROOT; };
+		EDB49887F1384119914B9B1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRationalAttribute.cpp; path = IlmImf/ImfRationalAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		EDB62094775C4CABB75835DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCode.h; path = IlmImf/ImfKeyCode.h; sourceTree = SOURCE_ROOT; };
+		F23ACBC7CE7940DDA4B31E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThread.h; path = IlmThread/IlmThread.h; sourceTree = SOURCE_ROOT; };
+		F25C2F1EF5FE47DB9F9C553B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathHalfLimits.h; path = Imath/ImathHalfLimits.h; sourceTree = SOURCE_ROOT; };
+		F2FE15E1B1BF4769A7A75E53 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStdIO.h; path = IlmImf/ImfStdIO.h; sourceTree = SOURCE_ROOT; };
+		F362F37A3A894DF69D1C1125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStandardAttributes.cpp; path = IlmImf/ImfStandardAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		F3B9B2E0A25C43ADB55EC244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlane.h; path = Imath/ImathPlane.h; sourceTree = SOURCE_ROOT; };
+		F46BA96C524E4CFD9FF2D140 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCRgbaFile.h; path = IlmImf/ImfCRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		F588DF1F32714CBBB52C9BDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfThreading.h; path = IlmImf/ImfThreading.h; sourceTree = SOURCE_ROOT; };
+		F82F9F3CE3724DB0922BAA67 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFloatAttribute.cpp; path = IlmImf/ImfFloatAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		FA23B4CE4C8947BAAF78BCD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfConvert.cpp; path = IlmImf/ImfConvert.cpp; sourceTree = SOURCE_ROOT; };
+		FADC0DAB272F40498B6EB24E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FB953B53F8614088897B7810 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVec.h; path = Imath/ImathVec.h; sourceTree = SOURCE_ROOT; };
+		FBAE6CB867224E5C8DD2C179 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfXdr.h; path = IlmImf/ImfXdr.h; sourceTree = SOURCE_ROOT; };
+		FD7D03D474FB4F9C8694652B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaYca.cpp; path = IlmImf/ImfRgbaYca.cpp; sourceTree = SOURCE_ROOT; };
+		FFD8FF2AC2944EF5A2350100 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGLU.h; path = Imath/ImathGLU.h; sourceTree = SOURCE_ROOT; };
+		FFF07EDD925840B69B7A4F8A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBox.h; path = Imath/ImathBox.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1EC2DAF92EF4498D8038338B /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				CFE2FD444B0E4E7BBCF73436 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/eLut.h */,
+				60338CF5C2A64627B16FC8D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.h */,
+				2347F55038FA4646B76B5CD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfFunction.h */,
+				50AFDAE40A1B4693BDFFF2C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/halfLimits.h */,
+				C5D93B96596F4C84BCC90EC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/toFloat.h */,
+				6147C9A3E78A460EAEC184D8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/Iex.h */,
+				D8F7D93C14D340F5A5B184E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.h */,
+				83CBE8CE00FC43E2909885A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexErrnoExc.h */,
+				466D648056EA42C78416FB26 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMacros.h */,
+				A964AD88F31B44A38845E0B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMathExc.h */,
+				E30B37F02D6549449931D2D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.h */,
+				342E7084BC884042AE36F0AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.h */,
+				02FE03DBA0BA430D902CEEA2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfArray.h */,
+				72EE6BD323494E878B7F3428 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.h */,
+				D3FCE1D79F4A49B78E58CBBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAutoArray.h */,
+				1B39AA52C8FC4314A3671FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.h */,
+				40F175727A2A417BA265A98A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */,
+				F46BA96C524E4CFD9FF2D140 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */,
+				5559421236F14DEEBB6A9AB5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.h */,
+				29E2EA6373564FC98058199E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */,
+				7C5FD586ACF74955A8E1BF80 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */,
+				DCC75A67BC74426FA70F2F43 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.h */,
+				A71205144F5E4B51B0A15EF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */,
+				C0640729FC7F4605B9FE29EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompression.h */,
+				CD6A853167A14293BB4AB868 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */,
+				0D2C1FC4B5E946D0BADC6D6B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.h */,
+				0295F41D4F1748C6AD878AE4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.h */,
+				7E473C0D52DF4FE1A1C178F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */,
+				963812A082DC43618ADAEA68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.h */,
+				5192F71FF2E14CCE97F81840 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */,
+				0ACAA8FC586D4CBD8183EF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */,
+				26927100D9DA46CC9156374B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */,
+				134A02C2C0E74C19959DD476 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */,
+				23A84550922E4AE0A04DDD83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.h */,
+				8A05A9C2CC48436CB344579C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.h */,
+				D1D95A49705044B8AB6B2B89 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.h */,
+				B1F20D0BEA344EF290EA5B7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.h */,
+				EC738EDD1A7F49909ACC184A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInt64.h */,
+				5717CE8858CA472998BCFC58 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.h */,
+				EDB62094775C4CABB75835DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.h */,
+				40BD7EDB8C344E5E95C01425 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */,
+				B1DB1CF4FC8D44578906A764 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrder.h */,
+				8CD711CFDB0F4EBBA0C64C1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */,
+				7F925B83C61E4C498E213920 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.h */,
+				D6690872556A42FDADD10817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */,
+				5CFE181D258E4EB5AF8E2503 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.h */,
+				230F7732C98346CDAF9AE5C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.h */,
+				1557D55BF7BF47CB99D31645 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfName.h */,
+				E303F97212634F6F8004F15A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */,
+				7EA7DBB518164E849B81F208 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.h */,
+				129610A10D944CFFAF0C8D2D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPixelType.h */,
+				BBAE56B820884B86BD91725D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.h */,
+				3047C21CC38D44BE8B7124EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.h */,
+				60E5A8D071B94B22B126A7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */,
+				62FD689477E945C5BA28FCC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */,
+				D2EA2A92DBB54ABEB90F1B4B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.h */,
+				98923F395A34480FB1AD6A82 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */,
+				939D989A7E2A42C0991F951D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgba.h */,
+				E26F728C783B442A87C21030 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.h */,
+				1347AB7341124ED49C6AD5E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.h */,
+				161A12F26CD845F6BF7A23E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.h */,
+				691DFAE3C3404419B2408123 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */,
+				45B5C160A7D04F248CAC4B52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */,
+				F2FE15E1B1BF4769A7A75E53 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.h */,
+				5A61B72EFC4041D8A0296457 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.h */,
+				51AC4D641852439DAF07F4C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */,
+				1B8DF5FF2FDB48C89AB1157F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.h */,
+				F588DF1F32714CBBB52C9BDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.h */,
+				0EFB7C32621042CB9C1EC196 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescription.h */,
+				0AE95F4965164AAC9AB40EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */,
+				2DB643794C3A4D98BF912F34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.h */,
+				417027385D7D40A69F5F343D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */,
+				0B24C05A96354725B1C250D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.h */,
+				B05045ED134148E4A85175E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */,
+				4E302053ADFB4F73ABBC0FC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */,
+				0D9CF30373A648FCB5270BE8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.h */,
+				55505A1D1B664F789B0AFBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */,
+				B92D341ED5D348CE9CA3E2E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.h */,
+				D4AAC76679684FB4954D6EAF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.h */,
+				AA7AF4CA046249028F13BA1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.h */,
+				FBAE6CB867224E5C8DD2C179 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfXdr.h */,
+				E5AA43A7E8584E50AF4922FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.h */,
+				86A64B1DCFFC442A90B72E64 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/b44ExpLogTable.h */,
+				F23ACBC7CE7940DDA4B31E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.h */,
+				DCC2CB72624642779A291224 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.h */,
+				4661AB3972104D97BCB974D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.h */,
+				AC1BFB1D08414634A8978228 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */,
+				FFF07EDD925840B69B7A4F8A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBox.h */,
+				77BBEFF0772641C8B2E7AB1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBoxAlgo.h */,
+				406B9F51F8C24478B80DDEC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColor.h */,
+				C1D9AB8F0ADD46B8900CE66C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.h */,
+				1F3B58A767D44E3DB28F47D5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathEuler.h */,
+				5D56FECA8B554C1C88320C5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathExc.h */,
+				B3F7268791B94D2D9A739F5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrame.h */,
+				AD9CB13C6A6043699F9EAE4E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustum.h */,
+				4A68236B50C349A391A7A4B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFrustumTest.h */,
+				49C9CD67DC3645C3A4AE7E42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.h */,
+				5324EF19C37740ED847CBBF2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGL.h */,
+				FFD8FF2AC2944EF5A2350100 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathGLU.h */,
+				F25C2F1EF5FE47DB9F9C553B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathHalfLimits.h */,
+				4C2D8FE5A22447719208A0EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInt64.h */,
+				AB82A76FB3D6481284024EA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInterval.h */,
+				ED63A95F72B943DCA93EFC77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLimits.h */,
+				41496F74C499436A86440405 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLine.h */,
+				AA696EFEC349443797CD143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLineAlgo.h */,
+				99CD422E926B4679BAEEBC66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMath.h */,
+				4A58C2F4C8AC4BFAB87C2E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrix.h */,
+				8316A030D63C4FE3B1314389 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.h */,
+				F3B9B2E0A25C43ADB55EC244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlane.h */,
+				57633CDB892C423F943AC961 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlatform.h */,
+				67A6EC1CAC7C4D78A540FE75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathQuat.h */,
+				C94E2C9C212E4690B357D125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.h */,
+				059FAA452EF54113A6C6017C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRoots.h */,
+				70B228FE778F42FDA328D96B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathShear.h */,
+				08E2A7DC0D8A405183E4F77D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathSphere.h */,
+				FB953B53F8614088897B7810 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.h */,
+				3ABDBD9010E64AC193A5DEA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVecAlgo.h */,
+				31E0A9E652F84646A27569A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/IlmBaseConfig.h */,
+				60F12FBD08E04BECA4DA474A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/OpenEXRConfig.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		4E4F19AB39C24A199199F911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023A65CF954D46B09F4A5A24 /* IlmImf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515AC543EE20478D88F38992 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F788AF14D4EEFB18C131E /* IlmImf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		5993C52B2DE648359C98A148 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				229F5873820E4234819867E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.cpp */,
+				72A2DBE218C14531814C37F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				0B2E6903A57A47179FBC31C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				6D51B1C38C4D4D33813AB25D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				5EC6B7954E5C49A594CD720F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				E22C597908E0459C8785C3F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				6A4882D8D4934C4AB1651B5D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				E32A15F0458C44D188EC811B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				41E7AC65A5064126B9ADF536 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				8E246D2E8EA043E79684F6F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				88357EEEA45D4D86871CBDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				6E11751D87E04F689A310C48 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				E8F500E24D40448C84F9C0F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				A09C3625F1EE4603A4279F92 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				FA23B4CE4C8947BAAF78BCD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				BFF9B172AFC6451587E72B1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				B27120CDC70D4C67B495F7EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				7BFD7D1643094146AE555F66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				F82F9F3CE3724DB0922BAA67 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				54B2048CB35043B68796F30C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				245F573E05A64C8CA67FB85E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				749D60A2AA5344399304EC37 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				D9338082AFB641278B561338 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				A4CA3AE630004E0998FB01AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				B6C70361AEC04F54BF3E6A95 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				AEF8F90D8FA2437AA5586229 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				CE10642223EA4155B5209B34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				B75A36DDB2814E50A016EDB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				23910CAC91E64EA79B832377 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				65C98677D5B94187B66D80B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				5F3C8BA87FEE4518913171E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				C6C94AFB08804776B1514D7C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				4AE999134FDF47B5BA230459 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				3765FC4CBC7448BAAC4B2CE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				1D18DBE7D643439EA19EEDBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				91ABC7D422C54AFD83B0BFAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				C365631EC61147E29EF3DE01 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				94027276BC4C48239CDE2F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				5A66854FEEFF463FB695DAE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				752990D015A041A79A245D61 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				EDB49887F1384119914B9B1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				DF800A63A0654A2DBDAFAE68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				FD7D03D474FB4F9C8694652B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				CD8AEB66E66C44099C69C640 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				09C09737ABBF44649FEE7FFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				F362F37A3A894DF69D1C1125 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				A3831892B6964D119D08C017 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				5241DC465CDE4A2E8B0CAA73 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				54A3EBF04376455F8E7C006F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				1DFEDEA4DC7246F086E3C24A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				CC35F27629AD4821A1740A3A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				45E93E00B81F40FEB2B735E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				1F0B7C386A774CB3B1E53C57 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				98B29AD5A1824A96838DCED5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				5F3FB37F061148C5B4E6C7B9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				14666F42AB5B40C1B4EB7FBB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				6CE976F291C94E3CAE3390A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				76DE6636FF32492EBD1DEAFC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				4A1C41A821B94E1B99B46398 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				724F0D61828743A48645C6CB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				2CD9C4397E904024BE8D7C0B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				0DAE795E2574455D8609C795 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				D587354560C54B329CC92A42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				686AA778EBD844AD824F90E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				C1E4E428CE2547ABAF377999 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				E5FEA8E283BB4D6FA4D521B7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				8E11FBB6E6944AAC8E763EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				409CC952A2994A38B446B694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				D5522D6B98994E41B1DF3A39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				7ED7EB7582A846CB87E2EA24 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				D99DB51DE85B419283998D20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				A75DCC1BEA0043FB8439BEC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				D7B2FA56B1B34F37940A01F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.cpp */,
+				71E92BA398AE4620A855E3B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				26C040EBDB60447EBD80F73A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				B6038B301F7B4EBCB9381AD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		8A60DFCA1B70462394611214 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C53C2C2DE8AD4590BDB1303D /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D218D1C6645EB925A69BD /* CMake Rules */,
+				DC866A0D45014670ABEB91A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		D70182E28F284EA293B28D54 = {
+			isa = PBXGroup;
+			children = (
+				515AC543EE20478D88F38992 /* 3rdparty */,
+				F9F821C686EF475CAA853F8B /* ALL_BUILD */,
+				C53C2C2DE8AD4590BDB1303D /* ZERO_CHECK */,
+				4E4F19AB39C24A199199F911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3D218D1C6645EB925A69BD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F9F821C686EF475CAA853F8B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8A60DFCA1B70462394611214 /* CMake Rules */,
+				FADC0DAB272F40498B6EB24E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FB1F788AF14D4EEFB18C131E /* IlmImf */ = {
+			isa = PBXGroup;
+			children = (
+				1EC2DAF92EF4498D8038338B /* Include */,
+				5993C52B2DE648359C98A148 /* Src */,
+				852FF678FD7C4027BB091001 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = IlmImf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D477A18CD35C42F6B455989E /* IlmImf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4491DCFF0B42BA89FEC236 /* Build configuration list for PBXNativeTarget "IlmImf" */;
+			buildPhases = (
+				CBC3CEC83BFE48CE8B5A2362 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA99DDAA92AA48D6ABB51296 /* PBXTargetDependency */,
+			);
+			name = IlmImf;
+			productName = IlmImf;
+			productReference = 023A65CF954D46B09F4A5A24 /* IlmImf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E367B38B155E459A9D23120E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 19E11732019548A6A319F7CC /* Build configuration list for PBXProject "openexr" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E9C7C601234343AF9C399EF1 /* Debug */,
+				6DAEA7B95E744D39B9940702 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D70182E28F284EA293B28D54;
+			projectDirPath = ../../../3rdparty/openexr;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D477A18CD35C42F6B455989E /* IlmImf */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B842E053B0B47C1A0F42B22 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1DDC375C24A548AAA54BFACC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3D1BD4BE37094D1A9DCBF0D4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		539D464389B44B4EBBEC53CB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		60905ED19EA144B58600E660 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6A7D1686B82B4CEEBD38DE60 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6E29DB6178544F4E89F8BC12 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		95459381BBF24E40B39F960E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		98108B7AFD01417EB7478D11 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ED51A3FEE42D4D7D93E84D53 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC3CEC83BFE48CE8B5A2362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A282DC3311AF430381CD720E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.cpp */,
+				5C342C28482F485CBBA26259 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				8B7579B5DB3B49BD8E4FDEAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				DFE4F86DD49C4FE5BBBFE7FD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				41AA9F917368497F85B45040 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				A033C74340E249B09D240EAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				30F0CBDBB7C54E688BE80831 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				2D3857DB2EFE45618B2C805C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				B4B50E0CEA0644C3A8AA1B62 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				BE0A8B85AF944B2DBEFDE55B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				88434FB645B3416090BD5720 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				7B3ED0A6FA7447E597D504A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				E9B0D3576C434913BF1B15BE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				7BA06514FD024387A99EC475 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				516775650E6B4702BF03E748 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				6C13618C0A204DE392C2CDD9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				F2DA20377BA441F69F0F97AC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				2B8929649236470CBF4279FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				EB0F6EB4D4B846AA9BF2499D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				67260EE16B07450397067AEC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				32EA2DD1277E4DA99563550F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				1093F356744A4FF1A9DDB644 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				32A2A5DDB5FE4154A8DA953C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				636CB5D2CBD7471CB46A5C0C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				70A254CA5ECD4CB588DBF225 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				9E20445F31B24404BD049607 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				72D67926D1C34A0E99AA59EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				C37982FB31B149369D4EA219 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				8C730F1905C04CEE8FFC6B46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				5C50572BCF694AB592A9090C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				3FD33EB0375A487C8375B886 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				87B172E5DFF643EBA157A57E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				724D317CD48D4589A1913C82 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				8A395857C08B453ABB995954 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				B211FF1F76134BFDBC290632 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				39591F4F54AA45C4AD05235E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				2299786621324CBD9E7792DA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				322625BC8BD04E5AAFF4F88C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				DE6D32DD510748D0876CC754 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				B63B71730F2F49BBA89B9A34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				39FEDE4D81AB4192A1F4DD6C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				F13A3CF72CF847D4B5E7D510 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				686980C9C50A4353B2AE24ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				114C4B681E344EE2B6C383FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				7F331C96FFB24F99AF93CE18 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				4B7D5DC300E149B89831F0F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				0E94829C23FE4D2188B66876 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				E6FADC10E75D47319CA0F8BD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				BCF3C6CE27FF41F5A6DEC3E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				689906142A3645B5BAB81C83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				99D6AA56447348FEAECBF442 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				2BC1D63C027541C49CEF0D8F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				31FE00A59F8B470293970BE8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				5C00389A39F24C229C152409 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				CC4CB1F2267E4663A846F1BF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				9272247BB7D345228DF6E354 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				89E1EF9D640D4249A40984EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				1F2D40FFA35D49A7B06D597A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				385F2778162247B4A88495EA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				61F0B54458D04D8889D22224 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				F7837D0D15244DDA9A75ED0E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				BB677DB6C99441BC8D8E8828 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				7AC914C826B441D382C0DA05 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				824FD26CD19E4E17BC1832BE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				835763A479134BFA9722BC41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				0A6F261647F54522B9271D75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				3B85A3CE46104AA7AB0ACFD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				2781AB5916714521A94C9142 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				EAAC1AE8C2D9427E93B2ECB7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				968255C408C347E4A3927197 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				0E5FEBB6BF3043F4AFC4AFC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				4D6ADEEDB34941A988167062 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				8A25ADF14DDF4E2F97A50805 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.cpp */,
+				356563F2F13F44FA99F12E75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				1C4E24217A414ECF8E0B7C39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				9ECC3512225D4B7A9D61B4D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A2F23402D84FCEBBD8BE1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 298D06C045E04CF587E594A2 /* PBXContainerItemProxy */;
+		};
+		79645F76F5444E9EAD0F4057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D477A18CD35C42F6B455989E /* IlmImf */;
+			targetProxy = 961CF2F0B9A24755BF68B151 /* PBXContainerItemProxy */;
+		};
+		8EBD871B43984291BAFB3BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = CD7D9D58A6494209A16ED499 /* PBXContainerItemProxy */;
+		};
+		A49020AD27B141A8B3CCADB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 7208BF18902547F888CCB3A3 /* PBXContainerItemProxy */;
+		};
+		CA99DDAA92AA48D6ABB51296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = BBF3372A84534FE9A56C0610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CD43A71FC51448B977A7411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -fPIC         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2DD37E0FD4C444A4AFC4AE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2E73E24856434D178089AEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/build";
+			};
+			name = Release;
+		};
+		453DBA4416274EC0B1C5580D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6192AF8B3681454F90063F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		710D7F9C4C3647BCA7E45873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		79388D2764934CCE8F55187D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9399DDEC23A94A92851F248E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -fPIC     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B95E62E6CAEF46F49B22F8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C1DBE0F09B7A4F1B888DBB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E561DD195DBC4822BF6C14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/build";
+			};
+			name = Debug;
+		};
+		EAD6DD83C27340F1B7025022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F8A2708EBE494302B28B66A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FDD78739D052491CBE67F8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E11732019548A6A319F7CC /* Build configuration list for PBXProject "openexr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E561DD195DBC4822BF6C14B1 /* Debug */,
+				2E73E24856434D178089AEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A4491DCFF0B42BA89FEC236 /* Build configuration list for PBXNativeTarget "IlmImf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD43A71FC51448B977A7411 /* Debug */,
+				9399DDEC23A94A92851F248E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D6C8EE91D4A4F45B5550109 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DBE0F09B7A4F1B888DBB70 /* Debug */,
+				453DBA4416274EC0B1C5580D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D88EDF495E34BDC902DB24D /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD78739D052491CBE67F8B3 /* Debug */,
+				EAD6DD83C27340F1B7025022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F6034AF32B84A1AA3F7E78E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95E62E6CAEF46F49B22F8FC /* Debug */,
+				710D7F9C4C3647BCA7E45873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		844E3036C09F465E97E4F5E3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6192AF8B3681454F90063F64 /* Debug */,
+				2DD37E0FD4C444A4AFC4AE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A77CEC8BB43A43659ECC4311 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79388D2764934CCE8F55187D /* Debug */,
+				F8A2708EBE494302B28B66A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E367B38B155E459A9D23120E /* Project object */;
+}

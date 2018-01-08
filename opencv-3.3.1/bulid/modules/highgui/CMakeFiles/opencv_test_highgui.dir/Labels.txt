@@ -1,0 +1,18 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/CMakeLists.txt

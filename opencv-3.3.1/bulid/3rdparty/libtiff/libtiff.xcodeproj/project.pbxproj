@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABD998F435B847FEAAD65886 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				8556BCE756DF44EF9455F51A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7DBB65832FDE4DB59778D9DB /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5BA9FEBB07564E048C5FCA4F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C55A9C08F8A64EF1AC2E0E9E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18461900253B47379A2F3DB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3BBC27B9A58748199FE0B925 /* CMake Rules */,
+			);
+			dependencies = (
+				CAFEAEE2AF3E4365BF8446F7 /* PBXTargetDependency */,
+				FA6EFC45344A45C2BADC1C7F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2325D8C9FC2346CEB66E24FE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				98923FCFC40E49C880B7C177 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E97E0151C57646A88BBC8B87 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 81EFA285ECD74985B9D079C9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				E3AED06871FC4BE7A99B0BEE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01A8D5C7E9E34CD8ADEFC638 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiff.h */ = {isa = PBXBuildFile; fileRef = 64522EC28743428284DD639D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiff.h */; };
+		0231AA96554C46438DA86066 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_write.c */ = {isa = PBXBuildFile; fileRef = 52F6E54D851D487A891AC85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_write.c */; };
+		06331E0F1B884D58899CC271 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3sm.c */ = {isa = PBXBuildFile; fileRef = 3E915C9AE53D453A8034EDFE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3sm.c */; };
+		08884708149845CAB08A2342 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_tile.c */ = {isa = PBXBuildFile; fileRef = 3B3C044C04564A51B0135826 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_tile.c */; };
+		0B1BB90133324F5EB7DA22A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirwrite.c */ = {isa = PBXBuildFile; fileRef = 9EAAF3A92CEE430382258C5C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirwrite.c */; };
+		16EDEE0C8149447AABAF5E28 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_extension.c */ = {isa = PBXBuildFile; fileRef = 06E329094A3044FBB831E0AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_extension.c */; };
+		26ABAFB1F34746B880D18553 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_codec.c */ = {isa = PBXBuildFile; fileRef = B67A158AB550491483E58475 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_codec.c */; };
+		38B771167D3F4A49AF7AC5ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_strip.c */ = {isa = PBXBuildFile; fileRef = 771335AC7D264312A693E8E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_strip.c */; };
+		399FA125DF71433A964CED64 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.h */ = {isa = PBXBuildFile; fileRef = D90360B6A0F54558AF30795B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.h */; };
+		46FDDB3DF9184D46BB08EA41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_getimage.c */ = {isa = PBXBuildFile; fileRef = 93BB39AB5CCD4A0DA6792021 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_getimage.c */; };
+		49CEACC168E34B818A1C9880 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.h */ = {isa = PBXBuildFile; fileRef = BA7102A43F71498F82D8EBE9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.h */; };
+		4E29886F12654DA5A7012051 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_aux.c */ = {isa = PBXBuildFile; fileRef = E61FD74917FF434EBDD507D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_aux.c */; };
+		546D75D23C104C8396904005 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzw.c */ = {isa = PBXBuildFile; fileRef = 97D9A7901C534FBE92AF41F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzw.c */; };
+		548B8C3995D04C3CB05741D4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffvers.h */ = {isa = PBXBuildFile; fileRef = F0A6653FA6914F6193196447 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffvers.h */; };
+		592E43C419064472833502DB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_next.c */ = {isa = PBXBuildFile; fileRef = 67F6359E2A15494AACACC75A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_next.c */; };
+		5970241A256A4F3AAC2219CF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dumpmode.c */ = {isa = PBXBuildFile; fileRef = 65C1AAE8668F45F1A51D6946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dumpmode.c */; };
+		5CEE23A20F6F497CA33A95A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_print.c */ = {isa = PBXBuildFile; fileRef = 89DF21D761484F729332DEC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_print.c */; };
+		5D0FB66D4509477A80226F37 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/t4.h */ = {isa = PBXBuildFile; fileRef = 4FA4001E081548288A327621 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/t4.h */; };
+		5F0A696E5CA046139388D20F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_packbits.c */ = {isa = PBXBuildFile; fileRef = 765C027B56364668ABD8E9CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_packbits.c */; };
+		625443B4EFA84A5CBF95D736 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_swab.c */ = {isa = PBXBuildFile; fileRef = 826316ED6DCE4510AED2BAEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_swab.c */; };
+		74A652E6543C44AA8ED4468A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_open.c */ = {isa = PBXBuildFile; fileRef = EBB2459983E64CC39FB9D129 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_open.c */; };
+		7600B41C780443EE87155654 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffiop.h */ = {isa = PBXBuildFile; fileRef = E984570F9D7F4A1E86DBE6F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffiop.h */; };
+		7F2795A9A38B4D0894609812 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/uvcode.h */ = {isa = PBXBuildFile; fileRef = 47E253E43BD94FBB82ABB624 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/uvcode.h */; };
+		88480F7B1AF941C2911D52CB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_compress.c */ = {isa = PBXBuildFile; fileRef = A2B6F30256954E05BF00C285 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_compress.c */; };
+		8868F3CF751343D7A8645F36 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.h */ = {isa = PBXBuildFile; fileRef = 3F0A5959140948D194C2A071 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.h */; };
+		93BC0FD058D24FE4A2065C4A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_read.c */ = {isa = PBXBuildFile; fileRef = 22D2D24D270B41849B2258DB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_read.c */; };
+		9407E1FE0A2643609C2D4350 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_pixarlog.c */ = {isa = PBXBuildFile; fileRef = 56CBE15DD4A54705A5961392 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_pixarlog.c */; };
+		9545CB7BFBE7408EB552452C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jbig.c */ = {isa = PBXBuildFile; fileRef = CCE11BC316E54C9EBF49B608 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jbig.c */; };
+		9550A3FD774A4EC0B3706902 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_thunder.c */ = {isa = PBXBuildFile; fileRef = 3F0957E2671C4757912ED6E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_thunder.c */; };
+		9A0B3AF38B5640E6B5C520CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzma.c */ = {isa = PBXBuildFile; fileRef = 2A7168495BFB4A038A5237DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzma.c */; };
+		9B0F439EAF314A55B06C8565 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3778FFF1135248A6B90E0C6E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */; };
+		9F0FEAD8327243EAA8B4ECB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.c */ = {isa = PBXBuildFile; fileRef = F8865EBEB26A4F0EB7B66A38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.c */; };
+		9FCD1AEBC0C143CA94BED376 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_unix.c */ = {isa = PBXBuildFile; fileRef = 052E46C4A5CA45B5802A3ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_unix.c */; };
+		AE4BC60E5BE241E685B09620 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.h */ = {isa = PBXBuildFile; fileRef = DD3FD659D5D24C55AE2CF31F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.h */; };
+		B50CDAFA638F47AABD919A9B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_ojpeg.c */ = {isa = PBXBuildFile; fileRef = 134640AFDA6149B38C8C3E11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_ojpeg.c */; };
+		B5A0AEE68FA04120A67A80A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.c */ = {isa = PBXBuildFile; fileRef = C538C6DB84A04BF7A06C57A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.c */; };
+		B659F47A3B2E4185842D2F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_stream.cxx */ = {isa = PBXBuildFile; fileRef = 2ED80CD74CE84AE9900595E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_stream.cxx */; };
+		BC7BBBBE781B487B9A51A823 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_luv.c */ = {isa = PBXBuildFile; fileRef = F35BBCDF74CB4AC99C5A0044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_luv.c */; };
+		C2E69D25853F49358AF0DDD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_color.c */ = {isa = PBXBuildFile; fileRef = AC21FEAA23DF44B0BC037380 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_color.c */; };
+		C829BBBCA1F649B4BAF973EF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_error.c */ = {isa = PBXBuildFile; fileRef = 2A2B28DE6A304B2B994520C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_error.c */; };
+		CF5A782DE8A94DF28EADAF28 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirinfo.c */ = {isa = PBXBuildFile; fileRef = A01394108EDD402B890DC71F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirinfo.c */; };
+		D0B78CA020B943C1B57AD0CE /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/tif_config.h */ = {isa = PBXBuildFile; fileRef = 3E3C2013CBAD4834B0A3BD93 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/tif_config.h */; };
+		D457F7B551524EA2B8C46E42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_version.c */ = {isa = PBXBuildFile; fileRef = 2F46B755C9D14AABA7A74256 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_version.c */; };
+		DB971F8BBD5D4B18BF89933F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.hxx */ = {isa = PBXBuildFile; fileRef = 13F0D5C8925A48709731665C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.hxx */; };
+		DD72FFDE71F94864BD930BD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirread.c */ = {isa = PBXBuildFile; fileRef = 69FA261791CB466F97E06F09 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirread.c */; };
+		E87DB26E023648898CEF5F14 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_zip.c */ = {isa = PBXBuildFile; fileRef = C92F3FF56D9342F4B9BAE0DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_zip.c */; };
+		ECA6E19B3BC740F5A3052F21 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_warning.c */ = {isa = PBXBuildFile; fileRef = 2B2281FC94E341E181B21D93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_warning.c */; };
+		ED73033B616B4CC1AF3A6034 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_close.c */ = {isa = PBXBuildFile; fileRef = C6E81DDC8847434EB530D5C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_close.c */; };
+		F984BAD8636F4FC8875BD1F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg.c */ = {isa = PBXBuildFile; fileRef = 8F67B9B785F8481DA47E735E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg.c */; };
+		FA9226D894544E699ED90D18 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_flush.c */ = {isa = PBXBuildFile; fileRef = 076AE05BC0674CD393019283 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_flush.c */; };
+		FBC4D00AB3DE4674AD26BC36 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.c */ = {isa = PBXBuildFile; fileRef = 496FCC284D1248DC94952245 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.c */; };
+		FDA7926D39604ECF8D9D4C60 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg_12.c */ = {isa = PBXBuildFile; fileRef = 453B3A7CEA064317B589B2F4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg_12.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2B442BCCC3A14E3AA9CD4A4A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		95ABE975BC824E1D8A50D168 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		60185EAC39D04235B66CA263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9886042264043A75B681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D1C6F1E3F984738BA8557ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9886042264043A75B681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		A13A8209CEF7444D8D8814F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9886042264043A75B681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		B7DC77A8990E40FB99C4B976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9886042264043A75B681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76C15911BB946F5822B3DF6;
+			remoteInfo = libtiff;
+		};
+		C6235DA5A3AC416B81C478FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9886042264043A75B681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052E46C4A5CA45B5802A3ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_unix.c; path = tif_unix.c; sourceTree = SOURCE_ROOT; };
+		06E329094A3044FBB831E0AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_extension.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_extension.c; path = tif_extension.c; sourceTree = SOURCE_ROOT; };
+		076AE05BC0674CD393019283 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_flush.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_flush.c; path = tif_flush.c; sourceTree = SOURCE_ROOT; };
+		134640AFDA6149B38C8C3E11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_ojpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_ojpeg.c; path = tif_ojpeg.c; sourceTree = SOURCE_ROOT; };
+		13F0D5C8925A48709731665C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tiffio.hxx; path = tiffio.hxx; sourceTree = SOURCE_ROOT; };
+		22D2D24D270B41849B2258DB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_read.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_read.c; path = tif_read.c; sourceTree = SOURCE_ROOT; };
+		2A2B28DE6A304B2B994520C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_error.c; path = tif_error.c; sourceTree = SOURCE_ROOT; };
+		2A7168495BFB4A038A5237DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_lzma.c; path = tif_lzma.c; sourceTree = SOURCE_ROOT; };
+		2B2281FC94E341E181B21D93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_warning.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_warning.c; path = tif_warning.c; sourceTree = SOURCE_ROOT; };
+		2ED80CD74CE84AE9900595E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_stream.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tif_stream.cxx; path = tif_stream.cxx; sourceTree = SOURCE_ROOT; };
+		2F012537A5D2468DB42074C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2F46B755C9D14AABA7A74256 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_version.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_version.c; path = tif_version.c; sourceTree = SOURCE_ROOT; };
+		3778FFF1135248A6B90E0C6E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B3C044C04564A51B0135826 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_tile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_tile.c; path = tif_tile.c; sourceTree = SOURCE_ROOT; };
+		3E3C2013CBAD4834B0A3BD93 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/tif_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_config.h; path = ../../bulid/3rdparty/libtiff/tif_config.h; sourceTree = SOURCE_ROOT; };
+		3E915C9AE53D453A8034EDFE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3sm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3sm.c; path = tif_fax3sm.c; sourceTree = SOURCE_ROOT; };
+		3F0957E2671C4757912ED6E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_thunder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_thunder.c; path = tif_thunder.c; sourceTree = SOURCE_ROOT; };
+		3F0A5959140948D194C2A071 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffio.h; path = tiffio.h; sourceTree = SOURCE_ROOT; };
+		453B3A7CEA064317B589B2F4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg_12.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jpeg_12.c; path = tif_jpeg_12.c; sourceTree = SOURCE_ROOT; };
+		47E253E43BD94FBB82ABB624 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/uvcode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uvcode.h; path = uvcode.h; sourceTree = SOURCE_ROOT; };
+		496FCC284D1248DC94952245 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_predict.c; path = tif_predict.c; sourceTree = SOURCE_ROOT; };
+		4FA4001E081548288A327621 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/t4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t4.h; path = t4.h; sourceTree = SOURCE_ROOT; };
+		52F6E54D851D487A891AC85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_write.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_write.c; path = tif_write.c; sourceTree = SOURCE_ROOT; };
+		56CBE15DD4A54705A5961392 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_pixarlog.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_pixarlog.c; path = tif_pixarlog.c; sourceTree = SOURCE_ROOT; };
+		64522EC28743428284DD639D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiff.h; path = tiff.h; sourceTree = SOURCE_ROOT; };
+		65C1AAE8668F45F1A51D6946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dumpmode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dumpmode.c; path = tif_dumpmode.c; sourceTree = SOURCE_ROOT; };
+		67F6359E2A15494AACACC75A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_next.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_next.c; path = tif_next.c; sourceTree = SOURCE_ROOT; };
+		69FA261791CB466F97E06F09 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirread.c; path = tif_dirread.c; sourceTree = SOURCE_ROOT; };
+		765C027B56364668ABD8E9CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_packbits.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_packbits.c; path = tif_packbits.c; sourceTree = SOURCE_ROOT; };
+		771335AC7D264312A693E8E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_strip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_strip.c; path = tif_strip.c; sourceTree = SOURCE_ROOT; };
+		826316ED6DCE4510AED2BAEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_swab.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_swab.c; path = tif_swab.c; sourceTree = SOURCE_ROOT; };
+		89DF21D761484F729332DEC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_print.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_print.c; path = tif_print.c; sourceTree = SOURCE_ROOT; };
+		8F67B9B785F8481DA47E735E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jpeg.c; path = tif_jpeg.c; sourceTree = SOURCE_ROOT; };
+		93BB39AB5CCD4A0DA6792021 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_getimage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_getimage.c; path = tif_getimage.c; sourceTree = SOURCE_ROOT; };
+		94DBC105853E4DDAA0224658 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97D9A7901C534FBE92AF41F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_lzw.c; path = tif_lzw.c; sourceTree = SOURCE_ROOT; };
+		9EAAF3A92CEE430382258C5C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirwrite.c; path = tif_dirwrite.c; sourceTree = SOURCE_ROOT; };
+		A01394108EDD402B890DC71F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirinfo.c; path = tif_dirinfo.c; sourceTree = SOURCE_ROOT; };
+		A2B6F30256954E05BF00C285 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_compress.c; path = tif_compress.c; sourceTree = SOURCE_ROOT; };
+		AC21FEAA23DF44B0BC037380 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_color.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_color.c; path = tif_color.c; sourceTree = SOURCE_ROOT; };
+		B67A158AB550491483E58475 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_codec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_codec.c; path = tif_codec.c; sourceTree = SOURCE_ROOT; };
+		BA7102A43F71498F82D8EBE9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_predict.h; path = tif_predict.h; sourceTree = SOURCE_ROOT; };
+		C538C6DB84A04BF7A06C57A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dir.c; path = tif_dir.c; sourceTree = SOURCE_ROOT; };
+		C6E81DDC8847434EB530D5C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_close.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_close.c; path = tif_close.c; sourceTree = SOURCE_ROOT; };
+		C92F3FF56D9342F4B9BAE0DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_zip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_zip.c; path = tif_zip.c; sourceTree = SOURCE_ROOT; };
+		CCE11BC316E54C9EBF49B608 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jbig.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jbig.c; path = tif_jbig.c; sourceTree = SOURCE_ROOT; };
+		D90360B6A0F54558AF30795B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_fax3.h; path = tif_fax3.h; sourceTree = SOURCE_ROOT; };
+		DD3FD659D5D24C55AE2CF31F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_dir.h; path = tif_dir.h; sourceTree = SOURCE_ROOT; };
+		E415DF9B44BA45ED8F5D7C51 /* libtiff */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibtiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61FD74917FF434EBDD507D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_aux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_aux.c; path = tif_aux.c; sourceTree = SOURCE_ROOT; };
+		E984570F9D7F4A1E86DBE6F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffiop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffiop.h; path = tiffiop.h; sourceTree = SOURCE_ROOT; };
+		EBB2459983E64CC39FB9D129 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_open.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_open.c; path = tif_open.c; sourceTree = SOURCE_ROOT; };
+		F0A6653FA6914F6193196447 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffvers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffvers.h; path = tiffvers.h; sourceTree = SOURCE_ROOT; };
+		F35BBCDF74CB4AC99C5A0044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_luv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_luv.c; path = tif_luv.c; sourceTree = SOURCE_ROOT; };
+		F8865EBEB26A4F0EB7B66A38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3.c; path = tif_fax3.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		23EE9EF643974B59AEC00D4E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4001E081548288A327621 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/t4.h */,
+				DD3FD659D5D24C55AE2CF31F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.h */,
+				D90360B6A0F54558AF30795B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.h */,
+				BA7102A43F71498F82D8EBE9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.h */,
+				64522EC28743428284DD639D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiff.h */,
+				3F0A5959140948D194C2A071 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.h */,
+				13F0D5C8925A48709731665C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffio.hxx */,
+				E984570F9D7F4A1E86DBE6F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffiop.h */,
+				F0A6653FA6914F6193196447 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tiffvers.h */,
+				47E253E43BD94FBB82ABB624 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/uvcode.h */,
+				3E3C2013CBAD4834B0A3BD93 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/tif_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2FB8058E811E4F548D89FBEF /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				B0F15625BFCA4908A10E1F62 /* CMake Rules */,
+				2F012537A5D2468DB42074C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		7FDB47C86D094CF7AE8B82F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E415DF9B44BA45ED8F5D7C51 /* libtiff */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983A661FBAEF4FA99918F123 /* libtiff */ = {
+			isa = PBXGroup;
+			children = (
+				E36A374252824E0D8AE0EFED /* Source Files */,
+				23EE9EF643974B59AEC00D4E /* Header Files */,
+				3778FFF1135248A6B90E0C6E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = libtiff;
+			sourceTree = "<group>";
+		};
+		A4758D80BDF34023ABF82918 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C64F560B42FC484397B3FAF7 /* CMake Rules */,
+				94DBC105853E4DDAA0224658 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B0F15625BFCA4908A10E1F62 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C317E1EAC5C4458BACAC4028 = {
+			isa = PBXGroup;
+			children = (
+				DFC1697A61924F0B8212B34F /* 3rdparty */,
+				A4758D80BDF34023ABF82918 /* ALL_BUILD */,
+				2FB8058E811E4F548D89FBEF /* ZERO_CHECK */,
+				7FDB47C86D094CF7AE8B82F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C64F560B42FC484397B3FAF7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DFC1697A61924F0B8212B34F /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				983A661FBAEF4FA99918F123 /* libtiff */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		E36A374252824E0D8AE0EFED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61FD74917FF434EBDD507D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_aux.c */,
+				C6E81DDC8847434EB530D5C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_close.c */,
+				B67A158AB550491483E58475 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_codec.c */,
+				AC21FEAA23DF44B0BC037380 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_color.c */,
+				A2B6F30256954E05BF00C285 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_compress.c */,
+				C538C6DB84A04BF7A06C57A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.c */,
+				A01394108EDD402B890DC71F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirinfo.c */,
+				69FA261791CB466F97E06F09 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirread.c */,
+				9EAAF3A92CEE430382258C5C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirwrite.c */,
+				65C1AAE8668F45F1A51D6946 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dumpmode.c */,
+				2A2B28DE6A304B2B994520C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_error.c */,
+				06E329094A3044FBB831E0AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_extension.c */,
+				F8865EBEB26A4F0EB7B66A38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.c */,
+				3E915C9AE53D453A8034EDFE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3sm.c */,
+				076AE05BC0674CD393019283 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_flush.c */,
+				93BB39AB5CCD4A0DA6792021 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_getimage.c */,
+				CCE11BC316E54C9EBF49B608 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jbig.c */,
+				8F67B9B785F8481DA47E735E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg.c */,
+				453B3A7CEA064317B589B2F4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg_12.c */,
+				F35BBCDF74CB4AC99C5A0044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_luv.c */,
+				2A7168495BFB4A038A5237DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzma.c */,
+				97D9A7901C534FBE92AF41F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzw.c */,
+				67F6359E2A15494AACACC75A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_next.c */,
+				134640AFDA6149B38C8C3E11 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_ojpeg.c */,
+				EBB2459983E64CC39FB9D129 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_open.c */,
+				765C027B56364668ABD8E9CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_packbits.c */,
+				56CBE15DD4A54705A5961392 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_pixarlog.c */,
+				496FCC284D1248DC94952245 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.c */,
+				89DF21D761484F729332DEC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_print.c */,
+				22D2D24D270B41849B2258DB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_read.c */,
+				2ED80CD74CE84AE9900595E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_stream.cxx */,
+				771335AC7D264312A693E8E7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_strip.c */,
+				826316ED6DCE4510AED2BAEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_swab.c */,
+				3F0957E2671C4757912ED6E5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_thunder.c */,
+				3B3C044C04564A51B0135826 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_tile.c */,
+				052E46C4A5CA45B5802A3ECA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_unix.c */,
+				2F46B755C9D14AABA7A74256 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_version.c */,
+				2B2281FC94E341E181B21D93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_warning.c */,
+				52F6E54D851D487A891AC85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_write.c */,
+				C92F3FF56D9342F4B9BAE0DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_zip.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76C15911BB946F5822B3DF6 /* libtiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB441101000842439FA3DD83 /* Build configuration list for PBXNativeTarget "libtiff" */;
+			buildPhases = (
+				ACCF7F319B194B538A795628 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F1C3BE1CC44E9B86891162 /* PBXTargetDependency */,
+			);
+			name = libtiff;
+			productName = libtiff;
+			productReference = E415DF9B44BA45ED8F5D7C51 /* libtiff */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A9886042264043A75B681F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 72F9E08F36DC40FF865F9132 /* Build configuration list for PBXProject "libtiff" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				95ABE975BC824E1D8A50D168 /* Debug */,
+				2B442BCCC3A14E3AA9CD4A4A /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C317E1EAC5C4458BACAC4028;
+			projectDirPath = ../../../3rdparty/libtiff;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				D76C15911BB946F5822B3DF6 /* libtiff */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D84827180024C708159B6ED = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3BBC27B9A58748199FE0B925 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8556BCE756DF44EF9455F51A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		98923FCFC40E49C880B7C177 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AB9911F3A52C443CA9769E28 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B97E32445661414BB42C6ADA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C55A9C08F8A64EF1AC2E0E9E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D5FBD254C57343C68A537419 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E3AED06871FC4BE7A99B0BEE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EB0BED63F5984F9B8E6F6CF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCF7F319B194B538A795628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E29886F12654DA5A7012051 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_aux.c */,
+				ED73033B616B4CC1AF3A6034 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_close.c */,
+				26ABAFB1F34746B880D18553 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_codec.c */,
+				C2E69D25853F49358AF0DDD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_color.c */,
+				88480F7B1AF941C2911D52CB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_compress.c */,
+				B5A0AEE68FA04120A67A80A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dir.c */,
+				CF5A782DE8A94DF28EADAF28 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirinfo.c */,
+				DD72FFDE71F94864BD930BD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirread.c */,
+				0B1BB90133324F5EB7DA22A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dirwrite.c */,
+				5970241A256A4F3AAC2219CF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_dumpmode.c */,
+				C829BBBCA1F649B4BAF973EF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_error.c */,
+				16EDEE0C8149447AABAF5E28 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_extension.c */,
+				9F0FEAD8327243EAA8B4ECB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3.c */,
+				06331E0F1B884D58899CC271 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_fax3sm.c */,
+				FA9226D894544E699ED90D18 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_flush.c */,
+				46FDDB3DF9184D46BB08EA41 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_getimage.c */,
+				9545CB7BFBE7408EB552452C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jbig.c */,
+				F984BAD8636F4FC8875BD1F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg.c */,
+				FDA7926D39604ECF8D9D4C60 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_jpeg_12.c */,
+				BC7BBBBE781B487B9A51A823 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_luv.c */,
+				9A0B3AF38B5640E6B5C520CD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzma.c */,
+				546D75D23C104C8396904005 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_lzw.c */,
+				592E43C419064472833502DB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_next.c */,
+				B50CDAFA638F47AABD919A9B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_ojpeg.c */,
+				74A652E6543C44AA8ED4468A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_open.c */,
+				5F0A696E5CA046139388D20F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_packbits.c */,
+				9407E1FE0A2643609C2D4350 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_pixarlog.c */,
+				FBC4D00AB3DE4674AD26BC36 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_predict.c */,
+				5CEE23A20F6F497CA33A95A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_print.c */,
+				93BC0FD058D24FE4A2065C4A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_read.c */,
+				B659F47A3B2E4185842D2F38 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_stream.cxx */,
+				38B771167D3F4A49AF7AC5ED /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_strip.c */,
+				625443B4EFA84A5CBF95D736 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_swab.c */,
+				9550A3FD774A4EC0B3706902 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_thunder.c */,
+				08884708149845CAB08A2342 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_tile.c */,
+				9FCD1AEBC0C143CA94BED376 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_unix.c */,
+				D457F7B551524EA2B8C46E42 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_version.c */,
+				ECA6E19B3BC740F5A3052F21 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_warning.c */,
+				0231AA96554C46438DA86066 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_write.c */,
+				E87DB26E023648898CEF5F14 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff/tif_zip.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F1C3BE1CC44E9B86891162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 6D1C6F1E3F984738BA8557ED /* PBXContainerItemProxy */;
+		};
+		7DBB65832FDE4DB59778D9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = A13A8209CEF7444D8D8814F4 /* PBXContainerItemProxy */;
+		};
+		CAFEAEE2AF3E4365BF8446F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76C15911BB946F5822B3DF6 /* libtiff */;
+			targetProxy = B7DC77A8990E40FB99C4B976 /* PBXContainerItemProxy */;
+		};
+		E97E0151C57646A88BBC8B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = C6235DA5A3AC416B81C478FD /* PBXContainerItemProxy */;
+		};
+		FA6EFC45344A45C2BADC1C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 60185EAC39D04235B66CA263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0519291D48634EEA8D337888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/build";
+			};
+			name = Release;
+		};
+		1A60D1C7A4D744E3B8791A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		23D95B13040840C08508CBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		26E067535422417B891853D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff/build";
+			};
+			name = Debug;
+		};
+		4804D8710748433DA9508135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		71950CDF395D4F459CE9901C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		770BCE97C392448EB01523BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		85F7BEAA91BC4BBDA9171C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C5C777A1487B49E1ABF42B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D88ACAF1944F472EA18712AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E6483B7AB26443608E120EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB95017D08004ED791B7F8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F394FEBF184E47DCA49E10A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter -fPIC         -DDEBUG -D_DEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libtiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F5CD4E76242F47F29E0EEA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/zlib","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libtiff","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter -fPIC     -DNDEBUG  -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libtiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libtiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18461900253B47379A2F3DB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C777A1487B49E1ABF42B62 /* Debug */,
+				23D95B13040840C08508CBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2325D8C9FC2346CEB66E24FE /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB95017D08004ED791B7F8A0 /* Debug */,
+				D88ACAF1944F472EA18712AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5BA9FEBB07564E048C5FCA4F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4804D8710748433DA9508135 /* Debug */,
+				85F7BEAA91BC4BBDA9171C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72F9E08F36DC40FF865F9132 /* Build configuration list for PBXProject "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E067535422417B891853D4 /* Debug */,
+				0519291D48634EEA8D337888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81EFA285ECD74985B9D079C9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6483B7AB26443608E120EAF /* Debug */,
+				770BCE97C392448EB01523BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABD998F435B847FEAAD65886 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A60D1C7A4D744E3B8791A80 /* Debug */,
+				71950CDF395D4F459CE9901C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB441101000842439FA3DD83 /* Build configuration list for PBXNativeTarget "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F394FEBF184E47DCA49E10A7 /* Debug */,
+				F5CD4E76242F47F29E0EEA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A9886042264043A75B681F /* Project object */;
+}

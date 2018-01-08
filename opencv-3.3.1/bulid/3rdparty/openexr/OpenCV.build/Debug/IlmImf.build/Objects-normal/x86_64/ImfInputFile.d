@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.cpp \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInputFile.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfHeader.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfLineOrder.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompression.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfName.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTileDescription.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfInt64.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathInt64.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathVec.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathExc.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexBaseExc.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathLimits.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathMath.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathPlatform.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathBox.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfFrameBuffer.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfPixelType.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfThreading.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfTiledInputFile.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfChannelList.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfMisc.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfCompressor.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfStdIO.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfIO.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmImf/ImfVersion.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Imath/ImathFun.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/IlmThread/IlmThreadMutex.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/openexr/IlmBaseConfig.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/Iex.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMacros.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexMathExc.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Iex/IexThrowErrnoExc.h \
+  /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/openexr/Half/half.h

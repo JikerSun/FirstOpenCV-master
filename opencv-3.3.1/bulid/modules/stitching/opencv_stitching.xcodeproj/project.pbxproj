@@ -1,0 +1,1416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35FC5ABEB52040E1A2A847BB /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				063420A2804E427FB265DC60 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6892344BB78840AF8DB2D250 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CB72791C8A6F4D2DBF9FCFDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1781DA3E4B47431BAB5DE25F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A2731C72A7F646269257C3B1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0370155088B84996B3A777CA /* CMake Rules */,
+			);
+			dependencies = (
+				C395E6263AD141A1BDE3E57C /* PBXTargetDependency */,
+				C12467E1F9EB45A1A3B3CA02 /* PBXTargetDependency */,
+				FB3C6900145F40689B14D9E2 /* PBXTargetDependency */,
+				82E423F0D6854615AEDF0EB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 47FA6314E4F2432A8AF981C9 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				ECE5343C13EC42BFA8C4FC6B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FFA6878E75544758A4C3F84C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D97A1D9AA15648EDB34900BA /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				671281D5C89F4CB48B82EF84 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08C24A16D6BD4F278EED48EA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = 902760B2169E4CAF9428485E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/exposure_compensate.cpp */; };
+		1CF0AA5766AC4BC7A4D00349 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = 7ABEFF547B58464D8C927156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/motion_estimators.cpp */; };
+		1D7CA7B3E3AF43FD9057C133 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = AD310AE41BE44BE197FC12FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/matchers.cpp */; };
+		1E2F6DE158CF4914B78C8EF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2F805CC746BC45C2AF2D0974 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */; };
+		28DC7B9180C54B0DA3A71A3F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = ACCBDB641769446BAD28E35A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; };
+		2C107782EE5445839988AD59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/ocl/test_warpers.cpp */ = {isa = PBXBuildFile; fileRef = EF755B13091A4B8D9EC48BAA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/ocl/test_warpers.cpp */; };
+		35B351875B3C4C64B413E375 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util_log.hpp */ = {isa = PBXBuildFile; fileRef = C6EAB9F3862C460FA5A43CB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util_log.hpp */; };
+		42661C232E324D96BB8B5C93 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = DD9B1CD9B23D4225A08FC5E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/stitcher.cpp */; };
+		46929581E9B24602859722B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_warpers.cpp */ = {isa = PBXBuildFile; fileRef = 530BF0F6D3CB479287AEB1C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_warpers.cpp */; };
+		478A437C557A49A9895A7B85 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cuda.cpp */ = {isa = PBXBuildFile; fileRef = 2CF7CEABB6A44FD6AA2E83FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cuda.cpp */; };
+		4B8A78E2875342F1A334793E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = B0DD86FEBA404DDC91D7D25B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; };
+		4C5905E806E344688CA872BF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_matchers.cpp */ = {isa = PBXBuildFile; fileRef = DBB7BB81EA9E4DE6B4AE3287 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_matchers.cpp */; };
+		4E12CE52FEBF4759881B923D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = 2BDC6EB204154274A01F2A44 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; };
+		5433A34C6BC649128B572831 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = EA721ED4D7A44315A8D1F2F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; };
+		616D3AD4E677419F8BFF73F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = 9E6A356145484FCAA061CAFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; };
+		63377CDC17A44238AC93F780 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXBuildFile; fileRef = B45C10A551BB496586C7313E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.hpp */; };
+		6509ECF7B906420298628657 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = F8F495CDEFE845C2AD7B8BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp */; };
+		65A25313B976479EAABA638C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = D9517D93CECA4C64BF177B7D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching.hpp */; };
+		7395CF075D3F4F368871E93A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = D66A02088AFA4331B9BDBC59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/camera.cpp */; };
+		7592DDB04C47414290DF87C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = E3D2538F915242DE8F7177B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp */; };
+		77789DBE0E4F4E52A067F98D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = 512F3B92A36F41479387D28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; };
+		7BC70171937E4E3481BC846E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_matchers.cpp */ = {isa = PBXBuildFile; fileRef = 5F3A70907CBF4F4E8A2B7F99 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_matchers.cpp */; };
+		8896D41487704536A42FBDA8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = E9DD35838F31407CA9042273 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */; };
+		932C6F01B46A417E9CAA4EAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 6B9153E650D64693830AA2F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */; };
+		938810B907C442E1AC699DAD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXBuildFile; fileRef = 3BBC45B6EC5540D6938B31C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */; };
+		99CB12E70D1E446CA16E6D58 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXBuildFile; fileRef = 5C8E88D84E0D40F3B998E1B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/multibandblend.cl */; };
+		99DA7BF8C3394DBA8C2A92FC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A05E122594E14BAF9CEA82C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */; };
+		9EB7378E23894F428BC34E43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = A869B0926F264124B217E520 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/autocalib.cpp */; };
+		A67CC5CF6EE14BA0BA0C8DAC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 2F627759C38C4DC39C15C0DE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/warpers.hpp */; };
+		B271224680A54E67BD5D960E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = FB2D30BC2ECD4F29A31909DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util.hpp */; };
+		B72A818091B740CE979DAECE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXBuildFile; fileRef = 5981724E8B4B4FEF9FA9BB6F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/warpers.cl */; };
+		B83B4B3B02D34587ADC55DF0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cpp */ = {isa = PBXBuildFile; fileRef = D7416349EBF34E84ABA8332F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cpp */; };
+		B95E7CC1ABB24221876FC12E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = 727CAF85CC97492FA0BE2042 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/seam_finders.cpp */; };
+		BE39FA1B92CC4425BF279A43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/timelapsers.cpp */ = {isa = PBXBuildFile; fileRef = 60257BECD40D49D79C511924 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/timelapsers.cpp */; };
+		BEEDEB0C9DBE40F8B11B4D5F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_estimators.cpp */ = {isa = PBXBuildFile; fileRef = 570CD5879E914C4CAFDF868B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_estimators.cpp */; };
+		C8C43F72BD6E45A7BE369E69 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 4B0CCB79F77D4212BD6FC459 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; };
+		C9ADF5094AD14F5F9087D13D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXBuildFile; fileRef = B5E8373C5A7F4BC686F5F71D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp */; };
+		D0F6F2031D2E4CCCAA6FF1CD /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = F68010E634E540D5AA36FD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp */; };
+		D15D9579C510400A8E04A1B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = 100A1F343B564F3E995DAC83 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers.cpp */; };
+		D3042D6950144929A3826DC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 469D2F0AFD1A421986075604 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */; };
+		D5B971AFFD2D4A129F1F34DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_stich.cpp */ = {isa = PBXBuildFile; fileRef = 1641EC471CF34B6F89358AC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_stich.cpp */; };
+		DDD3CA4C4FFC49E0B327C7DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 14937EE3E2A449ACB8E59176 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_main.cpp */; };
+		DE125F839CB740F6A60419A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 0B48AE4C988D4365AB36BFF5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util.cpp */; };
+		DF97D7FB37614FEA9BA6FBBA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 2A119ABB091643E399F4516E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; };
+		E005163C0E7C42838B680121 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = 4C819C6B91A54A36A003E2E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; };
+		E4C8B429D20444A383DEFDD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 541AC6A519184799BE898CD9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_main.cpp */; };
+		E743CC1B33C6438BAD32576B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = AF9CEB9CDA0C4556AFD1B0B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/blenders.cpp */; };
+		EDB9FE5F77C54428A9177C1D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_stitch.cpp */ = {isa = PBXBuildFile; fileRef = DC0BDC689078455F8DA50182 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_stitch.cpp */; };
+		EFCE27B942804A86B36D360B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = FF56BC635D704A1CBBE5609E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; };
+		F87000E1BDBA4820834953B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXBuildFile; fileRef = 83A7CBDA4F054662BBEF5F20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers_cuda.cpp */; };
+		FB09E796C9B042AC88172161 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXBuildFile; fileRef = CBD83F70B29745C8BD3C3F4F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp.rule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		489D7DD9B2C34C75BE4B8578 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F4194D4B0AF44EE784D1768E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0377F1B11F184113BB332049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F16EE0A97D94A6D841FD49A;
+			remoteInfo = opencv_test_stitching;
+		};
+		1CEDAC78360D412FA62FB509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A88CD14703F4B339D888A75;
+			remoteInfo = opencv_stitching;
+		};
+		2728785DA0C540A8B8BC6B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		27E7556B749C4A1C9CC88DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		3BF8C376984649F2A98A1B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		3EDCB8B9D6BF426CB86813AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A88CD14703F4B339D888A75;
+			remoteInfo = opencv_stitching;
+		};
+		561F019AD54C4EBBA2C85CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		9EC146F3C1FB410EA3EE4924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A88CD14703F4B339D888A75;
+			remoteInfo = opencv_stitching;
+		};
+		EF414CB52684486CA537108F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		F1549BE69B464B918584C162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38149ED4010A47C5B27DC088;
+			remoteInfo = opencv_perf_stitching;
+		};
+		FC75A33DEBDE45A68EC54F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FB05E4D81E4A65BB221C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B48AE4C988D4365AB36BFF5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		100A1F343B564F3E995DAC83 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers.cpp; path = src/warpers.cpp; sourceTree = SOURCE_ROOT; };
+		14937EE3E2A449ACB8E59176 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		1641EC471CF34B6F89358AC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_stich.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stich.cpp; path = perf/perf_stich.cpp; sourceTree = SOURCE_ROOT; };
+		2A119ABB091643E399F4516E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/detail/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		2BDC6EB204154274A01F2A44 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = seam_finders.hpp; path = include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
+		2C0B5A9E213B41A8B02E9FC3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CF7CEABB6A44FD6AA2E83FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_blenders.cuda.cpp; path = test/test_blenders.cuda.cpp; sourceTree = SOURCE_ROOT; };
+		2F627759C38C4DC39C15C0DE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		2F805CC746BC45C2AF2D0974 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3BBC45B6EC5540D6938B31C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timelapsers.hpp; path = include/opencv2/stitching/detail/timelapsers.hpp; sourceTree = SOURCE_ROOT; };
+		469D2F0AFD1A421986075604 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B0CCB79F77D4212BD6FC459 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blenders.hpp; path = include/opencv2/stitching/detail/blenders.hpp; sourceTree = SOURCE_ROOT; };
+		4C819C6B91A54A36A003E2E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/opencv2/stitching/detail/camera.hpp; sourceTree = SOURCE_ROOT; };
+		512F3B92A36F41479387D28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exposure_compensate.hpp; path = include/opencv2/stitching/detail/exposure_compensate.hpp; sourceTree = SOURCE_ROOT; };
+		530BF0F6D3CB479287AEB1C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_warpers.cpp; path = perf/opencl/perf_warpers.cpp; sourceTree = SOURCE_ROOT; };
+		541AC6A519184799BE898CD9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		570CD5879E914C4CAFDF868B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_estimators.cpp; path = perf/perf_estimators.cpp; sourceTree = SOURCE_ROOT; };
+		5981724E8B4B4FEF9FA9BB6F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warpers.cl; path = src/opencl/warpers.cl; sourceTree = SOURCE_ROOT; };
+		5C8E88D84E0D40F3B998E1B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = multibandblend.cl; path = src/opencl/multibandblend.cl; sourceTree = SOURCE_ROOT; };
+		5F3A70907CBF4F4E8A2B7F99 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_matchers.cpp; path = perf/perf_matchers.cpp; sourceTree = SOURCE_ROOT; };
+		60257BECD40D49D79C511924 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/timelapsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timelapsers.cpp; path = src/timelapsers.cpp; sourceTree = SOURCE_ROOT; };
+		60E01B7B24F34050838805C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B9153E650D64693830AA2F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../bulid/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		727CAF85CC97492FA0BE2042 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_finders.cpp; path = src/seam_finders.cpp; sourceTree = SOURCE_ROOT; };
+		7ABEFF547B58464D8C927156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_estimators.cpp; path = src/motion_estimators.cpp; sourceTree = SOURCE_ROOT; };
+		83A7CBDA4F054662BBEF5F20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers_cuda.cpp; path = src/warpers_cuda.cpp; sourceTree = SOURCE_ROOT; };
+		902760B2169E4CAF9428485E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exposure_compensate.cpp; path = src/exposure_compensate.cpp; sourceTree = SOURCE_ROOT; };
+		9E6A356145484FCAA061CAFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_inl.hpp; path = include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
+		A05E122594E14BAF9CEA82C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A869B0926F264124B217E520 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = autocalib.cpp; path = src/autocalib.cpp; sourceTree = SOURCE_ROOT; };
+		AC3FC64B03EE4D42827853F9 /* opencv_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCBDB641769446BAD28E35A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matchers.hpp; path = include/opencv2/stitching/detail/matchers.hpp; sourceTree = SOURCE_ROOT; };
+		AD310AE41BE44BE197FC12FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		AF9CEB9CDA0C4556AFD1B0B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blenders.cpp; path = src/blenders.cpp; sourceTree = SOURCE_ROOT; };
+		B0DD86FEBA404DDC91D7D25B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_estimators.hpp; path = include/opencv2/stitching/detail/motion_estimators.hpp; sourceTree = SOURCE_ROOT; };
+		B45C10A551BB496586C7313E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_stitching.hpp; path = ../../bulid/modules/stitching/opencl_kernels_stitching.hpp; sourceTree = SOURCE_ROOT; };
+		B5E8373C5A7F4BC686F5F71D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_stitching.cpp; path = ../../bulid/modules/stitching/opencl_kernels_stitching.cpp; sourceTree = SOURCE_ROOT; };
+		C4FED12A923044059C701F95 /* opencv_test_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_stitching; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EAB9F3862C460FA5A43CB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util_log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_log.hpp; path = src/util_log.hpp; sourceTree = SOURCE_ROOT; };
+		CBD83F70B29745C8BD3C3F4F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_stitching.cpp.rule; path = ../../bulid/modules/stitching/opencl_kernels_stitching.cpp.rule; sourceTree = SOURCE_ROOT; };
+		D1D8FDC6A9014754BA848F93 /* opencv_perf_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_stitching; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66A02088AFA4331B9BDBC59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		D7416349EBF34E84ABA8332F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_blenders.cpp; path = test/test_blenders.cpp; sourceTree = SOURCE_ROOT; };
+		D9517D93CECA4C64BF177B7D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stitching.hpp; path = include/opencv2/stitching.hpp; sourceTree = SOURCE_ROOT; };
+		DBB7BB81EA9E4DE6B4AE3287 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_matchers.cpp; path = test/test_matchers.cpp; sourceTree = SOURCE_ROOT; };
+		DC0BDC689078455F8DA50182 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_stitch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stitch.cpp; path = perf/opencl/perf_stitch.cpp; sourceTree = SOURCE_ROOT; };
+		DD9B1CD9B23D4225A08FC5E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stitcher.cpp; path = src/stitcher.cpp; sourceTree = SOURCE_ROOT; };
+		E3D2538F915242DE8F7177B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		E9DD35838F31407CA9042273 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../bulid/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		EA721ED4D7A44315A8D1F2F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers_inl.hpp; path = include/opencv2/stitching/detail/warpers_inl.hpp; sourceTree = SOURCE_ROOT; };
+		EF755B13091A4B8D9EC48BAA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/ocl/test_warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_warpers.cpp; path = test/ocl/test_warpers.cpp; sourceTree = SOURCE_ROOT; };
+		F68010E634E540D5AA36FD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		F8F495CDEFE845C2AD7B8BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		FB2D30BC2ECD4F29A31909DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util.hpp; path = include/opencv2/stitching/detail/util.hpp; sourceTree = SOURCE_ROOT; };
+		FF56BC635D704A1CBBE5609E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = autocalib.hpp; path = include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FBCF529AE014978BF6D20CB /* stitching */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9B60E4FFF4B4A89ED2639 /* detail */,
+				2F627759C38C4DC39C15C0DE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/warpers.hpp */,
+			);
+			name = stitching;
+			sourceTree = "<group>";
+		};
+		1180F9EEE9C64941ABD528D1 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				F8F495CDEFE845C2AD7B8BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		16A0F2941005497681D2820B /* opencv_perf_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0FF9943C84B9EB12D46CC /* Src */,
+				26A5A851F7B849C0A4093B0B /* Include */,
+				469D2F0AFD1A421986075604 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_perf_stitching;
+			sourceTree = "<group>";
+		};
+		1AF8A4EA02CE44E5B72A494A /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				B5E8373C5A7F4BC686F5F71D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp */,
+				B45C10A551BB496586C7313E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		26A5A851F7B849C0A4093B0B /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				E3D2538F915242DE8F7177B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		272EE9FECEC94035A5FB5AE9 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BDC689078455F8DA50182 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_stitch.cpp */,
+				530BF0F6D3CB479287AEB1C9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_warpers.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		27859FECE29A46BB8C92226C /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB887D023640BEBE0EB8F7 /* ocl */,
+				D7416349EBF34E84ABA8332F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cpp */,
+				2CF7CEABB6A44FD6AA2E83FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cuda.cpp */,
+				14937EE3E2A449ACB8E59176 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_main.cpp */,
+				DBB7BB81EA9E4DE6B4AE3287 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_matchers.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		339AC541629C41948BF4EE94 /* opencv_test_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				27859FECE29A46BB8C92226C /* Src */,
+				1180F9EEE9C64941ABD528D1 /* Include */,
+				2F805CC746BC45C2AF2D0974 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_test_stitching;
+			sourceTree = "<group>";
+		};
+		346D25FA39BE406C9ADB8256 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				50E71C0A6C464169B2FDDC84 /* opencv2 */,
+				6B9153E650D64693830AA2F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/cvconfig.h */,
+				E9DD35838F31407CA9042273 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		3CE9B60E4FFF4B4A89ED2639 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF56BC635D704A1CBBE5609E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
+				4B0CCB79F77D4212BD6FC459 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
+				4C819C6B91A54A36A003E2E2 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
+				512F3B92A36F41479387D28C /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
+				ACCBDB641769446BAD28E35A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
+				B0DD86FEBA404DDC91D7D25B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
+				2BDC6EB204154274A01F2A44 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
+				3BBC45B6EC5540D6938B31C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */,
+				FB2D30BC2ECD4F29A31909DB /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
+				9E6A356145484FCAA061CAFF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
+				2A119ABB091643E399F4516E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
+				EA721ED4D7A44315A8D1F2F0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		4ECB887D023640BEBE0EB8F7 /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				EF755B13091A4B8D9EC48BAA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/ocl/test_warpers.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		50E71C0A6C464169B2FDDC84 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCF529AE014978BF6D20CB /* stitching */,
+				D9517D93CECA4C64BF177B7D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include/opencv2/stitching.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		5A080EB203EB45A2A5911762 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				86E34E12B8964A5F951B9481 /* opencv_stitching */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		7C666BCAFEEB42DE8395996C /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				16A0F2941005497681D2820B /* opencv_perf_stitching */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		7EC29DFC3A9A4219B03915D9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		830FE354BF934774810E369A = {
+			isa = PBXGroup;
+			children = (
+				7C666BCAFEEB42DE8395996C /* tests performance */,
+				A2B99D77C44F4D0C81744F1A /* tests accuracy */,
+				5A080EB203EB45A2A5911762 /* modules */,
+				E66D00C7B33F40339977BAB6 /* ALL_BUILD */,
+				ABBC1B302E4A4B03A7A23DCD /* ZERO_CHECK */,
+				E2462C974E3641ECACF1ED2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E34E12B8964A5F951B9481 /* opencv_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				346D25FA39BE406C9ADB8256 /* Include */,
+				E79E2E1202294E48ADABCCD4 /* Src */,
+				C8A1938DF83749619C15F8C2 /* CMake Rules */,
+				A05E122594E14BAF9CEA82C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_stitching;
+			sourceTree = "<group>";
+		};
+		8FE0F645EB90415796672421 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				1AF8A4EA02CE44E5B72A494A /* autogenerated */,
+				5C8E88D84E0D40F3B998E1B0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/multibandblend.cl */,
+				5981724E8B4B4FEF9FA9BB6F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/opencl/warpers.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		A2B99D77C44F4D0C81744F1A /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				339AC541629C41948BF4EE94 /* opencv_test_stitching */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		ABBC1B302E4A4B03A7A23DCD /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7EC29DFC3A9A4219B03915D9 /* CMake Rules */,
+				60E01B7B24F34050838805C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B01040DA602E4ACDBF202783 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				8FE0F645EB90415796672421 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		C8A1938DF83749619C15F8C2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				CBD83F70B29745C8BD3C3F4F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DF26B2B0CAA840129802BF7B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E2462C974E3641ECACF1ED2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D8FDC6A9014754BA848F93 /* opencv_perf_stitching */,
+				AC3FC64B03EE4D42827853F9 /* opencv_stitching */,
+				C4FED12A923044059C701F95 /* opencv_test_stitching */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E66D00C7B33F40339977BAB6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DF26B2B0CAA840129802BF7B /* CMake Rules */,
+				2C0B5A9E213B41A8B02E9FC3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E79E2E1202294E48ADABCCD4 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B01040DA602E4ACDBF202783 /* opencl */,
+				A869B0926F264124B217E520 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/autocalib.cpp */,
+				AF9CEB9CDA0C4556AFD1B0B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/blenders.cpp */,
+				D66A02088AFA4331B9BDBC59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/camera.cpp */,
+				902760B2169E4CAF9428485E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/exposure_compensate.cpp */,
+				AD310AE41BE44BE197FC12FE /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/matchers.cpp */,
+				7ABEFF547B58464D8C927156 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/motion_estimators.cpp */,
+				F68010E634E540D5AA36FD35 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp */,
+				727CAF85CC97492FA0BE2042 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/seam_finders.cpp */,
+				DD9B1CD9B23D4225A08FC5E1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/stitcher.cpp */,
+				60257BECD40D49D79C511924 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/timelapsers.cpp */,
+				0B48AE4C988D4365AB36BFF5 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util.cpp */,
+				C6EAB9F3862C460FA5A43CB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util_log.hpp */,
+				100A1F343B564F3E995DAC83 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers.cpp */,
+				83A7CBDA4F054662BBEF5F20 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		FBC0FF9943C84B9EB12D46CC /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				272EE9FECEC94035A5FB5AE9 /* opencl */,
+				570CD5879E914C4CAFDF868B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_estimators.cpp */,
+				541AC6A519184799BE898CD9 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_main.cpp */,
+				5F3A70907CBF4F4E8A2B7F99 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_matchers.cpp */,
+				1641EC471CF34B6F89358AC1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_stich.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A88CD14703F4B339D888A75 /* opencv_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2EC2178784F28A72B7B7C /* Build configuration list for PBXNativeTarget "opencv_stitching" */;
+			buildPhases = (
+				4349167DB55C4902B9EBFC45 /* CMake Rules */,
+				38A3292784374C41BBB7B1A1 /* Sources */,
+				C1753BF1D0A14C0A9B3AB5A9 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA3F18287254B2AB7096341 /* PBXTargetDependency */,
+			);
+			name = opencv_stitching;
+			productName = opencv_stitching;
+			productReference = AC3FC64B03EE4D42827853F9 /* opencv_stitching */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		38149ED4010A47C5B27DC088 /* opencv_perf_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF0642C696E4787A5FEC674 /* Build configuration list for PBXNativeTarget "opencv_perf_stitching" */;
+			buildPhases = (
+				19A140C143BE435A87172015 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9623479F1B4D2C900B6DAA /* PBXTargetDependency */,
+				132BD2A951B04E8A890E784A /* PBXTargetDependency */,
+			);
+			name = opencv_perf_stitching;
+			productName = opencv_perf_stitching;
+			productReference = D1D8FDC6A9014754BA848F93 /* opencv_perf_stitching */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F16EE0A97D94A6D841FD49A /* opencv_test_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CD36EF67D547379F50D35A /* Build configuration list for PBXNativeTarget "opencv_test_stitching" */;
+			buildPhases = (
+				FAE7E98CB58D474183E425D2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BE92C2C19C4AF7A592039D /* PBXTargetDependency */,
+				4B8B7ABE53294C399B3AB334 /* PBXTargetDependency */,
+			);
+			name = opencv_test_stitching;
+			productName = opencv_test_stitching;
+			productReference = C4FED12A923044059C701F95 /* opencv_test_stitching */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FB05E4D81E4A65BB221C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = E6AFE20C5DC64AEF936EE13D /* Build configuration list for PBXProject "opencv_stitching" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				489D7DD9B2C34C75BE4B8578 /* Debug */,
+				F4194D4B0AF44EE784D1768E /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 830FE354BF934774810E369A;
+			projectDirPath = ../../../modules/stitching;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				38149ED4010A47C5B27DC088 /* opencv_perf_stitching */,
+				2A88CD14703F4B339D888A75 /* opencv_stitching */,
+				8F16EE0A97D94A6D841FD49A /* opencv_test_stitching */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0370155088B84996B3A777CA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		063420A2804E427FB265DC60 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0C2D73B303BD400EA6837210 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1781DA3E4B47431BAB5DE25F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1C79D2E77BE740C5B3E7CF15 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4349167DB55C4902B9EBFC45 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/opencv_stitching_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		50FC513FE2554704942A501C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		671281D5C89F4CB48B82EF84 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		866DA2535D3B42E0AF4E29EC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A367B33F7A5A42C88967D486 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C1753BF1D0A14C0A9B3AB5A9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/opencv_stitching_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		ECE5343C13EC42BFA8C4FC6B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A140C143BE435A87172015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB9FE5F77C54428A9177C1D /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_stitch.cpp */,
+				46929581E9B24602859722B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/opencl/perf_warpers.cpp */,
+				BEEDEB0C9DBE40F8B11B4D5F /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_estimators.cpp */,
+				E4C8B429D20444A383DEFDD4 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_main.cpp */,
+				7BC70171937E4E3481BC846E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_matchers.cpp */,
+				D5B971AFFD2D4A129F1F34DA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_stich.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A3292784374C41BBB7B1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ADF5094AD14F5F9087D13D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/opencl_kernels_stitching.cpp */,
+				9EB7378E23894F428BC34E43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/autocalib.cpp */,
+				E743CC1B33C6438BAD32576B /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/blenders.cpp */,
+				7395CF075D3F4F368871E93A /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/camera.cpp */,
+				08C24A16D6BD4F278EED48EA /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/exposure_compensate.cpp */,
+				1D7CA7B3E3AF43FD9057C133 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/matchers.cpp */,
+				1CF0AA5766AC4BC7A4D00349 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/motion_estimators.cpp */,
+				B95E7CC1ABB24221876FC12E /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/seam_finders.cpp */,
+				42661C232E324D96BB8B5C93 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/stitcher.cpp */,
+				BE39FA1B92CC4425BF279A43 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/timelapsers.cpp */,
+				DE125F839CB740F6A60419A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/util.cpp */,
+				D15D9579C510400A8E04A1B3 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers.cpp */,
+				F87000E1BDBA4820834953B1 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7E98CB58D474183E425D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C107782EE5445839988AD59 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/ocl/test_warpers.cpp */,
+				B83B4B3B02D34587ADC55DF0 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cpp */,
+				478A437C557A49A9895A7B85 /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_blenders.cuda.cpp */,
+				DDD3CA4C4FFC49E0B327C7DC /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_main.cpp */,
+				4C5905E806E344688CA872BF /* /Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_matchers.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132BD2A951B04E8A890E784A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 2728785DA0C540A8B8BC6B66 /* PBXContainerItemProxy */;
+		};
+		4B8B7ABE53294C399B3AB334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 27E7556B749C4A1C9CC88DF3 /* PBXContainerItemProxy */;
+		};
+		6892344BB78840AF8DB2D250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = FC75A33DEBDE45A68EC54F52 /* PBXContainerItemProxy */;
+		};
+		82E423F0D6854615AEDF0EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = EF414CB52684486CA537108F /* PBXContainerItemProxy */;
+		};
+		AE9623479F1B4D2C900B6DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A88CD14703F4B339D888A75 /* opencv_stitching */;
+			targetProxy = 9EC146F3C1FB410EA3EE4924 /* PBXContainerItemProxy */;
+		};
+		BFA3F18287254B2AB7096341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 3BF8C376984649F2A98A1B3E /* PBXContainerItemProxy */;
+		};
+		C12467E1F9EB45A1A3B3CA02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F16EE0A97D94A6D841FD49A /* opencv_test_stitching */;
+			targetProxy = 0377F1B11F184113BB332049 /* PBXContainerItemProxy */;
+		};
+		C395E6263AD141A1BDE3E57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38149ED4010A47C5B27DC088 /* opencv_perf_stitching */;
+			targetProxy = F1549BE69B464B918584C162 /* PBXContainerItemProxy */;
+		};
+		F6BE92C2C19C4AF7A592039D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A88CD14703F4B339D888A75 /* opencv_stitching */;
+			targetProxy = 1CEDAC78360D412FA62FB509 /* PBXContainerItemProxy */;
+		};
+		FB3C6900145F40689B14D9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A88CD14703F4B339D888A75 /* opencv_stitching */;
+			targetProxy = 3EDCB8B9D6BF426CB86813AE /* PBXContainerItemProxy */;
+		};
+		FFA6878E75544758A4C3F84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 561F019AD54C4EBBA2C85CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097091CB244F4F31B3FABCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_stitching.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		14510835057644709B5E9014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1F4325FA8D044AC7B6BA5EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2A2C4078CBD242E48AE72E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/build";
+			};
+			name = Debug;
+		};
+		2D276379AD5344938BD1FC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_stitching.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3AA2EA5D43AF4F7A8F38D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		61A7F918C2B9481F87DFBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		70D653BDF53C4579AFAEFFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		80C19BCC0FEE4E019F4A966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		83A63FE2F2064DFFB3707F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A406A0F58F374DFC9FEB3E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.3.0;
+				DYLIB_CURRENT_VERSION = 3.3.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src/precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/src","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_stitching.3.3.dylib  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching.3.3.1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C1644933332144C882AA141C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_stitching.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C1C96BF147654D8EBC14FE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D821A049812C49A888150272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E8F7A13E822F4F1CB6D634A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf/perf_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/perf");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_stitching.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F59FA3B627A74BF89C9738D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F6859AED8C21410597AF1344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test/test_precomp.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/modules/ts/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/stitching/test");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_ts.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_stitching.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FF96F25648A04C14A75331A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/modules/stitching/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C2EC2178784F28A72B7B7C /* Build configuration list for PBXNativeTarget "opencv_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A406A0F58F374DFC9FEB3E56 /* Debug */,
+				097091CB244F4F31B3FABCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13CD36EF67D547379F50D35A /* Build configuration list for PBXNativeTarget "opencv_test_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1644933332144C882AA141C /* Debug */,
+				F6859AED8C21410597AF1344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		35FC5ABEB52040E1A2A847BB /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA2EA5D43AF4F7A8F38D4D9 /* Debug */,
+				D821A049812C49A888150272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47FA6314E4F2432A8AF981C9 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59FA3B627A74BF89C9738D1 /* Debug */,
+				C1C96BF147654D8EBC14FE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BF0642C696E4787A5FEC674 /* Build configuration list for PBXNativeTarget "opencv_perf_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F7A13E822F4F1CB6D634A3 /* Debug */,
+				2D276379AD5344938BD1FC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2731C72A7F646269257C3B1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C19BCC0FEE4E019F4A966B /* Debug */,
+				61A7F918C2B9481F87DFBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB72791C8A6F4D2DBF9FCFDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D653BDF53C4579AFAEFFE8 /* Debug */,
+				1F4325FA8D044AC7B6BA5EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D97A1D9AA15648EDB34900BA /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A63FE2F2064DFFB3707F0C /* Debug */,
+				14510835057644709B5E9014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6AFE20C5DC64AEF936EE13D /* Build configuration list for PBXProject "opencv_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2C4078CBD242E48AE72E92 /* Debug */,
+				FF96F25648A04C14A75331A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FB05E4D81E4A65BB221C7C /* Project object */;
+}

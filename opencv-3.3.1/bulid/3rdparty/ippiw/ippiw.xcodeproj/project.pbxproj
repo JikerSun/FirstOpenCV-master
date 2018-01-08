@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 26A06701FA0C4B6D8277DAB9 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				DF5A7D58B31745F2A7E08A72 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				BBD003ABEB0E4B2E9359F47D /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0D9793BFD8945668D8F7985 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6C98936CDAFA46C7B7BDF379 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABFD3BE1F9704EBDB4816776 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8A536472C3C9467EB22B1188 /* CMake Rules */,
+			);
+			dependencies = (
+				0827545C0D83449C909FD069 /* PBXTargetDependency */,
+				822355045A9A48459EF74D96 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B3E4E27E91404430A102C86B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				57EB2FAA28334E289E1F216E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				58D86372FD1849D8865D5C6B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2A14473B3D84163B0C2C18D /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				A09B9762310A4131A681F231 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04A0A18891A142FB9AD2C148 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_bilateral.c */ = {isa = PBXBuildFile; fileRef = 09263F6859A8405D92F59D65 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_bilateral.c */; };
+		0690C380977848C38B891287 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_morphology.c */ = {isa = PBXBuildFile; fileRef = CA0B185CB14B4E0AA93218E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_morphology.c */; };
+		07810FECA1DB41D59DCDC47E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_core.c */ = {isa = PBXBuildFile; fileRef = 74D6F9D153CB463EABB00109 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_core.c */; };
+		1F673D5AFB0B487BBE064D6F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set.c */ = {isa = PBXBuildFile; fileRef = B5DF658C30624BDA8392DA7E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set.c */; };
+		213697DB69E846D2886B924C /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image.c */ = {isa = PBXBuildFile; fileRef = 8082334336BB4FD48F9BBAB3 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image.c */; };
+		21443B6B471B4945897B6CA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_owni.h */ = {isa = PBXBuildFile; fileRef = A2F2180A679147D380F8F79E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_owni.h */; };
+		228EEAAED9134FF097F4A97C /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_transform.hpp */ = {isa = PBXBuildFile; fileRef = 2F76241308D64C86846A7F01 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_transform.hpp */; };
+		24F1FA08D2014284ADD71AF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_op.h */ = {isa = PBXBuildFile; fileRef = 4D6262BAFA014CB7BBE57EFA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_op.h */; };
+		25F4816CD345419AABE4AFED /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_sobel.c */ = {isa = PBXBuildFile; fileRef = 6C6E756852C94EE1A0CBBA55 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_sobel.c */; };
+		281710D4D5F64EA79A724C64 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_own.c */ = {isa = PBXBuildFile; fileRef = 800AE2D0E0604F73A7E37B09 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_own.c */; };
+		2B5CF05B5B754280B6F02C62 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw.h */ = {isa = PBXBuildFile; fileRef = D0802B15F2994D80A2F3B0EF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw.h */; };
+		38DEC0B2B7844707AEF40D61 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_filter.h */ = {isa = PBXBuildFile; fileRef = 0308B64477294ED481BB6A00 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_filter.h */; };
+		3A457332944A4FE0B9D5E78E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_merge.c */ = {isa = PBXBuildFile; fileRef = 69FF14583B744101AB59DDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_merge.c */; };
+		3E2FF813CA3345499D875783 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_core.h */ = {isa = PBXBuildFile; fileRef = 7AF7DCC97BB9429C9F4FFDCF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_core.h */; };
+		4689636EC0DF4E0C951180B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_make_border.c */ = {isa = PBXBuildFile; fileRef = E238826B5EC04BFE8CDF0A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_make_border.c */; };
+		47A35AFD8D254389803A5658 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_all.c */ = {isa = PBXBuildFile; fileRef = B29210B276D5433C943D60FB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_all.c */; };
+		489D3554DF0C4B43BA379F74 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_swap_channels.c */ = {isa = PBXBuildFile; fileRef = E5720518BBB8473B8CD1DF77 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_swap_channels.c */; };
+		49A90BFB4B1D4C2995CFDD31 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_config.h */ = {isa = PBXBuildFile; fileRef = 924134E61DEB4F8FA0225EBF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_config.h */; };
+		4B4A3E0CD25949A0B6663B1D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_scharr.c */ = {isa = PBXBuildFile; fileRef = C6FC53131A2C4C0F82CCC8BF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_scharr.c */; };
+		50CD21EAF9EF42D08D269013 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_canny.c */ = {isa = PBXBuildFile; fileRef = ED77EBE720CF4CC3A1D96343 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_canny.c */; };
+		5595BF155549452DAF366B6B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_scale.c */ = {isa = PBXBuildFile; fileRef = C597AE1638104C3FAE0E5125 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_scale.c */; };
+		5A4C7AA86D224EDEAD286A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_mirror.c */ = {isa = PBXBuildFile; fileRef = 19F08E3DF8154DEAB395B572 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_mirror.c */; };
+		5DDC5C2010774A43B67D39E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_channel.c */ = {isa = PBXBuildFile; fileRef = 1E7BB6DAD12440BABDF1A64D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_channel.c */; };
+		5E80EDD642BB4FF5BBC7048B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_split.c */ = {isa = PBXBuildFile; fileRef = 86B5E1C5CFD741609FE1797F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_split.c */; };
+		60951A7E8A784037A75C1C84 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7BEAF20F0F4742C3A51735D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */; };
+		6BD4FC90091F4ADEB7E30FEE /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_ll.h */ = {isa = PBXBuildFile; fileRef = 62D8DF3340AA4DE09C6385AB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_ll.h */; };
+		76EB588A4FDE4F3389D2F9F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_laplacian.c */ = {isa = PBXBuildFile; fileRef = 59007E1FAAA640BB820CEEB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_laplacian.c */; };
+		7D00849BDE4543109D2ADDDD /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_version.h */ = {isa = PBXBuildFile; fileRef = E443FA79717146FCA1EA2921 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_version.h */; };
+		8026896BA409498F93FDDAAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_box.c */ = {isa = PBXBuildFile; fileRef = 7783580E56FD44A484EC7E69 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_box.c */; };
+		846A332FECD74192AE4A7A8B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_own.h */ = {isa = PBXBuildFile; fileRef = 0C5C7C70B3204226BD98EDD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_own.h */; };
+		853B7D3BD48A4E279D7E0A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image.hpp */ = {isa = PBXBuildFile; fileRef = 0B7EDB5F4DEC45EE87F52FEA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image.hpp */; };
+		8981676BF2314BB1967F99A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_filter.hpp */ = {isa = PBXBuildFile; fileRef = 9836F6FE7DB8408DA6A1EEC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_filter.hpp */; };
+		9BC2C349DEAF41FDB2E0B666 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_general.c */ = {isa = PBXBuildFile; fileRef = 87264AE11DDA4567AE111D62 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_general.c */; };
+		A183952869114CAC87A5DD57 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw.hpp */ = {isa = PBXBuildFile; fileRef = 654F7E24230A4A80A906014D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw.hpp */; };
+		B2478BE4260145E0A59AD81A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_rotate.c */ = {isa = PBXBuildFile; fileRef = E5AC87A02BB7428D91E2DD73 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_rotate.c */; };
+		B3138E1F2DDF4BF5BED9134D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_rgbs.c */ = {isa = PBXBuildFile; fileRef = 0CB9064BF77447BB9D3E8713 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_rgbs.c */; };
+		BD369BF7354F43128C3F4B15 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_resize.c */ = {isa = PBXBuildFile; fileRef = 16109279AA6D414CB12EDC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_resize.c */; };
+		C19AD66C57104D77B806C225 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_color.hpp */ = {isa = PBXBuildFile; fileRef = 29748617E50E44EA8338D158 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_color.hpp */; };
+		CECC6A2AD0FE4024820DF317 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_transform.h */ = {isa = PBXBuildFile; fileRef = AD1E38B7C91B4D0BBB2FB0C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_transform.h */; };
+		DBCB0BD77FDC4BB79DDDC822 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image.h */ = {isa = PBXBuildFile; fileRef = F3CA89B4AE914A7DBECE8A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image.h */; };
+		DCC790F2C69D4C219AA4BE05 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_warpaffine.c */ = {isa = PBXBuildFile; fileRef = 3622603113BC4300AD6BF3CC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_warpaffine.c */; };
+		E0C8098EDBAE4D0BB00B0D81 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy.c */ = {isa = PBXBuildFile; fileRef = 7DC6F7877B1C4993A9C68C31 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy.c */; };
+		E69BE22BC68C4B2781E6B2E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_gaussian.c */ = {isa = PBXBuildFile; fileRef = FCA940ECF7424ECCA0763939 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_gaussian.c */; };
+		E6E7C476D7DE485E99F3A8B5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_color.h */ = {isa = PBXBuildFile; fileRef = 2A44DAF857D4484EA55EA57B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_color.h */; };
+		E9D870EB8F4940C280D58241 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_core.hpp */ = {isa = PBXBuildFile; fileRef = 3E14BA3705F94F52863A96EB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_core.hpp */; };
+		F0DF8D35A66D49ACBC478FB7 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_op.hpp */ = {isa = PBXBuildFile; fileRef = 2B98EA68716343728411E857 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_op.hpp */; };
+		F79038ACD32E4CBD929712B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set_channel.c */ = {isa = PBXBuildFile; fileRef = 75040D1DE58043338724268D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set_channel.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7EE5CD236F064FD4BFD9A8F4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F2A0488C62B34CBCB6969E94 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		176137F8D9C443E3B24E1B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8780C0962CC44DEA45430F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		6865C75634D5404DABC5D3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8780C0962CC44DEA45430F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		6ED0F28179414BABA4FCF095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8780C0962CC44DEA45430F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		97232E6865A647F2B035428C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8780C0962CC44DEA45430F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA368F4F22C9409C9D8868C4;
+			remoteInfo = ippiw;
+		};
+		BF018A3E1A374075BAEBA327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8780C0962CC44DEA45430F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0308B64477294ED481BB6A00 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_filter.h; path = include/iw/iw_image_filter.h; sourceTree = SOURCE_ROOT; };
+		09263F6859A8405D92F59D65 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_bilateral.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_bilateral.c; path = src/iw_image_filter_bilateral.c; sourceTree = SOURCE_ROOT; };
+		0B7EDB5F4DEC45EE87F52FEA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image.hpp; path = "include/iw++/iw_image.hpp"; sourceTree = SOURCE_ROOT; };
+		0C5C7C70B3204226BD98EDD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_own.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_own.h; path = include/iw_own.h; sourceTree = SOURCE_ROOT; };
+		0CB9064BF77447BB9D3E8713 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_rgbs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_color_convert_rgbs.c; path = src/iw_image_color_convert_rgbs.c; sourceTree = SOURCE_ROOT; };
+		16109279AA6D414CB12EDC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_resize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_resize.c; path = src/iw_image_transform_resize.c; sourceTree = SOURCE_ROOT; };
+		19F08E3DF8154DEAB395B572 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_mirror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_mirror.c; path = src/iw_image_transform_mirror.c; sourceTree = SOURCE_ROOT; };
+		1E7BB6DAD12440BABDF1A64D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_channel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_channel.c; path = src/iw_image_op_copy_channel.c; sourceTree = SOURCE_ROOT; };
+		29748617E50E44EA8338D158 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_color.hpp; path = "include/iw++/iw_image_color.hpp"; sourceTree = SOURCE_ROOT; };
+		2A44DAF857D4484EA55EA57B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_color.h; path = include/iw/iw_image_color.h; sourceTree = SOURCE_ROOT; };
+		2B98EA68716343728411E857 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_op.hpp; path = "include/iw++/iw_image_op.hpp"; sourceTree = SOURCE_ROOT; };
+		2F76241308D64C86846A7F01 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_transform.hpp; path = "include/iw++/iw_image_transform.hpp"; sourceTree = SOURCE_ROOT; };
+		3622603113BC4300AD6BF3CC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_warpaffine.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_warpaffine.c; path = src/iw_image_transform_warpaffine.c; sourceTree = SOURCE_ROOT; };
+		3E14BA3705F94F52863A96EB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_core.hpp; path = "include/iw++/iw_core.hpp"; sourceTree = SOURCE_ROOT; };
+		4D6262BAFA014CB7BBE57EFA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_op.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_op.h; path = include/iw/iw_image_op.h; sourceTree = SOURCE_ROOT; };
+		58ED6864B02A4F15A08385CB /* ippiw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libippiw.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59007E1FAAA640BB820CEEB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_laplacian.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_laplacian.c; path = src/iw_image_filter_laplacian.c; sourceTree = SOURCE_ROOT; };
+		62D8DF3340AA4DE09C6385AB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_ll.h; path = include/iw/iw_ll.h; sourceTree = SOURCE_ROOT; };
+		654F7E24230A4A80A906014D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw.hpp; path = "include/iw++/iw.hpp"; sourceTree = SOURCE_ROOT; };
+		69FF14583B744101AB59DDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_merge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_merge.c; path = src/iw_image_op_copy_merge.c; sourceTree = SOURCE_ROOT; };
+		6C6E756852C94EE1A0CBBA55 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_sobel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_sobel.c; path = src/iw_image_filter_sobel.c; sourceTree = SOURCE_ROOT; };
+		74D6F9D153CB463EABB00109 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_core.c; path = src/iw_core.c; sourceTree = SOURCE_ROOT; };
+		75040D1DE58043338724268D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set_channel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_set_channel.c; path = src/iw_image_op_set_channel.c; sourceTree = SOURCE_ROOT; };
+		7783580E56FD44A484EC7E69 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_box.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_box.c; path = src/iw_image_filter_box.c; sourceTree = SOURCE_ROOT; };
+		7AF7DCC97BB9429C9F4FFDCF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_core.h; path = include/iw/iw_core.h; sourceTree = SOURCE_ROOT; };
+		7BEAF20F0F4742C3A51735D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DC6F7877B1C4993A9C68C31 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy.c; path = src/iw_image_op_copy.c; sourceTree = SOURCE_ROOT; };
+		800AE2D0E0604F73A7E37B09 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_own.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_own.c; path = src/iw_own.c; sourceTree = SOURCE_ROOT; };
+		8082334336BB4FD48F9BBAB3 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image.c; path = src/iw_image.c; sourceTree = SOURCE_ROOT; };
+		86B5E1C5CFD741609FE1797F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_split.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_split.c; path = src/iw_image_op_copy_split.c; sourceTree = SOURCE_ROOT; };
+		87264AE11DDA4567AE111D62 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_general.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_general.c; path = src/iw_image_filter_general.c; sourceTree = SOURCE_ROOT; };
+		924134E61DEB4F8FA0225EBF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_config.h; path = include/iw_config.h; sourceTree = SOURCE_ROOT; };
+		9836F6FE7DB8408DA6A1EEC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_filter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_filter.hpp; path = "include/iw++/iw_image_filter.hpp"; sourceTree = SOURCE_ROOT; };
+		A2F2180A679147D380F8F79E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_owni.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_owni.h; path = include/iw_owni.h; sourceTree = SOURCE_ROOT; };
+		AD1E38B7C91B4D0BBB2FB0C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_transform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_transform.h; path = include/iw/iw_image_transform.h; sourceTree = SOURCE_ROOT; };
+		B29210B276D5433C943D60FB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_all.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_color_convert_all.c; path = src/iw_image_color_convert_all.c; sourceTree = SOURCE_ROOT; };
+		B5DF658C30624BDA8392DA7E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_set.c; path = src/iw_image_op_set.c; sourceTree = SOURCE_ROOT; };
+		C597AE1638104C3FAE0E5125 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_scale.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_scale.c; path = src/iw_image_op_scale.c; sourceTree = SOURCE_ROOT; };
+		C6FC53131A2C4C0F82CCC8BF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_scharr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_scharr.c; path = src/iw_image_filter_scharr.c; sourceTree = SOURCE_ROOT; };
+		C7621F7C71E74FDF8B51C1DE /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA0B185CB14B4E0AA93218E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_morphology.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_morphology.c; path = src/iw_image_filter_morphology.c; sourceTree = SOURCE_ROOT; };
+		CE18765EE40444F787C2CCA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D0802B15F2994D80A2F3B0EF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw.h; path = include/iw/iw.h; sourceTree = SOURCE_ROOT; };
+		E238826B5EC04BFE8CDF0A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_make_border.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_make_border.c; path = src/iw_image_op_copy_make_border.c; sourceTree = SOURCE_ROOT; };
+		E443FA79717146FCA1EA2921 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_version.h; path = include/iw/iw_version.h; sourceTree = SOURCE_ROOT; };
+		E5720518BBB8473B8CD1DF77 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_swap_channels.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_swap_channels.c; path = src/iw_image_op_swap_channels.c; sourceTree = SOURCE_ROOT; };
+		E5AC87A02BB7428D91E2DD73 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_rotate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_rotate.c; path = src/iw_image_transform_rotate.c; sourceTree = SOURCE_ROOT; };
+		ED77EBE720CF4CC3A1D96343 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_canny.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_canny.c; path = src/iw_image_filter_canny.c; sourceTree = SOURCE_ROOT; };
+		F3CA89B4AE914A7DBECE8A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image.h; path = include/iw/iw_image.h; sourceTree = SOURCE_ROOT; };
+		FCA940ECF7424ECCA0763939 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_gaussian.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_gaussian.c; path = src/iw_image_filter_gaussian.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06D5AECEE8B24D6997F71E9B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		19DF66D91ED54893A722B22B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2361BB8BE3284BAC813DD8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ED6864B02A4F15A08385CB /* ippiw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3CFC5D302E42A9B9A1A063 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				74D6F9D153CB463EABB00109 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_core.c */,
+				8082334336BB4FD48F9BBAB3 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image.c */,
+				B29210B276D5433C943D60FB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_all.c */,
+				0CB9064BF77447BB9D3E8713 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_rgbs.c */,
+				09263F6859A8405D92F59D65 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_bilateral.c */,
+				7783580E56FD44A484EC7E69 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_box.c */,
+				ED77EBE720CF4CC3A1D96343 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_canny.c */,
+				FCA940ECF7424ECCA0763939 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_gaussian.c */,
+				87264AE11DDA4567AE111D62 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_general.c */,
+				59007E1FAAA640BB820CEEB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_laplacian.c */,
+				CA0B185CB14B4E0AA93218E4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_morphology.c */,
+				C6FC53131A2C4C0F82CCC8BF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_scharr.c */,
+				6C6E756852C94EE1A0CBBA55 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_sobel.c */,
+				7DC6F7877B1C4993A9C68C31 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy.c */,
+				1E7BB6DAD12440BABDF1A64D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_channel.c */,
+				E238826B5EC04BFE8CDF0A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_make_border.c */,
+				69FF14583B744101AB59DDAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_merge.c */,
+				86B5E1C5CFD741609FE1797F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_split.c */,
+				C597AE1638104C3FAE0E5125 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_scale.c */,
+				B5DF658C30624BDA8392DA7E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set.c */,
+				75040D1DE58043338724268D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set_channel.c */,
+				E5720518BBB8473B8CD1DF77 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_swap_channels.c */,
+				19F08E3DF8154DEAB395B572 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_mirror.c */,
+				16109279AA6D414CB12EDC78 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_resize.c */,
+				E5AC87A02BB7428D91E2DD73 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_rotate.c */,
+				3622603113BC4300AD6BF3CC /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_warpaffine.c */,
+				800AE2D0E0604F73A7E37B09 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_own.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		58E38AF4F4E0402894521FA1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				654F7E24230A4A80A906014D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw.hpp */,
+				3E14BA3705F94F52863A96EB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_core.hpp */,
+				0B7EDB5F4DEC45EE87F52FEA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image.hpp */,
+				29748617E50E44EA8338D158 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_color.hpp */,
+				9836F6FE7DB8408DA6A1EEC9 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_filter.hpp */,
+				2B98EA68716343728411E857 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_op.hpp */,
+				2F76241308D64C86846A7F01 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw++/iw_image_transform.hpp */,
+				D0802B15F2994D80A2F3B0EF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw.h */,
+				7AF7DCC97BB9429C9F4FFDCF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_core.h */,
+				F3CA89B4AE914A7DBECE8A2A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image.h */,
+				2A44DAF857D4484EA55EA57B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_color.h */,
+				0308B64477294ED481BB6A00 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_filter.h */,
+				4D6262BAFA014CB7BBE57EFA /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_op.h */,
+				AD1E38B7C91B4D0BBB2FB0C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_image_transform.h */,
+				62D8DF3340AA4DE09C6385AB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_ll.h */,
+				E443FA79717146FCA1EA2921 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw/iw_version.h */,
+				924134E61DEB4F8FA0225EBF /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_config.h */,
+				0C5C7C70B3204226BD98EDD6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_own.h */,
+				A2F2180A679147D380F8F79E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include/iw_owni.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		75EA328373F145D6BA59E001 = {
+			isa = PBXGroup;
+			children = (
+				D8742E8B9606430A8D04D9DC /* 3rdparty */,
+				82E3DB902443404D92245AC6 /* ALL_BUILD */,
+				7B99CF181EEC421D80B613CA /* ZERO_CHECK */,
+				2361BB8BE3284BAC813DD8C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B99CF181EEC421D80B613CA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				06D5AECEE8B24D6997F71E9B /* CMake Rules */,
+				CE18765EE40444F787C2CCA4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		82E3DB902443404D92245AC6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				19DF66D91ED54893A722B22B /* CMake Rules */,
+				C7621F7C71E74FDF8B51C1DE /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D8742E8B9606430A8D04D9DC /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				DC00207D4E4149A88E71511D /* ippiw */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		DC00207D4E4149A88E71511D /* ippiw */ = {
+			isa = PBXGroup;
+			children = (
+				2C3CFC5D302E42A9B9A1A063 /* Source Files */,
+				58E38AF4F4E0402894521FA1 /* Header Files */,
+				7BEAF20F0F4742C3A51735D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/CMakeLists.txt */,
+			);
+			name = ippiw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA368F4F22C9409C9D8868C4 /* ippiw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B8164F029E42C99DB19454 /* Build configuration list for PBXNativeTarget "ippiw" */;
+			buildPhases = (
+				09F1D7734BBB40A286919081 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00892B03F8F40F0BB39720E /* PBXTargetDependency */,
+			);
+			name = ippiw;
+			productName = ippiw;
+			productReference = 58ED6864B02A4F15A08385CB /* ippiw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8780C0962CC44DEA45430F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 84D5ED25F2394219B5CB69A2 /* Build configuration list for PBXProject "ippiw" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7EE5CD236F064FD4BFD9A8F4 /* Debug */,
+				F2A0488C62B34CBCB6969E94 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 75EA328373F145D6BA59E001;
+			projectDirPath = ../ippicv/ippiw_mac;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				FA368F4F22C9409C9D8868C4 /* ippiw */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0D04CF36E9446BB77A8078 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		42AA9974400147529F000029 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		57EB2FAA28334E289E1F216E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6C98936CDAFA46C7B7BDF379 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		75C327215B454C52846E1AE7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7CDC56C409C34ABD8BBEC98F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8A536472C3C9467EB22B1188 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A09B9762310A4131A681F231 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A18C496728D14EE7A6F30F18 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DF5A7D58B31745F2A7E08A72 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F1D7734BBB40A286919081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07810FECA1DB41D59DCDC47E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_core.c */,
+				213697DB69E846D2886B924C /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image.c */,
+				47A35AFD8D254389803A5658 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_all.c */,
+				B3138E1F2DDF4BF5BED9134D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_color_convert_rgbs.c */,
+				04A0A18891A142FB9AD2C148 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_bilateral.c */,
+				8026896BA409498F93FDDAAB /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_box.c */,
+				50CD21EAF9EF42D08D269013 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_canny.c */,
+				E69BE22BC68C4B2781E6B2E0 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_gaussian.c */,
+				9BC2C349DEAF41FDB2E0B666 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_general.c */,
+				76EB588A4FDE4F3389D2F9F5 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_laplacian.c */,
+				0690C380977848C38B891287 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_morphology.c */,
+				4B4A3E0CD25949A0B6663B1D /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_scharr.c */,
+				25F4816CD345419AABE4AFED /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_filter_sobel.c */,
+				E0C8098EDBAE4D0BB00B0D81 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy.c */,
+				5DDC5C2010774A43B67D39E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_channel.c */,
+				4689636EC0DF4E0C951180B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_make_border.c */,
+				3A457332944A4FE0B9D5E78E /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_merge.c */,
+				5E80EDD642BB4FF5BBC7048B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_copy_split.c */,
+				5595BF155549452DAF366B6B /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_scale.c */,
+				1F673D5AFB0B487BBE064D6F /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set.c */,
+				F79038ACD32E4CBD929712B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_set_channel.c */,
+				489D3554DF0C4B43BA379F74 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_op_swap_channels.c */,
+				5A4C7AA86D224EDEAD286A53 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_mirror.c */,
+				BD369BF7354F43128C3F4B15 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_resize.c */,
+				B2478BE4260145E0A59AD81A /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_rotate.c */,
+				DCC790F2C69D4C219AA4BE05 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_image_transform_warpaffine.c */,
+				281710D4D5F64EA79A724C64 /* /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/src/iw_own.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0827545C0D83449C909FD069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA368F4F22C9409C9D8868C4 /* ippiw */;
+			targetProxy = 97232E6865A647F2B035428C /* PBXContainerItemProxy */;
+		};
+		58D86372FD1849D8865D5C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = BF018A3E1A374075BAEBA327 /* PBXContainerItemProxy */;
+		};
+		822355045A9A48459EF74D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 6ED0F28179414BABA4FCF095 /* PBXContainerItemProxy */;
+		};
+		B00892B03F8F40F0BB39720E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 176137F8D9C443E3B24E1B01 /* PBXContainerItemProxy */;
+		};
+		BBD003ABEB0E4B2E9359F47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 6865C75634D5404DABC5D3D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2071B3E4A616402CBCD0BA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		30A98201CA5A4F9AA13C6502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4288999AA76A4C4B993B49EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		44E8C66D5062463C85F020B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4527F507CBBA42CC9FA7E808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5335B155FEAB48F1B4FBC865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		66D0130B6DB44AE6B5DCD061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		944FB85B30FD434FB7E50949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IW_BUILD,ICV_BASE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-function -Wno-missing-braces -Wno-missing-field-initializers -Wno-self-assign         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ippiw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9CF167C9BB6D4B6FB7B5C988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A874A7A63A594BCD9F88308C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ADF880F2CD75499ABDAE47BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/build";
+			};
+			name = Release;
+		};
+		C62080BB8723427F80050ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IW_BUILD,ICV_BASE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-function -Wno-missing-braces -Wno-missing-field-initializers -Wno-self-assign     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ippiw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D848582A9C8247A1B343571B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw/build";
+			};
+			name = Debug;
+		};
+		E5688BBE0A784AA0A186E522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B8164F029E42C99DB19454 /* Build configuration list for PBXNativeTarget "ippiw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944FB85B30FD434FB7E50949 /* Debug */,
+				C62080BB8723427F80050ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26A06701FA0C4B6D8277DAB9 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A874A7A63A594BCD9F88308C /* Debug */,
+				E5688BBE0A784AA0A186E522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84D5ED25F2394219B5CB69A2 /* Build configuration list for PBXProject "ippiw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848582A9C8247A1B343571B /* Debug */,
+				ADF880F2CD75499ABDAE47BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABFD3BE1F9704EBDB4816776 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2071B3E4A616402CBCD0BA6F /* Debug */,
+				4527F507CBBA42CC9FA7E808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3E4E27E91404430A102C86B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF167C9BB6D4B6FB7B5C988 /* Debug */,
+				5335B155FEAB48F1B4FBC865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0D9793BFD8945668D8F7985 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0130B6DB44AE6B5DCD061 /* Debug */,
+				30A98201CA5A4F9AA13C6502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2A14473B3D84163B0C2C18D /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4288999AA76A4C4B993B49EA /* Debug */,
+				44E8C66D5062463C85F020B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8780C0962CC44DEA45430F0 /* Project object */;
+}

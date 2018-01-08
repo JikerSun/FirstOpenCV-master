@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C84742244EBE4ACCBE1ABA03 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				365DC9D4EFE9403ABF160D40 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7BDB439DB6F84CC9A58C3B3B /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B95B47814B744E4AEAE44FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F89B7117AF8A4DBD94225900 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6486D5710AE44794A26DF3C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B23252EC763F40EA9E52EB2C /* CMake Rules */,
+			);
+			dependencies = (
+				C9F15B1A517C4A86953DFE28 /* PBXTargetDependency */,
+				7ADACEFD4D814D39A2E38D40 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0879E2548D0B4D81AA72E55E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C05F9ED660CD4251889B20F4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				406A2C3B12CF475384A8001C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21116D4908E04BCC9A44F57B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				95BBBD7D5F964A89A3F1D451 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01132EBAD79644E086EEE371 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips32.c */ = {isa = PBXBuildFile; fileRef = 5C1BA3D3DAA04AD2B11C903A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips32.c */; };
+		072F92154C9242C287B27F0A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/quant_dec.c */ = {isa = PBXBuildFile; fileRef = 123A18DC2EF84F7D85539D25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/quant_dec.c */; };
+		0887252495FF4260B1693396 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_psnr_enc.c */ = {isa = PBXBuildFile; fileRef = C9F18D10C22940EF832B971A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_psnr_enc.c */; };
+		0E77DC203BB4415C98405A39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/tree_dec.c */ = {isa = PBXBuildFile; fileRef = 6E5333AE93454E8D81081CA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/tree_dec.c */; };
+		0EA3FC1EFA2A4B21BF6A8973 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse2.c */ = {isa = PBXBuildFile; fileRef = FF69A78471AA45028F746FBE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse2.c */; };
+		0F9F884248A144968B2C60C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/filter_enc.c */ = {isa = PBXBuildFile; fileRef = 1CE9AE25370944ECBD830AF9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/filter_enc.c */; };
+		121FE976A1B2455A9DD3D3E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_msa.c */ = {isa = PBXBuildFile; fileRef = EC927E99C31E4D3F9BA1565C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_msa.c */; };
+		13D9B6D192254FC095F06BB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 32DA1F36AF7E4EDDB6575651 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_mips_dsp_r2.c */; };
+		1415D18CA7C54502BF14A71A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec.c */ = {isa = PBXBuildFile; fileRef = 7D145FC54A694D3884B51694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec.c */; };
+		15ACFCFD2D864407B75BAB29 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/format_constants.h */ = {isa = PBXBuildFile; fileRef = 9178AFD4872147DD979CE3BB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/format_constants.h */; };
+		15E26356070F462497937F8D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling.c */ = {isa = PBXBuildFile; fileRef = A6232EB64F5B4BA79B7A49BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling.c */; };
+		15F2F074FC8A4A10B3084726 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.h */ = {isa = PBXBuildFile; fileRef = 9C5D7E6312534A2E95AB3FB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.h */; };
+		1E9E089F1B9540F092E3206A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.h */ = {isa = PBXBuildFile; fileRef = 8DA270ADD9C94EC39172CBC3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.h */; };
+		20374D9FD9C34D74A7FEDF52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.h */ = {isa = PBXBuildFile; fileRef = A74C2735381E48D296C89AAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.h */; };
+		20F3A92A14FF406B91D29B50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/alpha_enc.c */ = {isa = PBXBuildFile; fileRef = DB77A034E1B9429B8BE753E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/alpha_enc.c */; };
+		220801D17C92426686BD303B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.c */ = {isa = PBXBuildFile; fileRef = 3F31B6691EEE436883C9AF16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.c */; };
+		259FF925FB2A4FF1B47B7A1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 19E3C591E480470CB54ABF1A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips_dsp_r2.c */; };
+		271A66C406B7474E9878ADF4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.h */ = {isa = PBXBuildFile; fileRef = 7D52918EC5A4453EB1767C5A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.h */; };
+		2762F2897C0B41F8A6AE23D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 0AEC6BAA9FF74FE3B5BDC7A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips_dsp_r2.c */; };
+		28A4EFD26F2946A1A930E7C0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8i_dec.h */ = {isa = PBXBuildFile; fileRef = 08FB4A257F924B40B60150BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8i_dec.h */; };
+		28CAB806D97A41489B2AA9B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler.c */ = {isa = PBXBuildFile; fileRef = 59722A22AE9E4F41B37176EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler.c */; };
+		29193869C6EA470FACBC5551 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_sse2.c */ = {isa = PBXBuildFile; fileRef = 614FE10BADA646A4A373603E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_sse2.c */; };
+		2A99E3FF008D49EA94ED4D03 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.c */ = {isa = PBXBuildFile; fileRef = C87B01D4793B47D6B0ECEBB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.c */; };
+		2B97BC81D95D4D94974C9743 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.c */ = {isa = PBXBuildFile; fileRef = AD6BFEB6619244CDBAA7ED77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.c */; };
+		2ED286331D504984A43B44A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_msa.c */ = {isa = PBXBuildFile; fileRef = 522E152125D8473192637BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_msa.c */; };
+		30029B9CAA82404DAC7C1AD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.c */ = {isa = PBXBuildFile; fileRef = C59F4110351349A49E4986C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.c */; };
+		336A0B2B20CE41A3AE2C2470 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/demux.c */ = {isa = PBXBuildFile; fileRef = 48D6C27730584E678F517774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/demux.c */; };
+		33AB68049309412DBD00DECD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_neon.c */ = {isa = PBXBuildFile; fileRef = 62D4E510949A4E2B85ACB690 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_neon.c */; };
+		3418DF3191AB4AE6B4D2A944 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c */ = {isa = PBXBuildFile; fileRef = DB208A3B914847D5BD321744 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c */; };
+		3484337B2E4744158E1D219C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc.c */ = {isa = PBXBuildFile; fileRef = 965085ABD1DC4577B94DC8F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc.c */; };
+		369FA1F3BDC74760854A54EF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/buffer_dec.c */ = {isa = PBXBuildFile; fileRef = 9DEE96B3900A4C7D90AAF7A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/buffer_dec.c */; };
+		371D36493CAB40A7819FE814 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.c */ = {isa = PBXBuildFile; fileRef = 114E2B43EDFA4157B140D470 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.c */; };
+		37C2BD6008124A48A1F4E2A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8l_enc.c */ = {isa = PBXBuildFile; fileRef = B886196C4BE14253B93B80D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8l_enc.c */; };
+		385262493A58421FB0B659DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/common_dec.h */ = {isa = PBXBuildFile; fileRef = 89C8281EFD244BF9A3B49C34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/common_dec.h */; };
+		389420C400874E6985104E9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse41.c */ = {isa = PBXBuildFile; fileRef = DD28A05E4AAE4B7C938B1F0D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse41.c */; };
+		39C035DB164C4B299E4D3972 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/animi.h */ = {isa = PBXBuildFile; fileRef = 2B7D9CFCC2FB4DFF9F50B195 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/animi.h */; };
+		3C2A9C31E65B49B7BE1B0E90 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_rescale_enc.c */ = {isa = PBXBuildFile; fileRef = 6F5A0984EFFA42889231C351 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_rescale_enc.c */; };
+		3C6134B9C4E14253AC6E58E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_neon.c */ = {isa = PBXBuildFile; fileRef = DE2F5F964DAA434C8F4B0945 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_neon.c */; };
+		41FBEBDBDD3043F1822205DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/iterator_enc.c */ = {isa = PBXBuildFile; fileRef = DD127B20EC6B4516A9695A93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/iterator_enc.c */; };
+		42965C159F704A3099664BE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 213ECAB7EBB2435FA2A2F044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_mips_dsp_r2.c */; };
+		44475DAD0E784E2DB760CF52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cpu.c */ = {isa = PBXBuildFile; fileRef = EB020942FE4045B69FCF3AFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cpu.c */; };
+		490ED9792E1548E4A8B4FBC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.c */ = {isa = PBXBuildFile; fileRef = 3AA4F3AE70A44A2A820C5975 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.c */; };
+		4B0CD49C92B947BAB970539F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_avx2.c */ = {isa = PBXBuildFile; fileRef = 6AD0672FA57C4E4388377801 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_avx2.c */; };
+		4BF8DFDA941943549665919F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/msa_macro.h */ = {isa = PBXBuildFile; fileRef = CC0798472E32442698942856 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/msa_macro.h */; };
+		4C29BE61D1A144BCB808B6C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters.c */ = {isa = PBXBuildFile; fileRef = F0D6D0544F434943AE600401 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters.c */; };
+		4D9A1377EA7543D0830B3D1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips32.c */ = {isa = PBXBuildFile; fileRef = BB07F0D1F68749C981586055 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips32.c */; };
+		5193ED37F09149F0941A7F79 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dsp.h */ = {isa = PBXBuildFile; fileRef = C2A4FC9B0E394AC6921F3364 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dsp.h */; };
+		528EBFB7B9E346E3A7C22FCE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_msa.c */ = {isa = PBXBuildFile; fileRef = 4D16CAD94C7A415F9C3FFF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_msa.c */; };
+		5417744C0DEE4A318DC93ADE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse41.c */ = {isa = PBXBuildFile; fileRef = B4FC5540533B4BA79A127F10 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse41.c */; };
+		55E42CB95225482987EA9046 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.h */ = {isa = PBXBuildFile; fileRef = 069D37D1B0854D5BB8CB3E9B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.h */; };
+		5B1A96C91F324EBE9F35E703 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_neon.c */ = {isa = PBXBuildFile; fileRef = 4A59643353C54C2CA4CEB3B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_neon.c */; };
+		61D885A20D0C4B5A9F800DFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc.c */ = {isa = PBXBuildFile; fileRef = DC490AF2471C46BDB78AD2DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc.c */; };
+		6210ACF17F4B426EA20A3853 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_sse2.c */ = {isa = PBXBuildFile; fileRef = FD10F1252D714228AFFF9E66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_sse2.c */; };
+		6281E8B953CC4C5388DF12EA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.c */ = {isa = PBXBuildFile; fileRef = 415C0FE619104A6ABDEDADEF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.c */; };
+		62A15FF9E1D149A781B77FD7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8i_enc.h */ = {isa = PBXBuildFile; fileRef = C467749A55FA473B93DCCAA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8i_enc.h */; };
+		675B5401907E45CC864F967F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips32.c */ = {isa = PBXBuildFile; fileRef = 0F0A74670F0D47288F43FFE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips32.c */; };
+		6839A1AE535541A8B9C14390 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_neon.c */ = {isa = PBXBuildFile; fileRef = 87FAB362EEAC45CBBCFD604B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_neon.c */; };
+		68CAE41C28064BC8A8827A1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/token_enc.c */ = {isa = PBXBuildFile; fileRef = A5A5294BB2AE4B87B7F4926E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/token_enc.c */; };
+		69ACF9824A854A9DAF8F86DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/syntax_enc.c */ = {isa = PBXBuildFile; fileRef = A1EA08B7FA8A452F9BD9B8F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/syntax_enc.c */; };
+		6A8C2F7F88FE40F3A17F6C99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse41.c */ = {isa = PBXBuildFile; fileRef = C39AA0EDAF5C4C6B8C13287E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse41.c */; };
+		6BA5786E4C384583B2F810FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_clip_tables.c */ = {isa = PBXBuildFile; fileRef = 82481EB1DC0B47FCB4D9EB13 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_clip_tables.c */; };
+		6CF54B72ADC44318AB499BF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.h */ = {isa = PBXBuildFile; fileRef = 2E6A03C6C03045AEA8D00230 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.h */; };
+		6E808CB140CC4B9A8C19C320 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/mips_macro.h */ = {isa = PBXBuildFile; fileRef = 064B3014AA6140438C25A8EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/mips_macro.h */; };
+		6FF534EDDC9A4460884C2F75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_csp_enc.c */ = {isa = PBXBuildFile; fileRef = 4BAC812324EC44BD9861DCFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_csp_enc.c */; };
+		71E3C10FFAC349959357622B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_tools_enc.c */ = {isa = PBXBuildFile; fileRef = 844D29AE26654DA89B174A9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_tools_enc.c */; };
+		723A2E5834C24BD1B62C1091 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing.c */ = {isa = PBXBuildFile; fileRef = 825470AC396A43769E78A599 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing.c */; };
+		7441463D94694FDFB2F207B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/demux.h */ = {isa = PBXBuildFile; fileRef = F8197E57A88E415C9B161D9E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/demux.h */; };
+		7780029919C34C199BB2AAF1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.h */ = {isa = PBXBuildFile; fileRef = 414BCDFB35AC458DAB920A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.h */; };
+		788E26765C6646B78F61BAA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_sse2.c */ = {isa = PBXBuildFile; fileRef = F7A3EB9BF36C431993C22ECB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_sse2.c */; };
+		800A7858F728400181DF6BAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost.c */ = {isa = PBXBuildFile; fileRef = 40B429087E5D46A9B3C01D27 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost.c */; };
+		8246CD217EF740388AF60BDE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.c */ = {isa = PBXBuildFile; fileRef = 6BF96472D9094FB188F2293D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.c */; };
+		82B6408BFAA646BCA84AE056 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 194E728A2193489F87B669DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips_dsp_r2.c */; };
+		8385FF186B95426ABFC802B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/config_enc.c */ = {isa = PBXBuildFile; fileRef = E18EB1B65E044014887F23FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/config_enc.c */; };
+		8445DE4CF6C84540ABC69E47 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/near_lossless_enc.c */ = {isa = PBXBuildFile; fileRef = 5310877037B04D42B4B69126 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/near_lossless_enc.c */; };
+		8630B8A02E5A444ABE4EB0D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/io_dec.c */ = {isa = PBXBuildFile; fileRef = 9C1CA06971A049E3AA7A4F63 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/io_dec.c */; };
+		86D2B47FB6524B51B315C0B2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.h */ = {isa = PBXBuildFile; fileRef = 14927F926AA24777A11893E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.h */; };
+		89852D2CD5C44B5C8B68A402 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_neon.c */ = {isa = PBXBuildFile; fileRef = EEA47E55A02D4DE5AA814BBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_neon.c */; };
+		89EAB8076BA048A39A1A2A8C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_common.h */ = {isa = PBXBuildFile; fileRef = 41BF6EE74C7045C2940493A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_common.h */; };
+		89FFA729C9F946B5A2EF5DEC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webpi_dec.h */ = {isa = PBXBuildFile; fileRef = 3CE4DBC930F04D2F888B4466 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webpi_dec.h */; };
+		8AB5B67A422D4EBD9CC3E957 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8l_dec.c */ = {isa = PBXBuildFile; fileRef = 6F1DDEE95B5F4F5A9C2B8611 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8l_dec.c */; };
+		8BBA52A470DF4658AF1AA413 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.c */ = {isa = PBXBuildFile; fileRef = 8BA48518902B4678B89D4363 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.c */; };
+		8BCBD8168721492894C70622 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/quant_enc.c */ = {isa = PBXBuildFile; fileRef = 0EC579C866164041921FDADD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/quant_enc.c */; };
+		8EA5D95C740D41F58C6978D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_neon.c */ = {isa = PBXBuildFile; fileRef = 00F2DFAC7AB543CD9C8472C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_neon.c */; };
+		8F74783B2F9F48A1B2C4C4C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_msa.c */ = {isa = PBXBuildFile; fileRef = B8E41E49695C4CD5ACACCCC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_msa.c */; };
+		937A7FF09D11418D9735F7C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = BD0B5B04BBDB4CD289C51AC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_mips_dsp_r2.c */; };
+		93F5FF71101A4B6EAFDC7561 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/common_sse2.h */ = {isa = PBXBuildFile; fileRef = 23B4B2A1DEB7472084A09373 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/common_sse2.h */; };
+		942F68578F1947C8AEE06508 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.c */ = {isa = PBXBuildFile; fileRef = A63432E2060345EF8EFB22D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.c */; };
+		943C14047AAA4BC3AA02829F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse41.c */ = {isa = PBXBuildFile; fileRef = DA38E4E600904A33A6D47FE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse41.c */; };
+		9594CF9051C044D98B8CB5E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 136E60792DF648BCACEEED9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips_dsp_r2.c */; };
+		961178AC37AF4EA6935097AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = AA3DFAB1898B4F80995108C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_mips_dsp_r2.c */; };
+		965FCE81F03A465B86638A25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_msa.c */ = {isa = PBXBuildFile; fileRef = 706EE1D34CCF4DE3A6FA0638 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_msa.c */; };
+		973B126096E24E7D90A47B01 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.h */ = {isa = PBXBuildFile; fileRef = B7DDAA8887274960847D30A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.h */; };
+		987A8C4F79044151992C0186 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/idec_dec.c */ = {isa = PBXBuildFile; fileRef = C48483B5E7554490A8A4BBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/idec_dec.c */; };
+		99E42985DA32445B973CA367 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8li_dec.h */ = {isa = PBXBuildFile; fileRef = ADD08DD1CD7442578AE7E6F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8li_dec.h */; };
+		9A407BC911B249628DB15DA9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips32.c */ = {isa = PBXBuildFile; fileRef = 0B1E14DCBF6F493CAE730244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips32.c */; };
+		9AD20BD68FBF402C9E30F3D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.c */ = {isa = PBXBuildFile; fileRef = 9B5C47D9C82A4C68B13067A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.c */; };
+		9BD33D08C12349C2A52730A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.h */ = {isa = PBXBuildFile; fileRef = EAD68E60F63D4E548A7C23A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.h */; };
+		9C0E72A8591941F68B70650C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/anim_encode.c */ = {isa = PBXBuildFile; fileRef = 578EAD20120A498C90C98BEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/anim_encode.c */; };
+		A56B930FCF004AA59FB16210 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/analysis_enc.c */ = {isa = PBXBuildFile; fileRef = EC1A4EF535E541D080A69A71 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/analysis_enc.c */; };
+		A597242698FA4FF99EE5D056 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux_types.h */ = {isa = PBXBuildFile; fileRef = BFB24C4CD93444058D0F3EA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux_types.h */; };
+		A62F253F64B14D13AD533516 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/decode.h */ = {isa = PBXBuildFile; fileRef = 872FEFBC29B34C08AC187B46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/decode.h */; };
+		A705554C22B34BF58A3F5087 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.h */ = {isa = PBXBuildFile; fileRef = 5640186EDE1D4F69B2987BD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.h */; };
+		A8D770BB98B44C8FA2A14AB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/anim_decode.c */ = {isa = PBXBuildFile; fileRef = 6C955C673F674FEAB5359F59 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/anim_decode.c */; };
+		AA08A37E9DAE48BEB7081905 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 111FFD68B5674DF69E9ADA4D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_mips_dsp_r2.c */; };
+		AA56FDCFD7D5405C911D1401 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/frame_enc.c */ = {isa = PBXBuildFile; fileRef = 5D617D44A6D0486B9257E808 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/frame_enc.c */; };
+		AB927F90846A4DB39ABC6EAC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_sse2.c */ = {isa = PBXBuildFile; fileRef = 48800F506ACE4EF096D41B16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_sse2.c */; };
+		B11560403B0541629FC82D53 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse2.c */ = {isa = PBXBuildFile; fileRef = 6CE08A77573E4E9D9498747E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse2.c */; };
+		BA97679142264C5E9CF584A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_msa.c */ = {isa = PBXBuildFile; fileRef = C87ADB5646A84AD2BF7603F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_msa.c */; };
+		BBA8E6E5BCE54D15B1B28FB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.c */ = {isa = PBXBuildFile; fileRef = 38DF3D2788B94A388077C2C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.c */; };
+		BC0A135FAB744FC5A4359670 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux.h */ = {isa = PBXBuildFile; fileRef = 764FCE22465A4B17AFE38574 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux.h */; };
+		BCD5F99CD9D74475A43A457A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_sse2.c */ = {isa = PBXBuildFile; fileRef = 021952E69F054A31A9EF751F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_sse2.c */; };
+		BE06547B8E454D90A3C2FC83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 10961CB1FA9D4D4AAF573997 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips_dsp_r2.c */; };
+		BEA19B8FB46B410C81B02CA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = C8EB93391858489DAF47CA19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips_dsp_r2.c */; };
+		C0A7C604FAF54B3DA20D8E5F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse2.c */ = {isa = PBXBuildFile; fileRef = 0D65DDE258FD4673A5CB5BA1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse2.c */; };
+		C4211C69986F483C8CCB1267 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.c */ = {isa = PBXBuildFile; fileRef = F0FAB960562B42B09FF312CE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.c */; };
+		C4B760AA79C54D0194F45FCA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.c */ = {isa = PBXBuildFile; fileRef = 0AEE12C1BB124F40A076B221 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.c */; };
+		C64D72F044B340EC96741AD2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/encode.h */ = {isa = PBXBuildFile; fileRef = 5222B23C6FBB4475A80D72F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/encode.h */; };
+		C69D0EB8068F4A579C02F308 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/tree_enc.c */ = {isa = PBXBuildFile; fileRef = 4E02CD3742D5409B90634300 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/tree_enc.c */; };
+		C7429C5FA648439E9991788F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alphai_dec.h */ = {isa = PBXBuildFile; fileRef = 1AD70A86027241968EDD78A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alphai_dec.h */; };
+		C75033F5F21340A88B7C25A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxinternal.c */ = {isa = PBXBuildFile; fileRef = A7E752F291DE4A4783ACE008 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxinternal.c */; };
+		C8D2A393D6DB4FD5B1FC7047 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_neon.c */ = {isa = PBXBuildFile; fileRef = 8E370F22D142452A80680751 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_neon.c */; };
+		C8EBC3422206434385C6129C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips32.c */ = {isa = PBXBuildFile; fileRef = 99D172787A2D4D3C806A4AE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips32.c */; };
+		C8EC4A20AF894D639436B3F2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.h */ = {isa = PBXBuildFile; fileRef = 626994F850364E09AFD63334 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.h */; };
+		CAB553B09B694367A3E5A768 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.c */ = {isa = PBXBuildFile; fileRef = C08769DEC5C14EB6A7AC59C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.c */; };
+		CAD99CA8F5E346A38300F67E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb.c */ = {isa = PBXBuildFile; fileRef = 123AC0154D9B4FC2B157590D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb.c */; };
+		CC0A170C423F40DCA37514C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.c */ = {isa = PBXBuildFile; fileRef = 0BB75D81906248B1BA9C7E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.c */; };
+		CFB566CE00184EFD8C89E7F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_neon.c */ = {isa = PBXBuildFile; fileRef = B6705751EADA4F2DAFD96817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_neon.c */; };
+		D0E6F2875BB346A7B251DAB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/webp_enc.c */ = {isa = PBXBuildFile; fileRef = 9540FD07A9CB43E4BA867CDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/webp_enc.c */; };
+		D17F09108A894D3BA7222033 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse2.c */ = {isa = PBXBuildFile; fileRef = 7575CE12EAE34A82B546B657 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse2.c */; };
+		D18D1BC699834903A9ED317B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.h */ = {isa = PBXBuildFile; fileRef = 2D24600F08324BA29396A85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.h */; };
+		D29AC0F808084F2E913D3804 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_enc.c */ = {isa = PBXBuildFile; fileRef = 2369154F4B8F4E08B4C1A848 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_enc.c */; };
+		D4C7D12B871A4995AEDC7884 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.c */ = {isa = PBXBuildFile; fileRef = 047329539DF04335B3E27A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.c */; };
+		D4E508573D5941BBA3CA45D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alpha_dec.c */ = {isa = PBXBuildFile; fileRef = 62085442200D43F4B53D69FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alpha_dec.c */; };
+		D7016C5F1A8F410AA9F58148 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/types.h */ = {isa = PBXBuildFile; fileRef = 198097B56AF54EADA2972AC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/types.h */; };
+		D85C8C1891724B43B9AA919D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_inl_utils.h */ = {isa = PBXBuildFile; fileRef = 8B86CF65CA4E4D42B82E44C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_inl_utils.h */; };
+		DBCCEA0067F14C5B9B4F0351 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/endian_inl_utils.h */ = {isa = PBXBuildFile; fileRef = 5055D04A442C4EDB884C26B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/endian_inl_utils.h */; };
+		DF196A84B3FA481695041173 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.h */ = {isa = PBXBuildFile; fileRef = E177889ADA3847F18CE3C14C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.h */; };
+		E1AD7016A1A544CCA8E44B31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips32.c */ = {isa = PBXBuildFile; fileRef = F0BDB68EB415411AA42C286E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips32.c */; };
+		E52E162420EA4582AFD04E8D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/neon.h */ = {isa = PBXBuildFile; fileRef = 892E9592BD65447D981C3083 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/neon.h */; };
+		E8083FDB05C942819105EA6F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.h */ = {isa = PBXBuildFile; fileRef = FD28F15AC8E04CFBA3E0C7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.h */; };
+		E8EC0F68D57A4417A71AD42A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/frame_dec.c */ = {isa = PBXBuildFile; fileRef = 1C31361EC3AC41FCB9FFE06D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/frame_dec.c */; };
+		E8F25D5CFDA84B0F839ABAD7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.h */ = {isa = PBXBuildFile; fileRef = 0A5452F8E3A5438CB384AB90 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.h */; };
+		E9411C604EFF495DAAFBB255 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_sse2.c */ = {isa = PBXBuildFile; fileRef = 6D9797A0477E457AA7C9BD50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_sse2.c */; };
+		E996FB887E16471899EBDF50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webp_dec.c */ = {isa = PBXBuildFile; fileRef = A22677EF268F4B2790AB61AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webp_dec.c */; };
+		EA5928EDAB8E4473B50D6EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/predictor_enc.c */ = {isa = PBXBuildFile; fileRef = 23CF2FC7E7FD4DEFA2892082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/predictor_enc.c */; };
+		EA5D1183A3F247F7A64AD249 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_msa.c */ = {isa = PBXBuildFile; fileRef = ABF65865993E4D6CA609143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_msa.c */; };
+		EBE21D8E3CF5405C91F533BD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.h */ = {isa = PBXBuildFile; fileRef = 3D485291A4A64905A47EB800 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.h */; };
+		EE8E888CA0654D5F8D12CAC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.h */ = {isa = PBXBuildFile; fileRef = 2D576D9E462149488A5355DC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.h */; };
+		F1FFC88B6771487A861FB546 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_sse2.c */ = {isa = PBXBuildFile; fileRef = FFBA7A87CB0D483A90A0F33E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_sse2.c */; };
+		F22808BC12754BADB7A92637 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxi.h */ = {isa = PBXBuildFile; fileRef = 09A6671F126E406ABF799A99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxi.h */; };
+		F3E8AB8A7F8C4B55B6283B43 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.h */ = {isa = PBXBuildFile; fileRef = 606156B745D5464581048D52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.h */; };
+		F57BFC8C421C45488820BF25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4A952C4A17724D74A306956E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */; };
+		FAD26F3C88A040D09DCCCD92 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8li_enc.h */ = {isa = PBXBuildFile; fileRef = BA883F6908EC47988668C0FA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8li_enc.h */; };
+		FC0A129258D34A3FB1BD19F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxread.c */ = {isa = PBXBuildFile; fileRef = 72AA3A067B6946F6ACEF0E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxread.c */; };
+		FE0CEEEDB5A843BF953D15E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.c */ = {isa = PBXBuildFile; fileRef = 9E2E36B2808B41ADA801696C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.c */; };
+		FE5660DA8DFF45F180966BAA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.c */ = {isa = PBXBuildFile; fileRef = 601988B919DE4322BFCCE4BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		70A00F62208B453BAA07BC13 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F7551D399A2142468CCCCF79 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0D3FAE4A1E024A1E917BDB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF77030D61B4E8F9963A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		1DFCE9E74FB3445FB45E5D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF77030D61B4E8F9963A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		4EF6B50CE1924580BCCDE2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF77030D61B4E8F9963A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3C84498AF7A4DF79D79CD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF77030D61B4E8F9963A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		CD5C3B8DE08C479AAECE93AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF77030D61B4E8F9963A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5571D3A2127342DCAC56D79A;
+			remoteInfo = libwebp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F2DFAC7AB543CD9C8472C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_neon.c; path = dsp/lossless_enc_neon.c; sourceTree = SOURCE_ROOT; };
+		021952E69F054A31A9EF751F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_sse2.c; path = dsp/filters_sse2.c; sourceTree = SOURCE_ROOT; };
+		047329539DF04335B3E27A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless.c; path = dsp/lossless.c; sourceTree = SOURCE_ROOT; };
+		064B3014AA6140438C25A8EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/mips_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mips_macro.h; path = dsp/mips_macro.h; sourceTree = SOURCE_ROOT; };
+		069D37D1B0854D5BB8CB3E9B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_utils.h; path = utils/quant_levels_utils.h; sourceTree = SOURCE_ROOT; };
+		08FB4A257F924B40B60150BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8i_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_dec.h; path = dec/vp8i_dec.h; sourceTree = SOURCE_ROOT; };
+		09A6671F126E406ABF799A99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = muxi.h; path = mux/muxi.h; sourceTree = SOURCE_ROOT; };
+		0A5452F8E3A5438CB384AB90 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yuv.h; path = dsp/yuv.h; sourceTree = SOURCE_ROOT; };
+		0AEC6BAA9FF74FE3B5BDC7A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips_dsp_r2.c; path = dsp/dec_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		0AEE12C1BB124F40A076B221 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_utils.c; path = utils/filters_utils.c; sourceTree = SOURCE_ROOT; };
+		0B1E14DCBF6F493CAE730244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips32.c; path = dsp/rescaler_mips32.c; sourceTree = SOURCE_ROOT; };
+		0BB75D81906248B1BA9C7E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv.c; path = dsp/yuv.c; sourceTree = SOURCE_ROOT; };
+		0D65DDE258FD4673A5CB5BA1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse2.c; path = dsp/alpha_processing_sse2.c; sourceTree = SOURCE_ROOT; };
+		0EC579C866164041921FDADD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/quant_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_enc.c; path = enc/quant_enc.c; sourceTree = SOURCE_ROOT; };
+		0F0A74670F0D47288F43FFE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips32.c; path = dsp/cost_mips32.c; sourceTree = SOURCE_ROOT; };
+		10961CB1FA9D4D4AAF573997 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips_dsp_r2.c; path = dsp/rescaler_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		111FFD68B5674DF69E9ADA4D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_mips_dsp_r2.c; path = dsp/upsampling_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		114E2B43EDFA4157B140D470 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils.c; path = utils/utils.c; sourceTree = SOURCE_ROOT; };
+		123A18DC2EF84F7D85539D25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/quant_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_dec.c; path = dec/quant_dec.c; sourceTree = SOURCE_ROOT; };
+		123AC0154D9B4FC2B157590D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb.c; path = dsp/argb.c; sourceTree = SOURCE_ROOT; };
+		136E60792DF648BCACEEED9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips_dsp_r2.c; path = dsp/cost_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		14927F926AA24777A11893E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_encode_utils.h; path = utils/huffman_encode_utils.h; sourceTree = SOURCE_ROOT; };
+		194E728A2193489F87B669DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips_dsp_r2.c; path = dsp/enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		198097B56AF54EADA2972AC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = webp/types.h; sourceTree = SOURCE_ROOT; };
+		19E3C591E480470CB54ABF1A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips_dsp_r2.c; path = dsp/yuv_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		1AD70A86027241968EDD78A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alphai_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alphai_dec.h; path = dec/alphai_dec.h; sourceTree = SOURCE_ROOT; };
+		1C31361EC3AC41FCB9FFE06D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/frame_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_dec.c; path = dec/frame_dec.c; sourceTree = SOURCE_ROOT; };
+		1CE9AE25370944ECBD830AF9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/filter_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter_enc.c; path = enc/filter_enc.c; sourceTree = SOURCE_ROOT; };
+		213ECAB7EBB2435FA2A2F044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb_mips_dsp_r2.c; path = dsp/argb_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		2369154F4B8F4E08B4C1A848 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_enc.c; path = enc/picture_enc.c; sourceTree = SOURCE_ROOT; };
+		23B4B2A1DEB7472084A09373 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/common_sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_sse2.h; path = dsp/common_sse2.h; sourceTree = SOURCE_ROOT; };
+		23CF2FC7E7FD4DEFA2892082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/predictor_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = predictor_enc.c; path = enc/predictor_enc.c; sourceTree = SOURCE_ROOT; };
+		2B7D9CFCC2FB4DFF9F50B195 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/animi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animi.h; path = mux/animi.h; sourceTree = SOURCE_ROOT; };
+		2D24600F08324BA29396A85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_dec_utils.h; path = utils/quant_levels_dec_utils.h; sourceTree = SOURCE_ROOT; };
+		2D576D9E462149488A5355DC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_writer_utils.h; path = utils/bit_writer_utils.h; sourceTree = SOURCE_ROOT; };
+		2E6A03C6C03045AEA8D00230 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = utils/utils.h; sourceTree = SOURCE_ROOT; };
+		32DA1F36AF7E4EDDB6575651 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_mips_dsp_r2.c; path = dsp/lossless_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		38DF3D2788B94A388077C2C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = delta_palettization_enc.c; path = enc/delta_palettization_enc.c; sourceTree = SOURCE_ROOT; };
+		3AA4F3AE70A44A2A820C5975 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_enc.c; path = enc/cost_enc.c; sourceTree = SOURCE_ROOT; };
+		3CE4DBC930F04D2F888B4466 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webpi_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = webpi_dec.h; path = dec/webpi_dec.h; sourceTree = SOURCE_ROOT; };
+		3D485291A4A64905A47EB800 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8_dec.h; path = dec/vp8_dec.h; sourceTree = SOURCE_ROOT; };
+		3EC958918F9A47BB87224A60 /* libwebp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwebp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F31B6691EEE436883C9AF16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_encode_utils.c; path = utils/huffman_encode_utils.c; sourceTree = SOURCE_ROOT; };
+		40B429087E5D46A9B3C01D27 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost.c; path = dsp/cost.c; sourceTree = SOURCE_ROOT; };
+		414BCDFB35AC458DAB920A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cost_enc.h; path = enc/cost_enc.h; sourceTree = SOURCE_ROOT; };
+		415C0FE619104A6ABDEDADEF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_writer_utils.c; path = utils/bit_writer_utils.c; sourceTree = SOURCE_ROOT; };
+		41BF6EE74C7045C2940493A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless_common.h; path = dsp/lossless_common.h; sourceTree = SOURCE_ROOT; };
+		48800F506ACE4EF096D41B16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_sse2.c; path = dsp/lossless_sse2.c; sourceTree = SOURCE_ROOT; };
+		48D6C27730584E678F517774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/demux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = demux.c; path = demux/demux.c; sourceTree = SOURCE_ROOT; };
+		4A59643353C54C2CA4CEB3B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_neon.c; path = dsp/lossless_neon.c; sourceTree = SOURCE_ROOT; };
+		4A952C4A17724D74A306956E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4BAC812324EC44BD9861DCFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_csp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_csp_enc.c; path = enc/picture_csp_enc.c; sourceTree = SOURCE_ROOT; };
+		4D16CAD94C7A415F9C3FFF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_msa.c; path = dsp/filters_msa.c; sourceTree = SOURCE_ROOT; };
+		4E02CD3742D5409B90634300 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/tree_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_enc.c; path = enc/tree_enc.c; sourceTree = SOURCE_ROOT; };
+		5055D04A442C4EDB884C26B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/endian_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = endian_inl_utils.h; path = utils/endian_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		5222B23C6FBB4475A80D72F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/encode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encode.h; path = webp/encode.h; sourceTree = SOURCE_ROOT; };
+		522E152125D8473192637BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_msa.c; path = dsp/upsampling_msa.c; sourceTree = SOURCE_ROOT; };
+		5310877037B04D42B4B69126 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/near_lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = near_lossless_enc.c; path = enc/near_lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		5640186EDE1D4F69B2987BD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = delta_palettization_enc.h; path = enc/delta_palettization_enc.h; sourceTree = SOURCE_ROOT; };
+		578EAD20120A498C90C98BEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/anim_encode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_encode.c; path = mux/anim_encode.c; sourceTree = SOURCE_ROOT; };
+		59722A22AE9E4F41B37176EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler.c; path = dsp/rescaler.c; sourceTree = SOURCE_ROOT; };
+		5C1BA3D3DAA04AD2B11C903A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips32.c; path = dsp/enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		5D617D44A6D0486B9257E808 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/frame_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_enc.c; path = enc/frame_enc.c; sourceTree = SOURCE_ROOT; };
+		601988B919DE4322BFCCE4BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_reader_utils.c; path = utils/bit_reader_utils.c; sourceTree = SOURCE_ROOT; };
+		606156B745D5464581048D52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_utils.h; path = utils/bit_reader_utils.h; sourceTree = SOURCE_ROOT; };
+		614FE10BADA646A4A373603E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = argb_sse2.c; path = dsp/argb_sse2.c; sourceTree = SOURCE_ROOT; };
+		62085442200D43F4B53D69FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alpha_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_dec.c; path = dec/alpha_dec.c; sourceTree = SOURCE_ROOT; };
+		626994F850364E09AFD63334 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = backward_references_enc.h; path = enc/backward_references_enc.h; sourceTree = SOURCE_ROOT; };
+		62D4E510949A4E2B85ACB690 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_neon.c; path = dsp/alpha_processing_neon.c; sourceTree = SOURCE_ROOT; };
+		6ABB4089A6C542B890DA3F17 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6AD0672FA57C4E4388377801 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_avx2.c; path = dsp/enc_avx2.c; sourceTree = SOURCE_ROOT; };
+		6BF96472D9094FB188F2293D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references_enc.c; path = enc/backward_references_enc.c; sourceTree = SOURCE_ROOT; };
+		6C955C673F674FEAB5359F59 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/anim_decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_decode.c; path = demux/anim_decode.c; sourceTree = SOURCE_ROOT; };
+		6CE08A77573E4E9D9498747E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse2.c; path = dsp/lossless_enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		6D9797A0477E457AA7C9BD50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_sse2.c; path = dsp/rescaler_sse2.c; sourceTree = SOURCE_ROOT; };
+		6E5333AE93454E8D81081CA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/tree_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_dec.c; path = dec/tree_dec.c; sourceTree = SOURCE_ROOT; };
+		6F1DDEE95B5F4F5A9C2B8611 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8l_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_dec.c; path = dec/vp8l_dec.c; sourceTree = SOURCE_ROOT; };
+		6F5A0984EFFA42889231C351 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_rescale_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_rescale_enc.c; path = enc/picture_rescale_enc.c; sourceTree = SOURCE_ROOT; };
+		706EE1D34CCF4DE3A6FA0638 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_msa.c; path = dsp/lossless_enc_msa.c; sourceTree = SOURCE_ROOT; };
+		72AA3A067B6946F6ACEF0E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxread.c; path = mux/muxread.c; sourceTree = SOURCE_ROOT; };
+		7575CE12EAE34A82B546B657 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse2.c; path = dsp/dec_sse2.c; sourceTree = SOURCE_ROOT; };
+		764FCE22465A4B17AFE38574 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux.h; path = webp/mux.h; sourceTree = SOURCE_ROOT; };
+		7D145FC54A694D3884B51694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec.c; path = dsp/dec.c; sourceTree = SOURCE_ROOT; };
+		7D52918EC5A4453EB1767C5A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread_utils.h; path = utils/thread_utils.h; sourceTree = SOURCE_ROOT; };
+		82481EB1DC0B47FCB4D9EB13 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_clip_tables.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_clip_tables.c; path = dsp/dec_clip_tables.c; sourceTree = SOURCE_ROOT; };
+		825470AC396A43769E78A599 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing.c; path = dsp/alpha_processing.c; sourceTree = SOURCE_ROOT; };
+		844D29AE26654DA89B174A9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_tools_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_tools_enc.c; path = enc/picture_tools_enc.c; sourceTree = SOURCE_ROOT; };
+		872FEFBC29B34C08AC187B46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/decode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decode.h; path = webp/decode.h; sourceTree = SOURCE_ROOT; };
+		87FAB362EEAC45CBBCFD604B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_neon.c; path = dsp/rescaler_neon.c; sourceTree = SOURCE_ROOT; };
+		892E9592BD65447D981C3083 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/neon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon.h; path = dsp/neon.h; sourceTree = SOURCE_ROOT; };
+		89C8281EFD244BF9A3B49C34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/common_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_dec.h; path = dec/common_dec.h; sourceTree = SOURCE_ROOT; };
+		8B86CF65CA4E4D42B82E44C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_inl_utils.h; path = utils/bit_reader_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		8BA48518902B4678B89D4363 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_utils.c; path = utils/rescaler_utils.c; sourceTree = SOURCE_ROOT; };
+		8DA270ADD9C94EC39172CBC3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless.h; path = dsp/lossless.h; sourceTree = SOURCE_ROOT; };
+		8E370F22D142452A80680751 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_neon.c; path = dsp/filters_neon.c; sourceTree = SOURCE_ROOT; };
+		9178AFD4872147DD979CE3BB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/format_constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format_constants.h; path = webp/format_constants.h; sourceTree = SOURCE_ROOT; };
+		9540FD07A9CB43E4BA867CDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/webp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_enc.c; path = enc/webp_enc.c; sourceTree = SOURCE_ROOT; };
+		965085ABD1DC4577B94DC8F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc.c; path = dsp/enc.c; sourceTree = SOURCE_ROOT; };
+		99D172787A2D4D3C806A4AE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips32.c; path = dsp/lossless_enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		9B5C47D9C82A4C68B13067A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = histogram_enc.c; path = enc/histogram_enc.c; sourceTree = SOURCE_ROOT; };
+		9C1CA06971A049E3AA7A4F63 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/io_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io_dec.c; path = dec/io_dec.c; sourceTree = SOURCE_ROOT; };
+		9C5D7E6312534A2E95AB3FB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_utils.h; path = utils/huffman_utils.h; sourceTree = SOURCE_ROOT; };
+		9DEE96B3900A4C7D90AAF7A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/buffer_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer_dec.c; path = dec/buffer_dec.c; sourceTree = SOURCE_ROOT; };
+		9E2E36B2808B41ADA801696C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8_dec.c; path = dec/vp8_dec.c; sourceTree = SOURCE_ROOT; };
+		A1EA08B7FA8A452F9BD9B8F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/syntax_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = syntax_enc.c; path = enc/syntax_enc.c; sourceTree = SOURCE_ROOT; };
+		A22677EF268F4B2790AB61AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webp_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_dec.c; path = dec/webp_dec.c; sourceTree = SOURCE_ROOT; };
+		A5A5294BB2AE4B87B7F4926E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/token_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = token_enc.c; path = enc/token_enc.c; sourceTree = SOURCE_ROOT; };
+		A6232EB64F5B4BA79B7A49BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling.c; path = dsp/upsampling.c; sourceTree = SOURCE_ROOT; };
+		A63432E2060345EF8EFB22D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = color_cache_utils.c; path = utils/color_cache_utils.c; sourceTree = SOURCE_ROOT; };
+		A74C2735381E48D296C89AAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cache_utils.h; path = utils/color_cache_utils.h; sourceTree = SOURCE_ROOT; };
+		A7E752F291DE4A4783ACE008 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxinternal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxinternal.c; path = mux/muxinternal.c; sourceTree = SOURCE_ROOT; };
+		AA3DFAB1898B4F80995108C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_mips_dsp_r2.c; path = dsp/filters_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		ABF65865993E4D6CA609143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_msa.c; path = dsp/lossless_msa.c; sourceTree = SOURCE_ROOT; };
+		AD6BFEB6619244CDBAA7ED77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_dec_utils.c; path = utils/quant_levels_dec_utils.c; sourceTree = SOURCE_ROOT; };
+		ADD08DD1CD7442578AE7E6F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8li_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_dec.h; path = dec/vp8li_dec.h; sourceTree = SOURCE_ROOT; };
+		B4FC5540533B4BA79A127F10 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse41.c; path = dsp/enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		B6705751EADA4F2DAFD96817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_neon.c; path = dsp/enc_neon.c; sourceTree = SOURCE_ROOT; };
+		B7DDAA8887274960847D30A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random_utils.h; path = utils/random_utils.h; sourceTree = SOURCE_ROOT; };
+		B886196C4BE14253B93B80D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8l_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_enc.c; path = enc/vp8l_enc.c; sourceTree = SOURCE_ROOT; };
+		B8E41E49695C4CD5ACACCCC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_msa.c; path = dsp/dec_msa.c; sourceTree = SOURCE_ROOT; };
+		BA883F6908EC47988668C0FA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8li_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_enc.h; path = enc/vp8li_enc.h; sourceTree = SOURCE_ROOT; };
+		BB07F0D1F68749C981586055 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips32.c; path = dsp/yuv_mips32.c; sourceTree = SOURCE_ROOT; };
+		BD0B5B04BBDB4CD289C51AC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_mips_dsp_r2.c; path = dsp/alpha_processing_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		BFB24C4CD93444058D0F3EA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux_types.h; path = webp/mux_types.h; sourceTree = SOURCE_ROOT; };
+		C08769DEC5C14EB6A7AC59C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = thread_utils.c; path = utils/thread_utils.c; sourceTree = SOURCE_ROOT; };
+		C2A4FC9B0E394AC6921F3364 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dsp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsp.h; path = dsp/dsp.h; sourceTree = SOURCE_ROOT; };
+		C39AA0EDAF5C4C6B8C13287E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse41.c; path = dsp/lossless_enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		C467749A55FA473B93DCCAA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8i_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_enc.h; path = enc/vp8i_enc.h; sourceTree = SOURCE_ROOT; };
+		C48483B5E7554490A8A4BBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/idec_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = idec_dec.c; path = dec/idec_dec.c; sourceTree = SOURCE_ROOT; };
+		C59808FF5AD744569A6D35FD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C59F4110351349A49E4986C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_utils.c; path = utils/huffman_utils.c; sourceTree = SOURCE_ROOT; };
+		C87ADB5646A84AD2BF7603F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_msa.c; path = dsp/rescaler_msa.c; sourceTree = SOURCE_ROOT; };
+		C87B01D4793B47D6B0ECEBB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_utils.c; path = utils/quant_levels_utils.c; sourceTree = SOURCE_ROOT; };
+		C8EB93391858489DAF47CA19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips_dsp_r2.c; path = dsp/lossless_enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		C9F18D10C22940EF832B971A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_psnr_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_psnr_enc.c; path = enc/picture_psnr_enc.c; sourceTree = SOURCE_ROOT; };
+		CC0798472E32442698942856 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/msa_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = msa_macro.h; path = dsp/msa_macro.h; sourceTree = SOURCE_ROOT; };
+		DA38E4E600904A33A6D47FE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse41.c; path = dsp/alpha_processing_sse41.c; sourceTree = SOURCE_ROOT; };
+		DB208A3B914847D5BD321744 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxedit.c; path = mux/muxedit.c; sourceTree = SOURCE_ROOT; };
+		DB77A034E1B9429B8BE753E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/alpha_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_enc.c; path = enc/alpha_enc.c; sourceTree = SOURCE_ROOT; };
+		DC490AF2471C46BDB78AD2DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc.c; path = dsp/lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		DD127B20EC6B4516A9695A93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/iterator_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iterator_enc.c; path = enc/iterator_enc.c; sourceTree = SOURCE_ROOT; };
+		DD28A05E4AAE4B7C938B1F0D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse41.c; path = dsp/dec_sse41.c; sourceTree = SOURCE_ROOT; };
+		DE2F5F964DAA434C8F4B0945 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_neon.c; path = dsp/dec_neon.c; sourceTree = SOURCE_ROOT; };
+		E177889ADA3847F18CE3C14C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = histogram_enc.h; path = enc/histogram_enc.h; sourceTree = SOURCE_ROOT; };
+		E18EB1B65E044014887F23FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/config_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = config_enc.c; path = enc/config_enc.c; sourceTree = SOURCE_ROOT; };
+		EAD68E60F63D4E548A7C23A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rescaler_utils.h; path = utils/rescaler_utils.h; sourceTree = SOURCE_ROOT; };
+		EB020942FE4045B69FCF3AFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = dsp/cpu.c; sourceTree = SOURCE_ROOT; };
+		EC1A4EF535E541D080A69A71 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/analysis_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = analysis_enc.c; path = enc/analysis_enc.c; sourceTree = SOURCE_ROOT; };
+		EC927E99C31E4D3F9BA1565C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_msa.c; path = dsp/enc_msa.c; sourceTree = SOURCE_ROOT; };
+		EEA47E55A02D4DE5AA814BBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_neon.c; path = dsp/upsampling_neon.c; sourceTree = SOURCE_ROOT; };
+		F0BDB68EB415411AA42C286E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips32.c; path = dsp/dec_mips32.c; sourceTree = SOURCE_ROOT; };
+		F0D6D0544F434943AE600401 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters.c; path = dsp/filters.c; sourceTree = SOURCE_ROOT; };
+		F0FAB960562B42B09FF312CE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = random_utils.c; path = utils/random_utils.c; sourceTree = SOURCE_ROOT; };
+		F7A3EB9BF36C431993C22ECB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_sse2.c; path = dsp/upsampling_sse2.c; sourceTree = SOURCE_ROOT; };
+		F8197E57A88E415C9B161D9E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/demux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = demux.h; path = webp/demux.h; sourceTree = SOURCE_ROOT; };
+		FD10F1252D714228AFFF9E66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_sse2.c; path = dsp/cost_sse2.c; sourceTree = SOURCE_ROOT; };
+		FD28F15AC8E04CFBA3E0C7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filters_utils.h; path = utils/filters_utils.h; sourceTree = SOURCE_ROOT; };
+		FF69A78471AA45028F746FBE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse2.c; path = dsp/enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		FFBA7A87CB0D483A90A0F33E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_sse2.c; path = dsp/yuv_sse2.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D6D7C964A784B3AAE1108E1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				62085442200D43F4B53D69FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alpha_dec.c */,
+				9DEE96B3900A4C7D90AAF7A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/buffer_dec.c */,
+				1C31361EC3AC41FCB9FFE06D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/frame_dec.c */,
+				C48483B5E7554490A8A4BBCC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/idec_dec.c */,
+				9C1CA06971A049E3AA7A4F63 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/io_dec.c */,
+				123A18DC2EF84F7D85539D25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/quant_dec.c */,
+				6E5333AE93454E8D81081CA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/tree_dec.c */,
+				9E2E36B2808B41ADA801696C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.c */,
+				6F1DDEE95B5F4F5A9C2B8611 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8l_dec.c */,
+				A22677EF268F4B2790AB61AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webp_dec.c */,
+				6C955C673F674FEAB5359F59 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/anim_decode.c */,
+				48D6C27730584E678F517774 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/demux.c */,
+				825470AC396A43769E78A599 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing.c */,
+				BD0B5B04BBDB4CD289C51AC2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_mips_dsp_r2.c */,
+				62D4E510949A4E2B85ACB690 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_neon.c */,
+				0D65DDE258FD4673A5CB5BA1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse2.c */,
+				DA38E4E600904A33A6D47FE2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse41.c */,
+				123AC0154D9B4FC2B157590D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb.c */,
+				213ECAB7EBB2435FA2A2F044 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_mips_dsp_r2.c */,
+				614FE10BADA646A4A373603E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_sse2.c */,
+				40B429087E5D46A9B3C01D27 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost.c */,
+				0F0A74670F0D47288F43FFE3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips32.c */,
+				136E60792DF648BCACEEED9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips_dsp_r2.c */,
+				FD10F1252D714228AFFF9E66 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_sse2.c */,
+				EB020942FE4045B69FCF3AFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cpu.c */,
+				7D145FC54A694D3884B51694 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec.c */,
+				82481EB1DC0B47FCB4D9EB13 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_clip_tables.c */,
+				F0BDB68EB415411AA42C286E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips32.c */,
+				0AEC6BAA9FF74FE3B5BDC7A1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips_dsp_r2.c */,
+				B8E41E49695C4CD5ACACCCC4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_msa.c */,
+				DE2F5F964DAA434C8F4B0945 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_neon.c */,
+				7575CE12EAE34A82B546B657 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse2.c */,
+				DD28A05E4AAE4B7C938B1F0D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse41.c */,
+				965085ABD1DC4577B94DC8F7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc.c */,
+				6AD0672FA57C4E4388377801 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_avx2.c */,
+				5C1BA3D3DAA04AD2B11C903A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips32.c */,
+				194E728A2193489F87B669DF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips_dsp_r2.c */,
+				EC927E99C31E4D3F9BA1565C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_msa.c */,
+				B6705751EADA4F2DAFD96817 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_neon.c */,
+				FF69A78471AA45028F746FBE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse2.c */,
+				B4FC5540533B4BA79A127F10 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse41.c */,
+				F0D6D0544F434943AE600401 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters.c */,
+				AA3DFAB1898B4F80995108C8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_mips_dsp_r2.c */,
+				4D16CAD94C7A415F9C3FFF20 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_msa.c */,
+				8E370F22D142452A80680751 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_neon.c */,
+				021952E69F054A31A9EF751F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_sse2.c */,
+				047329539DF04335B3E27A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.c */,
+				DC490AF2471C46BDB78AD2DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc.c */,
+				99D172787A2D4D3C806A4AE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips32.c */,
+				C8EB93391858489DAF47CA19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips_dsp_r2.c */,
+				706EE1D34CCF4DE3A6FA0638 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_msa.c */,
+				00F2DFAC7AB543CD9C8472C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_neon.c */,
+				6CE08A77573E4E9D9498747E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse2.c */,
+				C39AA0EDAF5C4C6B8C13287E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse41.c */,
+				32DA1F36AF7E4EDDB6575651 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_mips_dsp_r2.c */,
+				ABF65865993E4D6CA609143E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_msa.c */,
+				4A59643353C54C2CA4CEB3B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_neon.c */,
+				48800F506ACE4EF096D41B16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_sse2.c */,
+				59722A22AE9E4F41B37176EB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler.c */,
+				0B1E14DCBF6F493CAE730244 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips32.c */,
+				10961CB1FA9D4D4AAF573997 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips_dsp_r2.c */,
+				C87ADB5646A84AD2BF7603F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_msa.c */,
+				87FAB362EEAC45CBBCFD604B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_neon.c */,
+				6D9797A0477E457AA7C9BD50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_sse2.c */,
+				A6232EB64F5B4BA79B7A49BA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling.c */,
+				111FFD68B5674DF69E9ADA4D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_mips_dsp_r2.c */,
+				522E152125D8473192637BC6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_msa.c */,
+				EEA47E55A02D4DE5AA814BBA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_neon.c */,
+				F7A3EB9BF36C431993C22ECB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_sse2.c */,
+				0BB75D81906248B1BA9C7E19 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.c */,
+				BB07F0D1F68749C981586055 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips32.c */,
+				19E3C591E480470CB54ABF1A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips_dsp_r2.c */,
+				FFBA7A87CB0D483A90A0F33E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_sse2.c */,
+				DB77A034E1B9429B8BE753E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/alpha_enc.c */,
+				EC1A4EF535E541D080A69A71 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/analysis_enc.c */,
+				6BF96472D9094FB188F2293D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.c */,
+				E18EB1B65E044014887F23FF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/config_enc.c */,
+				3AA4F3AE70A44A2A820C5975 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.c */,
+				38DF3D2788B94A388077C2C1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.c */,
+				1CE9AE25370944ECBD830AF9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/filter_enc.c */,
+				5D617D44A6D0486B9257E808 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/frame_enc.c */,
+				9B5C47D9C82A4C68B13067A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.c */,
+				DD127B20EC6B4516A9695A93 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/iterator_enc.c */,
+				5310877037B04D42B4B69126 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/near_lossless_enc.c */,
+				4BAC812324EC44BD9861DCFA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_csp_enc.c */,
+				2369154F4B8F4E08B4C1A848 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_enc.c */,
+				C9F18D10C22940EF832B971A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_psnr_enc.c */,
+				6F5A0984EFFA42889231C351 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_rescale_enc.c */,
+				844D29AE26654DA89B174A9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_tools_enc.c */,
+				23CF2FC7E7FD4DEFA2892082 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/predictor_enc.c */,
+				0EC579C866164041921FDADD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/quant_enc.c */,
+				A1EA08B7FA8A452F9BD9B8F9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/syntax_enc.c */,
+				A5A5294BB2AE4B87B7F4926E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/token_enc.c */,
+				4E02CD3742D5409B90634300 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/tree_enc.c */,
+				B886196C4BE14253B93B80D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8l_enc.c */,
+				9540FD07A9CB43E4BA867CDA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/webp_enc.c */,
+				578EAD20120A498C90C98BEB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/anim_encode.c */,
+				DB208A3B914847D5BD321744 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c */,
+				A7E752F291DE4A4783ACE008 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxinternal.c */,
+				72AA3A067B6946F6ACEF0E32 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxread.c */,
+				601988B919DE4322BFCCE4BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.c */,
+				415C0FE619104A6ABDEDADEF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.c */,
+				A63432E2060345EF8EFB22D3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.c */,
+				0AEE12C1BB124F40A076B221 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.c */,
+				3F31B6691EEE436883C9AF16 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.c */,
+				C59F4110351349A49E4986C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.c */,
+				AD6BFEB6619244CDBAA7ED77 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.c */,
+				C87B01D4793B47D6B0ECEBB2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.c */,
+				F0FAB960562B42B09FF312CE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.c */,
+				8BA48518902B4678B89D4363 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.c */,
+				C08769DEC5C14EB6A7AC59C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.c */,
+				114E2B43EDFA4157B140D470 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3FD0EA76006C425AA00C3AF6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4B9C549A85F2449AB53DE112 = {
+			isa = PBXGroup;
+			children = (
+				E3EDBAF05C3E4F96B0D294A6 /* 3rdparty */,
+				F93CB12D961E48BBA553D8A5 /* ALL_BUILD */,
+				875677DC717A4FDE945B08B8 /* ZERO_CHECK */,
+				81187FE14FB2445DA8AD7B53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6D85FA3F07430F930052F1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD70A86027241968EDD78A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alphai_dec.h */,
+				89C8281EFD244BF9A3B49C34 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/common_dec.h */,
+				3D485291A4A64905A47EB800 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.h */,
+				08FB4A257F924B40B60150BC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8i_dec.h */,
+				ADD08DD1CD7442578AE7E6F8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8li_dec.h */,
+				3CE4DBC930F04D2F888B4466 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webpi_dec.h */,
+				23B4B2A1DEB7472084A09373 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/common_sse2.h */,
+				C2A4FC9B0E394AC6921F3364 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dsp.h */,
+				8DA270ADD9C94EC39172CBC3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.h */,
+				41BF6EE74C7045C2940493A7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_common.h */,
+				064B3014AA6140438C25A8EE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/mips_macro.h */,
+				CC0798472E32442698942856 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/msa_macro.h */,
+				892E9592BD65447D981C3083 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/neon.h */,
+				0A5452F8E3A5438CB384AB90 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.h */,
+				626994F850364E09AFD63334 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.h */,
+				414BCDFB35AC458DAB920A68 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.h */,
+				5640186EDE1D4F69B2987BD0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.h */,
+				E177889ADA3847F18CE3C14C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.h */,
+				C467749A55FA473B93DCCAA7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8i_enc.h */,
+				BA883F6908EC47988668C0FA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8li_enc.h */,
+				2B7D9CFCC2FB4DFF9F50B195 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/animi.h */,
+				09A6671F126E406ABF799A99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxi.h */,
+				8B86CF65CA4E4D42B82E44C4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_inl_utils.h */,
+				606156B745D5464581048D52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.h */,
+				2D576D9E462149488A5355DC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.h */,
+				A74C2735381E48D296C89AAB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.h */,
+				5055D04A442C4EDB884C26B6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/endian_inl_utils.h */,
+				FD28F15AC8E04CFBA3E0C7FE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.h */,
+				14927F926AA24777A11893E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.h */,
+				9C5D7E6312534A2E95AB3FB6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.h */,
+				2D24600F08324BA29396A85F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.h */,
+				069D37D1B0854D5BB8CB3E9B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.h */,
+				B7DDAA8887274960847D30A5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.h */,
+				EAD68E60F63D4E548A7C23A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.h */,
+				7D52918EC5A4453EB1767C5A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.h */,
+				2E6A03C6C03045AEA8D00230 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.h */,
+				872FEFBC29B34C08AC187B46 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/decode.h */,
+				F8197E57A88E415C9B161D9E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/demux.h */,
+				5222B23C6FBB4475A80D72F3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/encode.h */,
+				9178AFD4872147DD979CE3BB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/format_constants.h */,
+				764FCE22465A4B17AFE38574 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux.h */,
+				BFB24C4CD93444058D0F3EA6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/mux_types.h */,
+				198097B56AF54EADA2972AC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/webp/types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		80D2CDD09EC448C4A243EFD8 /* libwebp */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D7C964A784B3AAE1108E1 /* Source Files */,
+				5F6D85FA3F07430F930052F1 /* Header Files */,
+				4A952C4A17724D74A306956E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = libwebp;
+			sourceTree = "<group>";
+		};
+		81187FE14FB2445DA8AD7B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC958918F9A47BB87224A60 /* libwebp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875677DC717A4FDE945B08B8 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8819B69B5B644375A41A5E1E /* CMake Rules */,
+				C59808FF5AD744569A6D35FD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		8819B69B5B644375A41A5E1E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E3EDBAF05C3E4F96B0D294A6 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				80D2CDD09EC448C4A243EFD8 /* libwebp */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		F93CB12D961E48BBA553D8A5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0EA76006C425AA00C3AF6 /* CMake Rules */,
+				6ABB4089A6C542B890DA3F17 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5571D3A2127342DCAC56D79A /* libwebp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACE6DBCB26F4DE68EE249BA /* Build configuration list for PBXNativeTarget "libwebp" */;
+			buildPhases = (
+				9E874701A9754873B9159EC5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42415E9971DF4393B2D9192A /* PBXTargetDependency */,
+			);
+			name = libwebp;
+			productName = libwebp;
+			productReference = 3EC958918F9A47BB87224A60 /* libwebp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF77030D61B4E8F9963A795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = EEFAABADF3834A23B2B60794 /* Build configuration list for PBXProject "libwebp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F7551D399A2142468CCCCF79 /* Debug */,
+				70A00F62208B453BAA07BC13 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4B9C549A85F2449AB53DE112;
+			projectDirPath = ../../../3rdparty/libwebp;
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				5571D3A2127342DCAC56D79A /* libwebp */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0934AFC28774453E9A18ED01 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		365DC9D4EFE9403ABF160D40 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		76EF91F9602D4D3B8CB8EB4C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		882E27BF8747417584355CCC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		95BBBD7D5F964A89A3F1D451 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B23252EC763F40EA9E52EB2C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BC94DE66DA5F4ABF91CC4BAB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C05F9ED660CD4251889B20F4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CEEA7C78610B40B2992A088B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F89B7117AF8A4DBD94225900 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E874701A9754873B9159EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E508573D5941BBA3CA45D6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/alpha_dec.c */,
+				369FA1F3BDC74760854A54EF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/buffer_dec.c */,
+				E8EC0F68D57A4417A71AD42A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/frame_dec.c */,
+				987A8C4F79044151992C0186 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/idec_dec.c */,
+				8630B8A02E5A444ABE4EB0D2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/io_dec.c */,
+				072F92154C9242C287B27F0A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/quant_dec.c */,
+				0E77DC203BB4415C98405A39 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/tree_dec.c */,
+				FE0CEEEDB5A843BF953D15E6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8_dec.c */,
+				8AB5B67A422D4EBD9CC3E957 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/vp8l_dec.c */,
+				E996FB887E16471899EBDF50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dec/webp_dec.c */,
+				A8D770BB98B44C8FA2A14AB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/anim_decode.c */,
+				336A0B2B20CE41A3AE2C2470 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/demux/demux.c */,
+				723A2E5834C24BD1B62C1091 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing.c */,
+				937A7FF09D11418D9735F7C5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_mips_dsp_r2.c */,
+				33AB68049309412DBD00DECD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_neon.c */,
+				C0A7C604FAF54B3DA20D8E5F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse2.c */,
+				943C14047AAA4BC3AA02829F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/alpha_processing_sse41.c */,
+				CAD99CA8F5E346A38300F67E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb.c */,
+				42965C159F704A3099664BE6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_mips_dsp_r2.c */,
+				29193869C6EA470FACBC5551 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/argb_sse2.c */,
+				800A7858F728400181DF6BAE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost.c */,
+				675B5401907E45CC864F967F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips32.c */,
+				9594CF9051C044D98B8CB5E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_mips_dsp_r2.c */,
+				6210ACF17F4B426EA20A3853 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cost_sse2.c */,
+				44475DAD0E784E2DB760CF52 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/cpu.c */,
+				1415D18CA7C54502BF14A71A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec.c */,
+				6BA5786E4C384583B2F810FB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_clip_tables.c */,
+				E1AD7016A1A544CCA8E44B31 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips32.c */,
+				2762F2897C0B41F8A6AE23D1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_mips_dsp_r2.c */,
+				8F74783B2F9F48A1B2C4C4C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_msa.c */,
+				3C6134B9C4E14253AC6E58E9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_neon.c */,
+				D17F09108A894D3BA7222033 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse2.c */,
+				389420C400874E6985104E9F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/dec_sse41.c */,
+				3484337B2E4744158E1D219C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc.c */,
+				4B0CD49C92B947BAB970539F /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_avx2.c */,
+				01132EBAD79644E086EEE371 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips32.c */,
+				82B6408BFAA646BCA84AE056 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_mips_dsp_r2.c */,
+				121FE976A1B2455A9DD3D3E8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_msa.c */,
+				CFB566CE00184EFD8C89E7F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_neon.c */,
+				0EA3FC1EFA2A4B21BF6A8973 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse2.c */,
+				5417744C0DEE4A318DC93ADE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/enc_sse41.c */,
+				4C29BE61D1A144BCB808B6C2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters.c */,
+				961178AC37AF4EA6935097AB /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_mips_dsp_r2.c */,
+				528EBFB7B9E346E3A7C22FCE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_msa.c */,
+				C8D2A393D6DB4FD5B1FC7047 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_neon.c */,
+				BCD5F99CD9D74475A43A457A /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/filters_sse2.c */,
+				D4C7D12B871A4995AEDC7884 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless.c */,
+				61D885A20D0C4B5A9F800DFF /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc.c */,
+				C8EBC3422206434385C6129C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips32.c */,
+				BEA19B8FB46B410C81B02CA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_mips_dsp_r2.c */,
+				965FCE81F03A465B86638A25 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_msa.c */,
+				8EA5D95C740D41F58C6978D0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_neon.c */,
+				B11560403B0541629FC82D53 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse2.c */,
+				6A8C2F7F88FE40F3A17F6C99 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_enc_sse41.c */,
+				13D9B6D192254FC095F06BB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_mips_dsp_r2.c */,
+				EA5D1183A3F247F7A64AD249 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_msa.c */,
+				5B1A96C91F324EBE9F35E703 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_neon.c */,
+				AB927F90846A4DB39ABC6EAC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/lossless_sse2.c */,
+				28CAB806D97A41489B2AA9B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler.c */,
+				9A407BC911B249628DB15DA9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips32.c */,
+				BE06547B8E454D90A3C2FC83 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_mips_dsp_r2.c */,
+				BA97679142264C5E9CF584A8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_msa.c */,
+				6839A1AE535541A8B9C14390 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_neon.c */,
+				E9411C604EFF495DAAFBB255 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/rescaler_sse2.c */,
+				15E26356070F462497937F8D /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling.c */,
+				AA08A37E9DAE48BEB7081905 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_mips_dsp_r2.c */,
+				2ED286331D504984A43B44A3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_msa.c */,
+				89852D2CD5C44B5C8B68A402 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_neon.c */,
+				788E26765C6646B78F61BAA5 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/upsampling_sse2.c */,
+				CC0A170C423F40DCA37514C7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv.c */,
+				4D9A1377EA7543D0830B3D1C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips32.c */,
+				259FF925FB2A4FF1B47B7A1B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_mips_dsp_r2.c */,
+				F1FFC88B6771487A861FB546 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/dsp/yuv_sse2.c */,
+				20F3A92A14FF406B91D29B50 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/alpha_enc.c */,
+				A56B930FCF004AA59FB16210 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/analysis_enc.c */,
+				8246CD217EF740388AF60BDE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/backward_references_enc.c */,
+				8385FF186B95426ABFC802B8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/config_enc.c */,
+				490ED9792E1548E4A8B4FBC8 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/cost_enc.c */,
+				BBA8E6E5BCE54D15B1B28FB9 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/delta_palettization_enc.c */,
+				0F9F884248A144968B2C60C6 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/filter_enc.c */,
+				AA56FDCFD7D5405C911D1401 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/frame_enc.c */,
+				9AD20BD68FBF402C9E30F3D7 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/histogram_enc.c */,
+				41FBEBDBDD3043F1822205DE /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/iterator_enc.c */,
+				8445DE4CF6C84540ABC69E47 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/near_lossless_enc.c */,
+				6FF534EDDC9A4460884C2F75 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_csp_enc.c */,
+				D29AC0F808084F2E913D3804 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_enc.c */,
+				0887252495FF4260B1693396 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_psnr_enc.c */,
+				3C2A9C31E65B49B7BE1B0E90 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_rescale_enc.c */,
+				71E3C10FFAC349959357622B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/picture_tools_enc.c */,
+				EA5928EDAB8E4473B50D6EBC /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/predictor_enc.c */,
+				8BCBD8168721492894C70622 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/quant_enc.c */,
+				69ACF9824A854A9DAF8F86DD /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/syntax_enc.c */,
+				68CAE41C28064BC8A8827A1E /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/token_enc.c */,
+				C69D0EB8068F4A579C02F308 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/tree_enc.c */,
+				37C2BD6008124A48A1F4E2A2 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/vp8l_enc.c */,
+				D0E6F2875BB346A7B251DAB1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/enc/webp_enc.c */,
+				9C0E72A8591941F68B70650C /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/anim_encode.c */,
+				3418DF3191AB4AE6B4D2A944 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxedit.c */,
+				C75033F5F21340A88B7C25A0 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxinternal.c */,
+				FC0A129258D34A3FB1BD19F1 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/mux/muxread.c */,
+				FE5660DA8DFF45F180966BAA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_reader_utils.c */,
+				6281E8B953CC4C5388DF12EA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/bit_writer_utils.c */,
+				942F68578F1947C8AEE06508 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/color_cache_utils.c */,
+				C4B760AA79C54D0194F45FCA /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/filters_utils.c */,
+				220801D17C92426686BD303B /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_encode_utils.c */,
+				30029B9CAA82404DAC7C1AD3 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/huffman_utils.c */,
+				2B97BC81D95D4D94974C9743 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_dec_utils.c */,
+				2A99E3FF008D49EA94ED4D03 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/quant_levels_utils.c */,
+				C4211C69986F483C8CCB1267 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/random_utils.c */,
+				8BBA52A470DF4658AF1AA413 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/rescaler_utils.c */,
+				CAB553B09B694367A3E5A768 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/thread_utils.c */,
+				371D36493CAB40A7819FE814 /* /Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp/utils/utils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406A2C3B12CF475384A8001C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = B3C84498AF7A4DF79D79CD36 /* PBXContainerItemProxy */;
+		};
+		42415E9971DF4393B2D9192A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 0D3FAE4A1E024A1E917BDB68 /* PBXContainerItemProxy */;
+		};
+		7ADACEFD4D814D39A2E38D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 4EF6B50CE1924580BCCDE2D0 /* PBXContainerItemProxy */;
+		};
+		7BDB439DB6F84CC9A58C3B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 1DFCE9E74FB3445FB45E5D4B /* PBXContainerItemProxy */;
+		};
+		C9F15B1A517C4A86953DFE28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5571D3A2127342DCAC56D79A /* libwebp */;
+			targetProxy = CD5C3B8DE08C479AAECE93AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DBCDD44DBD4843870C326A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-variable -Wno-unused-function -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		065F347AF95848388574EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0B22596EF9A84C1684CE26D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/build";
+			};
+			name = Debug;
+		};
+		1D9F2A6FAF6D47F68AA5D59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		298BAF97243149DD81F2C878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		71E52DA9289443488A30DD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7B83C611C29943919FC398D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A66378A9F2644032AAD5DB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A9C825D6AAA340A0ADAA5FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ACC39D21A7E64A9FB06C7D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp/build";
+			};
+			name = Release;
+		};
+		B11B01691CFE456A9A71418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-variable -Wno-unused-function -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CBBD5673F78C4C86915C4950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EC675D9C79C34A729B965A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EE53943DDE72417B92578562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/3rdparty/libwebp","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0879E2548D0B4D81AA72E55E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9F2A6FAF6D47F68AA5D59A /* Debug */,
+				CBBD5673F78C4C86915C4950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B95B47814B744E4AEAE44FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298BAF97243149DD81F2C878 /* Debug */,
+				EE53943DDE72417B92578562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21116D4908E04BCC9A44F57B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC675D9C79C34A729B965A4F /* Debug */,
+				065F347AF95848388574EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6486D5710AE44794A26DF3C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C825D6AAA340A0ADAA5FEF /* Debug */,
+				71E52DA9289443488A30DD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BACE6DBCB26F4DE68EE249BA /* Build configuration list for PBXNativeTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11B01691CFE456A9A71418D /* Debug */,
+				04DBCDD44DBD4843870C326A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C84742244EBE4ACCBE1ABA03 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B83C611C29943919FC398D4 /* Debug */,
+				A66378A9F2644032AAD5DB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEFAABADF3834A23B2B60794 /* Build configuration list for PBXProject "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B22596EF9A84C1684CE26D0 /* Debug */,
+				ACC39D21A7E64A9FB06C7D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF77030D61B4E8F9963A795 /* Project object */;
+}

@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		039FC08FAEEE478F89384882 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 883F3D6AE1A24096A8C003B1 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				D7F1A7DA38664EB1AC79891D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AF6B3BAA82C747DFA7ADD6DB /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		641A33EAFD68493787A1667C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 09354CD8AF2B403F98E2F96B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F898773B33B74980B8084D3C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD171B67AF564AAEBB1553CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 92CDD91516394E538134FB8A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D63F67B3EB134F46BF1FB0AB /* CMake Rules */,
+			);
+			dependencies = (
+				976150EA0AF046ABBC6A1315 /* PBXTargetDependency */,
+				6615605646E34515AC021769 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C3C28814C367464E92068755 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D26EFF810AC6416E92F13BF1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				47CACF3CF16F48BF9AFD96B7 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4E61CE1B86FD421FA09FF299 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 67663ED542074D0ABEFC38A3 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				78E940C55805471B8043C1E1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B91BAA33420472DA55769B4 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.hpp */ = {isa = PBXBuildFile; fileRef = BA875F62AC504401AB7DB4A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.hpp */; };
+		37FDD6680F2147EA95D3BD8B /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.cpp */ = {isa = PBXBuildFile; fileRef = 5E51AA7C86A24638AB7618DB /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.cpp */; };
+		3A97DDD081DF4457992B6C9D /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.cpp */ = {isa = PBXBuildFile; fileRef = 13D99718F70648C2B04D8AEC /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.cpp */; };
+		4AB424C6672E4BC0982603DA /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/main.cpp */ = {isa = PBXBuildFile; fileRef = EFB94EB9F6FA462FA019E95C /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/main.cpp */; };
+		5E40CB51B5FC452AB4925B70 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.hpp */ = {isa = PBXBuildFile; fileRef = FD15D6D269E043DAA5B512F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.hpp */; };
+		61FBFB1F1DA1499B9C1FCE99 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.hpp */ = {isa = PBXBuildFile; fileRef = 57B142E4053344E6886DBDF3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.hpp */; };
+		81FE6DC708DB424E9DA0777B /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.cpp */ = {isa = PBXBuildFile; fileRef = 3135069155804983B58F0D35 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.cpp */; };
+		83C1926AFF824F928CE14F14 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BE2149C476434BA8B8AE29E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */; };
+		A0BE2A8A5614412CA1C9F8AD /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.cpp */ = {isa = PBXBuildFile; fileRef = 4C20621F6A3842E28BB2E0FE /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.cpp */; };
+		CB59842B4A984CED815A6EAF /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibCommon.hpp */ = {isa = PBXBuildFile; fileRef = A65BF55D0CA3487380F18E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibCommon.hpp */; };
+		D259B314C6044BA88FD47495 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.hpp */ = {isa = PBXBuildFile; fileRef = 8BE023F0B45340DB9C30BCDD /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.hpp */; };
+		D884F85E4FE9485DA458DCCE /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.cpp */ = {isa = PBXBuildFile; fileRef = CF3DDF3E7D9B4F45A154500F /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.cpp */; };
+		E9885F51D69A4728A0072576 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.hpp */ = {isa = PBXBuildFile; fileRef = 1552013FE5044E34A549F856 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B7EF166D85724EE285034314 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CCA0B40D36C34C3792AB3ACD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		007B665681184296BE271D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638B16100EB4F15AE189D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		31FE07D17BBA4765B092456B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638B16100EB4F15AE189D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641A33EAFD68493787A1667C;
+			remoteInfo = ZERO_CHECK;
+		};
+		4FECAB2B7BDF473FA87CA1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638B16100EB4F15AE189D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+		7BAB2D88FFDA476A8AF7D9E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638B16100EB4F15AE189D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E013FF8E604092A3FC8DA1;
+			remoteInfo = "opencv_interactive-calibration";
+		};
+		EFBA3418CFE2496D8A4A963D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C638B16100EB4F15AE189D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD171B67AF564AAEBB1553CF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D99718F70648C2B04D8AEC /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rotationConverters.cpp; path = rotationConverters.cpp; sourceTree = SOURCE_ROOT; };
+		1552013FE5044E34A549F856 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calibController.hpp; path = calibController.hpp; sourceTree = SOURCE_ROOT; };
+		23BBE5650C3541E1A25AA146 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3135069155804983B58F0D35 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibPipeline.cpp; path = calibPipeline.cpp; sourceTree = SOURCE_ROOT; };
+		4C20621F6A3842E28BB2E0FE /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibController.cpp; path = calibController.cpp; sourceTree = SOURCE_ROOT; };
+		57B142E4053344E6886DBDF3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rotationConverters.hpp; path = rotationConverters.hpp; sourceTree = SOURCE_ROOT; };
+		5E51AA7C86A24638AB7618DB /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parametersController.cpp; path = parametersController.cpp; sourceTree = SOURCE_ROOT; };
+		8BE023F0B45340DB9C30BCDD /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calibPipeline.hpp; path = calibPipeline.hpp; sourceTree = SOURCE_ROOT; };
+		A5FE1A118A234B02B135D128 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A65BF55D0CA3487380F18E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibCommon.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calibCommon.hpp; path = calibCommon.hpp; sourceTree = SOURCE_ROOT; };
+		BA875F62AC504401AB7DB4A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parametersController.hpp; path = parametersController.hpp; sourceTree = SOURCE_ROOT; };
+		BE2149C476434BA8B8AE29E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CF3DDF3E7D9B4F45A154500F /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frameProcessor.cpp; path = frameProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		EFB94EB9F6FA462FA019E95C /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		F8F291A17273454FB2349E28 /* opencv_interactive-calibration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "opencv_interactive-calibration"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD15D6D269E043DAA5B512F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = frameProcessor.hpp; path = frameProcessor.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03C695E1F8854B7982D1E7B8 = {
+			isa = PBXGroup;
+			children = (
+				7E3A97FCF0B74AAAA6A6FDF1 /* applications */,
+				B34A53E024504B8EB3235955 /* ALL_BUILD */,
+				785A803EA0234AD1AD1DA763 /* ZERO_CHECK */,
+				8255064463574285ABA3468E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B81E459154B451F96F4010C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		389D756F09654FB28F7E20BB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C20621F6A3842E28BB2E0FE /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.cpp */,
+				3135069155804983B58F0D35 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.cpp */,
+				CF3DDF3E7D9B4F45A154500F /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.cpp */,
+				EFB94EB9F6FA462FA019E95C /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/main.cpp */,
+				5E51AA7C86A24638AB7618DB /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.cpp */,
+				13D99718F70648C2B04D8AEC /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		785A803EA0234AD1AD1DA763 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1B81E459154B451F96F4010C /* CMake Rules */,
+				A5FE1A118A234B02B135D128 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		7E3A97FCF0B74AAAA6A6FDF1 /* applications */ = {
+			isa = PBXGroup;
+			children = (
+				FE7876D09518411EB32F955C /* opencv_interactive-calibration */,
+			);
+			name = applications;
+			sourceTree = "<group>";
+		};
+		8255064463574285ABA3468E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F291A17273454FB2349E28 /* opencv_interactive-calibration */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EFAF89178043D7A38F5EB6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B34A53E024504B8EB3235955 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				94EFAF89178043D7A38F5EB6 /* CMake Rules */,
+				23BBE5650C3541E1A25AA146 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EFAD7E2DB4AF40428B7F6334 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A65BF55D0CA3487380F18E5E /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibCommon.hpp */,
+				1552013FE5044E34A549F856 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.hpp */,
+				8BE023F0B45340DB9C30BCDD /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.hpp */,
+				FD15D6D269E043DAA5B512F6 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.hpp */,
+				BA875F62AC504401AB7DB4A4 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.hpp */,
+				57B142E4053344E6886DBDF3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FE7876D09518411EB32F955C /* opencv_interactive-calibration */ = {
+			isa = PBXGroup;
+			children = (
+				389D756F09654FB28F7E20BB /* Source Files */,
+				EFAD7E2DB4AF40428B7F6334 /* Header Files */,
+				BE2149C476434BA8B8AE29E3 /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/CMakeLists.txt */,
+			);
+			name = "opencv_interactive-calibration";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E013FF8E604092A3FC8DA1 /* opencv_interactive-calibration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE35ABE0918E4544AE10ACFD /* Build configuration list for PBXNativeTarget "opencv_interactive-calibration" */;
+			buildPhases = (
+				FA2482AE5191423EAF827D42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75C7299CED74110B5A7F978 /* PBXTargetDependency */,
+			);
+			name = "opencv_interactive-calibration";
+			productName = "opencv_interactive-calibration";
+			productReference = F8F291A17273454FB2349E28 /* opencv_interactive-calibration */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C638B16100EB4F15AE189D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 96B01A976BF94FA8BBB1DC61 /* Build configuration list for PBXProject "interactive-calibration" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B7EF166D85724EE285034314 /* Debug */,
+				CCA0B40D36C34C3792AB3ACD /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 03C695E1F8854B7982D1E7B8;
+			projectDirPath = "../../../apps/interactive-calibration";
+			projectRoot = "";
+			targets = (
+				AD171B67AF564AAEBB1553CF /* ALL_BUILD */,
+				D27C5248E0AC45BAAA62CCB3 /* RUN_TESTS */,
+				641A33EAFD68493787A1667C /* ZERO_CHECK */,
+				C3C28814C367464E92068755 /* install */,
+				48E013FF8E604092A3FC8DA1 /* opencv_interactive-calibration */,
+				039FC08FAEEE478F89384882 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0919BAAFA06C46BDA918B912 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		115A777281654A1084BF147D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3E2F37FD28AA4664A8E6626E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		47CACF3CF16F48BF9AFD96B7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		78E940C55805471B8043C1E1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9E8530540A414AF5AA60AAD5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C829AA4BBC7F4D1D83AEB1D9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D63F67B3EB134F46BF1FB0AB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D7F1A7DA38664EB1AC79891D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F898773B33B74980B8084D3C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration -f /Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2482AE5191423EAF827D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BE2A8A5614412CA1C9F8AD /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibController.cpp */,
+				81FE6DC708DB424E9DA0777B /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/calibPipeline.cpp */,
+				D884F85E4FE9485DA458DCCE /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/frameProcessor.cpp */,
+				4AB424C6672E4BC0982603DA /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/main.cpp */,
+				37FDD6680F2147EA95D3BD8B /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/parametersController.cpp */,
+				3A97DDD081DF4457992B6C9D /* /Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/rotationConverters.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E61CE1B86FD421FA09FF299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = 4FECAB2B7BDF473FA87CA1A4 /* PBXContainerItemProxy */;
+		};
+		6615605646E34515AC021769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 31FE07D17BBA4765B092456B /* PBXContainerItemProxy */;
+		};
+		976150EA0AF046ABBC6A1315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E013FF8E604092A3FC8DA1 /* opencv_interactive-calibration */;
+			targetProxy = 7BAB2D88FFDA476A8AF7D9E7 /* PBXContainerItemProxy */;
+		};
+		AF6B3BAA82C747DFA7ADD6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD171B67AF564AAEBB1553CF /* ALL_BUILD */;
+			targetProxy = EFBA3418CFE2496D8A4A963D /* PBXContainerItemProxy */;
+		};
+		B75C7299CED74110B5A7F978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641A33EAFD68493787A1667C /* ZERO_CHECK */;
+			targetProxy = 007B665681184296BE271D0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184247D02A1245CB979F4B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1FC9FEC5AA8B4BFC9431FAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3F10ECEE70E34F0D8F13504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4D958213DC674E8B9A873DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5983604AC16A4B75A2A4FF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		67C34C03D21F43A9A99BA5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6F30D31208CB41FF9FD56CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'","'__OPENCV_APPS=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/PRIVATE","/Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration","/Users/chushoutv/Desktop/opencv-3.3.1/include/opencv","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Release/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Release/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "opencv_interactive-calibration";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		77A95C67B2264E7FBEE0C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/build";
+			};
+			name = Debug;
+		};
+		98C4FA87D049441F83E9620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9DC753B250454E73B0AAF1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C10C8FA4435A430BAE544C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C14CB115CE704E61B305D76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration/build";
+			};
+			name = Release;
+		};
+		D42D4B7FE4594147B25C7EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'","'__OPENCV_APPS=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid","/Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration/PRIVATE","/Users/chushoutv/Desktop/opencv-3.3.1/apps/interactive-calibration","/Users/chushoutv/Desktop/opencv-3.3.1/include/opencv","/Users/chushoutv/Desktop/opencv-3.3.1/modules/core/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgproc/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/features2d/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/flann/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/imgcodecs/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/videoio/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/highgui/include","/Users/chushoutv/Desktop/opencv-3.3.1/modules/calib3d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/lib/Debug/libippiw.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/lib/intel64/libippicv.a /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_calib3d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_features2d.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_highgui.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_videoio.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_flann.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgcodecs.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_imgproc.3.3.1.dylib /Users/chushoutv/Desktop/opencv-3.3.1/bulid/lib/Debug/libopencv_core.3.3.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "opencv_interactive-calibration";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F0F3A239536F4403BE35C16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippicv_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid/3rdparty/ippicv/ippiw_mac/include","/Users/chushoutv/Desktop/opencv-3.3.1/bulid");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chushoutv/Desktop/opencv-3.3.1/bulid/apps/interactive-calibration";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09354CD8AF2B403F98E2F96B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F10ECEE70E34F0D8F13504B /* Debug */,
+				9DC753B250454E73B0AAF1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67663ED542074D0ABEFC38A3 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D958213DC674E8B9A873DC7 /* Debug */,
+				98C4FA87D049441F83E9620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		883F3D6AE1A24096A8C003B1 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C34C03D21F43A9A99BA5B7 /* Debug */,
+				F0F3A239536F4403BE35C16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92CDD91516394E538134FB8A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10C8FA4435A430BAE544C8D /* Debug */,
+				184247D02A1245CB979F4B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96B01A976BF94FA8BBB1DC61 /* Build configuration list for PBXProject "interactive-calibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A95C67B2264E7FBEE0C2FD /* Debug */,
+				C14CB115CE704E61B305D76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE35ABE0918E4544AE10ACFD /* Build configuration list for PBXNativeTarget "opencv_interactive-calibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42D4B7FE4594147B25C7EB6 /* Debug */,
+				6F30D31208CB41FF9FD56CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D26EFF810AC6416E92F13BF1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC9FEC5AA8B4BFC9431FAEC /* Debug */,
+				5983604AC16A4B75A2A4FF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C638B16100EB4F15AE189D1F /* Project object */;
+}
